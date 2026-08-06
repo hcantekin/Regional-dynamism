@@ -1,13 +1,20 @@
-# environments
+# --- Environments ---
 .venv/
+env/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# raw + large data — never push to the shared remote
+# --- Raw & large data: never commit (regenerate via scripts) ---
 raw/
 *.zip
 *.accdb
 
-# OS junk
+# --- Secure / confidential data: MUST never be committed ---
+secure/
+*bsd*
+*BSD*
+
+# --- OS / editor junk ---
 .DS_Store
+.vscode/
