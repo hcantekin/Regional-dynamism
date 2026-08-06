@@ -1,0 +1,13 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# raw + large data — never push to the shared remote
+raw/
+*.zip
+*.accdb
+
+# OS junk
+.DS_Store
