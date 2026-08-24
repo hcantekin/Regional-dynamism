@@ -1,0 +1,937 @@
+itl2_code,itl2_name,year,affordability_ratio_residence
+TLC3,Tees Valley,2002,3.054
+TLC4,"Northumberland, Durham and Tyne & Wear",2002,3.354
+TLD1,Cumbria,2002,
+TLD3,Greater Manchester,2002,3.4219999999999997
+TLD4,Lancashire,2002,3.165
+TLD6,Cheshire,2002,4.39
+TLD7,Merseyside,2002,3.4683333333333333
+TLE1,East Yorkshire and Northern Lincolnshire,2002,2.855
+TLE2,North Yorkshire,2002,5.18
+TLE3,South Yorkshire,2002,3.0050000000000003
+TLE4,West Yorkshire,2002,3.35
+TLF1,Derbyshire and Nottinghamshire,2002,3.738823529411764
+TLF2,"Leicestershire, Rutland and Northamptonshire",2002,4.796666666666667
+TLF3,Lincolnshire,2002,4.1499999999999995
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2002,5.419166666666666
+TLG2,Shropshire and Staffordshire,2002,4.045
+TLG3,West Midlands,2002,4.122857142857144
+TLH2,Bedfordshire and Hertfordshire,2002,5.9487499999999995
+TLH3,Essex,2002,5.395000000000001
+TLH4,Cambridgeshire and Peterborough,2002,5.658333333333332
+TLH5,Norfolk,2002,5.215714285714285
+TLH6,Suffolk,2002,5.523333333333333
+TLI3,Inner London - West,2002,8.959999999999999
+TLI4,Inner London - East,2002,7.35
+TLI5,Outer London - East and North East,2002,5.685714285714285
+TLI6,Outer London - South,2002,6.5120000000000005
+TLI7,Outer London - West and North West,2002,7.274285714285715
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2002,6.555384615384615
+TLJ2,"Surrey, East and West Sussex",2002,6.720833333333335
+TLJ3,Hampshire and Isle of Wight,2002,6.207142857142857
+TLJ4,Kent,2002,5.591538461538462
+TLK3,Cornwall and Isles of Scilly,2002,
+TLK4,Devon,2002,6.297000000000001
+TLK5,West of England,2002,5.84
+TLK6,"North Somerset, Somerset and Dorset",2002,5.16
+TLK7,Gloucestershire and Wiltshire,2002,5.803750000000001
+TLL3,North Wales,2002,3.645
+TLL4,Mid and South West Wales,2002,3.78
+TLL5,South East Wales,2002,3.501
+TLC3,Tees Valley,2003,3.5420000000000003
+TLC4,"Northumberland, Durham and Tyne & Wear",2003,4.078571428571428
+TLD1,Cumbria,2003,4.135
+TLD3,Greater Manchester,2003,3.9669999999999996
+TLD4,Lancashire,2003,3.7142857142857144
+TLD6,Cheshire,2003,4.993333333333333
+TLD7,Merseyside,2003,3.983333333333333
+TLE1,East Yorkshire and Northern Lincolnshire,2003,3.3625
+TLE2,North Yorkshire,2003,6.234999999999999
+TLE3,South Yorkshire,2003,3.6525
+TLE4,West Yorkshire,2003,3.9899999999999998
+TLF1,Derbyshire and Nottinghamshire,2003,4.622941176470587
+TLF2,"Leicestershire, Rutland and Northamptonshire",2003,5.61090909090909
+TLF3,Lincolnshire,2003,5.195714285714286
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2003,6.288333333333333
+TLG2,Shropshire and Staffordshire,2003,4.951818181818182
+TLG3,West Midlands,2003,4.914285714285714
+TLH2,Bedfordshire and Hertfordshire,2003,6.726923076923077
+TLH3,Essex,2003,6.335000000000001
+TLH4,Cambridgeshire and Peterborough,2003,6.203333333333333
+TLH5,Norfolk,2003,6.271428571428572
+TLH6,Suffolk,2003,6.176
+TLI3,Inner London - West,2003,9.758
+TLI4,Inner London - East,2003,7.7075
+TLI5,Outer London - East and North East,2003,6.652857142857143
+TLI6,Outer London - South,2003,7.087999999999999
+TLI7,Outer London - West and North West,2003,8.375714285714286
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2003,7.323076923076924
+TLJ2,"Surrey, East and West Sussex",2003,7.531666666666666
+TLJ3,Hampshire and Isle of Wight,2003,6.8864285714285725
+TLJ4,Kent,2003,6.510000000000001
+TLK3,Cornwall and Isles of Scilly,2003,7.64
+TLK4,Devon,2003,7.409000000000001
+TLK5,West of England,2003,6.66
+TLK6,"North Somerset, Somerset and Dorset",2003,7.3225
+TLK7,Gloucestershire and Wiltshire,2003,6.6625000000000005
+TLL3,North Wales,2003,4.471666666666667
+TLL4,Mid and South West Wales,2003,4.376666666666667
+TLL5,South East Wales,2003,3.9910000000000005
+TLC3,Tees Valley,2004,4.118
+TLC4,"Northumberland, Durham and Tyne & Wear",2004,5.121428571428571
+TLD1,Cumbria,2004,4.955
+TLD3,Greater Manchester,2004,4.704
+TLD4,Lancashire,2004,4.684285714285716
+TLD6,Cheshire,2004,5.82
+TLD7,Merseyside,2004,4.949999999999999
+TLE1,East Yorkshire and Northern Lincolnshire,2004,4.2475000000000005
+TLE2,North Yorkshire,2004,6.865
+TLE3,South Yorkshire,2004,4.567500000000001
+TLE4,West Yorkshire,2004,4.862
+TLF1,Derbyshire and Nottinghamshire,2004,5.421764705882352
+TLF2,"Leicestershire, Rutland and Northamptonshire",2004,6.428181818181819
+TLF3,Lincolnshire,2004,6.344285714285713
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2004,6.907499999999999
+TLG2,Shropshire and Staffordshire,2004,5.802727272727273
+TLG3,West Midlands,2004,5.717142857142858
+TLH2,Bedfordshire and Hertfordshire,2004,7.093076923076922
+TLH3,Essex,2004,6.755714285714285
+TLH4,Cambridgeshire and Peterborough,2004,6.581666666666667
+TLH5,Norfolk,2004,6.981428571428572
+TLH6,Suffolk,2004,6.962000000000001
+TLI3,Inner London - West,2004,9.866000000000001
+TLI4,Inner London - East,2004,8.10375
+TLI5,Outer London - East and North East,2004,7.185714285714285
+TLI6,Outer London - South,2004,7.706
+TLI7,Outer London - West and North West,2004,8.628571428571428
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2004,7.56923076923077
+TLJ2,"Surrey, East and West Sussex",2004,8.1275
+TLJ3,Hampshire and Isle of Wight,2004,7.425714285714285
+TLJ4,Kent,2004,6.924615384615383
+TLK3,Cornwall and Isles of Scilly,2004,8.81
+TLK4,Devon,2004,8.278
+TLK5,West of England,2004,6.993333333333332
+TLK6,"North Somerset, Somerset and Dorset",2004,8.1025
+TLK7,Gloucestershire and Wiltshire,2004,7.28125
+TLL3,North Wales,2004,5.538333333333333
+TLL4,Mid and South West Wales,2004,5.9816666666666665
+TLL5,South East Wales,2004,4.758
+TLC3,Tees Valley,2005,4.542
+TLC4,"Northumberland, Durham and Tyne & Wear",2005,5.405714285714285
+TLD1,Cumbria,2005,5.48
+TLD3,Greater Manchester,2005,5.218
+TLD4,Lancashire,2005,5.0792857142857155
+TLD6,Cheshire,2005,5.983333333333333
+TLD7,Merseyside,2005,5.495
+TLE1,East Yorkshire and Northern Lincolnshire,2005,4.375
+TLE2,North Yorkshire,2005,7.125
+TLE3,South Yorkshire,2005,4.97
+TLE4,West Yorkshire,2005,5.394
+TLF1,Derbyshire and Nottinghamshire,2005,5.724117647058823
+TLF2,"Leicestershire, Rutland and Northamptonshire",2005,6.524545454545454
+TLF3,Lincolnshire,2005,6.484285714285714
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2005,7.03
+TLG2,Shropshire and Staffordshire,2005,5.935454545454546
+TLG3,West Midlands,2005,6.014285714285715
+TLH2,Bedfordshire and Hertfordshire,2005,7.25076923076923
+TLH3,Essex,2005,7.158571428571428
+TLH4,Cambridgeshire and Peterborough,2005,7.120000000000001
+TLH5,Norfolk,2005,7.320000000000001
+TLH6,Suffolk,2005,7.3180000000000005
+TLI3,Inner London - West,2005,10.366
+TLI4,Inner London - East,2005,8.18375
+TLI5,Outer London - East and North East,2005,7.337142857142857
+TLI6,Outer London - South,2005,7.68
+TLI7,Outer London - West and North West,2005,8.71142857142857
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2005,7.754615384615385
+TLJ2,"Surrey, East and West Sussex",2005,8.216666666666669
+TLJ3,Hampshire and Isle of Wight,2005,7.582142857142857
+TLJ4,Kent,2005,7.176923076923078
+TLK3,Cornwall and Isles of Scilly,2005,9.21
+TLK4,Devon,2005,8.822999999999999
+TLK5,West of England,2005,7.343333333333334
+TLK6,"North Somerset, Somerset and Dorset",2005,8.087499999999999
+TLK7,Gloucestershire and Wiltshire,2005,7.496249999999998
+TLL3,North Wales,2005,6.256666666666667
+TLL4,Mid and South West Wales,2005,6.489999999999999
+TLL5,South East Wales,2005,5.248
+TLC3,Tees Valley,2006,5.288
+TLC4,"Northumberland, Durham and Tyne & Wear",2006,5.842857142857143
+TLD1,Cumbria,2006,5.855
+TLD3,Greater Manchester,2006,5.641
+TLD4,Lancashire,2006,5.533571428571428
+TLD6,Cheshire,2006,6.080000000000001
+TLD7,Merseyside,2006,5.851666666666667
+TLE1,East Yorkshire and Northern Lincolnshire,2006,4.8
+TLE2,North Yorkshire,2006,7.455
+TLE3,South Yorkshire,2006,5.295
+TLE4,West Yorkshire,2006,5.668000000000001
+TLF1,Derbyshire and Nottinghamshire,2006,5.85529411764706
+TLF2,"Leicestershire, Rutland and Northamptonshire",2006,6.714545454545453
+TLF3,Lincolnshire,2006,6.525714285714286
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2006,7.177500000000001
+TLG2,Shropshire and Staffordshire,2006,6.119999999999999
+TLG3,West Midlands,2006,6.1000000000000005
+TLH2,Bedfordshire and Hertfordshire,2006,7.449999999999999
+TLH3,Essex,2006,7.173571428571429
+TLH4,Cambridgeshire and Peterborough,2006,7.073333333333334
+TLH5,Norfolk,2006,7.495714285714286
+TLH6,Suffolk,2006,7.06
+TLI3,Inner London - West,2006,10.8
+TLI4,Inner London - East,2006,8.511249999999999
+TLI5,Outer London - East and North East,2006,7.327142857142857
+TLI6,Outer London - South,2006,7.83
+TLI7,Outer London - West and North West,2006,9.122857142857145
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2006,7.875384615384615
+TLJ2,"Surrey, East and West Sussex",2006,8.360416666666666
+TLJ3,Hampshire and Isle of Wight,2006,7.5807142857142855
+TLJ4,Kent,2006,7.28923076923077
+TLK3,Cornwall and Isles of Scilly,2006,9.26
+TLK4,Devon,2006,8.869000000000002
+TLK5,West of England,2006,7.376666666666666
+TLK6,"North Somerset, Somerset and Dorset",2006,8.1275
+TLK7,Gloucestershire and Wiltshire,2006,7.458750000000001
+TLL3,North Wales,2006,6.614999999999999
+TLL4,Mid and South West Wales,2006,6.841666666666666
+TLL5,South East Wales,2006,5.539999999999999
+TLC3,Tees Valley,2007,5.328
+TLC4,"Northumberland, Durham and Tyne & Wear",2007,5.95857142857143
+TLD1,Cumbria,2007,6.11
+TLD3,Greater Manchester,2007,5.745
+TLD4,Lancashire,2007,5.767142857142857
+TLD6,Cheshire,2007,6.353333333333333
+TLD7,Merseyside,2007,5.808333333333334
+TLE1,East Yorkshire and Northern Lincolnshire,2007,4.975
+TLE2,North Yorkshire,2007,7.470000000000001
+TLE3,South Yorkshire,2007,5.4825
+TLE4,West Yorkshire,2007,5.8740000000000006
+TLF1,Derbyshire and Nottinghamshire,2007,6.080000000000001
+TLF2,"Leicestershire, Rutland and Northamptonshire",2007,6.9363636363636365
+TLF3,Lincolnshire,2007,6.821428571428571
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2007,7.325833333333333
+TLG2,Shropshire and Staffordshire,2007,6.329999999999999
+TLG3,West Midlands,2007,6.217142857142858
+TLH2,Bedfordshire and Hertfordshire,2007,7.687692307692308
+TLH3,Essex,2007,7.376428571428569
+TLH4,Cambridgeshire and Peterborough,2007,7.421666666666667
+TLH5,Norfolk,2007,7.845714285714286
+TLH6,Suffolk,2007,7.578
+TLI3,Inner London - West,2007,12.388
+TLI4,Inner London - East,2007,8.983749999999999
+TLI5,Outer London - East and North East,2007,7.685714285714285
+TLI6,Outer London - South,2007,8.139999999999999
+TLI7,Outer London - West and North West,2007,9.547142857142857
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2007,8.26923076923077
+TLJ2,"Surrey, East and West Sussex",2007,8.723333333333334
+TLJ3,Hampshire and Isle of Wight,2007,7.925714285714287
+TLJ4,Kent,2007,7.630000000000001
+TLK3,Cornwall and Isles of Scilly,2007,9.64
+TLK4,Devon,2007,9.347
+TLK5,West of England,2007,8.05
+TLK6,"North Somerset, Somerset and Dorset",2007,8.4975
+TLK7,Gloucestershire and Wiltshire,2007,7.6987499999999995
+TLL3,North Wales,2007,6.811666666666667
+TLL4,Mid and South West Wales,2007,7.1116666666666655
+TLL5,South East Wales,2007,5.76
+TLC3,Tees Valley,2008,5.2620000000000005
+TLC4,"Northumberland, Durham and Tyne & Wear",2008,5.768571428571428
+TLD1,Cumbria,2008,5.98
+TLD3,Greater Manchester,2008,5.604
+TLD4,Lancashire,2008,5.5600000000000005
+TLD6,Cheshire,2008,6.123333333333334
+TLD7,Merseyside,2008,5.553333333333334
+TLE1,East Yorkshire and Northern Lincolnshire,2008,4.965
+TLE2,North Yorkshire,2008,7.42
+TLE3,South Yorkshire,2008,5.2275
+TLE4,West Yorkshire,2008,5.636
+TLF1,Derbyshire and Nottinghamshire,2008,5.642941176470589
+TLF2,"Leicestershire, Rutland and Northamptonshire",2008,6.553636363636364
+TLF3,Lincolnshire,2008,6.594285714285715
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2008,7.085833333333333
+TLG2,Shropshire and Staffordshire,2008,5.999090909090909
+TLG3,West Midlands,2008,5.88857142857143
+TLH2,Bedfordshire and Hertfordshire,2008,7.587692307692308
+TLH3,Essex,2008,7.455
+TLH4,Cambridgeshire and Peterborough,2008,7.2633333333333345
+TLH5,Norfolk,2008,7.371428571428572
+TLH6,Suffolk,2008,7.522
+TLI3,Inner London - West,2008,12.440000000000001
+TLI4,Inner London - East,2008,9.24625
+TLI5,Outer London - East and North East,2008,7.6899999999999995
+TLI6,Outer London - South,2008,8.254000000000001
+TLI7,Outer London - West and North West,2008,9.290000000000001
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2008,8.077692307692306
+TLJ2,"Surrey, East and West Sussex",2008,8.689583333333331
+TLJ3,Hampshire and Isle of Wight,2008,7.8864285714285725
+TLJ4,Kent,2008,7.300000000000001
+TLK3,Cornwall and Isles of Scilly,2008,9.33
+TLK4,Devon,2008,8.955000000000002
+TLK5,West of England,2008,7.746666666666667
+TLK6,"North Somerset, Somerset and Dorset",2008,8.5625
+TLK7,Gloucestershire and Wiltshire,2008,7.60875
+TLL3,North Wales,2008,6.588333333333332
+TLL4,Mid and South West Wales,2008,6.829999999999999
+TLL5,South East Wales,2008,5.711
+TLC3,Tees Valley,2009,4.918000000000001
+TLC4,"Northumberland, Durham and Tyne & Wear",2009,5.241428571428571
+TLD1,Cumbria,2009,5.76
+TLD3,Greater Manchester,2009,5.066000000000001
+TLD4,Lancashire,2009,5.142142857142857
+TLD6,Cheshire,2009,5.626666666666668
+TLD7,Merseyside,2009,5.175
+TLE1,East Yorkshire and Northern Lincolnshire,2009,4.5825
+TLE2,North Yorkshire,2009,6.5649999999999995
+TLE3,South Yorkshire,2009,4.705
+TLE4,West Yorkshire,2009,5.101999999999999
+TLF1,Derbyshire and Nottinghamshire,2009,5.089411764705883
+TLF2,"Leicestershire, Rutland and Northamptonshire",2009,5.804545454545454
+TLF3,Lincolnshire,2009,5.698571428571428
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2009,6.4558333333333335
+TLG2,Shropshire and Staffordshire,2009,5.657272727272728
+TLG3,West Midlands,2009,5.46
+TLH2,Bedfordshire and Hertfordshire,2009,6.832307692307692
+TLH3,Essex,2009,6.592142857142858
+TLH4,Cambridgeshire and Peterborough,2009,6.358333333333333
+TLH5,Norfolk,2009,6.5371428571428565
+TLH6,Suffolk,2009,6.384
+TLI3,Inner London - West,2009,11.340000000000002
+TLI4,Inner London - East,2009,8.399999999999999
+TLI5,Outer London - East and North East,2009,6.778571428571428
+TLI6,Outer London - South,2009,7.303999999999999
+TLI7,Outer London - West and North West,2009,8.532857142857143
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2009,7.2930769230769235
+TLJ2,"Surrey, East and West Sussex",2009,7.780416666666665
+TLJ3,Hampshire and Isle of Wight,2009,6.907857142857144
+TLJ4,Kent,2009,6.3961538461538465
+TLK3,Cornwall and Isles of Scilly,2009,16.705000000000002
+TLK4,Devon,2009,7.961
+TLK5,West of England,2009,6.949999999999999
+TLK6,"North Somerset, Somerset and Dorset",2009,7.427499999999999
+TLK7,Gloucestershire and Wiltshire,2009,6.7075000000000005
+TLL3,North Wales,2009,5.851666666666667
+TLL4,Mid and South West Wales,2009,6.210000000000001
+TLL5,South East Wales,2009,5.087000000000001
+TLC3,Tees Valley,2010,5.238
+TLC4,"Northumberland, Durham and Tyne & Wear",2010,5.422857142857143
+TLD1,Cumbria,2010,5.91
+TLD3,Greater Manchester,2010,5.236
+TLD4,Lancashire,2010,5.3585714285714285
+TLD6,Cheshire,2010,6.036666666666666
+TLD7,Merseyside,2010,5.2
+TLE1,East Yorkshire and Northern Lincolnshire,2010,4.8525
+TLE2,North Yorkshire,2010,7.07
+TLE3,South Yorkshire,2010,4.9275
+TLE4,West Yorkshire,2010,5.4959999999999996
+TLF1,Derbyshire and Nottinghamshire,2010,5.4141176470588235
+TLF2,"Leicestershire, Rutland and Northamptonshire",2010,6.284545454545454
+TLF3,Lincolnshire,2010,5.885714285714285
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2010,7.053333333333332
+TLG2,Shropshire and Staffordshire,2010,5.846363636363637
+TLG3,West Midlands,2010,5.72
+TLH2,Bedfordshire and Hertfordshire,2010,7.485384615384614
+TLH3,Essex,2010,7.061428571428572
+TLH4,Cambridgeshire and Peterborough,2010,6.555
+TLH5,Norfolk,2010,6.9485714285714275
+TLH6,Suffolk,2010,6.888
+TLI3,Inner London - West,2010,12.558
+TLI4,Inner London - East,2010,9.084999999999999
+TLI5,Outer London - East and North East,2010,7.2457142857142856
+TLI6,Outer London - South,2010,7.946
+TLI7,Outer London - West and North West,2010,9.389999999999999
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2010,7.7846153846153845
+TLJ2,"Surrey, East and West Sussex",2010,8.41625
+TLJ3,Hampshire and Isle of Wight,2010,7.4750000000000005
+TLJ4,Kent,2010,6.9569230769230765
+TLK3,Cornwall and Isles of Scilly,2010,8.38
+TLK4,Devon,2010,8.626
+TLK5,West of England,2010,7.47
+TLK6,"North Somerset, Somerset and Dorset",2010,8.075
+TLK7,Gloucestershire and Wiltshire,2010,7.50125
+TLL3,North Wales,2010,6.096666666666667
+TLL4,Mid and South West Wales,2010,6.233333333333333
+TLL5,South East Wales,2010,5.215999999999999
+TLC3,Tees Valley,2011,4.83
+TLC4,"Northumberland, Durham and Tyne & Wear",2011,5.154285714285714
+TLD1,Cumbria,2011,5.9350000000000005
+TLD3,Greater Manchester,2011,5.135
+TLD4,Lancashire,2011,5.07
+TLD6,Cheshire,2011,6.033333333333332
+TLD7,Merseyside,2011,4.941666666666666
+TLE1,East Yorkshire and Northern Lincolnshire,2011,4.635
+TLE2,North Yorkshire,2011,7.12
+TLE3,South Yorkshire,2011,4.73
+TLE4,West Yorkshire,2011,5.35
+TLF1,Derbyshire and Nottinghamshire,2011,5.344705882352941
+TLF2,"Leicestershire, Rutland and Northamptonshire",2011,6.094545454545454
+TLF3,Lincolnshire,2011,5.847142857142858
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2011,6.945833333333334
+TLG2,Shropshire and Staffordshire,2011,5.717272727272727
+TLG3,West Midlands,2011,5.567142857142857
+TLH2,Bedfordshire and Hertfordshire,2011,7.60076923076923
+TLH3,Essex,2011,7.013571428571429
+TLH4,Cambridgeshire and Peterborough,2011,6.628333333333333
+TLH5,Norfolk,2011,6.541428571428573
+TLH6,Suffolk,2011,6.5920000000000005
+TLI3,Inner London - West,2011,12.911666666666669
+TLI4,Inner London - East,2011,9.258750000000001
+TLI5,Outer London - East and North East,2011,7.6171428571428565
+TLI6,Outer London - South,2011,8.172
+TLI7,Outer London - West and North West,2011,9.581428571428571
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2011,7.78
+TLJ2,"Surrey, East and West Sussex",2011,8.514166666666666
+TLJ3,Hampshire and Isle of Wight,2011,7.509285714285715
+TLJ4,Kent,2011,6.600769230769231
+TLK3,Cornwall and Isles of Scilly,2011,8.6
+TLK4,Devon,2011,8.324000000000002
+TLK5,West of England,2011,7.463333333333334
+TLK6,"North Somerset, Somerset and Dorset",2011,7.802499999999999
+TLK7,Gloucestershire and Wiltshire,2011,7.19125
+TLL3,North Wales,2011,6.006666666666667
+TLL4,Mid and South West Wales,2011,5.978333333333333
+TLL5,South East Wales,2011,5.06
+TLC3,Tees Valley,2012,4.824
+TLC4,"Northumberland, Durham and Tyne & Wear",2012,5.011428571428572
+TLD1,Cumbria,2012,5.755
+TLD3,Greater Manchester,2012,5.0009999999999994
+TLD4,Lancashire,2012,5.048571428571429
+TLD6,Cheshire,2012,5.919999999999999
+TLD7,Merseyside,2012,4.88
+TLE1,East Yorkshire and Northern Lincolnshire,2012,4.5325
+TLE2,North Yorkshire,2012,6.91
+TLE3,South Yorkshire,2012,4.78
+TLE4,West Yorkshire,2012,5.124
+TLF1,Derbyshire and Nottinghamshire,2012,5.2
+TLF2,"Leicestershire, Rutland and Northamptonshire",2012,6.145454545454545
+TLF3,Lincolnshire,2012,5.645714285714285
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2012,6.9558333333333335
+TLG2,Shropshire and Staffordshire,2012,5.618181818181818
+TLG3,West Midlands,2012,5.3500000000000005
+TLH2,Bedfordshire and Hertfordshire,2012,7.68846153846154
+TLH3,Essex,2012,6.9542857142857155
+TLH4,Cambridgeshire and Peterborough,2012,6.75
+TLH5,Norfolk,2012,6.524285714285715
+TLH6,Suffolk,2012,6.934
+TLI3,Inner London - West,2012,14.434000000000001
+TLI4,Inner London - East,2012,9.4325
+TLI5,Outer London - East and North East,2012,7.471428571428571
+TLI6,Outer London - South,2012,8.032
+TLI7,Outer London - West and North West,2012,9.737142857142857
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2012,7.858461538461539
+TLJ2,"Surrey, East and West Sussex",2012,8.430000000000001
+TLJ3,Hampshire and Isle of Wight,2012,7.4142857142857155
+TLJ4,Kent,2012,6.786153846153846
+TLK3,Cornwall and Isles of Scilly,2012,8.38
+TLK4,Devon,2012,8.142
+TLK5,West of England,2012,7.343333333333334
+TLK6,"North Somerset, Somerset and Dorset",2012,7.6325
+TLK7,Gloucestershire and Wiltshire,2012,7.103750000000001
+TLL3,North Wales,2012,5.911666666666666
+TLL4,Mid and South West Wales,2012,6.131666666666667
+TLL5,South East Wales,2012,5.052999999999999
+TLC3,Tees Valley,2013,4.9399999999999995
+TLC4,"Northumberland, Durham and Tyne & Wear",2013,5.088571428571428
+TLD1,Cumbria,2013,5.3149999999999995
+TLD3,Greater Manchester,2013,5.031000000000001
+TLD4,Lancashire,2013,5.049285714285714
+TLD6,Cheshire,2013,6.016666666666667
+TLD7,Merseyside,2013,4.808333333333333
+TLE1,East Yorkshire and Northern Lincolnshire,2013,4.4775
+TLE2,North Yorkshire,2013,6.785
+TLE3,South Yorkshire,2013,4.7175
+TLE4,West Yorkshire,2013,5.096000000000001
+TLF1,Derbyshire and Nottinghamshire,2013,5.2435294117647056
+TLF2,"Leicestershire, Rutland and Northamptonshire",2013,6.214545454545456
+TLF3,Lincolnshire,2013,5.49
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2013,6.724166666666666
+TLG2,Shropshire and Staffordshire,2013,5.489090909090909
+TLG3,West Midlands,2013,5.36
+TLH2,Bedfordshire and Hertfordshire,2013,7.802307692307692
+TLH3,Essex,2013,7.1049999999999995
+TLH4,Cambridgeshire and Peterborough,2013,6.915
+TLH5,Norfolk,2013,6.692857142857143
+TLH6,Suffolk,2013,6.814
+TLI3,Inner London - West,2013,16.184
+TLI4,Inner London - East,2013,10.032500000000002
+TLI5,Outer London - East and North East,2013,7.737142857142857
+TLI6,Outer London - South,2013,8.406
+TLI7,Outer London - West and North West,2013,10.335714285714285
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2013,7.99153846153846
+TLJ2,"Surrey, East and West Sussex",2013,8.781666666666665
+TLJ3,Hampshire and Isle of Wight,2013,7.425000000000002
+TLJ4,Kent,2013,6.986153846153846
+TLK3,Cornwall and Isles of Scilly,2013,8.32
+TLK4,Devon,2013,8.045
+TLK5,West of England,2013,7.22
+TLK6,"North Somerset, Somerset and Dorset",2013,7.49
+TLK7,Gloucestershire and Wiltshire,2013,6.995000000000001
+TLL3,North Wales,2013,5.585
+TLL4,Mid and South West Wales,2013,5.806666666666666
+TLL5,South East Wales,2013,5.012
+TLC3,Tees Valley,2014,4.944
+TLC4,"Northumberland, Durham and Tyne & Wear",2014,5.214285714285714
+TLD1,Cumbria,2014,5.5600000000000005
+TLD3,Greater Manchester,2014,5.328
+TLD4,Lancashire,2014,5.1621428571428565
+TLD6,Cheshire,2014,6.173333333333333
+TLD7,Merseyside,2014,4.983333333333334
+TLE1,East Yorkshire and Northern Lincolnshire,2014,4.795
+TLE2,North Yorkshire,2014,7.21
+TLE3,South Yorkshire,2014,4.95
+TLE4,West Yorkshire,2014,5.220000000000001
+TLF1,Derbyshire and Nottinghamshire,2014,5.440588235294117
+TLF2,"Leicestershire, Rutland and Northamptonshire",2014,6.56
+TLF3,Lincolnshire,2014,5.975714285714287
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2014,7.305
+TLG2,Shropshire and Staffordshire,2014,5.825454545454545
+TLG3,West Midlands,2014,5.692857142857143
+TLH2,Bedfordshire and Hertfordshire,2014,8.600769230769231
+TLH3,Essex,2014,7.482142857142857
+TLH4,Cambridgeshire and Peterborough,2014,7.425
+TLH5,Norfolk,2014,6.861428571428571
+TLH6,Suffolk,2014,6.9959999999999996
+TLI3,Inner London - West,2014,18.631999999999998
+TLI4,Inner London - East,2014,11.6725
+TLI5,Outer London - East and North East,2014,8.844285714285714
+TLI6,Outer London - South,2014,9.425999999999998
+TLI7,Outer London - West and North West,2014,11.495714285714286
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2014,8.526153846153845
+TLJ2,"Surrey, East and West Sussex",2014,9.35
+TLJ3,Hampshire and Isle of Wight,2014,7.804285714285713
+TLJ4,Kent,2014,7.459230769230768
+TLK3,Cornwall and Isles of Scilly,2014,8.16
+TLK4,Devon,2014,8.101
+TLK5,West of England,2014,7.636666666666667
+TLK6,"North Somerset, Somerset and Dorset",2014,7.8549999999999995
+TLK7,Gloucestershire and Wiltshire,2014,7.519999999999999
+TLL3,North Wales,2014,5.668333333333333
+TLL4,Mid and South West Wales,2014,5.87
+TLL5,South East Wales,2014,5.119999999999999
+TLC3,Tees Valley,2015,5.008
+TLC4,"Northumberland, Durham and Tyne & Wear",2015,5.387142857142857
+TLD1,Cumbria,2015,5.78
+TLD3,Greater Manchester,2015,5.489
+TLD4,Lancashire,2015,5.340714285714285
+TLD6,Cheshire,2015,6.363333333333333
+TLD7,Merseyside,2015,5.045000000000001
+TLE1,East Yorkshire and Northern Lincolnshire,2015,4.9025
+TLE2,North Yorkshire,2015,7.699999999999999
+TLE3,South Yorkshire,2015,5.0825
+TLE4,West Yorkshire,2015,5.4079999999999995
+TLF1,Derbyshire and Nottinghamshire,2015,5.711764705882352
+TLF2,"Leicestershire, Rutland and Northamptonshire",2015,6.909090909090909
+TLF3,Lincolnshire,2015,6.277142857142857
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2015,7.490833333333335
+TLG2,Shropshire and Staffordshire,2015,5.928181818181818
+TLG3,West Midlands,2015,5.779999999999999
+TLH2,Bedfordshire and Hertfordshire,2015,9.446923076923076
+TLH3,Essex,2015,8.199285714285715
+TLH4,Cambridgeshire and Peterborough,2015,8.229999999999999
+TLH5,Norfolk,2015,7.212857142857142
+TLH6,Suffolk,2015,7.395999999999999
+TLI3,Inner London - West,2015,20.098
+TLI4,Inner London - East,2015,13.12375
+TLI5,Outer London - East and North East,2015,9.714285714285714
+TLI6,Outer London - South,2015,10.355999999999998
+TLI7,Outer London - West and North West,2015,12.732857142857144
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2015,9.41
+TLJ2,"Surrey, East and West Sussex",2015,10.12375
+TLJ3,Hampshire and Isle of Wight,2015,8.310714285714285
+TLJ4,Kent,2015,7.947692307692309
+TLK3,Cornwall and Isles of Scilly,2015,8.58
+TLK4,Devon,2015,8.545
+TLK5,West of England,2015,8.263333333333334
+TLK6,"North Somerset, Somerset and Dorset",2015,8.2375
+TLK7,Gloucestershire and Wiltshire,2015,7.717499999999999
+TLL3,North Wales,2015,5.868333333333333
+TLL4,Mid and South West Wales,2015,5.983333333333333
+TLL5,South East Wales,2015,5.227
+TLC3,Tees Valley,2016,4.978
+TLC4,"Northumberland, Durham and Tyne & Wear",2016,5.382857142857142
+TLD1,Cumbria,2016,5.63
+TLD3,Greater Manchester,2016,5.58
+TLD4,Lancashire,2016,5.405
+TLD6,Cheshire,2016,6.4799999999999995
+TLD7,Merseyside,2016,5.196666666666666
+TLE1,East Yorkshire and Northern Lincolnshire,2016,4.895
+TLE2,North Yorkshire,2016,7.8100000000000005
+TLE3,South Yorkshire,2016,5.1725
+TLE4,West Yorkshire,2016,5.412000000000001
+TLF1,Derbyshire and Nottinghamshire,2016,5.727647058823529
+TLF2,"Leicestershire, Rutland and Northamptonshire",2016,7.059090909090909
+TLF3,Lincolnshire,2016,6.335714285714286
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2016,7.653333333333332
+TLG2,Shropshire and Staffordshire,2016,6.064545454545455
+TLG3,West Midlands,2016,5.922857142857142
+TLH2,Bedfordshire and Hertfordshire,2016,10.306923076923077
+TLH3,Essex,2016,8.81357142857143
+TLH4,Cambridgeshire and Peterborough,2016,8.643333333333333
+TLH5,Norfolk,2016,7.568571428571427
+TLH6,Suffolk,2016,7.82
+TLI3,Inner London - West,2016,20.255000000000003
+TLI4,Inner London - East,2016,14.329999999999998
+TLI5,Outer London - East and North East,2016,11.085714285714287
+TLI6,Outer London - South,2016,11.37
+TLI7,Outer London - West and North West,2016,13.702857142857143
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2016,10.180769230769231
+TLJ2,"Surrey, East and West Sussex",2016,10.767916666666666
+TLJ3,Hampshire and Isle of Wight,2016,8.775714285714285
+TLJ4,Kent,2016,9.020000000000001
+TLK3,Cornwall and Isles of Scilly,2016,8.55
+TLK4,Devon,2016,8.646
+TLK5,West of England,2016,8.833333333333334
+TLK6,"North Somerset, Somerset and Dorset",2016,8.657499999999999
+TLK7,Gloucestershire and Wiltshire,2016,8.139999999999999
+TLL3,North Wales,2016,5.991666666666667
+TLL4,Mid and South West Wales,2016,6.026666666666667
+TLL5,South East Wales,2016,5.256
+TLC3,Tees Valley,2017,5.090000000000001
+TLC4,"Northumberland, Durham and Tyne & Wear",2017,5.345714285714285
+TLD1,Cumbria,2017,5.66
+TLD3,Greater Manchester,2017,5.881
+TLD4,Lancashire,2017,5.471428571428571
+TLD6,Cheshire,2017,6.803333333333334
+TLD7,Merseyside,2017,5.293333333333334
+TLE1,East Yorkshire and Northern Lincolnshire,2017,5.379999999999999
+TLE2,North Yorkshire,2017,8.235
+TLE3,South Yorkshire,2017,5.205
+TLE4,West Yorkshire,2017,5.522
+TLF1,Derbyshire and Nottinghamshire,2017,5.984705882352942
+TLF2,"Leicestershire, Rutland and Northamptonshire",2017,7.338181818181818
+TLF3,Lincolnshire,2017,6.634285714285714
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2017,7.684166666666666
+TLG2,Shropshire and Staffordshire,2017,6.403636363636363
+TLG3,West Midlands,2017,6.167142857142857
+TLH2,Bedfordshire and Hertfordshire,2017,10.80923076923077
+TLH3,Essex,2017,9.510000000000002
+TLH4,Cambridgeshire and Peterborough,2017,9.086666666666666
+TLH5,Norfolk,2017,8.248571428571429
+TLH6,Suffolk,2017,8.388
+TLI3,Inner London - West,2017,21.724
+TLI4,Inner London - East,2017,14.53875
+TLI5,Outer London - East and North East,2017,11.838571428571427
+TLI6,Outer London - South,2017,11.678
+TLI7,Outer London - West and North West,2017,14.228571428571428
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2017,10.468461538461542
+TLJ2,"Surrey, East and West Sussex",2017,11.16708333333333
+TLJ3,Hampshire and Isle of Wight,2017,9.068571428571428
+TLJ4,Kent,2017,9.368461538461538
+TLK3,Cornwall and Isles of Scilly,2017,8.6
+TLK4,Devon,2017,8.937000000000001
+TLK5,West of England,2017,9.46
+TLK6,"North Somerset, Somerset and Dorset",2017,9.025
+TLK7,Gloucestershire and Wiltshire,2017,8.29
+TLL3,North Wales,2017,5.986666666666667
+TLL4,Mid and South West Wales,2017,6.005
+TLL5,South East Wales,2017,5.258000000000001
+TLC3,Tees Valley,2018,5.176
+TLC4,"Northumberland, Durham and Tyne & Wear",2018,5.421428571428572
+TLD1,Cumbria,2018,5.695
+TLD3,Greater Manchester,2018,5.938999999999999
+TLD4,Lancashire,2018,5.358571428571429
+TLD6,Cheshire,2018,6.760000000000001
+TLD7,Merseyside,2018,5.243333333333333
+TLE1,East Yorkshire and Northern Lincolnshire,2018,5.1675
+TLE2,North Yorkshire,2018,8.22
+TLE3,South Yorkshire,2018,5.215
+TLE4,West Yorkshire,2018,5.598
+TLF1,Derbyshire and Nottinghamshire,2018,6.0699999999999985
+TLF2,"Leicestershire, Rutland and Northamptonshire",2018,7.635454545454545
+TLF3,Lincolnshire,2018,6.677142857142856
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2018,8.136666666666667
+TLG2,Shropshire and Staffordshire,2018,6.4818181818181815
+TLG3,West Midlands,2018,6.319999999999999
+TLH2,Bedfordshire and Hertfordshire,2018,10.913846153846155
+TLH3,Essex,2018,9.882142857142856
+TLH4,Cambridgeshire and Peterborough,2018,9.131666666666666
+TLH5,Norfolk,2018,8.184285714285712
+TLH6,Suffolk,2018,8.65
+TLI3,Inner London - West,2018,21.116666666666664
+TLI4,Inner London - East,2018,14.06125
+TLI5,Outer London - East and North East,2018,11.744285714285713
+TLI6,Outer London - South,2018,11.570000000000002
+TLI7,Outer London - West and North West,2018,14.235714285714286
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2018,10.330769230769231
+TLJ2,"Surrey, East and West Sussex",2018,11.222083333333332
+TLJ3,Hampshire and Isle of Wight,2018,9.200714285714286
+TLJ4,Kent,2018,9.536153846153846
+TLK3,Cornwall and Isles of Scilly,2018,8.98
+TLK4,Devon,2018,9.019000000000002
+TLK5,West of England,2018,9.36
+TLK6,"North Somerset, Somerset and Dorset",2018,8.977500000000001
+TLK7,Gloucestershire and Wiltshire,2018,8.77875
+TLL3,North Wales,2018,6.056666666666666
+TLL4,Mid and South West Wales,2018,5.931666666666666
+TLL5,South East Wales,2018,5.386000000000001
+TLC3,Tees Valley,2019,5.034000000000001
+TLC4,"Northumberland, Durham and Tyne & Wear",2019,5.422857142857143
+TLD1,Cumbria,2019,5.76
+TLD3,Greater Manchester,2019,6.063
+TLD4,Lancashire,2019,5.328571428571428
+TLD6,Cheshire,2019,6.69
+TLD7,Merseyside,2019,5.336666666666667
+TLE1,East Yorkshire and Northern Lincolnshire,2019,5.135
+TLE2,North Yorkshire,2019,7.869999999999999
+TLE3,South Yorkshire,2019,5.2125
+TLE4,West Yorkshire,2019,5.6240000000000006
+TLF1,Derbyshire and Nottinghamshire,2019,6.252941176470589
+TLF2,"Leicestershire, Rutland and Northamptonshire",2019,7.708181818181819
+TLF3,Lincolnshire,2019,6.757142857142857
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2019,8.140833333333335
+TLG2,Shropshire and Staffordshire,2019,6.468181818181819
+TLG3,West Midlands,2019,6.4071428571428575
+TLH2,Bedfordshire and Hertfordshire,2019,10.623846153846152
+TLH3,Essex,2019,9.592857142857143
+TLH4,Cambridgeshire and Peterborough,2019,8.915
+TLH5,Norfolk,2019,8.144285714285715
+TLH6,Suffolk,2019,8.322
+TLI3,Inner London - West,2019,19.796
+TLI4,Inner London - East,2019,13.770000000000001
+TLI5,Outer London - East and North East,2019,11.549999999999999
+TLI6,Outer London - South,2019,11.437999999999999
+TLI7,Outer London - West and North West,2019,13.89285714285714
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2019,10.185384615384615
+TLJ2,"Surrey, East and West Sussex",2019,10.90875
+TLJ3,Hampshire and Isle of Wight,2019,9.065
+TLJ4,Kent,2019,9.08076923076923
+TLK3,Cornwall and Isles of Scilly,2019,12.855
+TLK4,Devon,2019,8.954
+TLK5,West of England,2019,9.206666666666665
+TLK6,"North Somerset, Somerset and Dorset",2019,8.760000000000002
+TLK7,Gloucestershire and Wiltshire,2019,8.59
+TLL3,North Wales,2019,6.06
+TLL4,Mid and South West Wales,2019,5.983333333333333
+TLL5,South East Wales,2019,5.496
+TLC3,Tees Valley,2020,5.082
+TLC4,"Northumberland, Durham and Tyne & Wear",2020,5.288571428571428
+TLD1,Cumbria,2020,5.395
+TLD3,Greater Manchester,2020,6.101999999999999
+TLD4,Lancashire,2020,5.492142857142857
+TLD6,Cheshire,2020,6.96
+TLD7,Merseyside,2020,5.28
+TLE1,East Yorkshire and Northern Lincolnshire,2020,5.1475
+TLE2,North Yorkshire,2020,7.995
+TLE3,South Yorkshire,2020,5.234999999999999
+TLE4,West Yorkshire,2020,5.696
+TLF1,Derbyshire and Nottinghamshire,2020,6.184705882352941
+TLF2,"Leicestershire, Rutland and Northamptonshire",2020,7.597272727272727
+TLF3,Lincolnshire,2020,6.617142857142858
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2020,8.210833333333333
+TLG2,Shropshire and Staffordshire,2020,6.574545454545455
+TLG3,West Midlands,2020,6.4157142857142855
+TLH2,Bedfordshire and Hertfordshire,2020,10.315384615384614
+TLH3,Essex,2020,9.644285714285715
+TLH4,Cambridgeshire and Peterborough,2020,9.198333333333334
+TLH5,Norfolk,2020,7.945714285714287
+TLH6,Suffolk,2020,8.336
+TLI3,Inner London - West,2020,20.202
+TLI4,Inner London - East,2020,13.692499999999999
+TLI5,Outer London - East and North East,2020,11.21142857142857
+TLI6,Outer London - South,2020,11.026
+TLI7,Outer London - West and North West,2020,13.218571428571428
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2020,10.185384615384615
+TLJ2,"Surrey, East and West Sussex",2020,11.08083333333333
+TLJ3,Hampshire and Isle of Wight,2020,8.997857142857141
+TLJ4,Kent,2020,9.159230769230767
+TLK3,Cornwall and Isles of Scilly,2020,8.74
+TLK4,Devon,2020,9.077
+TLK5,West of England,2020,9.446666666666667
+TLK6,"North Somerset, Somerset and Dorset",2020,8.805
+TLK7,Gloucestershire and Wiltshire,2020,8.3775
+TLL3,North Wales,2020,5.9316666666666675
+TLL4,Mid and South West Wales,2020,5.800000000000001
+TLL5,South East Wales,2020,5.706
+TLC3,Tees Valley,2021,5.442
+TLC4,"Northumberland, Durham and Tyne & Wear",2021,5.855714285714286
+TLD1,Cumbria,2021,6.105
+TLD3,Greater Manchester,2021,7.099000000000001
+TLD4,Lancashire,2021,6.104285714285715
+TLD6,Cheshire,2021,7.840000000000001
+TLD7,Merseyside,2021,5.895
+TLE1,East Yorkshire and Northern Lincolnshire,2021,5.7299999999999995
+TLE2,North Yorkshire,2021,8.69
+TLE3,South Yorkshire,2021,5.76
+TLE4,West Yorkshire,2021,6.322
+TLF1,Derbyshire and Nottinghamshire,2021,7.189411764705883
+TLF2,"Leicestershire, Rutland and Northamptonshire",2021,8.89090909090909
+TLF3,Lincolnshire,2021,7.431428571428571
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2021,8.955
+TLG2,Shropshire and Staffordshire,2021,7.247272727272727
+TLG3,West Midlands,2021,7.0857142857142845
+TLH2,Bedfordshire and Hertfordshire,2021,11.787692307692307
+TLH3,Essex,2021,10.640714285714283
+TLH4,Cambridgeshire and Peterborough,2021,9.643333333333333
+TLH5,Norfolk,2021,8.975714285714286
+TLH6,Suffolk,2021,9.546000000000001
+TLI3,Inner London - West,2021,19.973999999999997
+TLI4,Inner London - East,2021,14.25875
+TLI5,Outer London - East and North East,2021,12.058571428571428
+TLI6,Outer London - South,2021,12.767999999999999
+TLI7,Outer London - West and North West,2021,14.51142857142857
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2021,11.076923076923077
+TLJ2,"Surrey, East and West Sussex",2021,12.007083333333334
+TLJ3,Hampshire and Isle of Wight,2021,9.757142857142856
+TLJ4,Kent,2021,10.427692307692308
+TLK3,Cornwall and Isles of Scilly,2021,10.74
+TLK4,Devon,2021,9.906
+TLK5,West of England,2021,10.56
+TLK6,"North Somerset, Somerset and Dorset",2021,10.415000000000001
+TLK7,Gloucestershire and Wiltshire,2021,9.69875
+TLL3,North Wales,2021,6.798333333333333
+TLL4,Mid and South West Wales,2021,6.433333333333334
+TLL5,South East Wales,2021,6.3660000000000005
+TLC3,Tees Valley,2022,5.090000000000001
+TLC4,"Northumberland, Durham and Tyne & Wear",2022,5.342857142857143
+TLD1,Cumbria,2022,6.025
+TLD3,Greater Manchester,2022,7.094999999999999
+TLD4,Lancashire,2022,5.841428571428572
+TLD6,Cheshire,2022,7.526666666666666
+TLD7,Merseyside,2022,5.56
+TLE1,East Yorkshire and Northern Lincolnshire,2022,5.6275
+TLE2,North Yorkshire,2022,8.665
+TLE3,South Yorkshire,2022,5.74
+TLE4,West Yorkshire,2022,5.962
+TLF1,Derbyshire and Nottinghamshire,2022,7.155882352941176
+TLF2,"Leicestershire, Rutland and Northamptonshire",2022,8.371818181818181
+TLF3,Lincolnshire,2022,7.217142857142856
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2022,8.62
+TLG2,Shropshire and Staffordshire,2022,7.005454545454547
+TLG3,West Midlands,2022,6.972857142857143
+TLH2,Bedfordshire and Hertfordshire,2022,11.352307692307694
+TLH3,Essex,2022,10.397857142857143
+TLH4,Cambridgeshire and Peterborough,2022,9.58
+TLH5,Norfolk,2022,8.791428571428572
+TLH6,Suffolk,2022,9.331999999999999
+TLI3,Inner London - West,2022,21.31
+TLI4,Inner London - East,2022,13.706249999999999
+TLI5,Outer London - East and North East,2022,11.827142857142858
+TLI6,Outer London - South,2022,12.102
+TLI7,Outer London - West and North West,2022,14.095714285714289
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2022,10.741538461538461
+TLJ2,"Surrey, East and West Sussex",2022,11.782499999999999
+TLJ3,Hampshire and Isle of Wight,2022,9.80357142857143
+TLJ4,Kent,2022,10.340769230769231
+TLK3,Cornwall and Isles of Scilly,2022,9.76
+TLK4,Devon,2022,9.873999999999999
+TLK5,West of England,2022,9.896666666666668
+TLK6,"North Somerset, Somerset and Dorset",2022,9.84
+TLK7,Gloucestershire and Wiltshire,2022,8.969999999999999
+TLL3,North Wales,2022,6.528333333333333
+TLL4,Mid and South West Wales,2022,6.551666666666667
+TLL5,South East Wales,2022,6.312
+TLC3,Tees Valley,2023,5.194
+TLC4,"Northumberland, Durham and Tyne & Wear",2023,5.381428571428572
+TLD1,Cumbria,2023,5.9
+TLD3,Greater Manchester,2023,6.834999999999999
+TLD4,Lancashire,2023,5.682142857142858
+TLD6,Cheshire,2023,7.5566666666666675
+TLD7,Merseyside,2023,5.64
+TLE1,East Yorkshire and Northern Lincolnshire,2023,5.5
+TLE2,North Yorkshire,2023,8.725
+TLE3,South Yorkshire,2023,5.615
+TLE4,West Yorkshire,2023,6.022
+TLF1,Derbyshire and Nottinghamshire,2023,6.997647058823529
+TLF2,"Leicestershire, Rutland and Northamptonshire",2023,8.461818181818183
+TLF3,Lincolnshire,2023,6.962857142857142
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2023,8.441666666666668
+TLG2,Shropshire and Staffordshire,2023,6.78
+TLG3,West Midlands,2023,7.020000000000001
+TLH2,Bedfordshire and Hertfordshire,2023,10.959999999999999
+TLH3,Essex,2023,9.94142857142857
+TLH4,Cambridgeshire and Peterborough,2023,9.215
+TLH5,Norfolk,2023,8.637142857142857
+TLH6,Suffolk,2023,9.059999999999999
+TLI3,Inner London - West,2023,19.064
+TLI4,Inner London - East,2023,12.762500000000001
+TLI5,Outer London - East and North East,2023,11.432857142857143
+TLI6,Outer London - South,2023,11.495999999999999
+TLI7,Outer London - West and North West,2023,13.31857142857143
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2023,10.684615384615386
+TLJ2,"Surrey, East and West Sussex",2023,11.40125
+TLJ3,Hampshire and Isle of Wight,2023,9.496428571428572
+TLJ4,Kent,2023,9.914615384615386
+TLK3,Cornwall and Isles of Scilly,2023,9.17
+TLK4,Devon,2023,9.667
+TLK5,West of England,2023,9.66
+TLK6,"North Somerset, Somerset and Dorset",2023,9.535
+TLK7,Gloucestershire and Wiltshire,2023,9.16375
+TLL3,North Wales,2023,6.196666666666666
+TLL4,Mid and South West Wales,2023,6.16
+TLL5,South East Wales,2023,6.236
+TLC3,Tees Valley,2024,4.988
+TLC4,"Northumberland, Durham and Tyne & Wear",2024,5.024285714285715
+TLD1,Cumbria,2024,5.195
+TLD3,Greater Manchester,2024,6.656000000000001
+TLD4,Lancashire,2024,5.392142857142858
+TLD6,Cheshire,2024,6.966666666666666
+TLD7,Merseyside,2024,5.341666666666666
+TLE1,East Yorkshire and Northern Lincolnshire,2024,5.02
+TLE2,North Yorkshire,2024,8.0
+TLE3,South Yorkshire,2024,5.24
+TLE4,West Yorkshire,2024,5.684
+TLF1,Derbyshire and Nottinghamshire,2024,6.5994117647058825
+TLF2,"Leicestershire, Rutland and Northamptonshire",2024,7.932727272727272
+TLF3,Lincolnshire,2024,6.617142857142857
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2024,7.965
+TLG2,Shropshire and Staffordshire,2024,6.4818181818181815
+TLG3,West Midlands,2024,6.644285714285714
+TLH2,Bedfordshire and Hertfordshire,2024,9.993076923076924
+TLH3,Essex,2024,9.034285714285714
+TLH4,Cambridgeshire and Peterborough,2024,8.788333333333334
+TLH5,Norfolk,2024,7.887142857142857
+TLH6,Suffolk,2024,8.092
+TLI3,Inner London - West,2024,18.058
+TLI4,Inner London - East,2024,12.0275
+TLI5,Outer London - East and North East,2024,10.331428571428573
+TLI6,Outer London - South,2024,10.864
+TLI7,Outer London - West and North West,2024,12.652857142857142
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2024,9.666923076923077
+TLJ2,"Surrey, East and West Sussex",2024,10.490416666666667
+TLJ3,Hampshire and Isle of Wight,2024,8.661428571428573
+TLJ4,Kent,2024,8.99076923076923
+TLK3,Cornwall and Isles of Scilly,2024,8.43
+TLK4,Devon,2024,8.597
+TLK5,West of England,2024,9.06
+TLK6,"North Somerset, Somerset and Dorset",2024,8.855
+TLK7,Gloucestershire and Wiltshire,2024,8.493749999999999
+TLL3,North Wales,2024,5.935
+TLL4,Mid and South West Wales,2024,5.908333333333334
+TLL5,South East Wales,2024,5.9079999999999995
+TLC3,Tees Valley,2025,4.7
+TLC4,"Northumberland, Durham and Tyne & Wear",2025,5.077142857142857
+TLD1,Cumbria,2025,4.955
+TLD3,Greater Manchester,2025,6.6259999999999994
+TLD4,Lancashire,2025,5.209285714285714
+TLD6,Cheshire,2025,6.616666666666667
+TLD7,Merseyside,2025,5.44
+TLE1,East Yorkshire and Northern Lincolnshire,2025,5.067500000000001
+TLE2,North Yorkshire,2025,7.485
+TLE3,South Yorkshire,2025,5.2975
+TLE4,West Yorkshire,2025,5.808000000000001
+TLF1,Derbyshire and Nottinghamshire,2025,6.315882352941178
+TLF2,"Leicestershire, Rutland and Northamptonshire",2025,7.424545454545453
+TLF3,Lincolnshire,2025,6.650000000000001
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2025,7.6933333333333325
+TLG2,Shropshire and Staffordshire,2025,6.405454545454545
+TLG3,West Midlands,2025,6.518571428571428
+TLH2,Bedfordshire and Hertfordshire,2025,9.671538461538463
+TLH3,Essex,2025,8.942857142857143
+TLH4,Cambridgeshire and Peterborough,2025,8.399999999999999
+TLH5,Norfolk,2025,7.491428571428571
+TLH6,Suffolk,2025,7.792
+TLI3,Inner London - West,2025,15.844
+TLI4,Inner London - East,2025,11.21875
+TLI5,Outer London - East and North East,2025,10.477142857142855
+TLI6,Outer London - South,2025,10.459999999999999
+TLI7,Outer London - West and North West,2025,12.549999999999999
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2025,9.496153846153847
+TLJ2,"Surrey, East and West Sussex",2025,10.28125
+TLJ3,Hampshire and Isle of Wight,2025,8.543571428571427
+TLJ4,Kent,2025,8.757692307692308
+TLK3,Cornwall and Isles of Scilly,2025,8.29
+TLK4,Devon,2025,8.175999999999998
+TLK5,West of England,2025,9.0
+TLK6,"North Somerset, Somerset and Dorset",2025,8.5325
+TLK7,Gloucestershire and Wiltshire,2025,8.12125
+TLL3,North Wales,2025,5.915
+TLL4,Mid and South West Wales,2025,5.794999999999999
+TLL5,South East Wales,2025,5.708
