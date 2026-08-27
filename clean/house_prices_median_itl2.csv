@@ -1,0 +1,1252 @@
+itl2_code,itl2_name,year,median_price,n_sales
+TLC3,Tees Valley,1995,42950.0,8505
+TLC4,"Northumberland, Durham and Tyne & Wear",1995,42000.0,24324
+TLD1,Cumbria,1995,46000.0,6924
+TLD3,Greater Manchester,1995,43500.0,33981
+TLD4,Lancashire,1995,43000.0,22210
+TLD6,Cheshire,1995,57750.0,12979
+TLD7,Merseyside,1995,43000.0,18265
+TLE1,East Yorkshire and Northern Lincolnshire,1995,42000.0,13745
+TLE2,North Yorkshire,1995,56500.0,11768
+TLE3,South Yorkshire,1995,41000.0,15506
+TLE4,West Yorkshire,1995,45000.0,30322
+TLF1,Derbyshire and Nottinghamshire,1995,44000.0,27812
+TLF2,"Leicestershire, Rutland and Northamptonshire",1995,48000.0,25840
+TLF3,Lincolnshire,1995,45000.0,10960
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1995,58000.0,18971
+TLG2,Shropshire and Staffordshire,1995,47000.0,22596
+TLG3,West Midlands,1995,46250.0,30202
+TLH2,Bedfordshire and Hertfordshire,1995,65000.0,27758
+TLH3,Essex,1995,57950.0,28737
+TLH4,Cambridgeshire and Peterborough,1995,57000.0,11907
+TLH5,Norfolk,1995,48000.0,13324
+TLH6,Suffolk,1995,51000.0,11427
+TLI3,Inner London - West,1995,114500.0,19392
+TLI4,Inner London - East,1995,61500.0,21540
+TLI5,Outer London - East and North East,1995,61250.0,22717
+TLI6,Outer London - South,1995,71000.0,19524
+TLI7,Outer London - West and North West,1995,78000.0,25579
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1995,72500.0,36987
+TLJ2,"Surrey, East and West Sussex",1995,69950.0,48836
+TLJ3,Hampshire and Isle of Wight,1995,59995.0,31978
+TLJ4,Kent,1995,56500.0,24797
+TLK3,Cornwall and Isles of Scilly,1995,49000.0,7971
+TLK4,Devon,1995,52950.0,17821
+TLK5,West of England,1995,53750.0,11940
+TLK6,"North Somerset, Somerset and Dorset",1995,57500.0,25398
+TLK7,Gloucestershire and Wiltshire,1995,58000.0,20099
+TLL3,North Wales,1995,44550.0,7826
+TLL4,Mid and South West Wales,1995,43000.0,8930
+TLL5,South East Wales,1995,44000.0,17194
+TLC3,Tees Valley,1996,44995.0,10111
+TLC4,"Northumberland, Durham and Tyne & Wear",1996,44000.0,27827
+TLD1,Cumbria,1996,47500.0,8656
+TLD3,Greater Manchester,1996,44000.0,38737
+TLD4,Lancashire,1996,44000.0,24285
+TLD6,Cheshire,1996,58000.0,15526
+TLD7,Merseyside,1996,45000.0,20413
+TLE1,East Yorkshire and Northern Lincolnshire,1996,42850.0,15398
+TLE2,North Yorkshire,1996,58000.0,14313
+TLE3,South Yorkshire,1996,41500.0,17257
+TLE4,West Yorkshire,1996,46000.0,33927
+TLF1,Derbyshire and Nottinghamshire,1996,45500.0,32711
+TLF2,"Leicestershire, Rutland and Northamptonshire",1996,49950.0,30861
+TLF3,Lincolnshire,1996,46000.0,13209
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1996,59500.0,23705
+TLG2,Shropshire and Staffordshire,1996,49500.0,25773
+TLG3,West Midlands,1996,47500.0,35688
+TLH2,Bedfordshire and Hertfordshire,1996,67000.0,34902
+TLH3,Essex,1996,59000.0,35180
+TLH4,Cambridgeshire and Peterborough,1996,58500.0,14391
+TLH5,Norfolk,1996,48500.0,16486
+TLH6,Suffolk,1996,51600.0,13821
+TLI3,Inner London - West,1996,125000.0,24574
+TLI4,Inner London - East,1996,66000.0,26547
+TLI5,Outer London - East and North East,1996,64500.0,26915
+TLI6,Outer London - South,1996,74950.0,24694
+TLI7,Outer London - West and North West,1996,81500.0,32638
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1996,75000.0,46911
+TLJ2,"Surrey, East and West Sussex",1996,72950.0,62460
+TLJ3,Hampshire and Isle of Wight,1996,63000.0,39715
+TLJ4,Kent,1996,58500.0,28640
+TLK3,Cornwall and Isles of Scilly,1996,51500.0,10443
+TLK4,Devon,1996,54000.0,22472
+TLK5,West of England,1996,56000.0,15953
+TLK6,"North Somerset, Somerset and Dorset",1996,59950.0,32633
+TLK7,Gloucestershire and Wiltshire,1996,59950.0,25476
+TLL3,North Wales,1996,45000.0,9917
+TLL4,Mid and South West Wales,1996,44000.0,11256
+TLL5,South East Wales,1996,46000.0,20377
+TLC3,Tees Valley,1997,46950.0,10721
+TLC4,"Northumberland, Durham and Tyne & Wear",1997,47000.0,30546
+TLD1,Cumbria,1997,50000.0,9389
+TLD3,Greater Manchester,1997,47000.0,43352
+TLD4,Lancashire,1997,47000.0,28298
+TLD6,Cheshire,1997,61000.0,17735
+TLD7,Merseyside,1997,46500.0,21463
+TLE1,East Yorkshire and Northern Lincolnshire,1997,44000.0,16351
+TLE2,North Yorkshire,1997,59995.0,16693
+TLE3,South Yorkshire,1997,43500.0,18759
+TLE4,West Yorkshire,1997,48500.0,37497
+TLF1,Derbyshire and Nottinghamshire,1997,48000.0,37104
+TLF2,"Leicestershire, Rutland and Northamptonshire",1997,54000.0,34247
+TLF3,Lincolnshire,1997,49000.0,15138
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1997,64500.0,26546
+TLG2,Shropshire and Staffordshire,1997,52000.0,28146
+TLG3,West Midlands,1997,49950.0,39403
+TLH2,Bedfordshire and Hertfordshire,1997,74000.0,39653
+TLH3,Essex,1997,64500.0,40307
+TLH4,Cambridgeshire and Peterborough,1997,62500.0,16827
+TLH5,Norfolk,1997,52000.0,18831
+TLH6,Suffolk,1997,55500.0,15654
+TLI3,Inner London - West,1997,144000.0,28644
+TLI4,Inner London - East,1997,77000.0,33821
+TLI5,Outer London - East and North East,1997,70000.0,30826
+TLI6,Outer London - South,1997,81000.0,28119
+TLI7,Outer London - West and North West,1997,92000.0,36175
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1997,82500.0,52022
+TLJ2,"Surrey, East and West Sussex",1997,79500.0,70700
+TLJ3,Hampshire and Isle of Wight,1997,68000.0,45477
+TLJ4,Kent,1997,62500.0,34350
+TLK3,Cornwall and Isles of Scilly,1997,56000.0,12424
+TLK4,Devon,1997,57500.0,26332
+TLK5,West of England,1997,59950.0,18278
+TLK6,"North Somerset, Somerset and Dorset",1997,65000.0,37003
+TLK7,Gloucestershire and Wiltshire,1997,64500.0,29426
+TLL3,North Wales,1997,47950.0,11446
+TLL4,Mid and South West Wales,1997,46000.0,12535
+TLL5,South East Wales,1997,48500.0,23679
+TLM9,Southern Scotland,1997,361000.0,1
+TLC3,Tees Valley,1998,47350.0,10650
+TLC4,"Northumberland, Durham and Tyne & Wear",1998,48500.0,31309
+TLD1,Cumbria,1998,52250.0,9485
+TLD3,Greater Manchester,1998,48500.0,42144
+TLD4,Lancashire,1998,48000.0,27974
+TLD6,Cheshire,1998,64950.0,17016
+TLD7,Merseyside,1998,47500.0,22925
+TLE1,East Yorkshire and Northern Lincolnshire,1998,44675.0,16138
+TLE2,North Yorkshire,1998,62000.0,14682
+TLE3,South Yorkshire,1998,44995.0,19360
+TLE4,West Yorkshire,1998,50000.0,37282
+TLF1,Derbyshire and Nottinghamshire,1998,49995.0,36463
+TLF2,"Leicestershire, Rutland and Northamptonshire",1998,58000.0,33630
+TLF3,Lincolnshire,1998,51500.0,14834
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1998,69500.0,25118
+TLG2,Shropshire and Staffordshire,1998,55000.0,27248
+TLG3,West Midlands,1998,52000.0,38210
+TLH2,Bedfordshire and Hertfordshire,1998,82000.0,37126
+TLH3,Essex,1998,70000.0,38323
+TLH4,Cambridgeshire and Peterborough,1998,67000.0,16059
+TLH5,Norfolk,1998,55000.0,18247
+TLH6,Suffolk,1998,59000.0,15002
+TLI3,Inner London - West,1998,160000.0,25165
+TLI4,Inner London - East,1998,89000.0,34073
+TLI5,Outer London - East and North East,1998,77995.0,29650
+TLI6,Outer London - South,1998,91000.0,26005
+TLI7,Outer London - West and North West,1998,106000.0,33867
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1998,92000.0,48728
+TLJ2,"Surrey, East and West Sussex",1998,89000.0,65451
+TLJ3,Hampshire and Isle of Wight,1998,75000.0,42765
+TLJ4,Kent,1998,68250.0,31871
+TLK3,Cornwall and Isles of Scilly,1998,59000.0,11571
+TLK4,Devon,1998,59999.0,24884
+TLK5,West of England,1998,65250.0,18425
+TLK6,"North Somerset, Somerset and Dorset",1998,71000.0,34964
+TLK7,Gloucestershire and Wiltshire,1998,70000.0,28423
+TLL3,North Wales,1998,49250.0,10417
+TLL4,Mid and South West Wales,1998,48000.0,12367
+TLL5,South East Wales,1998,50000.0,22143
+TLC3,Tees Valley,1999,49000.0,11567
+TLC4,"Northumberland, Durham and Tyne & Wear",1999,51500.0,32955
+TLD1,Cumbria,1999,55000.0,10362
+TLD3,Greater Manchester,1999,51000.0,47859
+TLD4,Lancashire,1999,50500.0,29450
+TLD6,Cheshire,1999,69500.0,19418
+TLD7,Merseyside,1999,50000.0,24963
+TLE1,East Yorkshire and Northern Lincolnshire,1999,47500.0,16922
+TLE2,North Yorkshire,1999,65500.0,17811
+TLE3,South Yorkshire,1999,47000.0,21151
+TLE4,West Yorkshire,1999,52995.0,42174
+TLF1,Derbyshire and Nottinghamshire,1999,54000.0,41205
+TLF2,"Leicestershire, Rutland and Northamptonshire",1999,62000.0,38542
+TLF3,Lincolnshire,1999,54500.0,17169
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1999,77000.0,29408
+TLG2,Shropshire and Staffordshire,1999,59000.0,30655
+TLG3,West Midlands,1999,55000.0,43095
+TLH2,Bedfordshire and Hertfordshire,1999,90000.0,43329
+TLH3,Essex,1999,77000.0,44715
+TLH4,Cambridgeshire and Peterborough,1999,74176.5,18752
+TLH5,Norfolk,1999,59950.0,20908
+TLH6,Suffolk,1999,65000.0,17207
+TLI3,Inner London - West,1999,195000.0,30628
+TLI4,Inner London - East,1999,110000.0,38745
+TLI5,Outer London - East and North East,1999,86900.0,33956
+TLI6,Outer London - South,1999,108000.0,29520
+TLI7,Outer London - West and North West,1999,125950.0,39294
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1999,106500.0,57232
+TLJ2,"Surrey, East and West Sussex",1999,100000.0,74485
+TLJ3,Hampshire and Isle of Wight,1999,84000.0,48833
+TLJ4,Kent,1999,74500.0,36001
+TLK3,Cornwall and Isles of Scilly,1999,65950.0,13173
+TLK4,Devon,1999,66000.0,29508
+TLK5,West of England,1999,74250.0,20699
+TLK6,"North Somerset, Somerset and Dorset",1999,79000.0,41009
+TLK7,Gloucestershire and Wiltshire,1999,78950.0,32446
+TLL3,North Wales,1999,52000.0,11158
+TLL4,Mid and South West Wales,1999,50000.0,13574
+TLL5,South East Wales,1999,55000.0,24467
+TLM9,Southern Scotland,1999,36000.0,1
+TLC3,Tees Valley,2000,50995.0,12722
+TLC4,"Northumberland, Durham and Tyne & Wear",2000,52500.0,34408
+TLD1,Cumbria,2000,59000.0,10336
+TLD3,Greater Manchester,2000,54000.0,48859
+TLD4,Lancashire,2000,52500.0,31772
+TLD6,Cheshire,2000,75000.0,19514
+TLD7,Merseyside,2000,53950.0,25716
+TLE1,East Yorkshire and Northern Lincolnshire,2000,49500.0,18548
+TLE2,North Yorkshire,2000,75000.0,17637
+TLE3,South Yorkshire,2000,48950.0,22439
+TLE4,West Yorkshire,2000,55500.0,42097
+TLF1,Derbyshire and Nottinghamshire,2000,57000.0,41178
+TLF2,"Leicestershire, Rutland and Northamptonshire",2000,69000.0,37691
+TLF3,Lincolnshire,2000,59950.0,17069
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2000,85950.0,27102
+TLG2,Shropshire and Staffordshire,2000,63000.0,29656
+TLG3,West Midlands,2000,59500.0,43929
+TLH2,Bedfordshire and Hertfordshire,2000,107000.0,36950
+TLH3,Essex,2000,87500.0,40333
+TLH4,Cambridgeshire and Peterborough,2000,84350.0,17442
+TLH5,Norfolk,2000,69000.0,19000
+TLH6,Suffolk,2000,75000.0,15659
+TLI3,Inner London - West,2000,234000.0,26196
+TLI4,Inner London - East,2000,132500.0,36580
+TLI5,Outer London - East and North East,2000,103500.0,30753
+TLI6,Outer London - South,2000,129500.0,24890
+TLI7,Outer London - West and North West,2000,146000.0,33851
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2000,125000.0,48676
+TLJ2,"Surrey, East and West Sussex",2000,122500.0,64571
+TLJ3,Hampshire and Isle of Wight,2000,98000.0,42490
+TLJ4,Kent,2000,86000.0,34362
+TLK3,Cornwall and Isles of Scilly,2000,75000.0,12659
+TLK4,Devon,2000,75000.0,28380
+TLK5,West of England,2000,85000.0,17694
+TLK6,"North Somerset, Somerset and Dorset",2000,91000.0,35988
+TLK7,Gloucestershire and Wiltshire,2000,90000.0,27476
+TLL3,North Wales,2000,56000.0,12975
+TLL4,Mid and South West Wales,2000,53000.0,14538
+TLL5,South East Wales,2000,58950.0,26557
+TLC3,Tees Valley,2001,54000.0,14982
+TLC4,"Northumberland, Durham and Tyne & Wear",2001,55000.0,38264
+TLD1,Cumbria,2001,60000.0,11159
+TLD3,Greater Manchester,2001,58500.0,52918
+TLD4,Lancashire,2001,56000.0,36155
+TLD6,Cheshire,2001,85000.0,20677
+TLD7,Merseyside,2001,59000.0,26201
+TLE1,East Yorkshire and Northern Lincolnshire,2001,52700.0,21902
+TLE2,North Yorkshire,2001,84000.0,18555
+TLE3,South Yorkshire,2001,53000.0,25387
+TLE4,West Yorkshire,2001,59000.0,47067
+TLF1,Derbyshire and Nottinghamshire,2001,62500.0,45686
+TLF2,"Leicestershire, Rutland and Northamptonshire",2001,78500.0,41603
+TLF3,Lincolnshire,2001,67500.0,19349
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2001,95000.0,29974
+TLG2,Shropshire and Staffordshire,2001,71000.0,31586
+TLG3,West Midlands,2001,67000.0,47396
+TLH2,Bedfordshire and Hertfordshire,2001,122000.0,42029
+TLH3,Essex,2001,102000.0,43932
+TLH4,Cambridgeshire and Peterborough,2001,93000.0,19597
+TLH5,Norfolk,2001,80000.0,21171
+TLH6,Suffolk,2001,85000.0,17621
+TLI3,Inner London - West,2001,249950.0,26019
+TLI4,Inner London - East,2001,151000.0,38818
+TLI5,Outer London - East and North East,2001,121000.0,36336
+TLI6,Outer London - South,2001,145000.0,28134
+TLI7,Outer London - West and North West,2001,165000.0,36268
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2001,139000.0,54763
+TLJ2,"Surrey, East and West Sussex",2001,137000.0,71366
+TLJ3,Hampshire and Isle of Wight,2001,115000.0,46095
+TLJ4,Kent,2001,98950.0,39203
+TLK3,Cornwall and Isles of Scilly,2001,85000.0,13428
+TLK4,Devon,2001,87000.0,30142
+TLK5,West of England,2001,97500.0,20046
+TLK6,"North Somerset, Somerset and Dorset",2001,104500.0,40803
+TLK7,Gloucestershire and Wiltshire,2001,105000.0,30312
+TLL3,North Wales,2001,59950.0,14063
+TLL4,Mid and South West Wales,2001,57475.0,15914
+TLL5,South East Wales,2001,64000.0,30052
+TLC3,Tees Valley,2002,59950.0,17270
+TLC4,"Northumberland, Durham and Tyne & Wear",2002,63000.0,42631
+TLD1,Cumbria,2002,71950.0,12385
+TLD3,Greater Manchester,2002,68500.0,61883
+TLD4,Lancashire,2002,61950.0,41654
+TLD6,Cheshire,2002,98750.0,23560
+TLD7,Merseyside,2002,67000.0,30258
+TLE1,East Yorkshire and Northern Lincolnshire,2002,59950.0,24280
+TLE2,North Yorkshire,2002,105000.0,20113
+TLE3,South Yorkshire,2002,60000.0,27848
+TLE4,West Yorkshire,2002,68500.0,53046
+TLF1,Derbyshire and Nottinghamshire,2002,76500.0,49926
+TLF2,"Leicestershire, Rutland and Northamptonshire",2002,94000.0,44433
+TLF3,Lincolnshire,2002,83500.0,20443
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2002,118000.0,33045
+TLG2,Shropshire and Staffordshire,2002,82000.0,35488
+TLG3,West Midlands,2002,80500.0,52071
+TLH2,Bedfordshire and Hertfordshire,2002,142995.0,45024
+TLH3,Essex,2002,128000.0,45678
+TLH4,Cambridgeshire and Peterborough,2002,116000.0,20613
+TLH5,Norfolk,2002,102000.0,20982
+TLH6,Suffolk,2002,108000.0,17892
+TLI3,Inner London - West,2002,280000.0,28080
+TLI4,Inner London - East,2002,175000.0,39969
+TLI5,Outer London - East and North East,2002,145600.0,38641
+TLI6,Outer London - South,2002,170000.0,31043
+TLI7,Outer London - West and North West,2002,193000.0,39251
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2002,162950.0,56535
+TLJ2,"Surrey, East and West Sussex",2002,160000.0,76295
+TLJ3,Hampshire and Isle of Wight,2002,136000.0,49151
+TLJ4,Kent,2002,123000.0,43854
+TLK3,Cornwall and Isles of Scilly,2002,114950.0,13855
+TLK4,Devon,2002,113000.0,31142
+TLK5,West of England,2002,123000.0,20281
+TLK6,"North Somerset, Somerset and Dorset",2002,130000.0,42553
+TLK7,Gloucestershire and Wiltshire,2002,125000.0,31962
+TLL3,North Wales,2002,71000.0,15861
+TLL4,Mid and South West Wales,2002,64950.0,17730
+TLL5,South East Wales,2002,75000.0,33993
+TLC3,Tees Valley,2003,72950.0,16734
+TLC4,"Northumberland, Durham and Tyne & Wear",2003,79950.0,43929
+TLD1,Cumbria,2003,86950.0,12104
+TLD3,Greater Manchester,2003,82500.0,60862
+TLD4,Lancashire,2003,78000.0,40563
+TLD6,Cheshire,2003,122000.0,21673
+TLD7,Merseyside,2003,81750.0,32327
+TLE1,East Yorkshire and Northern Lincolnshire,2003,75000.0,23881
+TLE2,North Yorkshire,2003,129950.0,18480
+TLE3,South Yorkshire,2003,77950.0,27779
+TLE4,West Yorkshire,2003,86000.0,51595
+TLF1,Derbyshire and Nottinghamshire,2003,95000.0,45910
+TLF2,"Leicestershire, Rutland and Northamptonshire",2003,118000.0,39678
+TLF3,Lincolnshire,2003,105000.0,18446
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2003,137000.0,28969
+TLG2,Shropshire and Staffordshire,2003,99000.0,32886
+TLG3,West Midlands,2003,98000.0,48729
+TLH2,Bedfordshire and Hertfordshire,2003,166000.0,38339
+TLH3,Essex,2003,150000.0,40698
+TLH4,Cambridgeshire and Peterborough,2003,135000.0,18490
+TLH5,Norfolk,2003,125000.0,19110
+TLH6,Suffolk,2003,127000.0,16845
+TLI3,Inner London - West,2003,285000.0,22725
+TLI4,Inner London - East,2003,190000.0,34174
+TLI5,Outer London - East and North East,2003,170000.0,34604
+TLI6,Outer London - South,2003,190000.0,26237
+TLI7,Outer London - West and North West,2003,219000.0,34709
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2003,180000.0,49121
+TLJ2,"Surrey, East and West Sussex",2003,184995.0,64898
+TLJ3,Hampshire and Isle of Wight,2003,157500.0,42845
+TLJ4,Kent,2003,142500.0,38876
+TLK3,Cornwall and Isles of Scilly,2003,143000.0,12306
+TLK4,Devon,2003,135000.0,27723
+TLK5,West of England,2003,141997.0,17850
+TLK6,"North Somerset, Somerset and Dorset",2003,154000.0,37701
+TLK7,Gloucestershire and Wiltshire,2003,143000.0,28646
+TLL3,North Wales,2003,90000.0,14274
+TLL4,Mid and South West Wales,2003,82500.0,17493
+TLL5,South East Wales,2003,89950.0,32239
+TLC3,Tees Valley,2004,86547.5,15852
+TLC4,"Northumberland, Durham and Tyne & Wear",2004,99950.0,42310
+TLD1,Cumbria,2004,107000.0,11341
+TLD3,Greater Manchester,2004,102500.0,60461
+TLD4,Lancashire,2004,95000.0,39460
+TLD6,Cheshire,2004,144950.0,20788
+TLD7,Merseyside,2004,105000.0,31022
+TLE1,East Yorkshire and Northern Lincolnshire,2004,91000.0,22809
+TLE2,North Yorkshire,2004,155000.0,17769
+TLE3,South Yorkshire,2004,98000.0,26272
+TLE4,West Yorkshire,2004,107995.0,51025
+TLF1,Derbyshire and Nottinghamshire,2004,117500.0,45253
+TLF2,"Leicestershire, Rutland and Northamptonshire",2004,135000.0,39312
+TLF3,Lincolnshire,2004,128000.0,18004
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2004,158500.0,28565
+TLG2,Shropshire and Staffordshire,2004,120500.0,32898
+TLG3,West Midlands,2004,119000.0,48629
+TLH2,Bedfordshire and Hertfordshire,2004,182000.0,40092
+TLH3,Essex,2004,167500.0,42023
+TLH4,Cambridgeshire and Peterborough,2004,151500.0,18252
+TLH5,Norfolk,2004,140000.0,19445
+TLH6,Suffolk,2004,146000.0,16767
+TLI3,Inner London - West,2004,315000.0,25058
+TLI4,Inner London - East,2004,210000.0,37334
+TLI5,Outer London - East and North East,2004,185000.0,34716
+TLI6,Outer London - South,2004,210000.0,27545
+TLI7,Outer London - West and North West,2004,235000.0,34860
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2004,195000.0,51525
+TLJ2,"Surrey, East and West Sussex",2004,200000.0,66874
+TLJ3,Hampshire and Isle of Wight,2004,174950.0,44499
+TLJ4,Kent,2004,161950.0,39883
+TLK3,Cornwall and Isles of Scilly,2004,168000.0,11866
+TLK4,Devon,2004,158500.0,26266
+TLK5,West of England,2004,155000.0,18680
+TLK6,"North Somerset, Somerset and Dorset",2004,174950.0,37483
+TLK7,Gloucestershire and Wiltshire,2004,160000.0,29021
+TLL3,North Wales,2004,118150.0,12892
+TLL4,Mid and South West Wales,2004,112000.0,14931
+TLL5,South East Wales,2004,115000.0,29403
+TLC3,Tees Valley,2005,100000.0,13342
+TLC4,"Northumberland, Durham and Tyne & Wear",2005,110000.0,36834
+TLD1,Cumbria,2005,120000.0,9961
+TLD3,Greater Manchester,2005,116950.0,50555
+TLD4,Lancashire,2005,106775.0,32822
+TLD6,Cheshire,2005,150000.0,17057
+TLD7,Merseyside,2005,117000.0,24426
+TLE1,East Yorkshire and Northern Lincolnshire,2005,103500.0,18977
+TLE2,North Yorkshire,2005,164995.0,15345
+TLE3,South Yorkshire,2005,109950.0,24134
+TLE4,West Yorkshire,2005,119000.0,44403
+TLF1,Derbyshire and Nottinghamshire,2005,123000.0,38674
+TLF2,"Leicestershire, Rutland and Northamptonshire",2005,140000.0,34065
+TLF3,Lincolnshire,2005,132500.0,14763
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2005,162950.0,24935
+TLG2,Shropshire and Staffordshire,2005,127000.0,27947
+TLG3,West Midlands,2005,124000.0,43115
+TLH2,Bedfordshire and Hertfordshire,2005,187000.0,34324
+TLH3,Essex,2005,174995.0,35630
+TLH4,Cambridgeshire and Peterborough,2005,162000.0,16267
+TLH5,Norfolk,2005,145500.0,16973
+TLH6,Suffolk,2005,150000.0,15373
+TLI3,Inner London - West,2005,334000.0,22838
+TLI4,Inner London - East,2005,221000.0,32661
+TLI5,Outer London - East and North East,2005,195000.0,29993
+TLI6,Outer London - South,2005,217000.0,23584
+TLI7,Outer London - West and North West,2005,242995.0,29529
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2005,204000.0,45032
+TLJ2,"Surrey, East and West Sussex",2005,212000.0,58827
+TLJ3,Hampshire and Isle of Wight,2005,176000.0,38443
+TLJ4,Kent,2005,167000.0,33246
+TLK3,Cornwall and Isles of Scilly,2005,175000.0,9715
+TLK4,Devon,2005,165000.0,23172
+TLK5,West of England,2005,160000.0,17101
+TLK6,"North Somerset, Somerset and Dorset",2005,179000.0,32583
+TLK7,Gloucestershire and Wiltshire,2005,165000.0,26020
+TLL3,North Wales,2005,129950.0,10641
+TLL4,Mid and South West Wales,2005,125000.0,13455
+TLL5,South East Wales,2005,122500.0,24212
+TLC3,Tees Valley,2006,115000.0,16454
+TLC4,"Northumberland, Durham and Tyne & Wear",2006,120000.0,43945
+TLD1,Cumbria,2006,133000.0,11788
+TLD3,Greater Manchester,2006,125000.0,62127
+TLD4,Lancashire,2006,119500.0,39031
+TLD6,Cheshire,2006,157250.0,21631
+TLD7,Merseyside,2006,125000.0,29666
+TLE1,East Yorkshire and Northern Lincolnshire,2006,115000.0,23768
+TLE2,North Yorkshire,2006,172000.0,19438
+TLE3,South Yorkshire,2006,118000.0,27394
+TLE4,West Yorkshire,2006,127000.0,55102
+TLF1,Derbyshire and Nottinghamshire,2006,128000.0,47394
+TLF2,"Leicestershire, Rutland and Northamptonshire",2006,146000.0,42432
+TLF3,Lincolnshire,2006,137500.0,18991
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2006,170000.0,31134
+TLG2,Shropshire and Staffordshire,2006,137000.0,34288
+TLG3,West Midlands,2006,130000.0,51904
+TLH2,Bedfordshire and Hertfordshire,2006,199950.0,43191
+TLH3,Essex,2006,182000.0,44441
+TLH4,Cambridgeshire and Peterborough,2006,169000.0,20570
+TLH5,Norfolk,2006,155000.0,21737
+TLH6,Suffolk,2006,159995.0,19185
+TLI3,Inner London - West,2006,365687.5,28858
+TLI4,Inner London - East,2006,237000.0,40370
+TLI5,Outer London - East and North East,2006,206000.0,36393
+TLI6,Outer London - South,2006,230000.0,30527
+TLI7,Outer London - West and North West,2006,250000.0,37423
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2006,219000.0,57101
+TLJ2,"Surrey, East and West Sussex",2006,223500.0,75297
+TLJ3,Hampshire and Isle of Wight,2006,184950.0,48978
+TLJ4,Kent,2006,175000.0,43545
+TLK3,Cornwall and Isles of Scilly,2006,185000.0,13320
+TLK4,Devon,2006,174000.0,30141
+TLK5,West of England,2006,170000.0,21569
+TLK6,"North Somerset, Somerset and Dorset",2006,186000.0,42364
+TLK7,Gloucestershire and Wiltshire,2006,173000.0,33646
+TLL3,North Wales,2006,137995.0,13197
+TLL4,Mid and South West Wales,2006,131300.0,16935
+TLL5,South East Wales,2006,130000.0,30119
+TLC3,Tees Valley,2007,121000.0,16158
+TLC4,"Northumberland, Durham and Tyne & Wear",2007,123000.0,45163
+TLD1,Cumbria,2007,141500.0,11739
+TLD3,Greater Manchester,2007,132500.0,61869
+TLD4,Lancashire,2007,125000.0,36269
+TLD6,Cheshire,2007,164220.0,20860
+TLD7,Merseyside,2007,129000.0,29596
+TLE1,East Yorkshire and Northern Lincolnshire,2007,121500.0,22323
+TLE2,North Yorkshire,2007,182500.0,17785
+TLE3,South Yorkshire,2007,124000.0,27530
+TLE4,West Yorkshire,2007,135000.0,52346
+TLF1,Derbyshire and Nottinghamshire,2007,133912.5,45732
+TLF2,"Leicestershire, Rutland and Northamptonshire",2007,154950.0,39844
+TLF3,Lincolnshire,2007,145000.0,18683
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2007,177500.0,28024
+TLG2,Shropshire and Staffordshire,2007,141500.0,32003
+TLG3,West Midlands,2007,135000.0,50812
+TLH2,Bedfordshire and Hertfordshire,2007,215000.0,41432
+TLH3,Essex,2007,195000.0,43606
+TLH4,Cambridgeshire and Peterborough,2007,180000.0,18887
+TLH5,Norfolk,2007,167000.0,21471
+TLH6,Suffolk,2007,170000.0,17637
+TLI3,Inner London - West,2007,420000.0,25577
+TLI4,Inner London - East,2007,257000.0,39377
+TLI5,Outer London - East and North East,2007,225000.0,36555
+TLI6,Outer London - South,2007,249950.0,29525
+TLI7,Outer London - West and North West,2007,275725.0,36554
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2007,233000.0,53233
+TLJ2,"Surrey, East and West Sussex",2007,240000.0,72322
+TLJ3,Hampshire and Isle of Wight,2007,195000.0,46256
+TLJ4,Kent,2007,188000.0,43352
+TLK3,Cornwall and Isles of Scilly,2007,196000.0,12517
+TLK4,Devon,2007,185000.0,27756
+TLK5,West of England,2007,187000.0,19447
+TLK6,"North Somerset, Somerset and Dorset",2007,204000.0,39619
+TLK7,Gloucestershire and Wiltshire,2007,184000.0,31413
+TLL3,North Wales,2007,145000.0,13243
+TLL4,Mid and South West Wales,2007,140000.0,16142
+TLL5,South East Wales,2007,137000.0,28971
+TLC3,Tees Valley,2008,119000.0,8248
+TLC4,"Northumberland, Durham and Tyne & Wear",2008,120000.0,22168
+TLD1,Cumbria,2008,142500.0,6068
+TLD3,Greater Manchester,2008,125000.0,30586
+TLD4,Lancashire,2008,124500.0,17659
+TLD6,Cheshire,2008,158500.0,10120
+TLD7,Merseyside,2008,125000.0,15216
+TLE1,East Yorkshire and Northern Lincolnshire,2008,120000.0,11765
+TLE2,North Yorkshire,2008,175000.0,9570
+TLE3,South Yorkshire,2008,120000.0,15470
+TLE4,West Yorkshire,2008,127972.5,26098
+TLF1,Derbyshire and Nottinghamshire,2008,125000.0,24325
+TLF2,"Leicestershire, Rutland and Northamptonshire",2008,149950.0,20479
+TLF3,Lincolnshire,2008,139950.0,9857
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2008,174000.0,14234
+TLG2,Shropshire and Staffordshire,2008,140000.0,16409
+TLG3,West Midlands,2008,130000.0,27523
+TLH2,Bedfordshire and Hertfordshire,2008,215000.0,20018
+TLH3,Essex,2008,191000.0,21284
+TLH4,Cambridgeshire and Peterborough,2008,175000.0,10085
+TLH5,Norfolk,2008,161000.0,10861
+TLH6,Suffolk,2008,166000.0,9348
+TLI3,Inner London - West,2008,435000.0,12432
+TLI4,Inner London - East,2008,260000.0,19461
+TLI5,Outer London - East and North East,2008,225000.0,17847
+TLI6,Outer London - South,2008,248000.0,14042
+TLI7,Outer London - West and North West,2008,270000.0,18368
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2008,230000.0,27750
+TLJ2,"Surrey, East and West Sussex",2008,240000.0,35842
+TLJ3,Hampshire and Isle of Wight,2008,192000.0,24464
+TLJ4,Kent,2008,185000.0,21831
+TLK3,Cornwall and Isles of Scilly,2008,190000.0,6634
+TLK4,Devon,2008,178000.0,14801
+TLK5,West of England,2008,177875.0,10528
+TLK6,"North Somerset, Somerset and Dorset",2008,197000.0,19573
+TLK7,Gloucestershire and Wiltshire,2008,180000.0,16600
+TLL3,North Wales,2008,140000.0,6808
+TLL4,Mid and South West Wales,2008,139648.5,9056
+TLL5,South East Wales,2008,130000.0,15585
+TLC3,Tees Valley,2009,120000.0,6372
+TLC4,"Northumberland, Durham and Tyne & Wear",2009,121000.0,17997
+TLD1,Cumbria,2009,141000.0,5871
+TLD3,Greater Manchester,2009,125000.0,24871
+TLD4,Lancashire,2009,124950.0,15765
+TLD6,Cheshire,2009,158000.0,9663
+TLD7,Merseyside,2009,125000.0,11284
+TLE1,East Yorkshire and Northern Lincolnshire,2009,119000.0,9490
+TLE2,North Yorkshire,2009,168000.0,10442
+TLE3,South Yorkshire,2009,117000.0,11974
+TLE4,West Yorkshire,2009,126000.0,22080
+TLF1,Derbyshire and Nottinghamshire,2009,129500.0,22968
+TLF2,"Leicestershire, Rutland and Northamptonshire",2009,145000.0,19796
+TLF3,Lincolnshire,2009,134000.0,9402
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2009,168000.0,14777
+TLG2,Shropshire and Staffordshire,2009,140000.0,15070
+TLG3,West Midlands,2009,127000.0,22565
+TLH2,Bedfordshire and Hertfordshire,2009,202000.0,21416
+TLH3,Essex,2009,180000.0,21637
+TLH4,Cambridgeshire and Peterborough,2009,170000.0,10367
+TLH5,Norfolk,2009,153500.0,12381
+TLH6,Suffolk,2009,155000.0,10531
+TLI3,Inner London - West,2009,435000.0,13732
+TLI4,Inner London - East,2009,265000.0,17428
+TLI5,Outer London - East and North East,2009,207500.0,14944
+TLI6,Outer London - South,2009,235000.0,13884
+TLI7,Outer London - West and North West,2009,265000.0,16175
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2009,220000.0,29291
+TLJ2,"Surrey, East and West Sussex",2009,225000.0,40355
+TLJ3,Hampshire and Isle of Wight,2009,185000.0,25876
+TLJ4,Kent,2009,173000.0,21643
+TLK3,Cornwall and Isles of Scilly,2009,175000.0,7375
+TLK4,Devon,2009,173000.0,16856
+TLK5,West of England,2009,170000.0,11510
+TLK6,"North Somerset, Somerset and Dorset",2009,185000.0,22306
+TLK7,Gloucestershire and Wiltshire,2009,170000.0,17619
+TLL3,North Wales,2009,135000.0,6587
+TLL4,Mid and South West Wales,2009,135975.0,8620
+TLL5,South East Wales,2009,129000.0,13917
+TLC3,Tees Valley,2010,120000.0,6810
+TLC4,"Northumberland, Durham and Tyne & Wear",2010,123500.0,18858
+TLD1,Cumbria,2010,141250.0,6228
+TLD3,Greater Manchester,2010,125000.0,26370
+TLD4,Lancashire,2010,124950.0,16276
+TLD6,Cheshire,2010,165000.0,10051
+TLD7,Merseyside,2010,124995.0,12088
+TLE1,East Yorkshire and Northern Lincolnshire,2010,120000.0,10009
+TLE2,North Yorkshire,2010,180000.0,10442
+TLE3,South Yorkshire,2010,120000.0,12496
+TLE4,West Yorkshire,2010,130000.0,22035
+TLF1,Derbyshire and Nottinghamshire,2010,129950.0,24205
+TLF2,"Leicestershire, Rutland and Northamptonshire",2010,150000.0,20283
+TLF3,Lincolnshire,2010,140000.0,9594
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2010,178950.0,15610
+TLG2,Shropshire and Staffordshire,2010,145000.0,15695
+TLG3,West Midlands,2010,129500.0,24151
+TLH2,Bedfordshire and Hertfordshire,2010,225000.0,23570
+TLH3,Essex,2010,199995.0,23059
+TLH4,Cambridgeshire and Peterborough,2010,187500.0,10762
+TLH5,Norfolk,2010,162000.0,12137
+TLH6,Suffolk,2010,170000.0,10367
+TLI3,Inner London - West,2010,480000.0,16936
+TLI4,Inner London - East,2010,289950.0,22574
+TLI5,Outer London - East and North East,2010,228000.0,17043
+TLI6,Outer London - South,2010,250000.0,15338
+TLI7,Outer London - West and North West,2010,290000.0,20883
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2010,245000.0,30742
+TLJ2,"Surrey, East and West Sussex",2010,249950.0,42566
+TLJ3,Hampshire and Isle of Wight,2010,204950.0,25642
+TLJ4,Kent,2010,189995.0,22614
+TLK3,Cornwall and Isles of Scilly,2010,190000.0,7722
+TLK4,Devon,2010,184500.0,17068
+TLK5,West of England,2010,187500.0,11457
+TLK6,"North Somerset, Somerset and Dorset",2010,202000.0,22432
+TLK7,Gloucestershire and Wiltshire,2010,187500.0,17776
+TLL3,North Wales,2010,137000.0,6880
+TLL4,Mid and South West Wales,2010,135000.0,8981
+TLL5,South East Wales,2010,130000.0,15060
+TLC3,Tees Valley,2011,115000.0,7149
+TLC4,"Northumberland, Durham and Tyne & Wear",2011,118500.0,19685
+TLD1,Cumbria,2011,137000.0,6163
+TLD3,Greater Manchester,2011,123000.0,26058
+TLD4,Lancashire,2011,120000.0,16082
+TLD6,Cheshire,2011,160000.0,10474
+TLD7,Merseyside,2011,123000.0,12728
+TLE1,East Yorkshire and Northern Lincolnshire,2011,118000.0,10401
+TLE2,North Yorkshire,2011,176000.0,10617
+TLE3,South Yorkshire,2011,115000.0,12864
+TLE4,West Yorkshire,2011,125000.0,21600
+TLF1,Derbyshire and Nottinghamshire,2011,125000.0,24176
+TLF2,"Leicestershire, Rutland and Northamptonshire",2011,149995.0,20135
+TLF3,Lincolnshire,2011,135000.0,9675
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2011,175000.0,15919
+TLG2,Shropshire and Staffordshire,2011,139000.0,15709
+TLG3,West Midlands,2011,125995.0,24465
+TLH2,Bedfordshire and Hertfordshire,2011,222500.0,23181
+TLH3,Essex,2011,195000.0,23143
+TLH4,Cambridgeshire and Peterborough,2011,183000.0,11344
+TLH5,Norfolk,2011,155000.0,12649
+TLH6,Suffolk,2011,165000.0,10147
+TLI3,Inner London - West,2011,495000.0,16711
+TLI4,Inner London - East,2011,292500.0,21867
+TLI5,Outer London - East and North East,2011,230000.0,16788
+TLI6,Outer London - South,2011,250000.0,15200
+TLI7,Outer London - West and North West,2011,300000.0,20220
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2011,240000.0,29564
+TLJ2,"Surrey, East and West Sussex",2011,245000.0,42583
+TLJ3,Hampshire and Isle of Wight,2011,200000.0,25002
+TLJ4,Kent,2011,183500.0,23062
+TLK3,Cornwall and Isles of Scilly,2011,184950.0,7479
+TLK4,Devon,2011,178500.0,16464
+TLK5,West of England,2011,182000.0,11600
+TLK6,"North Somerset, Somerset and Dorset",2011,195950.0,22135
+TLK7,Gloucestershire and Wiltshire,2011,181000.0,16986
+TLL3,North Wales,2011,135000.0,6933
+TLL4,Mid and South West Wales,2011,130250.0,8682
+TLL5,South East Wales,2011,130000.0,15050
+TLC3,Tees Valley,2012,118000.0,6880
+TLC4,"Northumberland, Durham and Tyne & Wear",2012,120000.0,19228
+TLD1,Cumbria,2012,140000.0,5943
+TLD3,Greater Manchester,2012,125000.0,25456
+TLD4,Lancashire,2012,123500.0,15385
+TLD6,Cheshire,2012,162000.0,10615
+TLD7,Merseyside,2012,123850.0,12440
+TLE1,East Yorkshire and Northern Lincolnshire,2012,118000.0,10184
+TLE2,North Yorkshire,2012,177500.0,10590
+TLE3,South Yorkshire,2012,117500.0,12906
+TLE4,West Yorkshire,2012,125000.0,22414
+TLF1,Derbyshire and Nottinghamshire,2012,125000.0,24301
+TLF2,"Leicestershire, Rutland and Northamptonshire",2012,150000.0,20714
+TLF3,Lincolnshire,2012,135000.0,9726
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2012,177000.0,16202
+TLG2,Shropshire and Staffordshire,2012,140500.0,16671
+TLG3,West Midlands,2012,128000.0,23832
+TLH2,Bedfordshire and Hertfordshire,2012,228500.0,23664
+TLH3,Essex,2012,199950.0,23371
+TLH4,Cambridgeshire and Peterborough,2012,185000.0,10970
+TLH5,Norfolk,2012,160000.0,12259
+TLH6,Suffolk,2012,167500.0,10471
+TLI3,Inner London - West,2012,518809.5,16092
+TLI4,Inner London - East,2012,305000.0,23891
+TLI5,Outer London - East and North East,2012,233500.0,17553
+TLI6,Outer London - South,2012,262000.0,16205
+TLI7,Outer London - West and North West,2012,312000.0,20671
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2012,245000.0,30533
+TLJ2,"Surrey, East and West Sussex",2012,249995.0,43167
+TLJ3,Hampshire and Isle of Wight,2012,202500.0,25651
+TLJ4,Kent,2012,189000.0,23519
+TLK3,Cornwall and Isles of Scilly,2012,185000.0,7690
+TLK4,Devon,2012,180000.0,17047
+TLK5,West of England,2012,186500.0,11867
+TLK6,"North Somerset, Somerset and Dorset",2012,199950.0,22055
+TLK7,Gloucestershire and Wiltshire,2012,183500.0,17489
+TLL3,North Wales,2012,137000.0,6887
+TLL4,Mid and South West Wales,2012,132000.0,8619
+TLL5,South East Wales,2012,131000.0,15141
+TLC3,Tees Valley,2013,121000.0,7676
+TLC4,"Northumberland, Durham and Tyne & Wear",2013,123000.0,22370
+TLD1,Cumbria,2013,142000.0,7017
+TLD3,Greater Manchester,2013,125500.0,30169
+TLD4,Lancashire,2013,124995.0,18364
+TLD6,Cheshire,2013,167000.0,13065
+TLD7,Merseyside,2013,124995.0,15868
+TLE1,East Yorkshire and Northern Lincolnshire,2013,121000.0,11904
+TLE2,North Yorkshire,2013,179995.0,12602
+TLE3,South Yorkshire,2013,120000.0,15238
+TLE4,West Yorkshire,2013,129825.0,26862
+TLF1,Derbyshire and Nottinghamshire,2013,130000.0,28735
+TLF2,"Leicestershire, Rutland and Northamptonshire",2013,155000.0,24801
+TLF3,Lincolnshire,2013,138000.0,11822
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2013,180000.0,18995
+TLG2,Shropshire and Staffordshire,2013,145000.0,20043
+TLG3,West Midlands,2013,132000.0,27907
+TLH2,Bedfordshire and Hertfordshire,2013,235000.0,28046
+TLH3,Essex,2013,205000.0,27692
+TLH4,Cambridgeshire and Peterborough,2013,194997.5,13094
+TLH5,Norfolk,2013,165000.0,14957
+TLH6,Suffolk,2013,170000.0,11817
+TLI3,Inner London - West,2013,585000.0,18939
+TLI4,Inner London - East,2013,330000.0,28456
+TLI5,Outer London - East and North East,2013,245500.0,21325
+TLI6,Outer London - South,2013,280000.0,19251
+TLI7,Outer London - West and North West,2013,330000.0,23350
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2013,250000.0,36681
+TLJ2,"Surrey, East and West Sussex",2013,250000.0,50278
+TLJ3,Hampshire and Isle of Wight,2013,209950.0,30657
+TLJ4,Kent,2013,195000.0,27177
+TLK3,Cornwall and Isles of Scilly,2013,185000.0,8754
+TLK4,Devon,2013,183000.0,19734
+TLK5,West of England,2013,192000.0,14024
+TLK6,"North Somerset, Somerset and Dorset",2013,201000.0,26174
+TLK7,Gloucestershire and Wiltshire,2013,185000.0,21219
+TLL3,North Wales,2013,135000.0,8273
+TLL4,Mid and South West Wales,2013,130000.0,9939
+TLL5,South East Wales,2013,135000.0,18140
+TLC3,Tees Valley,2014,125000.0,9061
+TLC4,"Northumberland, Durham and Tyne & Wear",2014,127997.5,26314
+TLD1,Cumbria,2014,148000.0,8055
+TLD3,Greater Manchester,2014,134950.0,36985
+TLD4,Lancashire,2014,129350.0,21535
+TLD6,Cheshire,2014,175000.0,15826
+TLD7,Merseyside,2014,127500.0,19065
+TLE1,East Yorkshire and Northern Lincolnshire,2014,125000.0,13871
+TLE2,North Yorkshire,2014,185000.0,14780
+TLE3,South Yorkshire,2014,125000.0,18030
+TLE4,West Yorkshire,2014,133500.0,32212
+TLF1,Derbyshire and Nottinghamshire,2014,137000.0,33815
+TLF2,"Leicestershire, Rutland and Northamptonshire",2014,165000.0,30650
+TLF3,Lincolnshire,2014,147500.0,13741
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2014,191084.0,22923
+TLG2,Shropshire and Staffordshire,2014,150000.0,23765
+TLG3,West Midlands,2014,139950.0,32880
+TLH2,Bedfordshire and Hertfordshire,2014,250000.0,32634
+TLH3,Essex,2014,220000.0,33475
+TLH4,Cambridgeshire and Peterborough,2014,206000.0,15083
+TLH5,Norfolk,2014,175000.0,17184
+TLH6,Suffolk,2014,184995.0,13993
+TLI3,Inner London - West,2014,690000.0,18020
+TLI4,Inner London - East,2014,385000.0,29646
+TLI5,Outer London - East and North East,2014,275000.0,25339
+TLI6,Outer London - South,2014,320000.0,21402
+TLI7,Outer London - West and North West,2014,375000.0,24216
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2014,272500.0,41654
+TLJ2,"Surrey, East and West Sussex",2014,280000.0,56688
+TLJ3,Hampshire and Isle of Wight,2014,221000.0,36032
+TLJ4,Kent,2014,212000.0,32483
+TLK3,Cornwall and Isles of Scilly,2014,194000.0,10319
+TLK4,Devon,2014,191995.0,22479
+TLK5,West of England,2014,209000.0,16440
+TLK6,"North Somerset, Somerset and Dorset",2014,214500.0,30593
+TLK7,Gloucestershire and Wiltshire,2014,198000.0,25549
+TLL3,North Wales,2014,140000.0,9579
+TLL4,Mid and South West Wales,2014,135747.5,11486
+TLL5,South East Wales,2014,141500.0,21262
+TLM9,Southern Scotland,2014,577000.0,2
+TLC3,Tees Valley,2015,130000.0,9279
+TLC4,"Northumberland, Durham and Tyne & Wear",2015,134000.0,26897
+TLD1,Cumbria,2015,150000.0,8641
+TLD3,Greater Manchester,2015,141500.0,39445
+TLD4,Lancashire,2015,135000.0,22315
+TLD6,Cheshire,2015,182500.0,16631
+TLD7,Merseyside,2015,133000.0,19622
+TLE1,East Yorkshire and Northern Lincolnshire,2015,129000.0,14182
+TLE2,North Yorkshire,2015,198000.0,14429
+TLE3,South Yorkshire,2015,130000.0,18095
+TLE4,West Yorkshire,2015,140000.0,32841
+TLF1,Derbyshire and Nottinghamshire,2015,145000.0,34058
+TLF2,"Leicestershire, Rutland and Northamptonshire",2015,176000.0,30823
+TLF3,Lincolnshire,2015,155000.0,13752
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2015,205000.0,22967
+TLG2,Shropshire and Staffordshire,2015,158000.0,24338
+TLG3,West Midlands,2015,145000.0,34198
+TLH2,Bedfordshire and Hertfordshire,2015,280950.0,31900
+TLH3,Essex,2015,245000.0,33623
+TLH4,Cambridgeshire and Peterborough,2015,220000.0,13854
+TLH5,Norfolk,2015,185000.0,16741
+TLH6,Suffolk,2015,199995.0,13526
+TLI3,Inner London - West,2015,700000.0,16117
+TLI4,Inner London - East,2015,425000.0,27929
+TLI5,Outer London - East and North East,2015,315000.0,24524
+TLI6,Outer London - South,2015,355000.0,20342
+TLI7,Outer London - West and North West,2015,418000.0,24528
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2015,300000.0,40654
+TLJ2,"Surrey, East and West Sussex",2015,305000.0,54164
+TLJ3,Hampshire and Isle of Wight,2015,237500.0,35841
+TLJ4,Kent,2015,230000.0,32922
+TLK3,Cornwall and Isles of Scilly,2015,200000.0,10513
+TLK4,Devon,2015,202500.0,23190
+TLK5,West of England,2015,230000.0,16333
+TLK6,"North Somerset, Somerset and Dorset",2015,225000.0,30522
+TLK7,Gloucestershire and Wiltshire,2015,215000.0,25303
+TLL3,North Wales,2015,146500.0,9819
+TLL4,Mid and South West Wales,2015,139000.0,11897
+TLL5,South East Wales,2015,145500.0,21894
+TLC3,Tees Valley,2016,130000.0,9409
+TLC4,"Northumberland, Durham and Tyne & Wear",2016,135000.0,27703
+TLD1,Cumbria,2016,155000.0,8474
+TLD3,Greater Manchester,2016,148500.0,42160
+TLD4,Lancashire,2016,138500.0,23743
+TLD6,Cheshire,2016,190000.0,17068
+TLD7,Merseyside,2016,135500.0,21015
+TLE1,East Yorkshire and Northern Lincolnshire,2016,135000.0,14290
+TLE2,North Yorkshire,2016,205000.0,14698
+TLE3,South Yorkshire,2016,132000.0,18826
+TLE4,West Yorkshire,2016,145000.0,34454
+TLF1,Derbyshire and Nottinghamshire,2016,151000.0,36083
+TLF2,"Leicestershire, Rutland and Northamptonshire",2016,189000.0,32188
+TLF3,Lincolnshire,2016,161000.0,13979
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2016,217000.0,23631
+TLG2,Shropshire and Staffordshire,2016,165000.0,26047
+TLG3,West Midlands,2016,152000.0,35730
+TLH2,Bedfordshire and Hertfordshire,2016,310000.0,30185
+TLH3,Essex,2016,272500.0,33156
+TLH4,Cambridgeshire and Peterborough,2016,232000.0,14069
+TLH5,Norfolk,2016,200000.0,17106
+TLH6,Suffolk,2016,215000.0,13515
+TLI3,Inner London - West,2016,760000.0,14600
+TLI4,Inner London - East,2016,465000.0,26121
+TLI5,Outer London - East and North East,2016,360000.0,22010
+TLI6,Outer London - South,2016,390000.0,18392
+TLI7,Outer London - West and North West,2016,450000.0,22198
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2016,330000.0,39132
+TLJ2,"Surrey, East and West Sussex",2016,330000.0,51450
+TLJ3,Hampshire and Isle of Wight,2016,255000.0,34668
+TLJ4,Kent,2016,255000.0,32803
+TLK3,Cornwall and Isles of Scilly,2016,210000.0,10967
+TLK4,Devon,2016,210000.0,23508
+TLK5,West of England,2016,250000.0,15812
+TLK6,"North Somerset, Somerset and Dorset",2016,235000.0,31147
+TLK7,Gloucestershire and Wiltshire,2016,227500.0,26185
+TLL3,North Wales,2016,150000.0,10234
+TLL4,Mid and South West Wales,2016,140500.0,12415
+TLL5,South East Wales,2016,152500.0,23040
+TLC3,Tees Valley,2017,135000.0,9724
+TLC4,"Northumberland, Durham and Tyne & Wear",2017,137500.0,29311
+TLD1,Cumbria,2017,161500.0,8909
+TLD3,Greater Manchester,2017,156500.0,41545
+TLD4,Lancashire,2017,143000.0,24372
+TLD6,Cheshire,2017,202000.0,17366
+TLD7,Merseyside,2017,142000.0,22464
+TLE1,East Yorkshire and Northern Lincolnshire,2017,140000.0,15230
+TLE2,North Yorkshire,2017,213000.0,15288
+TLE3,South Yorkshire,2017,136000.0,19483
+TLE4,West Yorkshire,2017,150000.0,35271
+TLF1,Derbyshire and Nottinghamshire,2017,160000.0,35707
+TLF2,"Leicestershire, Rutland and Northamptonshire",2017,205000.0,31182
+TLF3,Lincolnshire,2017,170000.0,13831
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2017,230000.0,23736
+TLG2,Shropshire and Staffordshire,2017,172000.0,26961
+TLG3,West Midlands,2017,162000.0,35317
+TLH2,Bedfordshire and Hertfordshire,2017,330997.5,28454
+TLH3,Essex,2017,295000.0,30941
+TLH4,Cambridgeshire and Peterborough,2017,252500.0,13791
+TLH5,Norfolk,2017,219995.0,16723
+TLH6,Suffolk,2017,234950.0,12972
+TLI3,Inner London - West,2017,790000.0,13705
+TLI4,Inner London - East,2017,485000.0,23569
+TLI5,Outer London - East and North East,2017,375000.0,20072
+TLI6,Outer London - South,2017,410000.0,16988
+TLI7,Outer London - West and North West,2017,482000.0,19053
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2017,349950.0,37144
+TLJ2,"Surrey, East and West Sussex",2017,345500.0,48580
+TLJ3,Hampshire and Isle of Wight,2017,274995.0,33748
+TLJ4,Kent,2017,275000.0,32138
+TLK3,Cornwall and Isles of Scilly,2017,219950.0,11163
+TLK4,Devon,2017,222000.0,23252
+TLK5,West of England,2017,268000.0,15612
+TLK6,"North Somerset, Somerset and Dorset",2017,250000.0,29862
+TLK7,Gloucestershire and Wiltshire,2017,245000.0,25118
+TLL3,North Wales,2017,155000.0,10703
+TLL4,Mid and South West Wales,2017,145000.0,13285
+TLL5,South East Wales,2017,157000.0,24115
+TLC3,Tees Valley,2018,137000.0,9767
+TLC4,"Northumberland, Durham and Tyne & Wear",2018,141000.0,28563
+TLD1,Cumbria,2018,167000.0,8767
+TLD3,Greater Manchester,2018,164995.0,40865
+TLD4,Lancashire,2018,145000.0,24104
+TLD6,Cheshire,2018,210000.0,16728
+TLD7,Merseyside,2018,145000.0,22274
+TLE1,East Yorkshire and Northern Lincolnshire,2018,145000.0,15047
+TLE2,North Yorkshire,2018,220000.0,14618
+TLE3,South Yorkshire,2018,141500.0,19316
+TLE4,West Yorkshire,2018,157220.0,34801
+TLF1,Derbyshire and Nottinghamshire,2018,169950.0,35512
+TLF2,"Leicestershire, Rutland and Northamptonshire",2018,219950.0,30058
+TLF3,Lincolnshire,2018,180000.0,13605
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2018,245000.0,23683
+TLG2,Shropshire and Staffordshire,2018,179950.0,26156
+TLG3,West Midlands,2018,172500.0,35125
+TLH2,Bedfordshire and Hertfordshire,2018,340000.0,26657
+TLH3,Essex,2018,305000.0,30001
+TLH4,Cambridgeshire and Peterborough,2018,260000.0,13138
+TLH5,Norfolk,2018,225000.0,15901
+TLH6,Suffolk,2018,240000.0,12437
+TLI3,Inner London - West,2018,775000.0,12439
+TLI4,Inner London - East,2018,490000.0,22107
+TLI5,Outer London - East and North East,2018,384250.0,19192
+TLI6,Outer London - South,2018,425000.0,15638
+TLI7,Outer London - West and North West,2018,475000.0,18109
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2018,355000.0,35892
+TLJ2,"Surrey, East and West Sussex",2018,352000.0,45725
+TLJ3,Hampshire and Isle of Wight,2018,279950.0,32385
+TLJ4,Kent,2018,285000.0,29452
+TLK3,Cornwall and Isles of Scilly,2018,225000.0,10389
+TLK4,Devon,2018,230000.0,22159
+TLK5,West of England,2018,277000.0,15019
+TLK6,"North Somerset, Somerset and Dorset",2018,259995.0,28309
+TLK7,Gloucestershire and Wiltshire,2018,255000.0,23878
+TLL3,North Wales,2018,158000.0,10703
+TLL4,Mid and South West Wales,2018,149995.0,13180
+TLL5,South East Wales,2018,162950.0,23701
+TLC3,Tees Valley,2019,139950.0,9809
+TLC4,"Northumberland, Durham and Tyne & Wear",2019,144950.0,27907
+TLD1,Cumbria,2019,167500.0,8618
+TLD3,Greater Manchester,2019,170000.0,39150
+TLD4,Lancashire,2019,150000.0,23912
+TLD6,Cheshire,2019,218500.0,16616
+TLD7,Merseyside,2019,150000.0,21479
+TLE1,East Yorkshire and Northern Lincolnshire,2019,150000.0,14691
+TLE2,North Yorkshire,2019,228000.0,14196
+TLE3,South Yorkshire,2019,145000.0,19245
+TLE4,West Yorkshire,2019,162000.0,34059
+TLF1,Derbyshire and Nottinghamshire,2019,175000.0,34834
+TLF2,"Leicestershire, Rutland and Northamptonshire",2019,223000.0,27721
+TLF3,Lincolnshire,2019,185000.0,13029
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2019,247000.0,22453
+TLG2,Shropshire and Staffordshire,2019,185000.0,25817
+TLG3,West Midlands,2019,177000.0,32999
+TLH2,Bedfordshire and Hertfordshire,2019,340497.5,25872
+TLH3,Essex,2019,305950.0,28208
+TLH4,Cambridgeshire and Peterborough,2019,270000.0,12783
+TLH5,Norfolk,2019,230000.0,15918
+TLH6,Suffolk,2019,245000.0,11781
+TLI3,Inner London - West,2019,750000.0,11704
+TLI4,Inner London - East,2019,500000.0,20971
+TLI5,Outer London - East and North East,2019,395000.0,18144
+TLI6,Outer London - South,2019,424950.0,15528
+TLI7,Outer London - West and North West,2019,475000.0,17462
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2019,355000.0,34870
+TLJ2,"Surrey, East and West Sussex",2019,357000.0,44491
+TLJ3,Hampshire and Isle of Wight,2019,282000.0,30755
+TLJ4,Kent,2019,288000.0,27583
+TLK3,Cornwall and Isles of Scilly,2019,230000.0,10279
+TLK4,Devon,2019,234000.0,21255
+TLK5,West of England,2019,280000.0,14269
+TLK6,"North Somerset, Somerset and Dorset",2019,262500.0,26188
+TLK7,Gloucestershire and Wiltshire,2019,255000.0,22344
+TLL3,North Wales,2019,160000.0,10431
+TLL4,Mid and South West Wales,2019,155000.0,12559
+TLL5,South East Wales,2019,168500.0,22904
+TLC3,Tees Valley,2020,145000.0,8831
+TLC4,"Northumberland, Durham and Tyne & Wear",2020,152000.0,25480
+TLD1,Cumbria,2020,176000.0,7924
+TLD3,Greater Manchester,2020,186997.5,34336
+TLD4,Lancashire,2020,160000.0,21761
+TLD6,Cheshire,2020,234995.0,15208
+TLD7,Merseyside,2020,160050.0,18101
+TLE1,East Yorkshire and Northern Lincolnshire,2020,160000.0,12908
+TLE2,North Yorkshire,2020,242500.0,12851
+TLE3,South Yorkshire,2020,153000.0,16682
+TLE4,West Yorkshire,2020,172500.0,29408
+TLF1,Derbyshire and Nottinghamshire,2020,187995.0,30759
+TLF2,"Leicestershire, Rutland and Northamptonshire",2020,236000.0,24380
+TLF3,Lincolnshire,2020,195000.0,11366
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2020,265000.0,19895
+TLG2,Shropshire and Staffordshire,2020,200000.0,22536
+TLG3,West Midlands,2020,188000.0,27028
+TLH2,Bedfordshire and Hertfordshire,2020,367000.0,23956
+TLH3,Essex,2020,325000.0,25832
+TLH4,Cambridgeshire and Peterborough,2020,287500.0,11281
+TLH5,Norfolk,2020,242500.0,14096
+TLH6,Suffolk,2020,256000.0,11138
+TLI3,Inner London - West,2020,785000.0,11634
+TLI4,Inner London - East,2020,530000.0,19647
+TLI5,Outer London - East and North East,2020,411000.0,16194
+TLI6,Outer London - South,2020,441000.0,14385
+TLI7,Outer London - West and North West,2020,500000.0,16096
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2020,375000.0,31844
+TLJ2,"Surrey, East and West Sussex",2020,385000.0,41703
+TLJ3,Hampshire and Isle of Wight,2020,300000.0,27671
+TLJ4,Kent,2020,310000.0,25972
+TLK3,Cornwall and Isles of Scilly,2020,250500.0,9372
+TLK4,Devon,2020,250000.0,19064
+TLK5,West of England,2020,300000.0,12292
+TLK6,"North Somerset, Somerset and Dorset",2020,280000.0,24549
+TLK7,Gloucestershire and Wiltshire,2020,275000.0,19695
+TLL3,North Wales,2020,171000.0,8742
+TLL4,Mid and South West Wales,2020,164000.0,10556
+TLL5,South East Wales,2020,180000.0,17758
+TLC3,Tees Valley,2021,150000.0,12611
+TLC4,"Northumberland, Durham and Tyne & Wear",2021,159995.0,35031
+TLD1,Cumbria,2021,183000.0,11283
+TLD3,Greater Manchester,2021,208000.0,46799
+TLD4,Lancashire,2021,170000.0,30726
+TLD6,Cheshire,2021,250000.0,21258
+TLD7,Merseyside,2021,175000.0,24322
+TLE1,East Yorkshire and Northern Lincolnshire,2021,170000.0,18348
+TLE2,North Yorkshire,2021,260000.0,18459
+TLE3,South Yorkshire,2021,167500.0,22161
+TLE4,West Yorkshire,2021,185000.0,39963
+TLF1,Derbyshire and Nottinghamshire,2021,208000.0,41671
+TLF2,"Leicestershire, Rutland and Northamptonshire",2021,255000.0,34417
+TLF3,Lincolnshire,2021,215000.0,17482
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2021,279950.0,28355
+TLG2,Shropshire and Staffordshire,2021,216297.5,31624
+TLG3,West Midlands,2021,208500.0,37804
+TLH2,Bedfordshire and Hertfordshire,2021,380000.0,35903
+TLH3,Essex,2021,340000.0,38924
+TLH4,Cambridgeshire and Peterborough,2021,300000.0,17238
+TLH5,Norfolk,2021,260000.0,20406
+TLH6,Suffolk,2021,277000.0,16161
+TLI3,Inner London - West,2021,773250.0,16562
+TLI4,Inner London - East,2021,535000.0,28460
+TLI5,Outer London - East and North East,2021,426000.0,25115
+TLI6,Outer London - South,2021,462650.0,21608
+TLI7,Outer London - West and North West,2021,525000.0,24034
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2021,389995.0,49024
+TLJ2,"Surrey, East and West Sussex",2021,400000.0,63296
+TLJ3,Hampshire and Isle of Wight,2021,316611.0,40367
+TLJ4,Kent,2021,328000.0,39493
+TLK3,Cornwall and Isles of Scilly,2021,275000.0,12659
+TLK4,Devon,2021,265975.0,26920
+TLK5,West of England,2021,320000.0,17971
+TLK6,"North Somerset, Somerset and Dorset",2021,299500.0,36021
+TLK7,Gloucestershire and Wiltshire,2021,285000.0,29752
+TLL3,North Wales,2021,189950.0,12669
+TLL4,Mid and South West Wales,2021,180000.0,15499
+TLL5,South East Wales,2021,195000.0,26154
+TLC3,Tees Valley,2022,158000.0,11073
+TLC4,"Northumberland, Durham and Tyne & Wear",2022,164950.0,31500
+TLD1,Cumbria,2022,195000.0,9289
+TLD3,Greater Manchester,2022,222500.0,39283
+TLD4,Lancashire,2022,179950.0,26863
+TLD6,Cheshire,2022,265000.0,17360
+TLD7,Merseyside,2022,183000.0,21504
+TLE1,East Yorkshire and Northern Lincolnshire,2022,176250.0,16341
+TLE2,North Yorkshire,2022,275000.0,14793
+TLE3,South Yorkshire,2022,178000.0,19976
+TLE4,West Yorkshire,2022,195000.0,33779
+TLF1,Derbyshire and Nottinghamshire,2022,223000.0,36716
+TLF2,"Leicestershire, Rutland and Northamptonshire",2022,271000.0,29506
+TLF3,Lincolnshire,2022,229995.0,14221
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2022,292000.0,23344
+TLG2,Shropshire and Staffordshire,2022,230000.0,26459
+TLG3,West Midlands,2022,220000.0,32691
+TLH2,Bedfordshire and Hertfordshire,2022,400000.0,29174
+TLH3,Essex,2022,361000.0,31336
+TLH4,Cambridgeshire and Peterborough,2022,325000.0,14756
+TLH5,Norfolk,2022,280000.0,16541
+TLH6,Suffolk,2022,295000.0,13392
+TLI3,Inner London - West,2022,825000.0,15521
+TLI4,Inner London - East,2022,530000.0,24848
+TLI5,Outer London - East and North East,2022,450000.0,19983
+TLI6,Outer London - South,2022,475000.0,17809
+TLI7,Outer London - West and North West,2022,535000.0,21361
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2022,410500.0,40077
+TLJ2,"Surrey, East and West Sussex",2022,423625.0,51180
+TLJ3,Hampshire and Isle of Wight,2022,335000.0,31886
+TLJ4,Kent,2022,350000.0,30879
+TLK3,Cornwall and Isles of Scilly,2022,295000.0,9921
+TLK4,Devon,2022,285000.0,21785
+TLK5,West of England,2022,344995.0,14753
+TLK6,"North Somerset, Somerset and Dorset",2022,319000.0,28598
+TLK7,Gloucestershire and Wiltshire,2022,310000.0,24014
+TLL3,North Wales,2022,199950.0,10787
+TLL4,Mid and South West Wales,2022,192000.0,12969
+TLL5,South East Wales,2022,210000.0,23383
+TLC3,Tees Valley,2023,161000.0,9007
+TLC4,"Northumberland, Durham and Tyne & Wear",2023,167950.0,26293
+TLD1,Cumbria,2023,194995.0,7830
+TLD3,Greater Manchester,2023,222500.0,31042
+TLD4,Lancashire,2023,180000.0,21041
+TLD6,Cheshire,2023,267000.0,13998
+TLD7,Merseyside,2023,184995.0,17426
+TLE1,East Yorkshire and Northern Lincolnshire,2023,179950.0,12614
+TLE2,North Yorkshire,2023,275000.0,12071
+TLE3,South Yorkshire,2023,180000.0,16404
+TLE4,West Yorkshire,2023,198000.0,27294
+TLF1,Derbyshire and Nottinghamshire,2023,225000.0,28729
+TLF2,"Leicestershire, Rutland and Northamptonshire",2023,275000.0,22795
+TLF3,Lincolnshire,2023,226000.0,10611
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2023,292000.0,18600
+TLG2,Shropshire and Staffordshire,2023,229995.0,21104
+TLG3,West Midlands,2023,224000.0,25333
+TLH2,Bedfordshire and Hertfordshire,2023,400000.0,21492
+TLH3,Essex,2023,360000.0,22639
+TLH4,Cambridgeshire and Peterborough,2023,330000.0,11052
+TLH5,Norfolk,2023,275000.0,12766
+TLH6,Suffolk,2023,295000.0,10160
+TLI3,Inner London - West,2023,835000.0,13144
+TLI4,Inner London - East,2023,530000.0,18952
+TLI5,Outer London - East and North East,2023,445000.0,15144
+TLI6,Outer London - South,2023,475000.0,13255
+TLI7,Outer London - West and North West,2023,535000.0,15838
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2023,415000.0,30420
+TLJ2,"Surrey, East and West Sussex",2023,420000.0,38134
+TLJ3,Hampshire and Isle of Wight,2023,325000.0,24345
+TLJ4,Kent,2023,340000.0,23013
+TLK3,Cornwall and Isles of Scilly,2023,295000.0,7885
+TLK4,Devon,2023,287000.0,17291
+TLK5,West of England,2023,345000.0,12170
+TLK6,"North Somerset, Somerset and Dorset",2023,318000.0,22332
+TLK7,Gloucestershire and Wiltshire,2023,309950.0,19059
+TLL3,North Wales,2023,195000.0,8268
+TLL4,Mid and South West Wales,2023,190000.0,10342
+TLL5,South East Wales,2023,213000.0,18025
+TLC3,Tees Valley,2024,165000.0,9405
+TLC4,"Northumberland, Durham and Tyne & Wear",2024,170995.0,27297
+TLD1,Cumbria,2024,200000.0,7995
+TLD3,Greater Manchester,2024,235000.0,33401
+TLD4,Lancashire,2024,185000.0,22578
+TLD6,Cheshire,2024,275000.0,14578
+TLD7,Merseyside,2024,195000.0,18575
+TLE1,East Yorkshire and Northern Lincolnshire,2024,180500.0,13402
+TLE2,North Yorkshire,2024,280000.0,13033
+TLE3,South Yorkshire,2024,190000.0,17143
+TLE4,West Yorkshire,2024,207500.0,29487
+TLF1,Derbyshire and Nottinghamshire,2024,230000.0,30704
+TLF2,"Leicestershire, Rutland and Northamptonshire",2024,277950.0,24990
+TLF3,Lincolnshire,2024,227500.0,11377
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2024,298150.0,20662
+TLG2,Shropshire and Staffordshire,2024,235000.0,22625
+TLG3,West Midlands,2024,230000.0,27044
+TLH2,Bedfordshire and Hertfordshire,2024,405000.0,23731
+TLH3,Essex,2024,365000.0,25442
+TLH4,Cambridgeshire and Peterborough,2024,325000.0,11733
+TLH5,Norfolk,2024,275000.0,13770
+TLH6,Suffolk,2024,287500.0,11182
+TLI3,Inner London - West,2024,800000.0,13932
+TLI4,Inner London - East,2024,540000.0,21197
+TLI5,Outer London - East and North East,2024,450000.0,17103
+TLI6,Outer London - South,2024,480000.0,14504
+TLI7,Outer London - West and North West,2024,550000.0,17025
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2024,415000.0,32494
+TLJ2,"Surrey, East and West Sussex",2024,420000.0,41636
+TLJ3,Hampshire and Isle of Wight,2024,335000.0,26849
+TLJ4,Kent,2024,340000.0,24868
+TLK3,Cornwall and Isles of Scilly,2024,290000.0,8287
+TLK4,Devon,2024,282500.0,18456
+TLK5,West of England,2024,350000.0,12716
+TLK6,"North Somerset, Somerset and Dorset",2024,315000.0,23878
+TLK7,Gloucestershire and Wiltshire,2024,310000.0,20676
+TLL3,North Wales,2024,200000.0,8784
+TLL4,Mid and South West Wales,2024,200000.0,10825
+TLL5,South East Wales,2024,221000.0,19065
+TLC3,Tees Valley,2025,168500.0,9519
+TLC4,"Northumberland, Durham and Tyne & Wear",2025,175000.0,26911
+TLD1,Cumbria,2025,203150.0,8134
+TLD3,Greater Manchester,2025,243000.0,34200
+TLD4,Lancashire,2025,190000.0,23062
+TLD6,Cheshire,2025,275000.0,15630
+TLD7,Merseyside,2025,208000.0,18819
+TLE1,East Yorkshire and Northern Lincolnshire,2025,185000.0,13788
+TLE2,North Yorkshire,2025,280000.0,12794
+TLE3,South Yorkshire,2025,195000.0,17011
+TLE4,West Yorkshire,2025,217000.0,29901
+TLF1,Derbyshire and Nottinghamshire,2025,230000.0,31411
+TLF2,"Leicestershire, Rutland and Northamptonshire",2025,278000.0,26089
+TLF3,Lincolnshire,2025,231000.0,11970
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2025,300000.0,21184
+TLG2,Shropshire and Staffordshire,2025,240000.0,22854
+TLG3,West Midlands,2025,239950.0,27469
+TLH2,Bedfordshire and Hertfordshire,2025,410000.0,24851
+TLH3,Essex,2025,372000.0,27283
+TLH4,Cambridgeshire and Peterborough,2025,325000.0,11893
+TLH5,Norfolk,2025,275000.0,13963
+TLH6,Suffolk,2025,290000.0,11545
+TLI3,Inner London - West,2025,750000.0,12871
+TLI4,Inner London - East,2025,527000.0,20865
+TLI5,Outer London - East and North East,2025,460000.0,17566
+TLI6,Outer London - South,2025,490000.0,14774
+TLI7,Outer London - West and North West,2025,550000.0,17076
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2025,420000.0,32864
+TLJ2,"Surrey, East and West Sussex",2025,423000.0,42391
+TLJ3,Hampshire and Isle of Wight,2025,337000.0,28099
+TLJ4,Kent,2025,350000.0,26327
+TLK3,Cornwall and Isles of Scilly,2025,287500.0,8395
+TLK4,Devon,2025,282500.0,18499
+TLK5,West of England,2025,350000.0,13099
+TLK6,"North Somerset, Somerset and Dorset",2025,318000.0,24545
+TLK7,Gloucestershire and Wiltshire,2025,310000.0,21258
+TLL3,North Wales,2025,210000.0,9177
+TLL4,Mid and South West Wales,2025,205000.0,11169
+TLL5,South East Wales,2025,225000.0,19659
+TLC3,Tees Valley,2026,165250.0,2502
+TLC4,"Northumberland, Durham and Tyne & Wear",2026,169000.0,7410
+TLD1,Cumbria,2026,196500.0,2533
+TLD3,Greater Manchester,2026,240000.0,9646
+TLD4,Lancashire,2026,185000.0,6292
+TLD6,Cheshire,2026,275000.0,4401
+TLD7,Merseyside,2026,205000.0,5239
+TLE1,East Yorkshire and Northern Lincolnshire,2026,179000.0,3937
+TLE2,North Yorkshire,2026,275000.0,3707
+TLE3,South Yorkshire,2026,191000.0,4823
+TLE4,West Yorkshire,2026,212000.0,8750
+TLF1,Derbyshire and Nottinghamshire,2026,225000.0,8535
+TLF2,"Leicestershire, Rutland and Northamptonshire",2026,268000.0,7144
+TLF3,Lincolnshire,2026,225000.0,3377
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2026,290000.0,5618
+TLG2,Shropshire and Staffordshire,2026,237000.0,6204
+TLG3,West Midlands,2026,239950.0,7543
+TLH2,Bedfordshire and Hertfordshire,2026,400000.0,6733
+TLH3,Essex,2026,360000.0,7467
+TLH4,Cambridgeshire and Peterborough,2026,305000.0,3131
+TLH5,Norfolk,2026,266000.0,4060
+TLH6,Suffolk,2026,277500.0,3279
+TLI3,Inner London - West,2026,650000.0,2884
+TLI4,Inner London - East,2026,500000.0,5068
+TLI5,Outer London - East and North East,2026,455000.0,4711
+TLI6,Outer London - South,2026,476500.0,3966
+TLI7,Outer London - West and North West,2026,530000.0,4262
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2026,405000.0,8931
+TLJ2,"Surrey, East and West Sussex",2026,415000.0,11969
+TLJ3,Hampshire and Isle of Wight,2026,325000.0,8396
+TLJ4,Kent,2026,335000.0,7440
+TLK3,Cornwall and Isles of Scilly,2026,280000.0,2586
+TLK4,Devon,2026,270000.0,5438
+TLK5,West of England,2026,353000.0,3957
+TLK6,"North Somerset, Somerset and Dorset",2026,310664.0,7483
+TLK7,Gloucestershire and Wiltshire,2026,305000.0,5867
+TLL3,North Wales,2026,205000.0,2681
+TLL4,Mid and South West Wales,2026,200000.0,3197
+TLL5,South East Wales,2026,225750.0,5482
