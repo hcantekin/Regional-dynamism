@@ -5,8 +5,25 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# --- Raw & large data: never commit (regenerate via scripts) ---
-raw/
+# --- Raw data ---
+# Ignored by default. Exceptions below: small hand-downloaded source files that the
+# build reads from disk and cannot fetch itself. Still never committed:
+#   - API extracts (dated nomis_*.csv) — re-pulled by the notebooks on every run
+#   - files the notebooks download themselves if missing (boundary zips etc.)
+#   - very large files (Price Paid, ONSPD, Code History Database)
+raw/**
+!raw/**/
+!raw/gva/*.xlsx
+!raw/gdhi/*.xlsx
+!raw/migration/*.xlsx
+!raw/migration/scotland/*.xlsx
+!raw/demographic/rural-urban-classification-2021.xlsx
+!raw/productivity/*.xlsx
+!raw/geography/*.csv
+!raw/geography/*.geojson
+!raw/density/sgur2022_population_tables.xlsx
+!raw/density/nisra_MYE24_DZ.xlsx
+!raw/density/nisra_Settlement15-lookup.xls
 *.zip
 *.accdb
 

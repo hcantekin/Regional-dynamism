@@ -1,0 +1,1426 @@
+itl2_code,itl2_name,year,median_age
+TLC1,Tees Valley and Durham,1991,35.7
+TLC2,"Northumberland, and Tyne and Wear",1991,36.4
+TLD1,Cumbria,1991,38.5
+TLD3,Greater Manchester,1991,34.6
+TLD4,Lancashire,1991,37.0
+TLD6,Cheshire,1991,37.2
+TLD7,Merseyside,1991,35.2
+TLE1,East Yorkshire and Northern Lincolnshire,1991,36.3
+TLE2,North Yorkshire,1991,38.6
+TLE3,South Yorkshire,1991,35.9
+TLE4,West Yorkshire,1991,34.7
+TLF1,Derbyshire and Nottinghamshire,1991,36.4
+TLF2,"Leicestershire, Rutland and Northamptonshire",1991,35.0
+TLF3,Lincolnshire,1991,39.4
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1991,37.9
+TLG2,Shropshire and Staffordshire,1991,36.5
+TLG3,West Midlands,1991,34.4
+TLH1,East Anglia,1991,37.1
+TLH2,Bedfordshire and Hertfordshire,1991,35.1
+TLH3,Essex,1991,37.0
+TLI3,Inner London - West,1991,32.7
+TLI4,Inner London - East,1991,30.8
+TLI5,Outer London - East and North East,1991,34.6
+TLI6,Outer London - South,1991,35.6
+TLI7,Outer London - West and North West,1991,34.1
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1991,34.1
+TLJ2,"Surrey, East and West Sussex",1991,39.5
+TLJ3,Hampshire and Isle of Wight,1991,36.1
+TLJ4,Kent,1991,37.0
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1991,36.5
+TLK2,Dorset and Somerset,1991,40.6
+TLK3,Cornwall and Isles of Scilly,1991,40.8
+TLK4,Devon,1991,39.6
+TLL1,West Wales and The Valleys,1991,38.0
+TLL2,East Wales,1991,36.2
+TLM5,North Eastern Scotland,1991,34.8
+TLM6,Highlands and Islands,1991,36.6
+TLM7,Eastern Scotland,1991,35.8
+TLM8,West Central Scotland,1991,34.6
+TLM9,Southern Scotland,1991,36.8
+TLC1,Tees Valley and Durham,1992,35.9
+TLC2,"Northumberland, and Tyne and Wear",1992,36.5
+TLD1,Cumbria,1992,38.7
+TLD3,Greater Manchester,1992,34.7
+TLD4,Lancashire,1992,37.0
+TLD6,Cheshire,1992,37.3
+TLD7,Merseyside,1992,35.4
+TLE1,East Yorkshire and Northern Lincolnshire,1992,36.4
+TLE2,North Yorkshire,1992,38.7
+TLE3,South Yorkshire,1992,36.0
+TLE4,West Yorkshire,1992,34.8
+TLF1,Derbyshire and Nottinghamshire,1992,36.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",1992,35.2
+TLF3,Lincolnshire,1992,39.5
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1992,38.1
+TLG2,Shropshire and Staffordshire,1992,36.7
+TLG3,West Midlands,1992,34.5
+TLH1,East Anglia,1992,37.4
+TLH2,Bedfordshire and Hertfordshire,1992,35.2
+TLH3,Essex,1992,37.1
+TLI3,Inner London - West,1992,32.9
+TLI4,Inner London - East,1992,31.0
+TLI5,Outer London - East and North East,1992,34.7
+TLI6,Outer London - South,1992,35.7
+TLI7,Outer London - West and North West,1992,34.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1992,34.3
+TLJ2,"Surrey, East and West Sussex",1992,39.6
+TLJ3,Hampshire and Isle of Wight,1992,36.3
+TLJ4,Kent,1992,37.1
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1992,36.6
+TLK2,Dorset and Somerset,1992,40.7
+TLK3,Cornwall and Isles of Scilly,1992,41.1
+TLK4,Devon,1992,39.7
+TLL1,West Wales and The Valleys,1992,38.2
+TLL2,East Wales,1992,36.4
+TLM5,North Eastern Scotland,1992,34.9
+TLM6,Highlands and Islands,1992,36.9
+TLM7,Eastern Scotland,1992,36.0
+TLM8,West Central Scotland,1992,34.8
+TLM9,Southern Scotland,1992,37.1
+TLC1,Tees Valley and Durham,1993,36.1
+TLC2,"Northumberland, and Tyne and Wear",1993,36.6
+TLD1,Cumbria,1993,38.9
+TLD3,Greater Manchester,1993,34.8
+TLD4,Lancashire,1993,37.0
+TLD6,Cheshire,1993,37.4
+TLD7,Merseyside,1993,35.7
+TLE1,East Yorkshire and Northern Lincolnshire,1993,36.6
+TLE2,North Yorkshire,1993,39.1
+TLE3,South Yorkshire,1993,36.2
+TLE4,West Yorkshire,1993,34.9
+TLF1,Derbyshire and Nottinghamshire,1993,36.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",1993,35.3
+TLF3,Lincolnshire,1993,39.6
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1993,38.3
+TLG2,Shropshire and Staffordshire,1993,37.0
+TLG3,West Midlands,1993,34.6
+TLH1,East Anglia,1993,37.7
+TLH2,Bedfordshire and Hertfordshire,1993,35.4
+TLH3,Essex,1993,37.3
+TLI3,Inner London - West,1993,33.1
+TLI4,Inner London - East,1993,31.1
+TLI5,Outer London - East and North East,1993,34.7
+TLI6,Outer London - South,1993,35.7
+TLI7,Outer London - West and North West,1993,34.3
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1993,34.6
+TLJ2,"Surrey, East and West Sussex",1993,39.7
+TLJ3,Hampshire and Isle of Wight,1993,36.6
+TLJ4,Kent,1993,37.3
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1993,36.8
+TLK2,Dorset and Somerset,1993,40.9
+TLK3,Cornwall and Isles of Scilly,1993,41.3
+TLK4,Devon,1993,39.9
+TLL1,West Wales and The Valleys,1993,38.3
+TLL2,East Wales,1993,36.5
+TLM5,North Eastern Scotland,1993,35.0
+TLM6,Highlands and Islands,1993,37.1
+TLM7,Eastern Scotland,1993,36.1
+TLM8,West Central Scotland,1993,35.0
+TLM9,Southern Scotland,1993,37.3
+TLC1,Tees Valley and Durham,1994,36.3
+TLC2,"Northumberland, and Tyne and Wear",1994,36.8
+TLD1,Cumbria,1994,39.1
+TLD3,Greater Manchester,1994,35.0
+TLD4,Lancashire,1994,37.1
+TLD6,Cheshire,1994,37.6
+TLD7,Merseyside,1994,35.9
+TLE1,East Yorkshire and Northern Lincolnshire,1994,36.7
+TLE2,North Yorkshire,1994,39.1
+TLE3,South Yorkshire,1994,36.4
+TLE4,West Yorkshire,1994,35.1
+TLF1,Derbyshire and Nottinghamshire,1994,36.7
+TLF2,"Leicestershire, Rutland and Northamptonshire",1994,35.5
+TLF3,Lincolnshire,1994,39.7
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1994,38.4
+TLG2,Shropshire and Staffordshire,1994,37.1
+TLG3,West Midlands,1994,34.8
+TLH1,East Anglia,1994,37.9
+TLH2,Bedfordshire and Hertfordshire,1994,35.6
+TLH3,Essex,1994,37.4
+TLI3,Inner London - West,1994,33.3
+TLI4,Inner London - East,1994,31.3
+TLI5,Outer London - East and North East,1994,34.8
+TLI6,Outer London - South,1994,35.6
+TLI7,Outer London - West and North West,1994,34.3
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1994,34.9
+TLJ2,"Surrey, East and West Sussex",1994,39.7
+TLJ3,Hampshire and Isle of Wight,1994,36.8
+TLJ4,Kent,1994,37.4
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1994,36.9
+TLK2,Dorset and Somerset,1994,40.9
+TLK3,Cornwall and Isles of Scilly,1994,41.5
+TLK4,Devon,1994,40.1
+TLL1,West Wales and The Valleys,1994,38.4
+TLL2,East Wales,1994,36.7
+TLM5,North Eastern Scotland,1994,35.2
+TLM6,Highlands and Islands,1994,37.4
+TLM7,Eastern Scotland,1994,36.3
+TLM8,West Central Scotland,1994,35.3
+TLM9,Southern Scotland,1994,37.6
+TLC1,Tees Valley and Durham,1995,36.6
+TLC2,"Northumberland, and Tyne and Wear",1995,37.1
+TLD1,Cumbria,1995,39.3
+TLD3,Greater Manchester,1995,35.2
+TLD4,Lancashire,1995,37.2
+TLD6,Cheshire,1995,37.8
+TLD7,Merseyside,1995,36.2
+TLE1,East Yorkshire and Northern Lincolnshire,1995,36.9
+TLE2,North Yorkshire,1995,39.3
+TLE3,South Yorkshire,1995,36.6
+TLE4,West Yorkshire,1995,35.3
+TLF1,Derbyshire and Nottinghamshire,1995,36.9
+TLF2,"Leicestershire, Rutland and Northamptonshire",1995,35.7
+TLF3,Lincolnshire,1995,39.8
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1995,38.7
+TLG2,Shropshire and Staffordshire,1995,37.4
+TLG3,West Midlands,1995,34.9
+TLH1,East Anglia,1995,38.1
+TLH2,Bedfordshire and Hertfordshire,1995,35.9
+TLH3,Essex,1995,37.6
+TLI3,Inner London - West,1995,33.4
+TLI4,Inner London - East,1995,31.4
+TLI5,Outer London - East and North East,1995,34.9
+TLI6,Outer London - South,1995,35.6
+TLI7,Outer London - West and North West,1995,34.3
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1995,35.0
+TLJ2,"Surrey, East and West Sussex",1995,39.7
+TLJ3,Hampshire and Isle of Wight,1995,37.0
+TLJ4,Kent,1995,37.6
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1995,37.1
+TLK2,Dorset and Somerset,1995,41.1
+TLK3,Cornwall and Isles of Scilly,1995,41.7
+TLK4,Devon,1995,40.2
+TLL1,West Wales and The Valleys,1995,38.6
+TLL2,East Wales,1995,36.9
+TLM5,North Eastern Scotland,1995,35.5
+TLM6,Highlands and Islands,1995,37.7
+TLM7,Eastern Scotland,1995,36.5
+TLM8,West Central Scotland,1995,35.6
+TLM9,Southern Scotland,1995,37.9
+TLC1,Tees Valley and Durham,1996,36.9
+TLC2,"Northumberland, and Tyne and Wear",1996,37.4
+TLD1,Cumbria,1996,39.6
+TLD3,Greater Manchester,1996,35.4
+TLD4,Lancashire,1996,37.4
+TLD6,Cheshire,1996,38.0
+TLD7,Merseyside,1996,36.5
+TLE1,East Yorkshire and Northern Lincolnshire,1996,37.2
+TLE2,North Yorkshire,1996,39.5
+TLE3,South Yorkshire,1996,36.8
+TLE4,West Yorkshire,1996,35.5
+TLF1,Derbyshire and Nottinghamshire,1996,37.1
+TLF2,"Leicestershire, Rutland and Northamptonshire",1996,36.0
+TLF3,Lincolnshire,1996,40.0
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1996,38.9
+TLG2,Shropshire and Staffordshire,1996,37.7
+TLG3,West Midlands,1996,35.0
+TLH1,East Anglia,1996,38.3
+TLH2,Bedfordshire and Hertfordshire,1996,36.1
+TLH3,Essex,1996,37.8
+TLI3,Inner London - West,1996,33.4
+TLI4,Inner London - East,1996,31.5
+TLI5,Outer London - East and North East,1996,35.0
+TLI6,Outer London - South,1996,35.6
+TLI7,Outer London - West and North West,1996,34.3
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1996,35.3
+TLJ2,"Surrey, East and West Sussex",1996,39.8
+TLJ3,Hampshire and Isle of Wight,1996,37.2
+TLJ4,Kent,1996,37.8
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1996,37.4
+TLK2,Dorset and Somerset,1996,41.2
+TLK3,Cornwall and Isles of Scilly,1996,42.1
+TLK4,Devon,1996,40.5
+TLL1,West Wales and The Valleys,1996,38.8
+TLL2,East Wales,1996,37.1
+TLM5,North Eastern Scotland,1996,35.9
+TLM6,Highlands and Islands,1996,38.1
+TLM7,Eastern Scotland,1996,36.8
+TLM8,West Central Scotland,1996,35.9
+TLM9,Southern Scotland,1996,38.2
+TLC1,Tees Valley and Durham,1997,37.3
+TLC2,"Northumberland, and Tyne and Wear",1997,37.7
+TLD1,Cumbria,1997,39.8
+TLD3,Greater Manchester,1997,35.7
+TLD4,Lancashire,1997,37.6
+TLD6,Cheshire,1997,38.2
+TLD7,Merseyside,1997,36.9
+TLE1,East Yorkshire and Northern Lincolnshire,1997,37.5
+TLE2,North Yorkshire,1997,39.7
+TLE3,South Yorkshire,1997,37.0
+TLE4,West Yorkshire,1997,35.7
+TLF1,Derbyshire and Nottinghamshire,1997,37.3
+TLF2,"Leicestershire, Rutland and Northamptonshire",1997,36.3
+TLF3,Lincolnshire,1997,40.2
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1997,39.1
+TLG2,Shropshire and Staffordshire,1997,37.9
+TLG3,West Midlands,1997,35.3
+TLH1,East Anglia,1997,38.5
+TLH2,Bedfordshire and Hertfordshire,1997,36.3
+TLH3,Essex,1997,38.0
+TLI3,Inner London - West,1997,33.6
+TLI4,Inner London - East,1997,31.7
+TLI5,Outer London - East and North East,1997,35.1
+TLI6,Outer London - South,1997,35.7
+TLI7,Outer London - West and North West,1997,34.4
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1997,35.5
+TLJ2,"Surrey, East and West Sussex",1997,39.8
+TLJ3,Hampshire and Isle of Wight,1997,37.4
+TLJ4,Kent,1997,38.0
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1997,37.5
+TLK2,Dorset and Somerset,1997,41.3
+TLK3,Cornwall and Isles of Scilly,1997,42.2
+TLK4,Devon,1997,40.7
+TLL1,West Wales and The Valleys,1997,39.0
+TLL2,East Wales,1997,37.3
+TLM5,North Eastern Scotland,1997,36.3
+TLM6,Highlands and Islands,1997,38.6
+TLM7,Eastern Scotland,1997,37.1
+TLM8,West Central Scotland,1997,36.3
+TLM9,Southern Scotland,1997,38.6
+TLC1,Tees Valley and Durham,1998,37.6
+TLC2,"Northumberland, and Tyne and Wear",1998,38.0
+TLD1,Cumbria,1998,40.1
+TLD3,Greater Manchester,1998,36.0
+TLD4,Lancashire,1998,37.8
+TLD6,Cheshire,1998,38.5
+TLD7,Merseyside,1998,37.2
+TLE1,East Yorkshire and Northern Lincolnshire,1998,37.9
+TLE2,North Yorkshire,1998,39.9
+TLE3,South Yorkshire,1998,37.3
+TLE4,West Yorkshire,1998,36.0
+TLF1,Derbyshire and Nottinghamshire,1998,37.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",1998,36.6
+TLF3,Lincolnshire,1998,40.5
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1998,39.3
+TLG2,Shropshire and Staffordshire,1998,38.1
+TLG3,West Midlands,1998,35.6
+TLH1,East Anglia,1998,38.7
+TLH2,Bedfordshire and Hertfordshire,1998,36.5
+TLH3,Essex,1998,38.2
+TLI3,Inner London - West,1998,33.8
+TLI4,Inner London - East,1998,31.8
+TLI5,Outer London - East and North East,1998,35.2
+TLI6,Outer London - South,1998,35.8
+TLI7,Outer London - West and North West,1998,34.5
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1998,35.9
+TLJ2,"Surrey, East and West Sussex",1998,39.9
+TLJ3,Hampshire and Isle of Wight,1998,37.7
+TLJ4,Kent,1998,38.1
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1998,37.7
+TLK2,Dorset and Somerset,1998,41.4
+TLK3,Cornwall and Isles of Scilly,1998,42.5
+TLK4,Devon,1998,40.9
+TLL1,West Wales and The Valleys,1998,39.2
+TLL2,East Wales,1998,37.5
+TLM5,North Eastern Scotland,1998,36.8
+TLM6,Highlands and Islands,1998,39.1
+TLM7,Eastern Scotland,1998,37.4
+TLM8,West Central Scotland,1998,36.6
+TLM9,Southern Scotland,1998,39.0
+TLC1,Tees Valley and Durham,1999,37.9
+TLC2,"Northumberland, and Tyne and Wear",1999,38.4
+TLD1,Cumbria,1999,40.5
+TLD3,Greater Manchester,1999,36.2
+TLD4,Lancashire,1999,38.1
+TLD6,Cheshire,1999,38.9
+TLD7,Merseyside,1999,37.5
+TLE1,East Yorkshire and Northern Lincolnshire,1999,38.3
+TLE2,North Yorkshire,1999,40.2
+TLE3,South Yorkshire,1999,37.5
+TLE4,West Yorkshire,1999,36.2
+TLF1,Derbyshire and Nottinghamshire,1999,37.8
+TLF2,"Leicestershire, Rutland and Northamptonshire",1999,36.8
+TLF3,Lincolnshire,1999,40.8
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1999,39.7
+TLG2,Shropshire and Staffordshire,1999,38.5
+TLG3,West Midlands,1999,35.7
+TLH1,East Anglia,1999,39.0
+TLH2,Bedfordshire and Hertfordshire,1999,36.8
+TLH3,Essex,1999,38.5
+TLI3,Inner London - West,1999,33.4
+TLI4,Inner London - East,1999,31.6
+TLI5,Outer London - East and North East,1999,35.4
+TLI6,Outer London - South,1999,35.9
+TLI7,Outer London - West and North West,1999,34.6
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",1999,36.1
+TLJ2,"Surrey, East and West Sussex",1999,39.9
+TLJ3,Hampshire and Isle of Wight,1999,38.0
+TLJ4,Kent,1999,38.4
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",1999,37.9
+TLK2,Dorset and Somerset,1999,41.9
+TLK3,Cornwall and Isles of Scilly,1999,42.8
+TLK4,Devon,1999,41.4
+TLL1,West Wales and The Valleys,1999,39.5
+TLL2,East Wales,1999,37.6
+TLM5,North Eastern Scotland,1999,37.2
+TLM6,Highlands and Islands,1999,39.6
+TLM7,Eastern Scotland,1999,37.7
+TLM8,West Central Scotland,1999,36.9
+TLM9,Southern Scotland,1999,39.4
+TLC1,Tees Valley and Durham,2000,38.3
+TLC2,"Northumberland, and Tyne and Wear",2000,38.8
+TLD1,Cumbria,2000,41.0
+TLD3,Greater Manchester,2000,36.4
+TLD4,Lancashire,2000,38.4
+TLD6,Cheshire,2000,39.2
+TLD7,Merseyside,2000,37.9
+TLE1,East Yorkshire and Northern Lincolnshire,2000,38.7
+TLE2,North Yorkshire,2000,40.4
+TLE3,South Yorkshire,2000,37.8
+TLE4,West Yorkshire,2000,36.4
+TLF1,Derbyshire and Nottinghamshire,2000,38.1
+TLF2,"Leicestershire, Rutland and Northamptonshire",2000,37.2
+TLF3,Lincolnshire,2000,41.1
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2000,40.0
+TLG2,Shropshire and Staffordshire,2000,38.8
+TLG3,West Midlands,2000,35.9
+TLH1,East Anglia,2000,39.4
+TLH2,Bedfordshire and Hertfordshire,2000,37.0
+TLH3,Essex,2000,38.7
+TLI3,Inner London - West,2000,33.3
+TLI4,Inner London - East,2000,31.7
+TLI5,Outer London - East and North East,2000,35.5
+TLI6,Outer London - South,2000,36.1
+TLI7,Outer London - West and North West,2000,34.7
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2000,36.4
+TLJ2,"Surrey, East and West Sussex",2000,40.1
+TLJ3,Hampshire and Isle of Wight,2000,38.3
+TLJ4,Kent,2000,38.6
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2000,38.2
+TLK2,Dorset and Somerset,2000,42.2
+TLK3,Cornwall and Isles of Scilly,2000,43.1
+TLK4,Devon,2000,41.6
+TLL1,West Wales and The Valleys,2000,39.7
+TLL2,East Wales,2000,37.9
+TLM5,North Eastern Scotland,2000,37.7
+TLM6,Highlands and Islands,2000,40.1
+TLM7,Eastern Scotland,2000,38.0
+TLM8,West Central Scotland,2000,37.3
+TLM9,Southern Scotland,2000,39.9
+TLC1,Tees Valley and Durham,2001,38.7
+TLC2,"Northumberland, and Tyne and Wear",2001,39.1
+TLD1,Cumbria,2001,41.5
+TLD3,Greater Manchester,2001,36.7
+TLD4,Lancashire,2001,38.7
+TLD6,Cheshire,2001,39.6
+TLD7,Merseyside,2001,38.2
+TLE1,East Yorkshire and Northern Lincolnshire,2001,39.1
+TLE2,North Yorkshire,2001,40.7
+TLE3,South Yorkshire,2001,38.1
+TLE4,West Yorkshire,2001,36.6
+TLF1,Derbyshire and Nottinghamshire,2001,38.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2001,37.5
+TLF3,Lincolnshire,2001,41.5
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2001,40.2
+TLG2,Shropshire and Staffordshire,2001,39.2
+TLG3,West Midlands,2001,36.1
+TLH1,East Anglia,2001,39.8
+TLH2,Bedfordshire and Hertfordshire,2001,37.3
+TLH3,Essex,2001,39.0
+TLI3,Inner London - West,2001,33.1
+TLI4,Inner London - East,2001,31.7
+TLI5,Outer London - East and North East,2001,35.7
+TLI6,Outer London - South,2001,36.3
+TLI7,Outer London - West and North West,2001,34.8
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2001,36.6
+TLJ2,"Surrey, East and West Sussex",2001,40.3
+TLJ3,Hampshire and Isle of Wight,2001,38.5
+TLJ4,Kent,2001,38.9
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2001,38.4
+TLK2,Dorset and Somerset,2001,42.5
+TLK3,Cornwall and Isles of Scilly,2001,43.4
+TLK4,Devon,2001,41.9
+TLL1,West Wales and The Valleys,2001,40.1
+TLL2,East Wales,2001,38.1
+TLM5,North Eastern Scotland,2001,38.2
+TLM6,Highlands and Islands,2001,40.7
+TLM7,Eastern Scotland,2001,38.4
+TLM8,West Central Scotland,2001,37.6
+TLM9,Southern Scotland,2001,40.3
+TLN0,Northern Ireland,2001,34.7
+TLC1,Tees Valley and Durham,2002,39.0
+TLC2,"Northumberland, and Tyne and Wear",2002,39.4
+TLD1,Cumbria,2002,41.9
+TLD3,Greater Manchester,2002,36.8
+TLD4,Lancashire,2002,39.0
+TLD6,Cheshire,2002,39.9
+TLD7,Merseyside,2002,38.5
+TLE1,East Yorkshire and Northern Lincolnshire,2002,39.5
+TLE2,North Yorkshire,2002,41.0
+TLE3,South Yorkshire,2002,38.3
+TLE4,West Yorkshire,2002,36.8
+TLF1,Derbyshire and Nottinghamshire,2002,38.7
+TLF2,"Leicestershire, Rutland and Northamptonshire",2002,37.7
+TLF3,Lincolnshire,2002,41.9
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2002,40.5
+TLG2,Shropshire and Staffordshire,2002,39.5
+TLG3,West Midlands,2002,36.2
+TLH1,East Anglia,2002,40.1
+TLH2,Bedfordshire and Hertfordshire,2002,37.5
+TLH3,Essex,2002,39.3
+TLI3,Inner London - West,2002,33.0
+TLI4,Inner London - East,2002,31.7
+TLI5,Outer London - East and North East,2002,35.7
+TLI6,Outer London - South,2002,36.5
+TLI7,Outer London - West and North West,2002,35.0
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2002,36.9
+TLJ2,"Surrey, East and West Sussex",2002,40.5
+TLJ3,Hampshire and Isle of Wight,2002,38.8
+TLJ4,Kent,2002,39.1
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2002,38.7
+TLK2,Dorset and Somerset,2002,42.6
+TLK3,Cornwall and Isles of Scilly,2002,43.6
+TLK4,Devon,2002,42.2
+TLL1,West Wales and The Valleys,2002,40.4
+TLL2,East Wales,2002,38.4
+TLM5,North Eastern Scotland,2002,38.6
+TLM6,Highlands and Islands,2002,41.2
+TLM7,Eastern Scotland,2002,38.8
+TLM8,West Central Scotland,2002,37.9
+TLM9,Southern Scotland,2002,40.8
+TLN0,Northern Ireland,2002,35.0
+TLC1,Tees Valley and Durham,2003,39.4
+TLC2,"Northumberland, and Tyne and Wear",2003,39.6
+TLD1,Cumbria,2003,42.2
+TLD3,Greater Manchester,2003,36.9
+TLD4,Lancashire,2003,39.2
+TLD6,Cheshire,2003,40.2
+TLD7,Merseyside,2003,38.8
+TLE1,East Yorkshire and Northern Lincolnshire,2003,39.8
+TLE2,North Yorkshire,2003,41.3
+TLE3,South Yorkshire,2003,38.5
+TLE4,West Yorkshire,2003,36.9
+TLF1,Derbyshire and Nottinghamshire,2003,38.9
+TLF2,"Leicestershire, Rutland and Northamptonshire",2003,38.0
+TLF3,Lincolnshire,2003,42.2
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2003,40.7
+TLG2,Shropshire and Staffordshire,2003,39.8
+TLG3,West Midlands,2003,36.3
+TLH1,East Anglia,2003,40.2
+TLH2,Bedfordshire and Hertfordshire,2003,37.8
+TLH3,Essex,2003,39.5
+TLI3,Inner London - West,2003,33.1
+TLI4,Inner London - East,2003,31.8
+TLI5,Outer London - East and North East,2003,35.8
+TLI6,Outer London - South,2003,36.7
+TLI7,Outer London - West and North West,2003,35.1
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2003,37.1
+TLJ2,"Surrey, East and West Sussex",2003,40.7
+TLJ3,Hampshire and Isle of Wight,2003,39.1
+TLJ4,Kent,2003,39.3
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2003,38.9
+TLK2,Dorset and Somerset,2003,42.8
+TLK3,Cornwall and Isles of Scilly,2003,43.8
+TLK4,Devon,2003,42.4
+TLL1,West Wales and The Valleys,2003,40.6
+TLL2,East Wales,2003,38.7
+TLM5,North Eastern Scotland,2003,38.9
+TLM6,Highlands and Islands,2003,41.6
+TLM7,Eastern Scotland,2003,39.1
+TLM8,West Central Scotland,2003,38.2
+TLM9,Southern Scotland,2003,41.1
+TLN0,Northern Ireland,2003,35.4
+TLC1,Tees Valley and Durham,2004,39.7
+TLC2,"Northumberland, and Tyne and Wear",2004,39.9
+TLD1,Cumbria,2004,42.5
+TLD3,Greater Manchester,2004,37.0
+TLD4,Lancashire,2004,39.5
+TLD6,Cheshire,2004,40.5
+TLD7,Merseyside,2004,39.0
+TLE1,East Yorkshire and Northern Lincolnshire,2004,40.0
+TLE2,North Yorkshire,2004,41.5
+TLE3,South Yorkshire,2004,38.6
+TLE4,West Yorkshire,2004,37.0
+TLF1,Derbyshire and Nottinghamshire,2004,39.1
+TLF2,"Leicestershire, Rutland and Northamptonshire",2004,38.1
+TLF3,Lincolnshire,2004,42.5
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2004,41.0
+TLG2,Shropshire and Staffordshire,2004,40.1
+TLG3,West Midlands,2004,36.4
+TLH1,East Anglia,2004,40.5
+TLH2,Bedfordshire and Hertfordshire,2004,38.0
+TLH3,Essex,2004,39.7
+TLI3,Inner London - West,2004,33.1
+TLI4,Inner London - East,2004,31.8
+TLI5,Outer London - East and North East,2004,35.9
+TLI6,Outer London - South,2004,36.9
+TLI7,Outer London - West and North West,2004,35.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2004,37.3
+TLJ2,"Surrey, East and West Sussex",2004,40.9
+TLJ3,Hampshire and Isle of Wight,2004,39.3
+TLJ4,Kent,2004,39.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2004,39.1
+TLK2,Dorset and Somerset,2004,43.1
+TLK3,Cornwall and Isles of Scilly,2004,43.9
+TLK4,Devon,2004,42.6
+TLL1,West Wales and The Valleys,2004,40.8
+TLL2,East Wales,2004,38.8
+TLM5,North Eastern Scotland,2004,39.3
+TLM6,Highlands and Islands,2004,42.0
+TLM7,Eastern Scotland,2004,39.4
+TLM8,West Central Scotland,2004,38.5
+TLM9,Southern Scotland,2004,41.5
+TLN0,Northern Ireland,2004,35.7
+TLC1,Tees Valley and Durham,2005,39.9
+TLC2,"Northumberland, and Tyne and Wear",2005,40.1
+TLD1,Cumbria,2005,42.8
+TLD3,Greater Manchester,2005,37.1
+TLD4,Lancashire,2005,39.7
+TLD6,Cheshire,2005,40.8
+TLD7,Merseyside,2005,39.2
+TLE1,East Yorkshire and Northern Lincolnshire,2005,40.3
+TLE2,North Yorkshire,2005,41.7
+TLE3,South Yorkshire,2005,38.7
+TLE4,West Yorkshire,2005,36.9
+TLF1,Derbyshire and Nottinghamshire,2005,39.3
+TLF2,"Leicestershire, Rutland and Northamptonshire",2005,38.3
+TLF3,Lincolnshire,2005,42.7
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2005,41.3
+TLG2,Shropshire and Staffordshire,2005,40.4
+TLG3,West Midlands,2005,36.4
+TLH1,East Anglia,2005,40.6
+TLH2,Bedfordshire and Hertfordshire,2005,38.2
+TLH3,Essex,2005,40.0
+TLI3,Inner London - West,2005,33.0
+TLI4,Inner London - East,2005,31.8
+TLI5,Outer London - East and North East,2005,35.9
+TLI6,Outer London - South,2005,37.0
+TLI7,Outer London - West and North West,2005,35.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2005,37.5
+TLJ2,"Surrey, East and West Sussex",2005,41.1
+TLJ3,Hampshire and Isle of Wight,2005,39.5
+TLJ4,Kent,2005,39.7
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2005,39.2
+TLK2,Dorset and Somerset,2005,43.2
+TLK3,Cornwall and Isles of Scilly,2005,44.1
+TLK4,Devon,2005,42.7
+TLL1,West Wales and The Valleys,2005,41.1
+TLL2,East Wales,2005,39.0
+TLM5,North Eastern Scotland,2005,39.6
+TLM6,Highlands and Islands,2005,42.3
+TLM7,Eastern Scotland,2005,39.6
+TLM8,West Central Scotland,2005,38.7
+TLM9,Southern Scotland,2005,41.9
+TLN0,Northern Ireland,2005,36.0
+TLC1,Tees Valley and Durham,2006,40.2
+TLC2,"Northumberland, and Tyne and Wear",2006,40.3
+TLD1,Cumbria,2006,43.1
+TLD3,Greater Manchester,2006,37.1
+TLD4,Lancashire,2006,39.9
+TLD6,Cheshire,2006,41.0
+TLD7,Merseyside,2006,39.4
+TLE1,East Yorkshire and Northern Lincolnshire,2006,40.5
+TLE2,North Yorkshire,2006,42.0
+TLE3,South Yorkshire,2006,38.8
+TLE4,West Yorkshire,2006,37.1
+TLF1,Derbyshire and Nottinghamshire,2006,39.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2006,38.4
+TLF3,Lincolnshire,2006,42.9
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2006,41.5
+TLG2,Shropshire and Staffordshire,2006,40.6
+TLG3,West Midlands,2006,36.4
+TLH1,East Anglia,2006,40.9
+TLH2,Bedfordshire and Hertfordshire,2006,38.4
+TLH3,Essex,2006,40.2
+TLI3,Inner London - West,2006,33.1
+TLI4,Inner London - East,2006,31.7
+TLI5,Outer London - East and North East,2006,35.8
+TLI6,Outer London - South,2006,37.1
+TLI7,Outer London - West and North West,2006,35.1
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2006,37.7
+TLJ2,"Surrey, East and West Sussex",2006,41.2
+TLJ3,Hampshire and Isle of Wight,2006,39.8
+TLJ4,Kent,2006,39.9
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2006,39.4
+TLK2,Dorset and Somerset,2006,43.4
+TLK3,Cornwall and Isles of Scilly,2006,44.3
+TLK4,Devon,2006,42.9
+TLL1,West Wales and The Valleys,2006,41.3
+TLL2,East Wales,2006,39.2
+TLM5,North Eastern Scotland,2006,39.8
+TLM6,Highlands and Islands,2006,42.7
+TLM7,Eastern Scotland,2006,39.8
+TLM8,West Central Scotland,2006,39.0
+TLM9,Southern Scotland,2006,42.2
+TLN0,Northern Ireland,2006,36.2
+TLC1,Tees Valley and Durham,2007,40.4
+TLC2,"Northumberland, and Tyne and Wear",2007,40.5
+TLD1,Cumbria,2007,43.4
+TLD3,Greater Manchester,2007,37.1
+TLD4,Lancashire,2007,40.1
+TLD6,Cheshire,2007,41.3
+TLD7,Merseyside,2007,39.6
+TLE1,East Yorkshire and Northern Lincolnshire,2007,40.8
+TLE2,North Yorkshire,2007,42.3
+TLE3,South Yorkshire,2007,39.0
+TLE4,West Yorkshire,2007,37.1
+TLF1,Derbyshire and Nottinghamshire,2007,39.8
+TLF2,"Leicestershire, Rutland and Northamptonshire",2007,38.6
+TLF3,Lincolnshire,2007,43.2
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2007,41.7
+TLG2,Shropshire and Staffordshire,2007,40.9
+TLG3,West Midlands,2007,36.4
+TLH1,East Anglia,2007,41.1
+TLH2,Bedfordshire and Hertfordshire,2007,38.5
+TLH3,Essex,2007,40.4
+TLI3,Inner London - West,2007,33.3
+TLI4,Inner London - East,2007,31.5
+TLI5,Outer London - East and North East,2007,35.6
+TLI6,Outer London - South,2007,37.0
+TLI7,Outer London - West and North West,2007,35.0
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2007,37.8
+TLJ2,"Surrey, East and West Sussex",2007,41.3
+TLJ3,Hampshire and Isle of Wight,2007,40.1
+TLJ4,Kent,2007,40.1
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2007,39.5
+TLK2,Dorset and Somerset,2007,43.6
+TLK3,Cornwall and Isles of Scilly,2007,44.4
+TLK4,Devon,2007,43.1
+TLL1,West Wales and The Valleys,2007,41.5
+TLL2,East Wales,2007,39.4
+TLM5,North Eastern Scotland,2007,39.8
+TLM6,Highlands and Islands,2007,43.0
+TLM7,Eastern Scotland,2007,39.9
+TLM8,West Central Scotland,2007,39.1
+TLM9,Southern Scotland,2007,42.6
+TLN0,Northern Ireland,2007,36.4
+TLC1,Tees Valley and Durham,2008,40.6
+TLC2,"Northumberland, and Tyne and Wear",2008,40.7
+TLD1,Cumbria,2008,43.8
+TLD3,Greater Manchester,2008,37.2
+TLD4,Lancashire,2008,40.4
+TLD6,Cheshire,2008,41.6
+TLD7,Merseyside,2008,39.8
+TLE1,East Yorkshire and Northern Lincolnshire,2008,41.0
+TLE2,North Yorkshire,2008,42.6
+TLE3,South Yorkshire,2008,39.1
+TLE4,West Yorkshire,2008,37.3
+TLF1,Derbyshire and Nottinghamshire,2008,40.0
+TLF2,"Leicestershire, Rutland and Northamptonshire",2008,38.8
+TLF3,Lincolnshire,2008,43.4
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2008,42.0
+TLG2,Shropshire and Staffordshire,2008,41.1
+TLG3,West Midlands,2008,36.4
+TLH1,East Anglia,2008,41.3
+TLH2,Bedfordshire and Hertfordshire,2008,38.6
+TLH3,Essex,2008,40.6
+TLI3,Inner London - West,2008,33.4
+TLI4,Inner London - East,2008,31.4
+TLI5,Outer London - East and North East,2008,35.4
+TLI6,Outer London - South,2008,37.0
+TLI7,Outer London - West and North West,2008,34.9
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2008,37.9
+TLJ2,"Surrey, East and West Sussex",2008,41.5
+TLJ3,Hampshire and Isle of Wight,2008,40.3
+TLJ4,Kent,2008,40.2
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2008,39.7
+TLK2,Dorset and Somerset,2008,43.9
+TLK3,Cornwall and Isles of Scilly,2008,44.7
+TLK4,Devon,2008,43.4
+TLL1,West Wales and The Valleys,2008,41.7
+TLL2,East Wales,2008,39.5
+TLM5,North Eastern Scotland,2008,39.9
+TLM6,Highlands and Islands,2008,43.4
+TLM7,Eastern Scotland,2008,40.1
+TLM8,West Central Scotland,2008,39.3
+TLM9,Southern Scotland,2008,42.9
+TLN0,Northern Ireland,2008,36.6
+TLC1,Tees Valley and Durham,2009,40.9
+TLC2,"Northumberland, and Tyne and Wear",2009,40.9
+TLD1,Cumbria,2009,44.2
+TLD3,Greater Manchester,2009,37.3
+TLD4,Lancashire,2009,40.6
+TLD6,Cheshire,2009,42.0
+TLD7,Merseyside,2009,40.0
+TLE1,East Yorkshire and Northern Lincolnshire,2009,41.3
+TLE2,North Yorkshire,2009,42.9
+TLE3,South Yorkshire,2009,39.2
+TLE4,West Yorkshire,2009,37.4
+TLF1,Derbyshire and Nottinghamshire,2009,40.3
+TLF2,"Leicestershire, Rutland and Northamptonshire",2009,39.0
+TLF3,Lincolnshire,2009,43.7
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2009,42.3
+TLG2,Shropshire and Staffordshire,2009,41.4
+TLG3,West Midlands,2009,36.5
+TLH1,East Anglia,2009,41.5
+TLH2,Bedfordshire and Hertfordshire,2009,38.7
+TLH3,Essex,2009,40.9
+TLI3,Inner London - West,2009,33.5
+TLI4,Inner London - East,2009,31.4
+TLI5,Outer London - East and North East,2009,35.3
+TLI6,Outer London - South,2009,37.1
+TLI7,Outer London - West and North West,2009,35.0
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2009,38.2
+TLJ2,"Surrey, East and West Sussex",2009,41.7
+TLJ3,Hampshire and Isle of Wight,2009,40.5
+TLJ4,Kent,2009,40.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2009,40.0
+TLK2,Dorset and Somerset,2009,44.2
+TLK3,Cornwall and Isles of Scilly,2009,45.0
+TLK4,Devon,2009,43.8
+TLL1,West Wales and The Valleys,2009,41.9
+TLL2,East Wales,2009,39.6
+TLM5,North Eastern Scotland,2009,39.9
+TLM6,Highlands and Islands,2009,43.7
+TLM7,Eastern Scotland,2009,40.3
+TLM8,West Central Scotland,2009,39.4
+TLM9,Southern Scotland,2009,43.3
+TLN0,Northern Ireland,2009,36.8
+TLC1,Tees Valley and Durham,2010,41.1
+TLC2,"Northumberland, and Tyne and Wear",2010,41.0
+TLD1,Cumbria,2010,44.6
+TLD3,Greater Manchester,2010,37.3
+TLD4,Lancashire,2010,40.9
+TLD6,Cheshire,2010,42.3
+TLD7,Merseyside,2010,40.2
+TLE1,East Yorkshire and Northern Lincolnshire,2010,41.6
+TLE2,North Yorkshire,2010,43.2
+TLE3,South Yorkshire,2010,39.3
+TLE4,West Yorkshire,2010,37.5
+TLF1,Derbyshire and Nottinghamshire,2010,40.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2010,39.3
+TLF3,Lincolnshire,2010,43.9
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2010,42.7
+TLG2,Shropshire and Staffordshire,2010,41.7
+TLG3,West Midlands,2010,36.4
+TLH1,East Anglia,2010,41.7
+TLH2,Bedfordshire and Hertfordshire,2010,38.8
+TLH3,Essex,2010,41.1
+TLI3,Inner London - West,2010,33.6
+TLI4,Inner London - East,2010,31.4
+TLI5,Outer London - East and North East,2010,35.1
+TLI6,Outer London - South,2010,37.2
+TLI7,Outer London - West and North West,2010,34.9
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2010,38.3
+TLJ2,"Surrey, East and West Sussex",2010,41.9
+TLJ3,Hampshire and Isle of Wight,2010,40.6
+TLJ4,Kent,2010,40.6
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2010,40.1
+TLK2,Dorset and Somerset,2010,44.4
+TLK3,Cornwall and Isles of Scilly,2010,45.2
+TLK4,Devon,2010,44.0
+TLL1,West Wales and The Valleys,2010,42.2
+TLL2,East Wales,2010,39.8
+TLM5,North Eastern Scotland,2010,39.9
+TLM6,Highlands and Islands,2010,44.0
+TLM7,Eastern Scotland,2010,40.4
+TLM8,West Central Scotland,2010,39.6
+TLM9,Southern Scotland,2010,43.7
+TLN0,Northern Ireland,2010,37.1
+TLC1,Tees Valley and Durham,2011,41.3
+TLC2,"Northumberland, and Tyne and Wear",2011,41.2
+TLD1,Cumbria,2011,45.0
+TLD3,Greater Manchester,2011,37.3
+TLD4,Lancashire,2011,41.1
+TLD6,Cheshire,2011,42.7
+TLD7,Merseyside,2011,40.5
+TLE1,East Yorkshire and Northern Lincolnshire,2011,41.9
+TLE2,North Yorkshire,2011,43.4
+TLE3,South Yorkshire,2011,39.4
+TLE4,West Yorkshire,2011,37.6
+TLF1,Derbyshire and Nottinghamshire,2011,40.7
+TLF2,"Leicestershire, Rutland and Northamptonshire",2011,39.4
+TLF3,Lincolnshire,2011,44.2
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2011,43.0
+TLG2,Shropshire and Staffordshire,2011,42.0
+TLG3,West Midlands,2011,36.2
+TLH1,East Anglia,2011,41.8
+TLH2,Bedfordshire and Hertfordshire,2011,38.9
+TLH3,Essex,2011,41.3
+TLI3,Inner London - West,2011,33.5
+TLI4,Inner London - East,2011,31.4
+TLI5,Outer London - East and North East,2011,35.0
+TLI6,Outer London - South,2011,37.2
+TLI7,Outer London - West and North West,2011,34.9
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2011,38.4
+TLJ2,"Surrey, East and West Sussex",2011,42.1
+TLJ3,Hampshire and Isle of Wight,2011,40.8
+TLJ4,Kent,2011,40.8
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2011,40.3
+TLK2,Dorset and Somerset,2011,44.6
+TLK3,Cornwall and Isles of Scilly,2011,45.4
+TLK4,Devon,2011,44.2
+TLL1,West Wales and The Valleys,2011,42.4
+TLL2,East Wales,2011,40.0
+TLM5,North Eastern Scotland,2011,39.9
+TLM6,Highlands and Islands,2011,44.3
+TLM7,Eastern Scotland,2011,40.5
+TLM8,West Central Scotland,2011,39.7
+TLM9,Southern Scotland,2011,44.0
+TLN0,Northern Ireland,2011,37.4
+TLC1,Tees Valley and Durham,2012,41.6
+TLC2,"Northumberland, and Tyne and Wear",2012,41.4
+TLD1,Cumbria,2012,45.4
+TLD3,Greater Manchester,2012,37.3
+TLD4,Lancashire,2012,41.3
+TLD6,Cheshire,2012,43.0
+TLD7,Merseyside,2012,40.8
+TLE1,East Yorkshire and Northern Lincolnshire,2012,42.1
+TLE2,North Yorkshire,2012,43.7
+TLE3,South Yorkshire,2012,39.6
+TLE4,West Yorkshire,2012,37.7
+TLF1,Derbyshire and Nottinghamshire,2012,40.9
+TLF2,"Leicestershire, Rutland and Northamptonshire",2012,39.6
+TLF3,Lincolnshire,2012,44.4
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2012,43.3
+TLG2,Shropshire and Staffordshire,2012,42.3
+TLG3,West Midlands,2012,36.3
+TLH1,East Anglia,2012,42.1
+TLH2,Bedfordshire and Hertfordshire,2012,39.0
+TLH3,Essex,2012,41.6
+TLI3,Inner London - West,2012,33.7
+TLI4,Inner London - East,2012,31.7
+TLI5,Outer London - East and North East,2012,35.0
+TLI6,Outer London - South,2012,37.2
+TLI7,Outer London - West and North West,2012,35.0
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2012,38.6
+TLJ2,"Surrey, East and West Sussex",2012,42.3
+TLJ3,Hampshire and Isle of Wight,2012,41.1
+TLJ4,Kent,2012,41.0
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2012,40.6
+TLK2,Dorset and Somerset,2012,44.9
+TLK3,Cornwall and Isles of Scilly,2012,45.6
+TLK4,Devon,2012,44.5
+TLL1,West Wales and The Valleys,2012,42.6
+TLL2,East Wales,2012,40.2
+TLM5,North Eastern Scotland,2012,40.1
+TLM6,Highlands and Islands,2012,44.9
+TLM7,Eastern Scotland,2012,40.8
+TLM8,West Central Scotland,2012,40.0
+TLM9,Southern Scotland,2012,44.5
+TLN0,Northern Ireland,2012,37.6
+TLC1,Tees Valley and Durham,2013,41.8
+TLC2,"Northumberland, and Tyne and Wear",2013,41.6
+TLD1,Cumbria,2013,45.8
+TLD3,Greater Manchester,2013,37.4
+TLD4,Lancashire,2013,41.5
+TLD6,Cheshire,2013,43.2
+TLD7,Merseyside,2013,40.9
+TLE1,East Yorkshire and Northern Lincolnshire,2013,42.4
+TLE2,North Yorkshire,2013,44.0
+TLE3,South Yorkshire,2013,39.7
+TLE4,West Yorkshire,2013,37.7
+TLF1,Derbyshire and Nottinghamshire,2013,41.1
+TLF2,"Leicestershire, Rutland and Northamptonshire",2013,39.7
+TLF3,Lincolnshire,2013,44.5
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2013,43.5
+TLG2,Shropshire and Staffordshire,2013,42.6
+TLG3,West Midlands,2013,36.2
+TLH1,East Anglia,2013,42.3
+TLH2,Bedfordshire and Hertfordshire,2013,39.0
+TLH3,Essex,2013,41.8
+TLI3,Inner London - West,2013,33.9
+TLI4,Inner London - East,2013,31.8
+TLI5,Outer London - East and North East,2013,35.1
+TLI6,Outer London - South,2013,37.3
+TLI7,Outer London - West and North West,2013,35.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2013,38.7
+TLJ2,"Surrey, East and West Sussex",2013,42.4
+TLJ3,Hampshire and Isle of Wight,2013,41.3
+TLJ4,Kent,2013,41.2
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2013,40.7
+TLK2,Dorset and Somerset,2013,45.2
+TLK3,Cornwall and Isles of Scilly,2013,45.8
+TLK4,Devon,2013,44.7
+TLL1,West Wales and The Valleys,2013,42.9
+TLL2,East Wales,2013,40.4
+TLM5,North Eastern Scotland,2013,40.2
+TLM6,Highlands and Islands,2013,45.2
+TLM7,Eastern Scotland,2013,41.2
+TLM8,West Central Scotland,2013,40.2
+TLM9,Southern Scotland,2013,44.9
+TLN0,Northern Ireland,2013,37.9
+TLC1,Tees Valley and Durham,2014,42.1
+TLC2,"Northumberland, and Tyne and Wear",2014,41.8
+TLD1,Cumbria,2014,46.1
+TLD3,Greater Manchester,2014,37.4
+TLD4,Lancashire,2014,41.7
+TLD6,Cheshire,2014,43.4
+TLD7,Merseyside,2014,41.1
+TLE1,East Yorkshire and Northern Lincolnshire,2014,42.7
+TLE2,North Yorkshire,2014,44.4
+TLE3,South Yorkshire,2014,39.8
+TLE4,West Yorkshire,2014,37.8
+TLF1,Derbyshire and Nottinghamshire,2014,41.3
+TLF2,"Leicestershire, Rutland and Northamptonshire",2014,39.8
+TLF3,Lincolnshire,2014,44.7
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2014,43.8
+TLG2,Shropshire and Staffordshire,2014,43.0
+TLG3,West Midlands,2014,36.3
+TLH1,East Anglia,2014,42.4
+TLH2,Bedfordshire and Hertfordshire,2014,39.1
+TLH3,Essex,2014,41.8
+TLI3,Inner London - West,2014,34.1
+TLI4,Inner London - East,2014,32.0
+TLI5,Outer London - East and North East,2014,35.2
+TLI6,Outer London - South,2014,37.4
+TLI7,Outer London - West and North West,2014,35.4
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2014,38.8
+TLJ2,"Surrey, East and West Sussex",2014,42.7
+TLJ3,Hampshire and Isle of Wight,2014,41.5
+TLJ4,Kent,2014,41.3
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2014,40.8
+TLK2,Dorset and Somerset,2014,45.4
+TLK3,Cornwall and Isles of Scilly,2014,46.0
+TLK4,Devon,2014,44.9
+TLL1,West Wales and The Valleys,2014,43.2
+TLL2,East Wales,2014,40.7
+TLM5,North Eastern Scotland,2014,40.2
+TLM6,Highlands and Islands,2014,45.6
+TLM7,Eastern Scotland,2014,41.5
+TLM8,West Central Scotland,2014,40.4
+TLM9,Southern Scotland,2014,45.3
+TLN0,Northern Ireland,2014,38.1
+TLC1,Tees Valley and Durham,2015,42.3
+TLC2,"Northumberland, and Tyne and Wear",2015,42.0
+TLD1,Cumbria,2015,46.4
+TLD3,Greater Manchester,2015,37.3
+TLD4,Lancashire,2015,41.9
+TLD6,Cheshire,2015,43.6
+TLD7,Merseyside,2015,41.1
+TLE1,East Yorkshire and Northern Lincolnshire,2015,42.9
+TLE2,North Yorkshire,2015,44.8
+TLE3,South Yorkshire,2015,39.8
+TLE4,West Yorkshire,2015,37.7
+TLF1,Derbyshire and Nottinghamshire,2015,41.4
+TLF2,"Leicestershire, Rutland and Northamptonshire",2015,39.8
+TLF3,Lincolnshire,2015,44.8
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2015,44.0
+TLG2,Shropshire and Staffordshire,2015,43.2
+TLG3,West Midlands,2015,36.2
+TLH1,East Anglia,2015,42.6
+TLH2,Bedfordshire and Hertfordshire,2015,39.1
+TLH3,Essex,2015,41.9
+TLI3,Inner London - West,2015,34.2
+TLI4,Inner London - East,2015,32.2
+TLI5,Outer London - East and North East,2015,35.3
+TLI6,Outer London - South,2015,37.5
+TLI7,Outer London - West and North West,2015,35.6
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2015,38.8
+TLJ2,"Surrey, East and West Sussex",2015,42.8
+TLJ3,Hampshire and Isle of Wight,2015,41.7
+TLJ4,Kent,2015,41.4
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2015,40.8
+TLK2,Dorset and Somerset,2015,45.6
+TLK3,Cornwall and Isles of Scilly,2015,46.2
+TLK4,Devon,2015,45.0
+TLL1,West Wales and The Valleys,2015,43.4
+TLL2,East Wales,2015,40.8
+TLM5,North Eastern Scotland,2015,40.2
+TLM6,Highlands and Islands,2015,45.9
+TLM7,Eastern Scotland,2015,41.6
+TLM8,West Central Scotland,2015,40.5
+TLM9,Southern Scotland,2015,45.6
+TLN0,Northern Ireland,2015,38.2
+TLC1,Tees Valley and Durham,2016,42.4
+TLC2,"Northumberland, and Tyne and Wear",2016,42.1
+TLD1,Cumbria,2016,46.6
+TLD3,Greater Manchester,2016,37.3
+TLD4,Lancashire,2016,42.1
+TLD6,Cheshire,2016,43.8
+TLD7,Merseyside,2016,41.1
+TLE1,East Yorkshire and Northern Lincolnshire,2016,43.1
+TLE2,North Yorkshire,2016,45.1
+TLE3,South Yorkshire,2016,39.8
+TLE4,West Yorkshire,2016,37.7
+TLF1,Derbyshire and Nottinghamshire,2016,41.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2016,39.7
+TLF3,Lincolnshire,2016,45.0
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2016,44.2
+TLG2,Shropshire and Staffordshire,2016,43.4
+TLG3,West Midlands,2016,36.2
+TLH1,East Anglia,2016,42.7
+TLH2,Bedfordshire and Hertfordshire,2016,39.1
+TLH3,Essex,2016,42.0
+TLI3,Inner London - West,2016,34.4
+TLI4,Inner London - East,2016,32.3
+TLI5,Outer London - East and North East,2016,35.4
+TLI6,Outer London - South,2016,37.7
+TLI7,Outer London - West and North West,2016,35.9
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2016,38.9
+TLJ2,"Surrey, East and West Sussex",2016,43.0
+TLJ3,Hampshire and Isle of Wight,2016,41.7
+TLJ4,Kent,2016,41.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2016,40.8
+TLK2,Dorset and Somerset,2016,45.8
+TLK3,Cornwall and Isles of Scilly,2016,46.5
+TLK4,Devon,2016,45.3
+TLL1,West Wales and The Valleys,2016,43.7
+TLL2,East Wales,2016,40.9
+TLM5,North Eastern Scotland,2016,40.4
+TLM6,Highlands and Islands,2016,46.2
+TLM7,Eastern Scotland,2016,41.6
+TLM8,West Central Scotland,2016,40.4
+TLM9,Southern Scotland,2016,46.0
+TLN0,Northern Ireland,2016,38.4
+TLC1,Tees Valley and Durham,2017,42.5
+TLC2,"Northumberland, and Tyne and Wear",2017,42.2
+TLD1,Cumbria,2017,46.9
+TLD3,Greater Manchester,2017,37.3
+TLD4,Lancashire,2017,42.1
+TLD6,Cheshire,2017,43.9
+TLD7,Merseyside,2017,41.1
+TLE1,East Yorkshire and Northern Lincolnshire,2017,43.2
+TLE2,North Yorkshire,2017,45.4
+TLE3,South Yorkshire,2017,39.8
+TLE4,West Yorkshire,2017,37.8
+TLF1,Derbyshire and Nottinghamshire,2017,41.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2017,39.6
+TLF3,Lincolnshire,2017,45.1
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2017,44.4
+TLG2,Shropshire and Staffordshire,2017,43.6
+TLG3,West Midlands,2017,36.3
+TLH1,East Anglia,2017,42.8
+TLH2,Bedfordshire and Hertfordshire,2017,39.2
+TLH3,Essex,2017,42.0
+TLI3,Inner London - West,2017,34.6
+TLI4,Inner London - East,2017,32.6
+TLI5,Outer London - East and North East,2017,35.7
+TLI6,Outer London - South,2017,38.0
+TLI7,Outer London - West and North West,2017,36.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2017,39.0
+TLJ2,"Surrey, East and West Sussex",2017,43.1
+TLJ3,Hampshire and Isle of Wight,2017,41.9
+TLJ4,Kent,2017,41.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2017,40.8
+TLK2,Dorset and Somerset,2017,46.1
+TLK3,Cornwall and Isles of Scilly,2017,46.7
+TLK4,Devon,2017,45.5
+TLL1,West Wales and The Valleys,2017,43.8
+TLL2,East Wales,2017,40.9
+TLM5,North Eastern Scotland,2017,40.8
+TLM6,Highlands and Islands,2017,46.6
+TLM7,Eastern Scotland,2017,41.7
+TLM8,West Central Scotland,2017,40.4
+TLM9,Southern Scotland,2017,46.3
+TLN0,Northern Ireland,2017,38.6
+TLC1,Tees Valley and Durham,2018,42.6
+TLC2,"Northumberland, and Tyne and Wear",2018,42.2
+TLD1,Cumbria,2018,47.2
+TLD3,Greater Manchester,2018,37.4
+TLD4,Lancashire,2018,42.2
+TLD6,Cheshire,2018,44.1
+TLD7,Merseyside,2018,40.9
+TLE1,East Yorkshire and Northern Lincolnshire,2018,43.4
+TLE2,North Yorkshire,2018,45.8
+TLE3,South Yorkshire,2018,39.7
+TLE4,West Yorkshire,2018,38.0
+TLF1,Derbyshire and Nottinghamshire,2018,41.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2018,39.6
+TLF3,Lincolnshire,2018,45.3
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2018,44.5
+TLG2,Shropshire and Staffordshire,2018,43.7
+TLG3,West Midlands,2018,36.4
+TLH1,East Anglia,2018,42.9
+TLH2,Bedfordshire and Hertfordshire,2018,39.4
+TLH3,Essex,2018,41.9
+TLI3,Inner London - West,2018,34.7
+TLI4,Inner London - East,2018,32.8
+TLI5,Outer London - East and North East,2018,35.9
+TLI6,Outer London - South,2018,38.2
+TLI7,Outer London - West and North West,2018,36.5
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2018,39.2
+TLJ2,"Surrey, East and West Sussex",2018,43.3
+TLJ3,Hampshire and Isle of Wight,2018,42.0
+TLJ4,Kent,2018,41.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2018,40.7
+TLK2,Dorset and Somerset,2018,46.4
+TLK3,Cornwall and Isles of Scilly,2018,47.0
+TLK4,Devon,2018,45.7
+TLL1,West Wales and The Valleys,2018,44.0
+TLL2,East Wales,2018,41.0
+TLM5,North Eastern Scotland,2018,41.1
+TLM6,Highlands and Islands,2018,47.1
+TLM7,Eastern Scotland,2018,41.7
+TLM8,West Central Scotland,2018,40.3
+TLM9,Southern Scotland,2018,46.7
+TLN0,Northern Ireland,2018,38.9
+TLC1,Tees Valley and Durham,2019,42.7
+TLC2,"Northumberland, and Tyne and Wear",2019,42.3
+TLD1,Cumbria,2019,47.6
+TLD3,Greater Manchester,2019,37.4
+TLD4,Lancashire,2019,42.2
+TLD6,Cheshire,2019,44.2
+TLD7,Merseyside,2019,40.9
+TLE1,East Yorkshire and Northern Lincolnshire,2019,43.6
+TLE2,North Yorkshire,2019,46.1
+TLE3,South Yorkshire,2019,39.9
+TLE4,West Yorkshire,2019,38.1
+TLF1,Derbyshire and Nottinghamshire,2019,41.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2019,39.7
+TLF3,Lincolnshire,2019,45.6
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2019,44.6
+TLG2,Shropshire and Staffordshire,2019,43.8
+TLG3,West Midlands,2019,36.5
+TLH1,East Anglia,2019,43.1
+TLH2,Bedfordshire and Hertfordshire,2019,39.5
+TLH3,Essex,2019,41.9
+TLI3,Inner London - West,2019,34.7
+TLI4,Inner London - East,2019,32.9
+TLI5,Outer London - East and North East,2019,36.1
+TLI6,Outer London - South,2019,38.5
+TLI7,Outer London - West and North West,2019,36.8
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2019,39.4
+TLJ2,"Surrey, East and West Sussex",2019,43.4
+TLJ3,Hampshire and Isle of Wight,2019,42.2
+TLJ4,Kent,2019,41.5
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2019,40.8
+TLK2,Dorset and Somerset,2019,46.8
+TLK3,Cornwall and Isles of Scilly,2019,47.3
+TLK4,Devon,2019,46.0
+TLL1,West Wales and The Valleys,2019,44.1
+TLL2,East Wales,2019,41.0
+TLM5,North Eastern Scotland,2019,41.3
+TLM6,Highlands and Islands,2019,47.4
+TLM7,Eastern Scotland,2019,41.8
+TLM8,West Central Scotland,2019,40.4
+TLM9,Southern Scotland,2019,47.0
+TLN0,Northern Ireland,2019,39.1
+TLC1,Tees Valley and Durham,2020,42.7
+TLC2,"Northumberland, and Tyne and Wear",2020,42.3
+TLD1,Cumbria,2020,47.8
+TLD3,Greater Manchester,2020,37.5
+TLD4,Lancashire,2020,42.1
+TLD6,Cheshire,2020,44.3
+TLD7,Merseyside,2020,41.0
+TLE1,East Yorkshire and Northern Lincolnshire,2020,43.7
+TLE2,North Yorkshire,2020,46.3
+TLE3,South Yorkshire,2020,40.0
+TLE4,West Yorkshire,2020,38.3
+TLF1,Derbyshire and Nottinghamshire,2020,41.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2020,39.9
+TLF3,Lincolnshire,2020,45.7
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2020,44.7
+TLG2,Shropshire and Staffordshire,2020,43.9
+TLG3,West Midlands,2020,36.7
+TLH1,East Anglia,2020,43.2
+TLH2,Bedfordshire and Hertfordshire,2020,39.7
+TLH3,Essex,2020,41.9
+TLI3,Inner London - West,2020,34.9
+TLI4,Inner London - East,2020,33.2
+TLI5,Outer London - East and North East,2020,36.4
+TLI6,Outer London - South,2020,38.7
+TLI7,Outer London - West and North West,2020,37.2
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2020,39.7
+TLJ2,"Surrey, East and West Sussex",2020,43.6
+TLJ3,Hampshire and Isle of Wight,2020,42.3
+TLJ4,Kent,2020,41.6
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2020,40.8
+TLK2,Dorset and Somerset,2020,47.0
+TLK3,Cornwall and Isles of Scilly,2020,47.6
+TLK4,Devon,2020,46.2
+TLL1,West Wales and The Valleys,2020,44.2
+TLL2,East Wales,2020,41.1
+TLM5,North Eastern Scotland,2020,41.6
+TLM6,Highlands and Islands,2020,47.8
+TLM7,Eastern Scotland,2020,41.9
+TLM8,West Central Scotland,2020,40.5
+TLM9,Southern Scotland,2020,47.2
+TLN0,Northern Ireland,2020,39.5
+TLC1,Tees Valley and Durham,2021,42.7
+TLC2,"Northumberland, and Tyne and Wear",2021,42.4
+TLD1,Cumbria,2021,48.0
+TLD3,Greater Manchester,2021,37.6
+TLD4,Lancashire,2021,42.2
+TLD6,Cheshire,2021,44.3
+TLD7,Merseyside,2021,41.0
+TLE1,East Yorkshire and Northern Lincolnshire,2021,43.8
+TLE2,North Yorkshire,2021,46.4
+TLE3,South Yorkshire,2021,40.1
+TLE4,West Yorkshire,2021,38.5
+TLF1,Derbyshire and Nottinghamshire,2021,41.7
+TLF2,"Leicestershire, Rutland and Northamptonshire",2021,40.1
+TLF3,Lincolnshire,2021,45.9
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2021,44.6
+TLG2,Shropshire and Staffordshire,2021,43.8
+TLG3,West Midlands,2021,36.9
+TLH1,East Anglia,2021,43.2
+TLH2,Bedfordshire and Hertfordshire,2021,39.7
+TLH3,Essex,2021,41.9
+TLI3,Inner London - West,2021,34.8
+TLI4,Inner London - East,2021,33.3
+TLI5,Outer London - East and North East,2021,36.7
+TLI6,Outer London - South,2021,39.0
+TLI7,Outer London - West and North West,2021,37.6
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2021,39.8
+TLJ2,"Surrey, East and West Sussex",2021,43.6
+TLJ3,Hampshire and Isle of Wight,2021,42.4
+TLJ4,Kent,2021,41.7
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2021,41.0
+TLK2,Dorset and Somerset,2021,47.2
+TLK3,Cornwall and Isles of Scilly,2021,47.8
+TLK4,Devon,2021,46.2
+TLL1,West Wales and The Valleys,2021,44.3
+TLL2,East Wales,2021,41.2
+TLM5,North Eastern Scotland,2021,42.0
+TLM6,Highlands and Islands,2021,48.1
+TLM7,Eastern Scotland,2021,42.1
+TLM8,West Central Scotland,2021,40.7
+TLM9,Southern Scotland,2021,47.4
+TLN0,Northern Ireland,2021,39.8
+TLC1,Tees Valley and Durham,2022,42.5
+TLC2,"Northumberland, and Tyne and Wear",2022,42.2
+TLD1,Cumbria,2022,48.2
+TLD3,Greater Manchester,2022,37.4
+TLD4,Lancashire,2022,42.1
+TLD6,Cheshire,2022,44.2
+TLD7,Merseyside,2022,40.8
+TLE1,East Yorkshire and Northern Lincolnshire,2022,43.8
+TLE2,North Yorkshire,2022,46.4
+TLE3,South Yorkshire,2022,39.8
+TLE4,West Yorkshire,2022,38.4
+TLF1,Derbyshire and Nottinghamshire,2022,41.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2022,40.1
+TLF3,Lincolnshire,2022,45.9
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2022,44.5
+TLG2,Shropshire and Staffordshire,2022,43.7
+TLG3,West Midlands,2022,36.8
+TLH1,East Anglia,2022,43.3
+TLH2,Bedfordshire and Hertfordshire,2022,39.9
+TLH3,Essex,2022,42.0
+TLI3,Inner London - West,2022,34.5
+TLI4,Inner London - East,2022,33.2
+TLI5,Outer London - East and North East,2022,36.8
+TLI6,Outer London - South,2022,39.3
+TLI7,Outer London - West and North West,2022,37.7
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2022,39.9
+TLJ2,"Surrey, East and West Sussex",2022,43.6
+TLJ3,Hampshire and Isle of Wight,2022,42.5
+TLJ4,Kent,2022,41.8
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2022,40.9
+TLK2,Dorset and Somerset,2022,47.3
+TLK3,Cornwall and Isles of Scilly,2022,48.1
+TLK4,Devon,2022,46.1
+TLL1,West Wales and The Valleys,2022,44.2
+TLL2,East Wales,2022,41.1
+TLM5,North Eastern Scotland,2022,42.1
+TLM6,Highlands and Islands,2022,48.3
+TLM7,Eastern Scotland,2022,42.1
+TLM8,West Central Scotland,2022,40.5
+TLM9,Southern Scotland,2022,47.5
+TLN0,Northern Ireland,2022,40.0
+TLC1,Tees Valley and Durham,2023,42.3
+TLC2,"Northumberland, and Tyne and Wear",2023,42.0
+TLD1,Cumbria,2023,48.1
+TLD3,Greater Manchester,2023,37.2
+TLD4,Lancashire,2023,42.0
+TLD6,Cheshire,2023,44.1
+TLD7,Merseyside,2023,40.5
+TLE1,East Yorkshire and Northern Lincolnshire,2023,43.6
+TLE2,North Yorkshire,2023,46.4
+TLE3,South Yorkshire,2023,39.6
+TLE4,West Yorkshire,2023,38.4
+TLF1,Derbyshire and Nottinghamshire,2023,41.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2023,40.0
+TLF3,Lincolnshire,2023,45.8
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2023,44.4
+TLG2,Shropshire and Staffordshire,2023,43.6
+TLG3,West Midlands,2023,36.6
+TLH1,East Anglia,2023,43.3
+TLH2,Bedfordshire and Hertfordshire,2023,39.8
+TLH3,Essex,2023,41.9
+TLI3,Inner London - West,2023,34.4
+TLI4,Inner London - East,2023,33.1
+TLI5,Outer London - East and North East,2023,36.8
+TLI6,Outer London - South,2023,39.3
+TLI7,Outer London - West and North West,2023,37.5
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2023,39.9
+TLJ2,"Surrey, East and West Sussex",2023,43.6
+TLJ3,Hampshire and Isle of Wight,2023,42.4
+TLJ4,Kent,2023,41.7
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2023,40.9
+TLK2,Dorset and Somerset,2023,47.1
+TLK3,Cornwall and Isles of Scilly,2023,48.1
+TLK4,Devon,2023,46.0
+TLL1,West Wales and The Valleys,2023,44.1
+TLL2,East Wales,2023,41.0
+TLM5,North Eastern Scotland,2023,42.1
+TLM6,Highlands and Islands,2023,48.5
+TLM7,Eastern Scotland,2023,41.9
+TLM8,West Central Scotland,2023,40.2
+TLM9,Southern Scotland,2023,47.5
+TLN0,Northern Ireland,2023,40.2
+TLC1,Tees Valley and Durham,2024,42.3
+TLC2,"Northumberland, and Tyne and Wear",2024,41.9
+TLD1,Cumbria,2024,48.1
+TLD3,Greater Manchester,2024,37.2
+TLD4,Lancashire,2024,41.9
+TLD6,Cheshire,2024,44.1
+TLD7,Merseyside,2024,40.4
+TLE1,East Yorkshire and Northern Lincolnshire,2024,43.7
+TLE2,North Yorkshire,2024,46.3
+TLE3,South Yorkshire,2024,39.5
+TLE4,West Yorkshire,2024,38.4
+TLF1,Derbyshire and Nottinghamshire,2024,41.5
+TLF2,"Leicestershire, Rutland and Northamptonshire",2024,40.0
+TLF3,Lincolnshire,2024,45.8
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2024,44.3
+TLG2,Shropshire and Staffordshire,2024,43.5
+TLG3,West Midlands,2024,36.5
+TLH1,East Anglia,2024,43.3
+TLH2,Bedfordshire and Hertfordshire,2024,39.8
+TLH3,Essex,2024,41.9
+TLI3,Inner London - West,2024,34.4
+TLI4,Inner London - East,2024,33.2
+TLI5,Outer London - East and North East,2024,36.8
+TLI6,Outer London - South,2024,39.4
+TLI7,Outer London - West and North West,2024,37.5
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2024,40.0
+TLJ2,"Surrey, East and West Sussex",2024,43.7
+TLJ3,Hampshire and Isle of Wight,2024,42.5
+TLJ4,Kent,2024,41.7
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2024,40.8
+TLK2,Dorset and Somerset,2024,47.1
+TLK3,Cornwall and Isles of Scilly,2024,48.2
+TLK4,Devon,2024,45.9
+TLL1,West Wales and The Valleys,2024,44.2
+TLL2,East Wales,2024,41.1
+TLM5,North Eastern Scotland,2024,42.4
+TLM6,Highlands and Islands,2024,48.7
+TLM7,Eastern Scotland,2024,42.0
+TLM8,West Central Scotland,2024,40.1
+TLM9,Southern Scotland,2024,47.4
+TLN0,Northern Ireland,2024,40.3
+TLC1,Tees Valley and Durham,2025,42.4
+TLC2,"Northumberland, and Tyne and Wear",2025,42.0
+TLD1,Cumbria,2025,47.9
+TLD3,Greater Manchester,2025,37.2
+TLD4,Lancashire,2025,41.9
+TLD6,Cheshire,2025,44.2
+TLD7,Merseyside,2025,40.5
+TLE1,East Yorkshire and Northern Lincolnshire,2025,43.9
+TLE2,North Yorkshire,2025,46.3
+TLE3,South Yorkshire,2025,39.7
+TLE4,West Yorkshire,2025,38.7
+TLF1,Derbyshire and Nottinghamshire,2025,41.6
+TLF2,"Leicestershire, Rutland and Northamptonshire",2025,40.2
+TLF3,Lincolnshire,2025,46.1
+TLG1,"Herefordshire, Worcestershire and Warwickshire",2025,44.4
+TLG2,Shropshire and Staffordshire,2025,43.5
+TLG3,West Midlands,2025,36.7
+TLH1,East Anglia,2025,43.6
+TLH2,Bedfordshire and Hertfordshire,2025,40.0
+TLH3,Essex,2025,41.9
+TLI3,Inner London - West,2025,34.6
+TLI4,Inner London - East,2025,33.4
+TLI5,Outer London - East and North East,2025,37.1
+TLI6,Outer London - South,2025,39.7
+TLI7,Outer London - West and North West,2025,37.8
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2025,40.2
+TLJ2,"Surrey, East and West Sussex",2025,43.9
+TLJ3,Hampshire and Isle of Wight,2025,42.8
+TLJ4,Kent,2025,41.9
+TLK1,"Gloucestershire, Wiltshire and Bath/Bristol area",2025,40.9
+TLK2,Dorset and Somerset,2025,47.3
+TLK3,Cornwall and Isles of Scilly,2025,48.3
+TLK4,Devon,2025,46.1
+TLL1,West Wales and The Valleys,2025,44.5
+TLL2,East Wales,2025,41.3
+TLM5,North Eastern Scotland,2025,42.9
+TLM6,Highlands and Islands,2025,49.0
+TLM7,Eastern Scotland,2025,42.3
+TLM8,West Central Scotland,2025,40.1
+TLM9,Southern Scotland,2025,47.4
+TLN0,Northern Ireland,2025,40.6

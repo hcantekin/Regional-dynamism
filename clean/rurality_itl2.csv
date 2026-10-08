@@ -1,0 +1,47 @@
+itl2_code,itl2_name,pop_census,pop_rural,pop_further,pop_remote,share_rural,share_further_from_major_town,share_remote,rural_definition,land_area_km2
+TLC3,Tees Valley,677189.0000,71561.6460,2047.9650,,10.5675,0.3024,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",795.3086
+TLC4,"Northumberland, Durham and Tyne & Wear",1969826.0000,398738.8780,116164.4420,,20.2423,5.8972,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",7785.2204
+TLD1,Cumbria,499849.0000,251930.6290,344180.5050,,50.4013,68.8569,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6769.8936
+TLD3,Greater Manchester,2867762.0000,26535.7260,0.0000,,0.9253,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",1275.9660
+TLD4,Lancashire,1531128.0000,266867.5190,132771.0040,,17.4295,8.6715,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3066.1526
+TLD6,Cheshire,966896.0000,181353.1240,47678.1600,,18.7562,4.9311,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",2266.9522
+TLD7,Merseyside,1551765.0000,15834.7440,0.0000,,1.0204,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",731.2959
+TLE1,East Yorkshire and Northern Lincolnshire,935875.0000,234564.0560,106771.0800,,25.0636,11.4087,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3514.2624
+TLE2,North Yorkshire,818312.0000,346813.6360,256044.2560,,42.3816,31.2893,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",8309.3773
+TLE3,South Yorkshire,1375006.0000,113921.0480,978.2880,,8.2851,0.0711,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",1551.5366
+TLE4,West Yorkshire,2351583.0000,244902.3880,22949.3040,,10.4144,0.9759,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",2029.2090
+TLF1,Derbyshire and Nottinghamshire,2204451.0000,449135.6640,148222.2870,,20.3740,6.7238,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",4784.1385
+TLF2,"Leicestershire, Rutland and Northamptonshire",1907239.0000,474729.8320,308621.3420,,24.8909,16.1816,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",4902.0238
+TLF3,Lincolnshire,768368.0000,364944.9510,344583.3980,,47.4961,44.8461,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",5937.3041
+TLG1,"Herefordshire, Worcestershire and Warwickshire",1387483.0000,437911.0240,225709.9360,,31.5615,16.2676,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",5895.3984
+TLG2,Shropshire and Staffordshire,1643617.0000,402934.4630,119959.1790,,24.5151,7.2985,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6201.2573
+TLG3,West Midlands,2919653.0000,27356.0540,0.0000,,0.9370,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",901.7123
+TLH2,Bedfordshire and Hertfordshire,1903539.0000,304478.5100,1328.4100,,15.9954,0.0698,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",2878.5189
+TLH3,Essex,1860208.0000,384711.4490,94395.7790,,20.6811,5.0745,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3663.8930
+TLH4,Cambridgeshire and Peterborough,894519.0000,300969.9100,195335.8480,,33.6460,21.8370,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3389.5989
+TLH5,Norfolk,916120.0000,446044.4750,476618.9060,,48.6884,52.0258,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",5383.5275
+TLH6,Suffolk,760688.0000,304643.4080,382209.0230,,40.0484,50.2452,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3799.9862
+TLI3,Inner London - West,1076993.0000,0.0000,0.0000,,0.0000,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",108.9398
+TLI4,Inner London - East,2327159.0000,0.0000,0.0000,,0.0000,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",210.3056
+TLI5,Outer London - East and North East,1935131.0000,0.0000,0.0000,,0.0000,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",432.3276
+TLI6,Outer London - South,1313599.0000,0.0000,0.0000,,0.0000,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",355.3178
+TLI7,Outer London - West and North West,2146846.0000,0.0000,0.0000,,0.0000,0.0000,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",465.0676
+TLJ1,"Berkshire, Buckinghamshire and Oxfordshire",2515207.0000,544847.9260,235277.2810,,21.6622,9.3542,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",5740.4545
+TLJ2,"Surrey, East and West Sussex",2908735.0000,421071.2620,118788.6620,,14.4761,4.0839,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",5445.0928
+TLJ3,Hampshire and Isle of Wight,1998281.0000,333288.2810,199684.7790,,16.6787,9.9928,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",4148.1677
+TLJ4,Kent,1855844.0000,442610.0130,508191.4200,,23.8495,27.3833,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3738.0939
+TLK3,Cornwall and Isles of Scilly,572358.0000,318001.9700,517608.7200,,55.5600,90.4344,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",3562.0911
+TLK4,Devon,1215659.0000,406186.4930,463690.6630,,33.4129,38.1432,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6706.5569
+TLK5,West of England,956298.0000,78849.8750,2999.3920,,8.2453,0.3136,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",952.5893
+TLK6,"North Somerset, Somerset and Dorset",1568049.0000,500414.3070,676399.5030,,31.9132,43.1364,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6477.0945
+TLK7,Gloucestershire and Wiltshire,1388816.0000,423025.4520,388152.6020,,30.4594,27.9485,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6137.9206
+TLL3,North Wales,686908.0000,321919.1790,427510.2430,,46.8650,62.2369,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",6153.8170
+TLL4,Mid and South West Wales,896680.0000,420889.4820,430933.7870,,46.9386,48.0588,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",11773.0977
+TLL5,South East Wales,1523903.0000,196883.1630,547910.5280,,12.9197,35.9544,,"E&W RUC 2021: rural OAs (settlements <10k), Census 2021",2809.8301
+TLM0,Eastern Scotland,930101.0000,199589.2922,,16893.0565,21.4589,,1.8163,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",11197.4498
+TLM1,East Central Scotland,1063022.0000,69923.7214,,0.0000,6.5778,,0.0000,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",2021.1931
+TLM2,Highlands and Islands,485633.0000,245095.5293,,236469.6707,50.4693,,48.6931,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",40310.2893
+TLM3,West Central Scotland,1518086.0000,42037.7945,,10.0009,2.7691,,0.0007,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",1574.0385
+TLM5,North Eastern Scotland,487738.0000,134536.3003,,27955.4727,27.5837,,5.7317,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",6498.2001
+TLM9,Southern Scotland,954985.0000,219251.3244,,73838.7381,22.9586,,7.7319,"Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",16299.1242
+TLN0,Northern Ireland,1810863.0000,678939.0000,,,37.4926,,,"NI Settlement 2015: bands F-H (settlements <5k), Census 2011",13792.9516
