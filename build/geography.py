@@ -70,6 +70,30 @@ spine = (
     .reset_index(drop=True)
 )
 
+# --- 3b. one row per LA: resolve LAs split across ITL2 regions ---------------
+# The lookup is at LAU1 level, so an LA whose LAU1 parts sit in different ITL2s
+# appears once per ITL2. LA-level data can't be split, and a duplicate row makes
+# any merge on la_code count that LA twice. Assign each split LA wholly to the
+# ITL2 where most of its residents live. New splits must be added here by hand.
+SPLIT_RULE = {
+    # North Ayrshire: mainland (~128k residents) is in Southern Scotland;
+    # only Arran & Cumbrae (~6k) are in Highlands and Islands (TLM2).
+    "S12000021": "TLM9",
+}
+split = sorted(spine.loc[spine["la_code"].duplicated(keep=False), "la_code"].unique())
+unruled = sorted(set(split) - set(SPLIT_RULE))
+if unruled:
+    raise SystemExit(f"LA(s) split across ITL2 with no rule in SPLIT_RULE: {unruled}\n"
+                     f"{spine[spine['la_code'].isin(unruled)].to_string(index=False)}")
+for la, itl2 in SPLIT_RULE.items():
+    if la in split and not ((spine["la_code"] == la) & (spine["itl2_code"] == itl2)).any():
+        raise SystemExit(f"SPLIT_RULE maps {la} -> {itl2}, but the lookup doesn't place {la} in {itl2}.")
+spine = spine[~spine["la_code"].isin(split) |
+              (spine["itl2_code"] == spine["la_code"].map(SPLIT_RULE))].reset_index(drop=True)
+assert spine["la_code"].is_unique
+if split:
+    print(f"Split LA(s) assigned by rule: { {la: SPLIT_RULE[la] for la in split} }\n")
+
 OUT.parent.mkdir(parents=True, exist_ok=True)
 spine.to_csv(OUT, index=False)
 
