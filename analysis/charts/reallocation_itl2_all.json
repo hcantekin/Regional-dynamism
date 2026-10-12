@@ -1,0 +1,6117 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-bb4da8b8353d386a17a05d012afac00a"
+      },
+      "mark": {
+        "type": "line",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "param_1",
+            "value": "#122b39",
+            "empty": false
+          },
+          "value": "#B4B4B4"
+        },
+        "detail": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "param": "param_1",
+            "value": 1,
+            "empty": false
+          },
+          "value": 0.55
+        },
+        "tooltip": [
+          {
+            "field": "itl2_name",
+            "title": "Region",
+            "type": "nominal"
+          },
+          {
+            "field": "year",
+            "type": "quantitative"
+          },
+          {
+            "field": "reallocation_rate",
+            "format": ".1f",
+            "title": "Reallocation rate (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "values": [
+              2004,
+              2008,
+              2012,
+              2016,
+              2020,
+              2024
+            ]
+          },
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "reallocation_rate",
+          "scale": {
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      },
+      "name": "view_1"
+    },
+    {
+      "data": {
+        "name": "data-399f39c1cd8f952ce5822adffdffcec6"
+      },
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "color": {
+          "field": "itl2_name",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Inner London - West",
+              "Northern Ireland"
+            ],
+            "range": [
+              "#e6224b",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "values": [
+              2004,
+              2008,
+              2012,
+              2016,
+              2020,
+              2024
+            ]
+          },
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "reallocation_rate",
+          "scale": {
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-d85cfdb6e7957a0539fb8eac0ecb2fbe"
+      },
+      "mark": {
+        "type": "line",
+        "color": "#122b39",
+        "strokeWidth": 3.5
+      },
+      "encoding": {
+        "x": {
+          "axis": {
+            "values": [
+              2004,
+              2008,
+              2012,
+              2016,
+              2020,
+              2024
+            ]
+          },
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "reallocation_rate",
+          "scale": {
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-bcfbab6fa301ad1779ce715243ff3c6d"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 6,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "x": {
+          "axis": {
+            "values": [
+              2004,
+              2008,
+              2012,
+              2016,
+              2020,
+              2024
+            ]
+          },
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "reallocation_rate",
+          "scale": {
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "params": [
+    {
+      "name": "param_1",
+      "select": {
+        "type": "point",
+        "fields": [
+          "itl2_name"
+        ],
+        "nearest": true,
+        "on": "pointerover"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "title": {
+    "text": "Reallocation fell in every region, but the gap between regions persisted",
+    "subtitle": [
+      "Reallocation rate by ITL2 region (grey), UK (dark), highest and lowest regions highlighted; % of average employment",
+      "Northern Ireland shown from 2011. Source: ONS Longitudinal Business Database (Secure Access, SN 9501); authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-bb4da8b8353d386a17a05d012afac00a": [
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2003,
+        "reallocation_rate": 31.7373
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2004,
+        "reallocation_rate": 32.4387
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2005,
+        "reallocation_rate": 32.4635
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2006,
+        "reallocation_rate": 32.0112
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2007,
+        "reallocation_rate": 32.7472
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2008,
+        "reallocation_rate": 27.3689
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2009,
+        "reallocation_rate": 28.3799
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2010,
+        "reallocation_rate": 31.8119
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2011,
+        "reallocation_rate": 28.2151
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2012,
+        "reallocation_rate": 31.1896
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2013,
+        "reallocation_rate": 32.6573
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2014,
+        "reallocation_rate": 24.8107
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2015,
+        "reallocation_rate": 25.6444
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2016,
+        "reallocation_rate": 24.8231
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2017,
+        "reallocation_rate": 26.9744
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2018,
+        "reallocation_rate": 28.3033
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2019,
+        "reallocation_rate": 26.8845
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2020,
+        "reallocation_rate": 22.0227
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2021,
+        "reallocation_rate": 30.8238
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2022,
+        "reallocation_rate": 28.6767
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2023,
+        "reallocation_rate": 31.1363
+      },
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "year": 2024,
+        "reallocation_rate": 27.3805
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2003,
+        "reallocation_rate": 40.3762
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2004,
+        "reallocation_rate": 36.7272
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2005,
+        "reallocation_rate": 30.3724
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2006,
+        "reallocation_rate": 30.1194
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2007,
+        "reallocation_rate": 29.5969
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2008,
+        "reallocation_rate": 29.0056
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2009,
+        "reallocation_rate": 31.2863
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2010,
+        "reallocation_rate": 34.1981
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2011,
+        "reallocation_rate": 28.318
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2012,
+        "reallocation_rate": 30.7128
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2013,
+        "reallocation_rate": 30.5984
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2014,
+        "reallocation_rate": 27.1076
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2015,
+        "reallocation_rate": 26.1789
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2016,
+        "reallocation_rate": 25.932
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2017,
+        "reallocation_rate": 24.982
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2018,
+        "reallocation_rate": 26.3439
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2019,
+        "reallocation_rate": 24.4273
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2020,
+        "reallocation_rate": 22.6932
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2021,
+        "reallocation_rate": 23.4557
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2022,
+        "reallocation_rate": 24.7086
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2023,
+        "reallocation_rate": 25.5793
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "year": 2024,
+        "reallocation_rate": 25.2839
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2003,
+        "reallocation_rate": 33.3871
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2004,
+        "reallocation_rate": 30.2665
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2005,
+        "reallocation_rate": 28.6454
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2006,
+        "reallocation_rate": 26.7514
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2007,
+        "reallocation_rate": 29.5116
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2008,
+        "reallocation_rate": 23.8496
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2009,
+        "reallocation_rate": 21.8481
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2010,
+        "reallocation_rate": 25.2287
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2011,
+        "reallocation_rate": 20.4118
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2012,
+        "reallocation_rate": 27.2522
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2013,
+        "reallocation_rate": 26.8811
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2014,
+        "reallocation_rate": 23.6037
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2015,
+        "reallocation_rate": 21.4396
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2016,
+        "reallocation_rate": 22.916
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2017,
+        "reallocation_rate": 18.9842
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2018,
+        "reallocation_rate": 22.0018
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2019,
+        "reallocation_rate": 17.8292
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2020,
+        "reallocation_rate": 19.9768
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2021,
+        "reallocation_rate": 23.0825
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2022,
+        "reallocation_rate": 22.6877
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2023,
+        "reallocation_rate": 25.9571
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "year": 2024,
+        "reallocation_rate": 22.3502
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2003,
+        "reallocation_rate": 35.7063
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2004,
+        "reallocation_rate": 34.6727
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2005,
+        "reallocation_rate": 32.4422
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2006,
+        "reallocation_rate": 32.9358
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2007,
+        "reallocation_rate": 32.086
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2008,
+        "reallocation_rate": 32.0981
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2009,
+        "reallocation_rate": 29.6927
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2010,
+        "reallocation_rate": 34.8996
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2011,
+        "reallocation_rate": 28.8376
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2012,
+        "reallocation_rate": 32.6195
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2013,
+        "reallocation_rate": 31.9743
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2014,
+        "reallocation_rate": 29.4781
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2015,
+        "reallocation_rate": 28.4001
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2016,
+        "reallocation_rate": 30.696
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2017,
+        "reallocation_rate": 28.3966
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2018,
+        "reallocation_rate": 30.5987
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2019,
+        "reallocation_rate": 30.7245
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2020,
+        "reallocation_rate": 28.418
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2021,
+        "reallocation_rate": 24.5427
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2022,
+        "reallocation_rate": 28.3248
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2023,
+        "reallocation_rate": 31.8792
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "year": 2024,
+        "reallocation_rate": 31.2577
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2003,
+        "reallocation_rate": 36.1388
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2004,
+        "reallocation_rate": 33.1505
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2005,
+        "reallocation_rate": 30.2062
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2006,
+        "reallocation_rate": 29.4049
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2007,
+        "reallocation_rate": 28.6776
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2008,
+        "reallocation_rate": 29.5857
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2009,
+        "reallocation_rate": 30.6091
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2010,
+        "reallocation_rate": 30.7439
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2011,
+        "reallocation_rate": 24.2402
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2012,
+        "reallocation_rate": 29.837
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2013,
+        "reallocation_rate": 29.3508
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2014,
+        "reallocation_rate": 24.2576
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2015,
+        "reallocation_rate": 26.6237
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2016,
+        "reallocation_rate": 24.1989
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2017,
+        "reallocation_rate": 25.1365
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2018,
+        "reallocation_rate": 27.5657
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2019,
+        "reallocation_rate": 24.5301
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2020,
+        "reallocation_rate": 20.9775
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2021,
+        "reallocation_rate": 23.5807
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2022,
+        "reallocation_rate": 25.6261
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2023,
+        "reallocation_rate": 27.4419
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "year": 2024,
+        "reallocation_rate": 27.745
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2003,
+        "reallocation_rate": 34.0975
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2004,
+        "reallocation_rate": 34.6257
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2005,
+        "reallocation_rate": 32.5916
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2006,
+        "reallocation_rate": 31.1076
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2007,
+        "reallocation_rate": 33.8246
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2008,
+        "reallocation_rate": 30.6706
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2009,
+        "reallocation_rate": 30.889
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2010,
+        "reallocation_rate": 33.9996
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2011,
+        "reallocation_rate": 26.5253
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2012,
+        "reallocation_rate": 30.7078
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2013,
+        "reallocation_rate": 30.7708
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2014,
+        "reallocation_rate": 26.982
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2015,
+        "reallocation_rate": 27.076
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2016,
+        "reallocation_rate": 31.3016
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2017,
+        "reallocation_rate": 30.9596
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2018,
+        "reallocation_rate": 29.9363
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2019,
+        "reallocation_rate": 27.1886
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2020,
+        "reallocation_rate": 25.4678
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2021,
+        "reallocation_rate": 26.457
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2022,
+        "reallocation_rate": 28.0821
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2023,
+        "reallocation_rate": 30.1861
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "year": 2024,
+        "reallocation_rate": 30.1821
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2003,
+        "reallocation_rate": 36.2346
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2004,
+        "reallocation_rate": 35.6294
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2005,
+        "reallocation_rate": 32.8129
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2006,
+        "reallocation_rate": 32.5932
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2007,
+        "reallocation_rate": 30.5943
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2008,
+        "reallocation_rate": 28.9861
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2009,
+        "reallocation_rate": 27.8105
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2010,
+        "reallocation_rate": 31.9764
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2011,
+        "reallocation_rate": 26.1776
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2012,
+        "reallocation_rate": 30.4793
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2013,
+        "reallocation_rate": 32.3449
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2014,
+        "reallocation_rate": 26.4463
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2015,
+        "reallocation_rate": 28.3245
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2016,
+        "reallocation_rate": 31.2373
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2017,
+        "reallocation_rate": 28.0416
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2018,
+        "reallocation_rate": 29.2055
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2019,
+        "reallocation_rate": 28.0922
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2020,
+        "reallocation_rate": 25.9273
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2021,
+        "reallocation_rate": 25.7517
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2022,
+        "reallocation_rate": 27.2216
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2023,
+        "reallocation_rate": 32.4612
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "year": 2024,
+        "reallocation_rate": 31.6318
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2003,
+        "reallocation_rate": 30.8722
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2004,
+        "reallocation_rate": 32.2953
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2005,
+        "reallocation_rate": 29.5682
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2006,
+        "reallocation_rate": 28.2327
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2007,
+        "reallocation_rate": 31.5814
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2008,
+        "reallocation_rate": 28.8145
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2009,
+        "reallocation_rate": 29.6764
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2010,
+        "reallocation_rate": 30.4656
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2011,
+        "reallocation_rate": 23.3518
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2012,
+        "reallocation_rate": 30.1101
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2013,
+        "reallocation_rate": 26.6139
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2014,
+        "reallocation_rate": 22.8931
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2015,
+        "reallocation_rate": 23.6536
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2016,
+        "reallocation_rate": 25.9003
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2017,
+        "reallocation_rate": 23.0541
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2018,
+        "reallocation_rate": 27.315
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2019,
+        "reallocation_rate": 26.0029
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2020,
+        "reallocation_rate": 21.1627
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2021,
+        "reallocation_rate": 23.6086
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2022,
+        "reallocation_rate": 25.6367
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2023,
+        "reallocation_rate": 26.363
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "year": 2024,
+        "reallocation_rate": 26.3991
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2003,
+        "reallocation_rate": 35.689
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2004,
+        "reallocation_rate": 34.8116
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2005,
+        "reallocation_rate": 31.9371
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2006,
+        "reallocation_rate": 29.5952
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2007,
+        "reallocation_rate": 32.1358
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2008,
+        "reallocation_rate": 27.7545
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2009,
+        "reallocation_rate": 28.9303
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2010,
+        "reallocation_rate": 30.2285
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2011,
+        "reallocation_rate": 21.082
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2012,
+        "reallocation_rate": 27.7632
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2013,
+        "reallocation_rate": 30.3322
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2014,
+        "reallocation_rate": 26.3335
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2015,
+        "reallocation_rate": 27.5768
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2016,
+        "reallocation_rate": 28.2612
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2017,
+        "reallocation_rate": 26.5227
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2018,
+        "reallocation_rate": 31.4727
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2019,
+        "reallocation_rate": 28.0215
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2020,
+        "reallocation_rate": 26.2816
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2021,
+        "reallocation_rate": 27.4694
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2022,
+        "reallocation_rate": 24.2722
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2023,
+        "reallocation_rate": 26.5933
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "year": 2024,
+        "reallocation_rate": 27.1047
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2003,
+        "reallocation_rate": 33.3664
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2004,
+        "reallocation_rate": 32.9183
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2005,
+        "reallocation_rate": 31.1237
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2006,
+        "reallocation_rate": 31.4386
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2007,
+        "reallocation_rate": 29.0004
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2008,
+        "reallocation_rate": 26.6314
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2009,
+        "reallocation_rate": 28.62
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2010,
+        "reallocation_rate": 36.1369
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2011,
+        "reallocation_rate": 25.645
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2012,
+        "reallocation_rate": 29.7657
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2013,
+        "reallocation_rate": 29.9783
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2014,
+        "reallocation_rate": 27.5728
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2015,
+        "reallocation_rate": 26.0359
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2016,
+        "reallocation_rate": 29.6682
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2017,
+        "reallocation_rate": 29.2059
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2018,
+        "reallocation_rate": 29.9033
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2019,
+        "reallocation_rate": 28.7585
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2020,
+        "reallocation_rate": 26.7274
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2021,
+        "reallocation_rate": 23.1397
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2022,
+        "reallocation_rate": 24.2035
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2023,
+        "reallocation_rate": 31.3685
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "year": 2024,
+        "reallocation_rate": 29.8802
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2003,
+        "reallocation_rate": 34.9314
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2004,
+        "reallocation_rate": 34.5146
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2005,
+        "reallocation_rate": 31.2611
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2006,
+        "reallocation_rate": 33.9725
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2007,
+        "reallocation_rate": 30.1755
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2008,
+        "reallocation_rate": 33.8907
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2009,
+        "reallocation_rate": 30.8369
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2010,
+        "reallocation_rate": 34.4416
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2011,
+        "reallocation_rate": 25.3716
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2012,
+        "reallocation_rate": 29.655
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2013,
+        "reallocation_rate": 30.0682
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2014,
+        "reallocation_rate": 26.9958
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2015,
+        "reallocation_rate": 30.4795
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2016,
+        "reallocation_rate": 28.2402
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2017,
+        "reallocation_rate": 25.9585
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2018,
+        "reallocation_rate": 27.8103
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2019,
+        "reallocation_rate": 26.3008
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2020,
+        "reallocation_rate": 23.0921
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2021,
+        "reallocation_rate": 22.8358
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2022,
+        "reallocation_rate": 26.2166
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2023,
+        "reallocation_rate": 30.3293
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "year": 2024,
+        "reallocation_rate": 29.3796
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2003,
+        "reallocation_rate": 40.8147
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2004,
+        "reallocation_rate": 37.3729
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2005,
+        "reallocation_rate": 31.3604
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2006,
+        "reallocation_rate": 29.3948
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2007,
+        "reallocation_rate": 26.9278
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2008,
+        "reallocation_rate": 27.0039
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2009,
+        "reallocation_rate": 27.7491
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2010,
+        "reallocation_rate": 31.0497
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2011,
+        "reallocation_rate": 26.7426
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2012,
+        "reallocation_rate": 29.9266
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2013,
+        "reallocation_rate": 27.4135
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2014,
+        "reallocation_rate": 27.0803
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2015,
+        "reallocation_rate": 27.2026
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2016,
+        "reallocation_rate": 28.0617
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2017,
+        "reallocation_rate": 26.5321
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2018,
+        "reallocation_rate": 29.4877
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2019,
+        "reallocation_rate": 26.0165
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2020,
+        "reallocation_rate": 25.553
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2021,
+        "reallocation_rate": 21.9254
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2022,
+        "reallocation_rate": 27.5115
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2023,
+        "reallocation_rate": 30.2941
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "year": 2024,
+        "reallocation_rate": 28.8005
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2003,
+        "reallocation_rate": 35.1203
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2004,
+        "reallocation_rate": 34.3559
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2005,
+        "reallocation_rate": 33.8913
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2006,
+        "reallocation_rate": 32.4331
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2007,
+        "reallocation_rate": 29.3325
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2008,
+        "reallocation_rate": 29.2594
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2009,
+        "reallocation_rate": 28.1115
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2010,
+        "reallocation_rate": 32.8107
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2011,
+        "reallocation_rate": 23.9713
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2012,
+        "reallocation_rate": 28.3688
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2013,
+        "reallocation_rate": 31.0361
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2014,
+        "reallocation_rate": 27.0397
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2015,
+        "reallocation_rate": 28.4009
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2016,
+        "reallocation_rate": 28.1448
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2017,
+        "reallocation_rate": 27.7271
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2018,
+        "reallocation_rate": 29.6803
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2019,
+        "reallocation_rate": 28.4368
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2020,
+        "reallocation_rate": 27.8821
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2021,
+        "reallocation_rate": 28.4125
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2022,
+        "reallocation_rate": 28.7588
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2023,
+        "reallocation_rate": 33.9195
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "year": 2024,
+        "reallocation_rate": 29.5185
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2003,
+        "reallocation_rate": 35.8186
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2004,
+        "reallocation_rate": 35.5799
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2005,
+        "reallocation_rate": 31.1934
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2006,
+        "reallocation_rate": 28.9564
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2007,
+        "reallocation_rate": 31.2984
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2008,
+        "reallocation_rate": 27.7902
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2009,
+        "reallocation_rate": 26.7469
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2010,
+        "reallocation_rate": 32.601
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2011,
+        "reallocation_rate": 24.9171
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2012,
+        "reallocation_rate": 30.1888
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2013,
+        "reallocation_rate": 28.8237
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2014,
+        "reallocation_rate": 22.922
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2015,
+        "reallocation_rate": 26.0637
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2016,
+        "reallocation_rate": 24.8166
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2017,
+        "reallocation_rate": 24.6305
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2018,
+        "reallocation_rate": 23.6257
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2019,
+        "reallocation_rate": 22.8447
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2020,
+        "reallocation_rate": 24.3733
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2021,
+        "reallocation_rate": 23.7319
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2022,
+        "reallocation_rate": 23.0267
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2023,
+        "reallocation_rate": 26.377
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "year": 2024,
+        "reallocation_rate": 25.674
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2003,
+        "reallocation_rate": 32.9046
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2004,
+        "reallocation_rate": 31.2163
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2005,
+        "reallocation_rate": 31.7609
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2006,
+        "reallocation_rate": 30.1287
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2007,
+        "reallocation_rate": 28.9755
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2008,
+        "reallocation_rate": 28.6546
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2009,
+        "reallocation_rate": 30.2657
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2010,
+        "reallocation_rate": 32.5313
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2011,
+        "reallocation_rate": 24.2282
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2012,
+        "reallocation_rate": 29.0074
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2013,
+        "reallocation_rate": 27.7104
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2014,
+        "reallocation_rate": 26.21
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2015,
+        "reallocation_rate": 25.6465
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2016,
+        "reallocation_rate": 25.8241
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2017,
+        "reallocation_rate": 27.3427
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2018,
+        "reallocation_rate": 29.5334
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2019,
+        "reallocation_rate": 30.6101
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2020,
+        "reallocation_rate": 28.3877
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2021,
+        "reallocation_rate": 27.1161
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2022,
+        "reallocation_rate": 29.1894
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2023,
+        "reallocation_rate": 29.2862
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "year": 2024,
+        "reallocation_rate": 27.4126
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2003,
+        "reallocation_rate": 39.769
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2004,
+        "reallocation_rate": 32.9796
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2005,
+        "reallocation_rate": 32.6753
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2006,
+        "reallocation_rate": 28.8706
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2007,
+        "reallocation_rate": 31.8793
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2008,
+        "reallocation_rate": 29.0353
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2009,
+        "reallocation_rate": 25.5342
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2010,
+        "reallocation_rate": 32.6249
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2011,
+        "reallocation_rate": 25.7543
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2012,
+        "reallocation_rate": 28.5004
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2013,
+        "reallocation_rate": 27.6774
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2014,
+        "reallocation_rate": 28.0628
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2015,
+        "reallocation_rate": 28.9325
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2016,
+        "reallocation_rate": 27.9142
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2017,
+        "reallocation_rate": 26.3659
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2018,
+        "reallocation_rate": 24.9596
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2019,
+        "reallocation_rate": 25.7422
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2020,
+        "reallocation_rate": 26.5497
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2021,
+        "reallocation_rate": 22.7498
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2022,
+        "reallocation_rate": 24.7152
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2023,
+        "reallocation_rate": 28.6426
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "year": 2024,
+        "reallocation_rate": 26.6088
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2003,
+        "reallocation_rate": 35.7006
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2004,
+        "reallocation_rate": 34.2485
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2005,
+        "reallocation_rate": 35.0147
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2006,
+        "reallocation_rate": 33.3711
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2007,
+        "reallocation_rate": 31.3575
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2008,
+        "reallocation_rate": 31.5704
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2009,
+        "reallocation_rate": 29.1465
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2010,
+        "reallocation_rate": 39.2235
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2011,
+        "reallocation_rate": 31.2177
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2012,
+        "reallocation_rate": 33.6808
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2013,
+        "reallocation_rate": 30.5079
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2014,
+        "reallocation_rate": 26.7801
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2015,
+        "reallocation_rate": 33.4931
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2016,
+        "reallocation_rate": 30.2424
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2017,
+        "reallocation_rate": 27.8653
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2018,
+        "reallocation_rate": 32.2985
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2019,
+        "reallocation_rate": 30.3117
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2020,
+        "reallocation_rate": 27.2322
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2021,
+        "reallocation_rate": 25.7432
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2022,
+        "reallocation_rate": 29.8515
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2023,
+        "reallocation_rate": 33.9562
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "year": 2024,
+        "reallocation_rate": 32.8632
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2003,
+        "reallocation_rate": 37.1237
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2004,
+        "reallocation_rate": 34.6956
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2005,
+        "reallocation_rate": 32.3322
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2006,
+        "reallocation_rate": 29.3011
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2007,
+        "reallocation_rate": 28.8337
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2008,
+        "reallocation_rate": 26.9331
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2009,
+        "reallocation_rate": 27.5461
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2010,
+        "reallocation_rate": 29.3693
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2011,
+        "reallocation_rate": 22.5796
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2012,
+        "reallocation_rate": 26.5996
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2013,
+        "reallocation_rate": 27.2006
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2014,
+        "reallocation_rate": 25.149
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2015,
+        "reallocation_rate": 26.7637
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2016,
+        "reallocation_rate": 27.249
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2017,
+        "reallocation_rate": 25.7411
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2018,
+        "reallocation_rate": 25.1114
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2019,
+        "reallocation_rate": 25.5387
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2020,
+        "reallocation_rate": 23.3147
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2021,
+        "reallocation_rate": 22.4795
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2022,
+        "reallocation_rate": 24.1062
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2023,
+        "reallocation_rate": 26.4503
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "year": 2024,
+        "reallocation_rate": 27.2102
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2003,
+        "reallocation_rate": 35.9284
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2004,
+        "reallocation_rate": 36.557
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2005,
+        "reallocation_rate": 32.6203
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2006,
+        "reallocation_rate": 32.556
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2007,
+        "reallocation_rate": 32.1757
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2008,
+        "reallocation_rate": 31.7469
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2009,
+        "reallocation_rate": 34.1633
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2010,
+        "reallocation_rate": 34.8235
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2011,
+        "reallocation_rate": 27.1966
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2012,
+        "reallocation_rate": 31.0296
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2013,
+        "reallocation_rate": 30.5438
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2014,
+        "reallocation_rate": 29.5924
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2015,
+        "reallocation_rate": 32.4158
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2016,
+        "reallocation_rate": 33.088
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2017,
+        "reallocation_rate": 30.6019
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2018,
+        "reallocation_rate": 34.7418
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2019,
+        "reallocation_rate": 32.2896
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2020,
+        "reallocation_rate": 26.4195
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2021,
+        "reallocation_rate": 25.7055
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2022,
+        "reallocation_rate": 28.7947
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2023,
+        "reallocation_rate": 28.9089
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "year": 2024,
+        "reallocation_rate": 29.6538
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2003,
+        "reallocation_rate": 39.5097
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2004,
+        "reallocation_rate": 38.8734
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2005,
+        "reallocation_rate": 32.247
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2006,
+        "reallocation_rate": 28.7208
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2007,
+        "reallocation_rate": 31.0316
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2008,
+        "reallocation_rate": 28.8966
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2009,
+        "reallocation_rate": 28.5117
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2010,
+        "reallocation_rate": 31.8069
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2011,
+        "reallocation_rate": 26.7918
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2012,
+        "reallocation_rate": 29.2386
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2013,
+        "reallocation_rate": 39.2998
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2014,
+        "reallocation_rate": 26.4626
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2015,
+        "reallocation_rate": 25.5021
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2016,
+        "reallocation_rate": 28.156
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2017,
+        "reallocation_rate": 25.478
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2018,
+        "reallocation_rate": 27.6814
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2019,
+        "reallocation_rate": 27.4764
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2020,
+        "reallocation_rate": 26.5799
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2021,
+        "reallocation_rate": 27.252
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2022,
+        "reallocation_rate": 26.5999
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2023,
+        "reallocation_rate": 28.4885
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "year": 2024,
+        "reallocation_rate": 26.6362
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2003,
+        "reallocation_rate": 43.3848
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2004,
+        "reallocation_rate": 42.4175
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2005,
+        "reallocation_rate": 41.9784
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2006,
+        "reallocation_rate": 39.868
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2007,
+        "reallocation_rate": 35.7548
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2008,
+        "reallocation_rate": 37.5031
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2009,
+        "reallocation_rate": 33.4629
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2010,
+        "reallocation_rate": 38.967
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2011,
+        "reallocation_rate": 32.0399
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2012,
+        "reallocation_rate": 40.9345
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2013,
+        "reallocation_rate": 40.0949
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2014,
+        "reallocation_rate": 36.6049
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2015,
+        "reallocation_rate": 38.4621
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2016,
+        "reallocation_rate": 40.4833
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2017,
+        "reallocation_rate": 38.0349
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2018,
+        "reallocation_rate": 41.6142
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2019,
+        "reallocation_rate": 37.8163
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2020,
+        "reallocation_rate": 36.2767
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2021,
+        "reallocation_rate": 31.4862
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2022,
+        "reallocation_rate": 35.4507
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2023,
+        "reallocation_rate": 41.1495
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2024,
+        "reallocation_rate": 36.875
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2003,
+        "reallocation_rate": 41.2322
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2004,
+        "reallocation_rate": 42.2174
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2005,
+        "reallocation_rate": 36.6454
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2006,
+        "reallocation_rate": 34.1288
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2007,
+        "reallocation_rate": 31.085
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2008,
+        "reallocation_rate": 32.836
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2009,
+        "reallocation_rate": 31.6706
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2010,
+        "reallocation_rate": 35.3608
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2011,
+        "reallocation_rate": 31.3718
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2012,
+        "reallocation_rate": 35.8542
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2013,
+        "reallocation_rate": 34.9975
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2014,
+        "reallocation_rate": 35.2654
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2015,
+        "reallocation_rate": 32.5451
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2016,
+        "reallocation_rate": 33.6985
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2017,
+        "reallocation_rate": 33.4842
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2018,
+        "reallocation_rate": 36.8626
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2019,
+        "reallocation_rate": 33.5032
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2020,
+        "reallocation_rate": 31.5417
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2021,
+        "reallocation_rate": 27.6909
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2022,
+        "reallocation_rate": 34.7687
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2023,
+        "reallocation_rate": 36.6775
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "year": 2024,
+        "reallocation_rate": 33.6525
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2003,
+        "reallocation_rate": 36.5812
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2004,
+        "reallocation_rate": 36.1952
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2005,
+        "reallocation_rate": 31.9035
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2006,
+        "reallocation_rate": 30.6054
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2007,
+        "reallocation_rate": 28.1108
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2008,
+        "reallocation_rate": 31.4948
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2009,
+        "reallocation_rate": 31.0721
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2010,
+        "reallocation_rate": 34.8884
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2011,
+        "reallocation_rate": 30.2927
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2012,
+        "reallocation_rate": 36.1951
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2013,
+        "reallocation_rate": 33.5778
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2014,
+        "reallocation_rate": 27.0477
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2015,
+        "reallocation_rate": 33.2956
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2016,
+        "reallocation_rate": 32.8068
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2017,
+        "reallocation_rate": 28.5666
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2018,
+        "reallocation_rate": 30.1918
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2019,
+        "reallocation_rate": 30.8896
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2020,
+        "reallocation_rate": 29.2901
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2021,
+        "reallocation_rate": 27.4101
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2022,
+        "reallocation_rate": 30.0797
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2023,
+        "reallocation_rate": 33.5743
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "year": 2024,
+        "reallocation_rate": 30.537
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2003,
+        "reallocation_rate": 37.1389
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2004,
+        "reallocation_rate": 35.9233
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2005,
+        "reallocation_rate": 36.9826
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2006,
+        "reallocation_rate": 38.7827
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2007,
+        "reallocation_rate": 32.2827
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2008,
+        "reallocation_rate": 36.1058
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2009,
+        "reallocation_rate": 34.5497
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2010,
+        "reallocation_rate": 38.4658
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2011,
+        "reallocation_rate": 30.2706
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2012,
+        "reallocation_rate": 35.491
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2013,
+        "reallocation_rate": 32.8348
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2014,
+        "reallocation_rate": 29.1295
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2015,
+        "reallocation_rate": 30.0489
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2016,
+        "reallocation_rate": 29.2046
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2017,
+        "reallocation_rate": 29.0611
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2018,
+        "reallocation_rate": 30.9651
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2019,
+        "reallocation_rate": 28.2553
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2020,
+        "reallocation_rate": 28.0887
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2021,
+        "reallocation_rate": 28.3325
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2022,
+        "reallocation_rate": 26.9705
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2023,
+        "reallocation_rate": 32.2443
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "year": 2024,
+        "reallocation_rate": 31.8158
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2003,
+        "reallocation_rate": 43.6257
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2004,
+        "reallocation_rate": 38.0576
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2005,
+        "reallocation_rate": 35.7234
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2006,
+        "reallocation_rate": 33.5503
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2007,
+        "reallocation_rate": 32.4316
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2008,
+        "reallocation_rate": 35.5329
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2009,
+        "reallocation_rate": 29.3655
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2010,
+        "reallocation_rate": 40.182
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2011,
+        "reallocation_rate": 31.2186
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2012,
+        "reallocation_rate": 32.9178
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2013,
+        "reallocation_rate": 33.4459
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2014,
+        "reallocation_rate": 31.1654
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2015,
+        "reallocation_rate": 32.8093
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2016,
+        "reallocation_rate": 30.2277
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2017,
+        "reallocation_rate": 29.8138
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2018,
+        "reallocation_rate": 34.2233
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2019,
+        "reallocation_rate": 31.9334
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2020,
+        "reallocation_rate": 29.5144
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2021,
+        "reallocation_rate": 29.0002
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2022,
+        "reallocation_rate": 29.1744
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2023,
+        "reallocation_rate": 33.5801
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "year": 2024,
+        "reallocation_rate": 33.1218
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2003,
+        "reallocation_rate": 36.9966
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2004,
+        "reallocation_rate": 37.3947
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2005,
+        "reallocation_rate": 35.9796
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2006,
+        "reallocation_rate": 32.4575
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2007,
+        "reallocation_rate": 31.0401
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2008,
+        "reallocation_rate": 30.4062
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2009,
+        "reallocation_rate": 28.7307
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2010,
+        "reallocation_rate": 33.302
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2011,
+        "reallocation_rate": 29.234
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2012,
+        "reallocation_rate": 32.3043
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2013,
+        "reallocation_rate": 30.7865
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2014,
+        "reallocation_rate": 27.672
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2015,
+        "reallocation_rate": 28.1062
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2016,
+        "reallocation_rate": 28.199
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2017,
+        "reallocation_rate": 27.0603
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2018,
+        "reallocation_rate": 33.2361
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2019,
+        "reallocation_rate": 28.2762
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2020,
+        "reallocation_rate": 28.0139
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2021,
+        "reallocation_rate": 25.1974
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2022,
+        "reallocation_rate": 27.3595
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2023,
+        "reallocation_rate": 31.3046
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "year": 2024,
+        "reallocation_rate": 28.6391
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2003,
+        "reallocation_rate": 43.2577
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2004,
+        "reallocation_rate": 40.7315
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2005,
+        "reallocation_rate": 34.2291
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2006,
+        "reallocation_rate": 31.8238
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2007,
+        "reallocation_rate": 30.5862
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2008,
+        "reallocation_rate": 31.1388
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2009,
+        "reallocation_rate": 29.4564
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2010,
+        "reallocation_rate": 33.6256
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2011,
+        "reallocation_rate": 25.8685
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2012,
+        "reallocation_rate": 30.3552
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2013,
+        "reallocation_rate": 28.5628
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2014,
+        "reallocation_rate": 26.2424
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2015,
+        "reallocation_rate": 26.6529
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2016,
+        "reallocation_rate": 30.2109
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2017,
+        "reallocation_rate": 27.6029
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2018,
+        "reallocation_rate": 28.0037
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2019,
+        "reallocation_rate": 26.392
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2020,
+        "reallocation_rate": 24.8859
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2021,
+        "reallocation_rate": 24.6051
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2022,
+        "reallocation_rate": 25.5727
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2023,
+        "reallocation_rate": 28.1137
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "year": 2024,
+        "reallocation_rate": 27.381
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2003,
+        "reallocation_rate": 36.0214
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2004,
+        "reallocation_rate": 36.5605
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2005,
+        "reallocation_rate": 33.622
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2006,
+        "reallocation_rate": 29.6893
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2007,
+        "reallocation_rate": 29.9802
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2008,
+        "reallocation_rate": 28.173
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2009,
+        "reallocation_rate": 27.7489
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2010,
+        "reallocation_rate": 31.4467
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2011,
+        "reallocation_rate": 26.1882
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2012,
+        "reallocation_rate": 29.3522
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2013,
+        "reallocation_rate": 28.8905
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2014,
+        "reallocation_rate": 26.7429
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2015,
+        "reallocation_rate": 28.7059
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2016,
+        "reallocation_rate": 26.8534
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2017,
+        "reallocation_rate": 26.9938
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2018,
+        "reallocation_rate": 26.9753
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2019,
+        "reallocation_rate": 25.0714
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2020,
+        "reallocation_rate": 25.2407
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2021,
+        "reallocation_rate": 23.9937
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2022,
+        "reallocation_rate": 25.6468
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2023,
+        "reallocation_rate": 34.6097
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "year": 2024,
+        "reallocation_rate": 25.041
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2003,
+        "reallocation_rate": 40.8431
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2004,
+        "reallocation_rate": 37.6127
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2005,
+        "reallocation_rate": 34.7384
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2006,
+        "reallocation_rate": 34.6641
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2007,
+        "reallocation_rate": 33.1834
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2008,
+        "reallocation_rate": 29.2194
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2009,
+        "reallocation_rate": 27.65
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2010,
+        "reallocation_rate": 32.7768
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2011,
+        "reallocation_rate": 25.1129
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2012,
+        "reallocation_rate": 29.4115
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2013,
+        "reallocation_rate": 30.1121
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2014,
+        "reallocation_rate": 27.5328
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2015,
+        "reallocation_rate": 27.4667
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2016,
+        "reallocation_rate": 28.6007
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2017,
+        "reallocation_rate": 25.644
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2018,
+        "reallocation_rate": 25.9764
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2019,
+        "reallocation_rate": 25.6363
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2020,
+        "reallocation_rate": 26.0089
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2021,
+        "reallocation_rate": 23.5178
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2022,
+        "reallocation_rate": 26.8462
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2023,
+        "reallocation_rate": 29.0315
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "year": 2024,
+        "reallocation_rate": 28.3145
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2003,
+        "reallocation_rate": 35.1893
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2004,
+        "reallocation_rate": 33.7761
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2005,
+        "reallocation_rate": 33.6724
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2006,
+        "reallocation_rate": 32.0138
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2007,
+        "reallocation_rate": 31.2096
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2008,
+        "reallocation_rate": 30.2936
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2009,
+        "reallocation_rate": 29.495
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2010,
+        "reallocation_rate": 33.6637
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2011,
+        "reallocation_rate": 27.0695
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2012,
+        "reallocation_rate": 29.93
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2013,
+        "reallocation_rate": 29.3419
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2014,
+        "reallocation_rate": 26.5205
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2015,
+        "reallocation_rate": 26.3865
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2016,
+        "reallocation_rate": 27.4083
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2017,
+        "reallocation_rate": 25.2063
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2018,
+        "reallocation_rate": 27.304
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2019,
+        "reallocation_rate": 26.9026
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2020,
+        "reallocation_rate": 24.9813
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2021,
+        "reallocation_rate": 25.1237
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2022,
+        "reallocation_rate": 25.9295
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2023,
+        "reallocation_rate": 28.2718
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "year": 2024,
+        "reallocation_rate": 27.5202
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2003,
+        "reallocation_rate": 32.7381
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2004,
+        "reallocation_rate": 31.0658
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2005,
+        "reallocation_rate": 30.5509
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2006,
+        "reallocation_rate": 27.4673
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2007,
+        "reallocation_rate": 29.6404
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2008,
+        "reallocation_rate": 27.3075
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2009,
+        "reallocation_rate": 25.942
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2010,
+        "reallocation_rate": 29.2622
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2011,
+        "reallocation_rate": 23.3464
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2012,
+        "reallocation_rate": 29.6416
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2013,
+        "reallocation_rate": 26.2615
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2014,
+        "reallocation_rate": 23.2927
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2015,
+        "reallocation_rate": 24.8221
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2016,
+        "reallocation_rate": 24.421
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2017,
+        "reallocation_rate": 23.7078
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2018,
+        "reallocation_rate": 24.773
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2019,
+        "reallocation_rate": 22.2431
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2020,
+        "reallocation_rate": 23.9544
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2021,
+        "reallocation_rate": 23.4751
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2022,
+        "reallocation_rate": 24.9915
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2023,
+        "reallocation_rate": 27.5981
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "year": 2024,
+        "reallocation_rate": 26.7722
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2003,
+        "reallocation_rate": 46.8902
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2004,
+        "reallocation_rate": 38.7168
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2005,
+        "reallocation_rate": 32.8051
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2006,
+        "reallocation_rate": 30.0108
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2007,
+        "reallocation_rate": 31.3914
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2008,
+        "reallocation_rate": 25.3709
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2009,
+        "reallocation_rate": 26.0178
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2010,
+        "reallocation_rate": 29.8899
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2011,
+        "reallocation_rate": 26.0871
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2012,
+        "reallocation_rate": 25.4926
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2013,
+        "reallocation_rate": 26.6253
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2014,
+        "reallocation_rate": 27.56
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2015,
+        "reallocation_rate": 26.9217
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2016,
+        "reallocation_rate": 25.5809
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2017,
+        "reallocation_rate": 26.9898
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2018,
+        "reallocation_rate": 30.0445
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2019,
+        "reallocation_rate": 22.7544
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2020,
+        "reallocation_rate": 24.2842
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2021,
+        "reallocation_rate": 23.5847
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2022,
+        "reallocation_rate": 32.2309
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2023,
+        "reallocation_rate": 27.2877
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "year": 2024,
+        "reallocation_rate": 27.2645
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2003,
+        "reallocation_rate": 35.9097
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2004,
+        "reallocation_rate": 35.5524
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2005,
+        "reallocation_rate": 33.4061
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2006,
+        "reallocation_rate": 28.8574
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2007,
+        "reallocation_rate": 30.1147
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2008,
+        "reallocation_rate": 27.1597
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2009,
+        "reallocation_rate": 26.7666
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2010,
+        "reallocation_rate": 29.0793
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2011,
+        "reallocation_rate": 23.8374
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2012,
+        "reallocation_rate": 28.932
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2013,
+        "reallocation_rate": 25.5414
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2014,
+        "reallocation_rate": 22.8605
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2015,
+        "reallocation_rate": 23.3578
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2016,
+        "reallocation_rate": 24.4665
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2017,
+        "reallocation_rate": 21.8907
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2018,
+        "reallocation_rate": 23.9267
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2019,
+        "reallocation_rate": 22.2741
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2020,
+        "reallocation_rate": 22.5397
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2021,
+        "reallocation_rate": 22.9895
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2022,
+        "reallocation_rate": 22.7947
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2023,
+        "reallocation_rate": 27.6994
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "year": 2024,
+        "reallocation_rate": 25.6944
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2003,
+        "reallocation_rate": 34.5606
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2004,
+        "reallocation_rate": 31.02
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2005,
+        "reallocation_rate": 31.5618
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2006,
+        "reallocation_rate": 28.5514
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2007,
+        "reallocation_rate": 28.5844
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2008,
+        "reallocation_rate": 28.547
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2009,
+        "reallocation_rate": 26.731
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2010,
+        "reallocation_rate": 28.6772
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2011,
+        "reallocation_rate": 23.6083
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2012,
+        "reallocation_rate": 25.345
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2013,
+        "reallocation_rate": 28.2654
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2014,
+        "reallocation_rate": 21.6654
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2015,
+        "reallocation_rate": 21.9087
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2016,
+        "reallocation_rate": 23.8904
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2017,
+        "reallocation_rate": 22.1636
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2018,
+        "reallocation_rate": 21.8354
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2019,
+        "reallocation_rate": 22.1055
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2020,
+        "reallocation_rate": 25.703
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2021,
+        "reallocation_rate": 24.359
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2022,
+        "reallocation_rate": 24.9219
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2023,
+        "reallocation_rate": 26.8478
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "year": 2024,
+        "reallocation_rate": 23.8908
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2003,
+        "reallocation_rate": 40.9112
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2004,
+        "reallocation_rate": 33.8356
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2005,
+        "reallocation_rate": 30.6114
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2006,
+        "reallocation_rate": 30.0178
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2007,
+        "reallocation_rate": 31.4852
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2008,
+        "reallocation_rate": 29.6006
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2009,
+        "reallocation_rate": 27.9998
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2010,
+        "reallocation_rate": 31.8077
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2011,
+        "reallocation_rate": 24.0432
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2012,
+        "reallocation_rate": 28.8107
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2013,
+        "reallocation_rate": 28.7824
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2014,
+        "reallocation_rate": 24.6676
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2015,
+        "reallocation_rate": 25.3501
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2016,
+        "reallocation_rate": 26.4187
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2017,
+        "reallocation_rate": 23.7658
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2018,
+        "reallocation_rate": 23.6508
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2019,
+        "reallocation_rate": 23.668
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2020,
+        "reallocation_rate": 25.2364
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2021,
+        "reallocation_rate": 22.7939
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2022,
+        "reallocation_rate": 27.4887
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2023,
+        "reallocation_rate": 30.0119
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "year": 2024,
+        "reallocation_rate": 27.016
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2003,
+        "reallocation_rate": 32.7483
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2004,
+        "reallocation_rate": 32.367
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2005,
+        "reallocation_rate": 32.3487
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2006,
+        "reallocation_rate": 28.4058
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2007,
+        "reallocation_rate": 26.4445
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2008,
+        "reallocation_rate": 27.8564
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2009,
+        "reallocation_rate": 23.6191
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2010,
+        "reallocation_rate": 26.7283
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2011,
+        "reallocation_rate": 22.808
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2012,
+        "reallocation_rate": 28.0688
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2013,
+        "reallocation_rate": 28.0733
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2014,
+        "reallocation_rate": 26.2864
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2015,
+        "reallocation_rate": 29.6354
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2016,
+        "reallocation_rate": 26.8711
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2017,
+        "reallocation_rate": 28.9551
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2018,
+        "reallocation_rate": 28.9288
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2019,
+        "reallocation_rate": 27.6468
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2020,
+        "reallocation_rate": 23.5277
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2021,
+        "reallocation_rate": 25.7722
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2022,
+        "reallocation_rate": 23.8071
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2023,
+        "reallocation_rate": 26.3161
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "year": 2024,
+        "reallocation_rate": 25.2138
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2003,
+        "reallocation_rate": 38.2806
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2004,
+        "reallocation_rate": 35.4631
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2005,
+        "reallocation_rate": 33.9435
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2006,
+        "reallocation_rate": 31.9804
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2007,
+        "reallocation_rate": 28.999
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2008,
+        "reallocation_rate": 26.4161
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2009,
+        "reallocation_rate": 21.7433
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2010,
+        "reallocation_rate": 27.28
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2011,
+        "reallocation_rate": 19.4912
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2012,
+        "reallocation_rate": 23.7467
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2013,
+        "reallocation_rate": 23.2506
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2014,
+        "reallocation_rate": 24.1459
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2015,
+        "reallocation_rate": 22.2043
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2016,
+        "reallocation_rate": 22.0535
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2017,
+        "reallocation_rate": 20.3346
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2018,
+        "reallocation_rate": 19.8918
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2019,
+        "reallocation_rate": 21.9956
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2020,
+        "reallocation_rate": 20.9431
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2021,
+        "reallocation_rate": 28.3834
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2022,
+        "reallocation_rate": 21.0303
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2023,
+        "reallocation_rate": 22.2564
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "year": 2024,
+        "reallocation_rate": 22.8318
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2003,
+        "reallocation_rate": 35.1354
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2004,
+        "reallocation_rate": 35.591
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2005,
+        "reallocation_rate": 32.3871
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2006,
+        "reallocation_rate": 30.3775
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2007,
+        "reallocation_rate": 28.8596
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2008,
+        "reallocation_rate": 27.9304
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2009,
+        "reallocation_rate": 26.919
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2010,
+        "reallocation_rate": 31.0947
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2011,
+        "reallocation_rate": 26.2422
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2012,
+        "reallocation_rate": 27.4054
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2013,
+        "reallocation_rate": 29.7328
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2014,
+        "reallocation_rate": 30.3821
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2015,
+        "reallocation_rate": 27.1681
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2016,
+        "reallocation_rate": 24.8397
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2017,
+        "reallocation_rate": 23.1489
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2018,
+        "reallocation_rate": 25.223
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2019,
+        "reallocation_rate": 24.365
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2020,
+        "reallocation_rate": 25.4982
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2021,
+        "reallocation_rate": 21.6129
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2022,
+        "reallocation_rate": 23.8424
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2023,
+        "reallocation_rate": 27.3732
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "year": 2024,
+        "reallocation_rate": 24.5994
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2003,
+        "reallocation_rate": 42.239
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2004,
+        "reallocation_rate": 36.7035
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2005,
+        "reallocation_rate": 33.8892
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2006,
+        "reallocation_rate": 33.9412
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2007,
+        "reallocation_rate": 33.2637
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2008,
+        "reallocation_rate": 34.1678
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2009,
+        "reallocation_rate": 27.3074
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2010,
+        "reallocation_rate": 34.5748
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2011,
+        "reallocation_rate": 25.0546
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2012,
+        "reallocation_rate": 28.5819
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2013,
+        "reallocation_rate": 27.6822
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2014,
+        "reallocation_rate": 25.9627
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2015,
+        "reallocation_rate": 27.4121
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2016,
+        "reallocation_rate": 28.3017
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2017,
+        "reallocation_rate": 26.9239
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2018,
+        "reallocation_rate": 29.868
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2019,
+        "reallocation_rate": 25.3371
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2020,
+        "reallocation_rate": 25.1143
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2021,
+        "reallocation_rate": 22.968
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2022,
+        "reallocation_rate": 26.9566
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2023,
+        "reallocation_rate": 27.8429
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "year": 2024,
+        "reallocation_rate": 28.0655
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2003,
+        "reallocation_rate": 33.2383
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2004,
+        "reallocation_rate": 30.8898
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2005,
+        "reallocation_rate": 35.4697
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2006,
+        "reallocation_rate": 31.2429
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2007,
+        "reallocation_rate": 30.1926
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2008,
+        "reallocation_rate": 25.3837
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2009,
+        "reallocation_rate": 24.087
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2010,
+        "reallocation_rate": 28.862
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2011,
+        "reallocation_rate": 23.335
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2012,
+        "reallocation_rate": 25.1881
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2013,
+        "reallocation_rate": 24.462
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2014,
+        "reallocation_rate": 24.104
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2015,
+        "reallocation_rate": 24.1332
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2016,
+        "reallocation_rate": 23.4065
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2017,
+        "reallocation_rate": 25.1349
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2018,
+        "reallocation_rate": 22.5162
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2019,
+        "reallocation_rate": 21.5582
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2020,
+        "reallocation_rate": 22.1072
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2021,
+        "reallocation_rate": 20.4433
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2022,
+        "reallocation_rate": 21.1404
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2023,
+        "reallocation_rate": 27.2853
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "year": 2024,
+        "reallocation_rate": 24.8284
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2011,
+        "reallocation_rate": 29.2712
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2012,
+        "reallocation_rate": 30.1643
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2013,
+        "reallocation_rate": 24.5762
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2014,
+        "reallocation_rate": 23.7448
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2015,
+        "reallocation_rate": 23.1711
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2016,
+        "reallocation_rate": 23.7543
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2017,
+        "reallocation_rate": 16.5381
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2018,
+        "reallocation_rate": 23.337
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2019,
+        "reallocation_rate": 21.4259
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2020,
+        "reallocation_rate": 18.5349
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2021,
+        "reallocation_rate": 19.1304
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2022,
+        "reallocation_rate": 25.6203
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2023,
+        "reallocation_rate": 24.1796
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2024,
+        "reallocation_rate": 19.5561
+      }
+    ],
+    "data-399f39c1cd8f952ce5822adffdffcec6": [
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2003,
+        "reallocation_rate": 43.3848
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2004,
+        "reallocation_rate": 42.4175
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2005,
+        "reallocation_rate": 41.9784
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2006,
+        "reallocation_rate": 39.868
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2007,
+        "reallocation_rate": 35.7548
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2008,
+        "reallocation_rate": 37.5031
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2009,
+        "reallocation_rate": 33.4629
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2010,
+        "reallocation_rate": 38.967
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2011,
+        "reallocation_rate": 32.0399
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2012,
+        "reallocation_rate": 40.9345
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2013,
+        "reallocation_rate": 40.0949
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2014,
+        "reallocation_rate": 36.6049
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2015,
+        "reallocation_rate": 38.4621
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2016,
+        "reallocation_rate": 40.4833
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2017,
+        "reallocation_rate": 38.0349
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2018,
+        "reallocation_rate": 41.6142
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2019,
+        "reallocation_rate": 37.8163
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2020,
+        "reallocation_rate": 36.2767
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2021,
+        "reallocation_rate": 31.4862
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2022,
+        "reallocation_rate": 35.4507
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2023,
+        "reallocation_rate": 41.1495
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2024,
+        "reallocation_rate": 36.875
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2011,
+        "reallocation_rate": 29.2712
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2012,
+        "reallocation_rate": 30.1643
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2013,
+        "reallocation_rate": 24.5762
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2014,
+        "reallocation_rate": 23.7448
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2015,
+        "reallocation_rate": 23.1711
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2016,
+        "reallocation_rate": 23.7543
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2017,
+        "reallocation_rate": 16.5381
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2018,
+        "reallocation_rate": 23.337
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2019,
+        "reallocation_rate": 21.4259
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2020,
+        "reallocation_rate": 18.5349
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2021,
+        "reallocation_rate": 19.1304
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2022,
+        "reallocation_rate": 25.6203
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2023,
+        "reallocation_rate": 24.1796
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2024,
+        "reallocation_rate": 19.5561
+      }
+    ],
+    "data-d85cfdb6e7957a0539fb8eac0ecb2fbe": [
+      {
+        "group": "UK",
+        "year": 2003,
+        "reallocation_rate": 37.027300050627574,
+        "total_jc_rate": 17.128214082707018,
+        "total_jd_rate": 19.89908596792056,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2004,
+        "reallocation_rate": 35.27962839083421,
+        "total_jc_rate": 17.069980418742947,
+        "total_jd_rate": 18.209647972091265,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2005,
+        "reallocation_rate": 33.770300095998124,
+        "total_jc_rate": 17.36355546779635,
+        "total_jd_rate": 16.40674462820177,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2006,
+        "reallocation_rate": 31.34964547973267,
+        "total_jc_rate": 15.69373905851245,
+        "total_jd_rate": 15.655906421220218,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2007,
+        "reallocation_rate": 31.323326574902516,
+        "total_jc_rate": 16.539240050680164,
+        "total_jd_rate": 14.784086524222353,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2008,
+        "reallocation_rate": 30.230791018785503,
+        "total_jc_rate": 15.203414952433317,
+        "total_jd_rate": 15.027376066352186,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2009,
+        "reallocation_rate": 29.33718296336548,
+        "total_jc_rate": 14.467363628728926,
+        "total_jd_rate": 14.869819334636555,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2010,
+        "reallocation_rate": 33.45145248073399,
+        "total_jc_rate": 14.921542008852322,
+        "total_jd_rate": 18.52991047188167,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2011,
+        "reallocation_rate": 26.829511852833335,
+        "total_jc_rate": 13.17426861126773,
+        "total_jd_rate": 13.655243241565607,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2012,
+        "reallocation_rate": 30.83711191376102,
+        "total_jc_rate": 16.026910899571167,
+        "total_jd_rate": 14.810201014189854,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2013,
+        "reallocation_rate": 30.474420287910657,
+        "total_jc_rate": 16.167625428553148,
+        "total_jd_rate": 14.30679485935751,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2014,
+        "reallocation_rate": 27.57339199384936,
+        "total_jc_rate": 14.694736198650975,
+        "total_jd_rate": 12.878655795198384,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2015,
+        "reallocation_rate": 28.480048232806958,
+        "total_jc_rate": 15.04033247702505,
+        "total_jd_rate": 13.439715755781906,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2016,
+        "reallocation_rate": 28.909930220145093,
+        "total_jc_rate": 15.545119588054371,
+        "total_jd_rate": 13.36481063209072,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2017,
+        "reallocation_rate": 27.33892862510819,
+        "total_jc_rate": 14.589073959176194,
+        "total_jd_rate": 12.749854665931995,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2018,
+        "reallocation_rate": 29.522475580609246,
+        "total_jc_rate": 15.119696745442047,
+        "total_jd_rate": 14.4027788351672,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2019,
+        "reallocation_rate": 27.761116143299922,
+        "total_jc_rate": 14.340310271178524,
+        "total_jd_rate": 13.420805872121399,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2020,
+        "reallocation_rate": 26.411524000171063,
+        "total_jc_rate": 13.421045707408043,
+        "total_jd_rate": 12.990478292763022,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2021,
+        "reallocation_rate": 25.21076733570593,
+        "total_jc_rate": 12.45355193587397,
+        "total_jd_rate": 12.757215399831962,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2022,
+        "reallocation_rate": 27.510434235772074,
+        "total_jc_rate": 14.424470820859462,
+        "total_jd_rate": 13.08596341491261,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2023,
+        "reallocation_rate": 30.680896522302792,
+        "total_jc_rate": 16.031234575736587,
+        "total_jd_rate": 14.649661946566205,
+        "itl2_name": "UK"
+      },
+      {
+        "group": "UK",
+        "year": 2024,
+        "reallocation_rate": 28.863988230071996,
+        "total_jc_rate": 15.06889608639531,
+        "total_jd_rate": 13.795092143676687,
+        "itl2_name": "UK"
+      }
+    ],
+    "data-bcfbab6fa301ad1779ce715243ff3c6d": [
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "year": 2024,
+        "reallocation_rate": 36.875,
+        "group": null,
+        "total_jc_rate": null,
+        "total_jd_rate": null
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "year": 2024,
+        "reallocation_rate": 19.5561,
+        "group": null,
+        "total_jc_rate": null,
+        "total_jd_rate": null
+      },
+      {
+        "itl2_code": null,
+        "itl2_name": "UK",
+        "year": 2024,
+        "reallocation_rate": 28.863988230071996,
+        "group": "UK",
+        "total_jc_rate": 15.06889608639531,
+        "total_jd_rate": 13.795092143676687
+      }
+    ]
+  },
+  "width": 560,
+  "height": 360
+}

@@ -1,0 +1,498 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "data": {
+    "name": "data-28fc64c23ebe3f51c46688a18af48f1d"
+  },
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "color": {
+      "field": "group",
+      "legend": {
+        "orient": "top",
+        "symbolStrokeWidth": 3,
+        "title": null
+      },
+      "scale": {
+        "domain": [
+          "London",
+          "UK excl. London"
+        ],
+        "range": [
+          "#e6224b",
+          "#122b39"
+        ]
+      },
+      "sort": [
+        "London",
+        "UK excl. London"
+      ],
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "group",
+        "type": "nominal"
+      },
+      {
+        "field": "year",
+        "type": "quantitative"
+      },
+      {
+        "field": "reallocation_rate",
+        "format": ".1f",
+        "title": "Reallocation rate (%)",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "values": [
+          2004,
+          2008,
+          2012,
+          2016,
+          2020,
+          2024
+        ]
+      },
+      "field": "year",
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "reallocation_rate",
+      "scale": {
+        "zero": false
+      },
+      "type": "quantitative"
+    }
+  },
+  "title": {
+    "text": "Job reallocation has fallen in London and the rest of the UK",
+    "subtitle": [
+      "Reallocation rate: job creation plus job destruction, % of average employment",
+      "Source: ONS Longitudinal Business Database (Secure Access, SN 9501); authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-28fc64c23ebe3f51c46688a18af48f1d": [
+      {
+        "group": "London",
+        "year": 2003,
+        "reallocation_rate": 41.49981786270159,
+        "total_jc_rate": 18.3064542835381,
+        "total_jd_rate": 23.193363579163492
+      },
+      {
+        "group": "London",
+        "year": 2004,
+        "reallocation_rate": 40.132339463207984,
+        "total_jc_rate": 20.02184849628434,
+        "total_jd_rate": 20.110490966923646
+      },
+      {
+        "group": "London",
+        "year": 2005,
+        "reallocation_rate": 37.888501438459244,
+        "total_jc_rate": 19.400720276700355,
+        "total_jd_rate": 18.48778116175889
+      },
+      {
+        "group": "London",
+        "year": 2006,
+        "reallocation_rate": 36.19046208480185,
+        "total_jc_rate": 17.087516242209293,
+        "total_jd_rate": 19.102945842592554
+      },
+      {
+        "group": "London",
+        "year": 2007,
+        "reallocation_rate": 32.820150891889604,
+        "total_jc_rate": 17.691980295521713,
+        "total_jd_rate": 15.12817059636789
+      },
+      {
+        "group": "London",
+        "year": 2008,
+        "reallocation_rate": 35.23641961488655,
+        "total_jc_rate": 18.64735303251426,
+        "total_jd_rate": 16.58906658237229
+      },
+      {
+        "group": "London",
+        "year": 2009,
+        "reallocation_rate": 32.14267641487225,
+        "total_jc_rate": 16.129422610233856,
+        "total_jd_rate": 16.013253804638392
+      },
+      {
+        "group": "London",
+        "year": 2010,
+        "reallocation_rate": 37.84145082157281,
+        "total_jc_rate": 17.83743596102805,
+        "total_jd_rate": 20.004014860544764
+      },
+      {
+        "group": "London",
+        "year": 2011,
+        "reallocation_rate": 31.360742307308037,
+        "total_jc_rate": 16.427188389392068,
+        "total_jd_rate": 14.933553917915967
+      },
+      {
+        "group": "London",
+        "year": 2012,
+        "reallocation_rate": 37.25171650939579,
+        "total_jc_rate": 20.60919313602641,
+        "total_jd_rate": 16.64252337336938
+      },
+      {
+        "group": "London",
+        "year": 2013,
+        "reallocation_rate": 36.289111280744876,
+        "total_jc_rate": 19.551792090875132,
+        "total_jd_rate": 16.737319189869748
+      },
+      {
+        "group": "London",
+        "year": 2014,
+        "reallocation_rate": 33.56213915059461,
+        "total_jc_rate": 18.750015881058243,
+        "total_jd_rate": 14.81212326953637
+      },
+      {
+        "group": "London",
+        "year": 2015,
+        "reallocation_rate": 34.69029990365606,
+        "total_jc_rate": 18.848743944130337,
+        "total_jd_rate": 15.841555959525724
+      },
+      {
+        "group": "London",
+        "year": 2016,
+        "reallocation_rate": 35.213532856213405,
+        "total_jc_rate": 19.898882119832024,
+        "total_jd_rate": 15.314650736381381
+      },
+      {
+        "group": "London",
+        "year": 2017,
+        "reallocation_rate": 33.73681565672515,
+        "total_jc_rate": 18.14425591470486,
+        "total_jd_rate": 15.592559742020287
+      },
+      {
+        "group": "London",
+        "year": 2018,
+        "reallocation_rate": 37.03668487304211,
+        "total_jc_rate": 18.516531307404303,
+        "total_jd_rate": 18.52015356563781
+      },
+      {
+        "group": "London",
+        "year": 2019,
+        "reallocation_rate": 34.17876646906114,
+        "total_jc_rate": 18.056364504292432,
+        "total_jd_rate": 16.122401964768706
+      },
+      {
+        "group": "London",
+        "year": 2020,
+        "reallocation_rate": 32.53786548060161,
+        "total_jc_rate": 17.051497053618185,
+        "total_jd_rate": 15.486368426983422
+      },
+      {
+        "group": "London",
+        "year": 2021,
+        "reallocation_rate": 29.43847106310642,
+        "total_jc_rate": 15.201138168157874,
+        "total_jd_rate": 14.237332894948548
+      },
+      {
+        "group": "London",
+        "year": 2022,
+        "reallocation_rate": 32.9730293794105,
+        "total_jc_rate": 16.733698275149898,
+        "total_jd_rate": 16.2393311042606
+      },
+      {
+        "group": "London",
+        "year": 2023,
+        "reallocation_rate": 37.26634147420488,
+        "total_jc_rate": 20.693266542255806,
+        "total_jd_rate": 16.573074931949076
+      },
+      {
+        "group": "London",
+        "year": 2024,
+        "reallocation_rate": 34.38904970639318,
+        "total_jc_rate": 18.065337854602596,
+        "total_jd_rate": 16.323711851790588
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2003,
+        "reallocation_rate": 36.21950713789564,
+        "total_jc_rate": 16.91540909819521,
+        "total_jd_rate": 19.30409803970043
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2004,
+        "reallocation_rate": 34.41189716138253,
+        "total_jc_rate": 16.542145961281378,
+        "total_jd_rate": 17.869751200101152
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2005,
+        "reallocation_rate": 33.0309089863341,
+        "total_jc_rate": 16.997798326907297,
+        "total_jd_rate": 16.0331106594268
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2006,
+        "reallocation_rate": 30.492292052699643,
+        "total_jc_rate": 15.44688821857119,
+        "total_jd_rate": 15.045403834128452
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2007,
+        "reallocation_rate": 31.060273786555136,
+        "total_jc_rate": 16.33665680012463,
+        "total_jd_rate": 14.723616986430509
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2008,
+        "reallocation_rate": 29.337236134723206,
+        "total_jc_rate": 14.58863748087631,
+        "total_jd_rate": 14.748598653846898
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2009,
+        "reallocation_rate": 28.829849845423112,
+        "total_jc_rate": 14.166804179966665,
+        "total_jd_rate": 14.66304566545645
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2010,
+        "reallocation_rate": 32.64953918986276,
+        "total_jc_rate": 14.388900779066804,
+        "total_jd_rate": 18.260638410795952
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2011,
+        "reallocation_rate": 25.98513646815757,
+        "total_jc_rate": 12.568100945206796,
+        "total_jd_rate": 13.417035522950773
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2012,
+        "reallocation_rate": 29.607896954646467,
+        "total_jc_rate": 15.148819383880745,
+        "total_jd_rate": 14.459077570765722
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2013,
+        "reallocation_rate": 29.336215808867273,
+        "total_jc_rate": 15.505187191055906,
+        "total_jd_rate": 13.831028617811366
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2014,
+        "reallocation_rate": 26.380184475511673,
+        "total_jc_rate": 13.886755818220257,
+        "total_jd_rate": 12.493428657291416
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2015,
+        "reallocation_rate": 27.216846719618303,
+        "total_jc_rate": 14.265679309477228,
+        "total_jd_rate": 12.951167410141077
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2016,
+        "reallocation_rate": 27.599434835006587,
+        "total_jc_rate": 14.63998865971238,
+        "total_jd_rate": 12.959446175294207
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2017,
+        "reallocation_rate": 25.98737026922897,
+        "total_jc_rate": 13.838039148008011,
+        "total_jd_rate": 12.149331121220955
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2018,
+        "reallocation_rate": 27.9389098098601,
+        "total_jc_rate": 14.403838199069362,
+        "total_jd_rate": 13.535071610790736
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2019,
+        "reallocation_rate": 26.408617756960787,
+        "total_jc_rate": 13.557164244406001,
+        "total_jd_rate": 12.851453512554786
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2020,
+        "reallocation_rate": 25.10622367946322,
+        "total_jc_rate": 12.647528703555151,
+        "total_jd_rate": 12.45869497590807
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2021,
+        "reallocation_rate": 24.299292531552727,
+        "total_jc_rate": 11.861184120046705,
+        "total_jd_rate": 12.438108411506022
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2022,
+        "reallocation_rate": 26.332223783773443,
+        "total_jc_rate": 13.926400608598593,
+        "total_jd_rate": 12.405823175174849
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2023,
+        "reallocation_rate": 29.24612945179193,
+        "total_jc_rate": 15.015520376303671,
+        "total_jd_rate": 14.23060907548826
+      },
+      {
+        "group": "UK excl. London",
+        "year": 2024,
+        "reallocation_rate": 27.63806115897776,
+        "total_jc_rate": 14.404031252520427,
+        "total_jd_rate": 13.234029906457332
+      }
+    ]
+  },
+  "width": 560,
+  "height": 320
+}
