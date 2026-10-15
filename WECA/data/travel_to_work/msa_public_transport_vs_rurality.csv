@@ -1,0 +1,22 @@
+msa_name,msa_abbrev,tier,pct_public_transport,pct_pop_rural,population,population_rural
+Cumbria,Cumbria CA,Existing Mayoral,3.800579157004804,49.8,510680,254403
+Norfolk and Suffolk,NSCCA,Planned / not yet in force,3.311869138556287,45.1,1726590,779335
+Devon and Torbay,DTCCA,Foundation (non-mayoral),4.077269183866887,42.9,982439,421260
+York and North Yorkshire,YNYCA,Established,3.6574706976535714,42.8,844571,361553
+Greater Lincolnshire,GLCCA,Existing Mayoral,2.4707826011694594,41.0,1120749,460051
+Cambridgeshire and Peterborough,CPCA,Established,5.124811946286288,34.1,933972,318401
+Hull and East Yorkshire,HEYCA,Existing Mayoral,5.5198172950939,24.5,631285,154362
+Greater Essex,GECCA,Planned / not yet in force,10.124813293966888,21.2,1929610,409060
+East Midlands,EMCCA,Established,6.948186480049477,20.4,2284616,466632
+North East,NEMSA,Established,9.714723955725772,19.9,2047820,408005
+Cheshire and Warrington,C&W CA,Existing Mayoral,3.2602930824443037,19.4,1008341,195605
+Sussex and Brighton,SBSA,Existing Mayoral,8.557496659378037,17.3,1759789,303668
+Lancashire,LCCA,Foundation (non-mayoral),5.097916892698275,17.1,1601645,274460
+Hampshire and the Solent,HSCCA,Existing Mayoral,5.743376995003034,16.9,2062619,347813
+Tees Valley,TVCA,Established,4.863822586780581,10.6,712858,75628
+West Yorkshire,WYCA,Established,9.097576611699772,9.7,2435236,236940
+South Yorkshire,SYMCA,Established,8.808178120316848,8.1,1430623,116228
+West of England,WECA,Established,8.437755724008337,8.0,1000759,80048
+West Midlands,WMCA,Established,12.38939693457096,1.0,3036605,29345
+Greater Manchester,GMCA,Established,10.805691663621104,0.8,3009664,22781
+Liverpool City Region,LCRCA,Established,11.846246184585132,0.7,1607084,11829

@@ -1,0 +1,165 @@
+msa_code,msa_abbrev,msa_name,tier,devolution_type,dpp_status,cauth_code,lad_code,lad_name,jobs_k,median_hourly
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000001,Bolton,108.0,15.31
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000002,Bury,74.0,18.55
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000003,Manchester,238.0,16.78
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000004,Oldham,89.0,16.49
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000005,Rochdale,85.0,16.3
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000006,Salford,130.0,16.72
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000007,Stockport,129.0,19.12
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000008,Tameside,95.0,16.38
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000009,Trafford,116.0,21.63
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,E08000010,Wigan,144.0,16.83
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000025,Birmingham,364.0,16.37
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000026,Coventry,132.0,17.44
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000027,Dudley,135.0,16.92
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000028,Sandwell,119.0,15.41
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000029,Solihull,88.0,19.9
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000030,Walsall,104.0,15.92
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,E08000031,Wolverhampton,100.0,16.28
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E06000006,Halton,57.0,16.18
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E08000011,Knowsley,61.0,17.8
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E08000012,Liverpool,212.0,17.68
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E08000014,Sefton,117.0,17.63
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E08000013,St. Helens,81.0,17.22
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,E08000015,Wirral,129.0,17.07
+MSA004,SYMCA,South Yorkshire,Established,Established,0,E47000002,E08000038,Barnsley,104.0,16.61
+MSA004,SYMCA,South Yorkshire,Established,Established,0,E47000002,E08000017,Doncaster,113.0,15.93
+MSA004,SYMCA,South Yorkshire,Established,Established,0,E47000002,E08000018,Rotherham,103.0,15.72
+MSA004,SYMCA,South Yorkshire,Established,Established,0,E47000002,E08000039,Sheffield,250.0,17.39
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,E08000032,Bradford,195.0,15.75
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,E08000033,Calderdale,84.0,17.73
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,E08000034,Kirklees,197.0,16.49
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,E08000035,Leeds,362.0,17.26
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,E08000036,Wakefield,158.0,16.56
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,E06000005,Darlington,47.0,17.77
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,E06000001,Hartlepool,34.0,15.39
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,E06000002,Middlesbrough,47.0,16.0
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,E06000003,Redcar and Cleveland,47.0,15.22
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,E06000004,Stockton-on-Tees,82.0,16.51
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E06000047,County Durham,201.0,15.79
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E08000037,Gateshead,82.0,16.1
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E08000021,Newcastle upon Tyne,110.0,16.11
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E08000022,North Tyneside,93.0,17.45
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E06000057,Northumberland,121.0,16.77
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E08000023,South Tyneside,54.0,14.91
+MSA007,NEMSA,North East,Established,Established,0,E47000014,E08000024,Sunderland,108.0,15.88
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E07000008,Cambridge,72.0,21.33
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E07000009,East Cambridgeshire,47.0,18.92
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E07000010,Fenland,47.0,15.9
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E07000011,Huntingdonshire,90.0,18.97
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E06000031,Peterborough,87.0,15.92
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,E07000012,South Cambridgeshire,92.0,23.01
+MSA009,WECA,West of England,Established,Mayoral,0,E47000009,E06000022,Bath and North East Somerset,83.0,19.19
+MSA009,WECA,West of England,Established,Mayoral,0,E47000009,E06000023,"Bristol, City of",240.0,19.14
+MSA009,WECA,West of England,Established,Mayoral,0,E47000009,E06000025,South Gloucestershire,151.0,18.73
+MSA010,YNYCA,York and North Yorkshire,Established,Mayoral,0,E47000012,E06000065,North Yorkshire,245.0,17.2
+MSA010,YNYCA,York and North Yorkshire,Established,Mayoral,0,E47000012,E06000014,York,88.0,18.13
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000032,Amber Valley,53.0,17.5
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000170,Ashfield,48.0,15.91
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000171,Bassetlaw,53.0,15.52
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000033,Bolsover,34.0,15.99
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000172,Broxtowe,48.0,16.9
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000034,Chesterfield,44.0,16.25
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E06000015,Derby,111.0,16.13
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000035,Derbyshire Dales,27.0,18.36
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000036,Erewash,46.0,16.93
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000173,Gedling,52.0,17.25
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000037,High Peak,42.0,17.87
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000174,Mansfield,41.0,15.33
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000175,Newark and Sherwood,48.0,16.25
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000038,North East Derbyshire,46.0,18.55
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E06000018,Nottingham,102.0,14.68
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000176,Rushcliffe,55.0,20.93
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,E07000039,South Derbyshire,54.0,19.25
+MSA012,HEYCA,Hull and East Yorkshire,Existing Mayoral,Mayoral,0,E47000016,E06000011,East Riding of Yorkshire,148.0,17.49
+MSA012,HEYCA,Hull and East Yorkshire,Existing Mayoral,Mayoral,0,E47000016,E06000010,"Kingston upon Hull, City of",105.0,15.4
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000066,Basildon,79.0,18.51
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000067,Braintree,66.0,18.69
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000068,Brentwood,31.0,20.85
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000069,Castle Point,31.0,19.35
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000070,Chelmsford,71.0,20.2
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000071,Colchester,87.0,17.91
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000072,Epping Forest,52.0,21.02
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000073,Harlow,38.0,16.83
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000074,Maldon,27.0,18.75
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000075,Rochford,33.0,21.67
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E06000033,Southend-on-Sea,71.0,17.78
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000076,Tendring,57.0,16.0
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E06000034,Thurrock,67.0,18.93
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,E07000077,Uttlesford,38.0,23.36
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000223,Adur,25.0,17.88
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000224,Arun,65.0,16.36
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E06000043,Brighton and Hove,127.0,19.14
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000225,Chichester,47.0,16.02
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000226,Crawley,50.0,17.84
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000061,Eastbourne,39.0,17.62
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000062,Hastings,38.0,15.91
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000227,Horsham,66.0,19.59
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000063,Lewes,41.0,19.75
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000228,Mid Sussex,81.0,20.49
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000064,Rother,30.0,16.39
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000065,Wealden,63.0,19.0
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,E07000229,Worthing,51.0,17.11
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000084,Basingstoke and Deane,88.0,20.18
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000085,East Hampshire,58.0,21.63
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000086,Eastleigh,75.0,19.46
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000087,Fareham,49.0,20.02
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000088,Gosport,37.0,17.22
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000089,Hart,49.0,22.62
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000090,Havant,46.0,17.21
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E06000046,Isle of Wight,46.0,15.36
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000091,New Forest,76.0,17.1
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E06000044,Portsmouth,80.0,15.93
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000092,Rushmoor,54.0,17.35
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E06000045,Southampton,117.0,16.8
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000093,Test Valley,67.0,19.1
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,E07000094,Winchester,66.0,21.43
+MSA016,Cumbria CA,Cumbria,Existing Mayoral,Foundation,1,,E06000063,Cumberland,134.0,17.78
+MSA016,Cumbria CA,Cumbria,Existing Mayoral,Foundation,1,,E06000064,Westmorland and Furness,102.0,18.26
+MSA017,C&W CA,Cheshire and Warrington,Existing Mayoral,Foundation,1,,E06000049,Cheshire East,190.0,18.5
+MSA017,C&W CA,Cheshire and Warrington,Existing Mayoral,Foundation,1,,E06000050,Cheshire West and Chester,163.0,17.8
+MSA017,C&W CA,Cheshire and Warrington,Existing Mayoral,Foundation,1,,E06000007,Warrington,95.0,19.09
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000040,East Devon,54.0,18.41
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000041,Exeter,62.0,15.99
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000042,Mid Devon,32.0,16.72
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000043,North Devon,36.0,15.0
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000044,South Hams,33.0,17.08
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000045,Teignbridge,54.0,16.26
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E06000027,Torbay,54.0,15.03
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000046,Torridge,25.0,16.28
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,E07000047,West Devon,19.0,17.29
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000136,Boston,29.0,14.28
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000137,East Lindsey,44.0,14.62
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000138,Lincoln,46.0,16.07
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E06000012,North East Lincolnshire,61.0,16.0
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000139,North Kesteven,57.0,17.51
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E06000013,North Lincolnshire,72.0,16.33
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000140,South Holland,44.0,15.31
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000141,South Kesteven,59.0,16.65
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,E07000142,West Lindsey,47.0,17.99
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E06000008,Blackburn with Darwen,57.0,15.35
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E06000009,Blackpool,53.0,14.82
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000117,Burnley,33.0,15.49
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000118,Chorley,57.0,19.19
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000119,Fylde,32.0,18.01
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000120,Hyndburn,31.0,15.37
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000121,Lancaster,54.0,15.58
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000122,Pendle,31.0,16.09
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000123,Preston,66.0,17.32
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000124,Ribble Valley,29.0,20.33
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000125,Rossendale,29.0,16.47
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000126,South Ribble,53.0,18.07
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000127,West Lancashire,50.0,17.89
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,E07000128,Wyre,44.0,17.29
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000200,Babergh,39.0,16.49
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000143,Breckland,59.0,16.31
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000144,Broadland,64.0,17.07
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000244,East Suffolk,99.0,16.8
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000145,Great Yarmouth,42.0,15.87
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000202,Ipswich,72.0,15.78
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000146,King's Lynn and West Norfolk,59.0,16.01
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000203,Mid Suffolk,46.0,17.52
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000147,North Norfolk,37.0,15.21
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000148,Norwich,71.0,16.42
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000149,South Norfolk,76.0,17.9
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,E07000245,West Suffolk,78.0,17.57

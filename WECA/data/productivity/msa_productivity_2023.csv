@@ -1,0 +1,22 @@
+msa_name,tier,productivity_index,lad_min,lad_max,n_lads,rank
+Hampshire and the Solent,Existing Mayoral,112.4572210791391,84.69,200.91,14.0,1
+Cheshire and Warrington,Existing Mayoral,106.14931999510917,90.1,114.35,3.0,2
+West of England,Established,100.07574826815669,81.44,137.54,3.0,3
+Cambridgeshire and Peterborough,Established,96.49805747229414,75.92,108.66,6.0,4
+Greater Manchester,Established,95.23471571239511,77.7,106.93,10.0,5
+Sussex and Brighton,Existing Mayoral,94.78772444942703,69.35,128.59,13.0,6
+Greater Essex,Planned / not yet in force,94.52910298168676,67.1,131.11,14.0,7
+York and North Yorkshire,Established,91.14339246413726,86.84,103.94,2.0,8
+Norfolk and Suffolk,Planned / not yet in force,90.67957171327268,68.69,130.18,12.0,9
+Hull and East Yorkshire,Existing Mayoral,89.86338972269212,81.25,97.37,2.0,10
+Lancashire,Foundation (non-mayoral),89.38406749413768,72.25,129.23,14.0,11
+Liverpool City Region,Established,89.2754614984626,69.05,115.33,6.0,12
+West Yorkshire,Established,89.08927985629782,77.43,99.03,5.0,13
+Greater Lincolnshire,Existing Mayoral,87.5135812142767,70.68,104.9,9.0,14
+Cumbria,Existing Mayoral,86.92164561334235,76.58,98.9,2.0,15
+North East,Established,85.99874837778012,72.47,95.53,7.0,16
+West Midlands,Established,85.33194247340987,74.5,99.83,7.0,17
+East Midlands,Established,85.14529459551316,65.23,120.98,17.0,18
+Tees Valley,Established,84.51963141404929,72.17,103.05,5.0,19
+Devon and Torbay,Foundation (non-mayoral),82.72852234151637,56.75,96.99,9.0,20
+South Yorkshire,Established,80.87353291980095,71.19,86.17,4.0,21

@@ -1,0 +1,22 @@
+msa_name,population,pct_pop_rural,pop_weighted_rurality_score,msa_abbrev,tier,rank_pop_weighted
+Cumbria,510680,49.8,47.7,Cumbria CA,Existing Mayoral,1
+Norfolk and Suffolk,1726590,45.0,40.3,NSCCA,Planned / not yet in force,2
+Devon and Torbay,982439,41.8,37.4,DTCCA,Foundation (non-mayoral),3
+York and North Yorkshire,844571,41.8,33.3,YNYCA,Established,4
+Greater Lincolnshire,1120749,40.7,32.4,GLCCA,Existing Mayoral,5
+Cambridgeshire and Peterborough,933972,33.5,24.7,CPCA,Established,6
+Hull and East Yorkshire,631285,24.2,18.5,HEYCA,Existing Mayoral,7
+East Midlands,2284616,20.2,13.4,EMCCA,Established,8
+Greater Essex,1929610,20.7,13.3,GECCA,Planned / not yet in force,9
+North East,2047820,19.6,12.8,NEMSA,Established,10
+Cheshire and Warrington,1008341,18.3,12.5,C&W CA,Existing Mayoral,11
+Sussex and Brighton,1759789,17.1,12.3,SBSA,Existing Mayoral,12
+Hampshire and the Solent,2062619,16.4,12.2,HSCCA,Existing Mayoral,13
+Lancashire,1601645,16.8,11.9,LCCA,Foundation (non-mayoral),14
+Tees Valley,712858,10.6,6.0,TVCA,Established,15
+West Yorkshire,2435236,9.3,5.9,WYCA,Established,16
+West of England,1000759,7.8,4.9,WECA,Established,17
+South Yorkshire,1430623,7.7,4.6,SYMCA,Established,18
+Greater Manchester,3009664,0.8,0.6,GMCA,Established,19
+Liverpool City Region,1607084,0.7,0.6,LCRCA,Established,19
+West Midlands,3036605,0.9,0.5,WMCA,Established,21

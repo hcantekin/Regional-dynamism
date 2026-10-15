@@ -1,0 +1,22 @@
+msa_code,msa_abbrev,msa_name,tier,devolution_type,dpp_status,cauth_code,n_lads
+MSA001,GMCA,Greater Manchester,Established,Established,0,E47000001,10
+MSA002,WMCA,West Midlands,Established,Established,0,E47000007,7
+MSA003,LCRCA,Liverpool City Region,Established,Established,0,E47000004,6
+MSA004,SYMCA,South Yorkshire,Established,Established,0,E47000002,4
+MSA005,WYCA,West Yorkshire,Established,Established,0,E47000003,5
+MSA006,TVCA,Tees Valley,Established,Mayoral,0,E47000006,5
+MSA007,NEMSA,North East,Established,Established,0,E47000014,7
+MSA008,CPCA,Cambridgeshire and Peterborough,Established,Mayoral,0,E47000008,6
+MSA009,WECA,West of England,Established,Mayoral,0,E47000009,3
+MSA010,YNYCA,York and North Yorkshire,Established,Mayoral,0,E47000012,2
+MSA011,EMCCA,East Midlands,Established,Mayoral,0,E47000013,17
+MSA012,HEYCA,Hull and East Yorkshire,Existing Mayoral,Mayoral,0,E47000016,2
+MSA013,GECCA,Greater Essex,Planned / not yet in force,Proposed,1,,14
+MSA014,SBSA,Sussex and Brighton,Existing Mayoral,Foundation,1,,13
+MSA015,HSCCA,Hampshire and the Solent,Existing Mayoral,Foundation,1,,14
+MSA016,Cumbria CA,Cumbria,Existing Mayoral,Foundation,1,,2
+MSA017,C&W CA,Cheshire and Warrington,Existing Mayoral,Foundation,1,,3
+MSA018,DTCCA,Devon and Torbay,Foundation (non-mayoral),Foundation,0,E47000015,9
+MSA019,GLCCA,Greater Lincolnshire,Existing Mayoral,Mayoral,0,E47000017,9
+MSA020,LCCA,Lancashire,Foundation (non-mayoral),Foundation,0,E47000018,14
+MSA021,NSCCA,Norfolk and Suffolk,Planned / not yet in force,Proposed,1,,12

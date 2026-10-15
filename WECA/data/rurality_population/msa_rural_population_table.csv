@@ -1,0 +1,22 @@
+rank,msa_name,tier,population,population_rural,pct_pop_rural,rurality_score
+1,Cumbria,Existing Mayoral,510680,254403,49.8,47.7
+2,Norfolk and Suffolk,Planned / not yet in force,1726590,779335,45.1,40.3
+3,Devon and Torbay,Foundation (non-mayoral),982439,421260,42.9,37.4
+4,York and North Yorkshire,Established,844571,361553,42.8,33.3
+5,Greater Lincolnshire,Existing Mayoral,1120749,460051,41.0,32.4
+6,Cambridgeshire and Peterborough,Established,933972,318401,34.1,24.7
+7,Hull and East Yorkshire,Existing Mayoral,631285,154362,24.5,18.5
+8,Greater Essex,Planned / not yet in force,1929610,409060,21.2,13.3
+9,East Midlands,Established,2284616,466632,20.4,13.4
+10,North East,Established,2047820,408005,19.9,12.8
+11,Cheshire and Warrington,Existing Mayoral,1008341,195605,19.4,12.5
+12,Sussex and Brighton,Existing Mayoral,1759789,303668,17.3,12.3
+13,Lancashire,Foundation (non-mayoral),1601645,274460,17.1,11.9
+14,Hampshire and the Solent,Existing Mayoral,2062619,347813,16.9,12.2
+15,Tees Valley,Established,712858,75628,10.6,6.0
+16,West Yorkshire,Established,2435236,236940,9.7,5.9
+17,South Yorkshire,Established,1430623,116228,8.1,4.6
+18,West of England,Established,1000759,80048,8.0,4.9
+19,West Midlands,Established,3036605,29345,1.0,0.5
+20,Greater Manchester,Established,3009664,22781,0.8,0.6
+21,Liverpool City Region,Established,1607084,11829,0.7,0.6
