@@ -1,0 +1,769 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.5
+      },
+      "encoding": {
+        "y": {
+          "field": "v",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-fbaafb1a3718add2a0309b1c1dbb6b2f"
+      },
+      "mark": {
+        "type": "line",
+        "point": {
+          "size": 28
+        },
+        "strokeWidth": 2.6
+      },
+      "encoding": {
+        "color": {
+          "field": "g",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "London",
+              "Densest third",
+              "Middle third",
+              "Least dense third"
+            ],
+            "range": [
+              "#e6224b",
+              "#122b39",
+              "#179fdb",
+              "#eb5c2e"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "g",
+            "title": "Group",
+            "type": "nominal"
+          },
+          {
+            "field": "age_l",
+            "title": "Age",
+            "type": "nominal"
+          },
+          {
+            "field": "rate",
+            "format": "+.2f",
+            "title": "Net, % a year",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "indexof(['0\u20134','10\u201314','20\u201324','30\u201334','40\u201344','50\u201354','60\u201364','70\u201374','80\u201384','90+'], datum.label) >= 0 ? datum.label : ''"
+          },
+          "field": "age_l",
+          "sort": [
+            "0\u20134",
+            "5\u20139",
+            "10\u201314",
+            "15\u201319",
+            "20\u201324",
+            "25\u201329",
+            "30\u201334",
+            "35\u201339",
+            "40\u201344",
+            "45\u201349",
+            "50\u201354",
+            "55\u201359",
+            "60\u201364",
+            "65\u201369",
+            "70\u201374",
+            "75\u201379",
+            "80\u201384",
+            "85\u201389",
+            "90+"
+          ],
+          "title": "Age group",
+          "type": "nominal"
+        },
+        "y": {
+          "axis": {
+            "labelExpr": "datum.value > 0 ? '+' + datum.label + '%' : datum.label + '%'"
+          },
+          "field": "rate",
+          "title": "Net internal migration, % of age group a year",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "London gains young adults and loses everyone else; rural regions do the reverse",
+    "subtitle": [
+      "Net internal migration (moves in minus moves out, within the UK) as % of each age group's population a year, pooled 2012\u201324.",
+      "England and Wales: London, then the other 30 ITL2 regions in thirds by population-weighted density. International migration excluded.",
+      "Sources: ONS internal migration estimates (England and Wales); ONS mid-year population estimates; ONS Longitudinal Business Database; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-23d1de8f6fdef12c9f9bd74afd652fbe": [
+      {
+        "v": 0.0
+      }
+    ],
+    "data-fbaafb1a3718add2a0309b1c1dbb6b2f": [
+      {
+        "g": "Densest third",
+        "age": "0-4",
+        "rate": 0.3110152614356177,
+        "pos": 0,
+        "age_l": "0\u20134"
+      },
+      {
+        "g": "Densest third",
+        "age": "10-14",
+        "rate": -0.0055148856295765365,
+        "pos": 2,
+        "age_l": "10\u201314"
+      },
+      {
+        "g": "Densest third",
+        "age": "15-19",
+        "rate": 1.2995008204252876,
+        "pos": 3,
+        "age_l": "15\u201319"
+      },
+      {
+        "g": "Densest third",
+        "age": "20-24",
+        "rate": -1.0010749055163504,
+        "pos": 4,
+        "age_l": "20\u201324"
+      },
+      {
+        "g": "Densest third",
+        "age": "25-29",
+        "rate": -0.3430255582832035,
+        "pos": 5,
+        "age_l": "25\u201329"
+      },
+      {
+        "g": "Densest third",
+        "age": "30-34",
+        "rate": 0.3094292155465303,
+        "pos": 6,
+        "age_l": "30\u201334"
+      },
+      {
+        "g": "Densest third",
+        "age": "35-39",
+        "rate": 0.29591903307302286,
+        "pos": 7,
+        "age_l": "35\u201339"
+      },
+      {
+        "g": "Densest third",
+        "age": "40-44",
+        "rate": 0.11150766928345317,
+        "pos": 8,
+        "age_l": "40\u201344"
+      },
+      {
+        "g": "Densest third",
+        "age": "45-49",
+        "rate": -0.03938081151427125,
+        "pos": 9,
+        "age_l": "45\u201349"
+      },
+      {
+        "g": "Densest third",
+        "age": "5-9",
+        "rate": 0.05294780128976258,
+        "pos": 1,
+        "age_l": "5\u20139"
+      },
+      {
+        "g": "Densest third",
+        "age": "50-54",
+        "rate": -0.15304520166185515,
+        "pos": 10,
+        "age_l": "50\u201354"
+      },
+      {
+        "g": "Densest third",
+        "age": "55-59",
+        "rate": -0.2512645219596811,
+        "pos": 11,
+        "age_l": "55\u201359"
+      },
+      {
+        "g": "Densest third",
+        "age": "60-64",
+        "rate": -0.2642666395745944,
+        "pos": 12,
+        "age_l": "60\u201364"
+      },
+      {
+        "g": "Densest third",
+        "age": "65-69",
+        "rate": -0.15965082730495883,
+        "pos": 13,
+        "age_l": "65\u201369"
+      },
+      {
+        "g": "Densest third",
+        "age": "70-74",
+        "rate": -0.020958251859846684,
+        "pos": 14,
+        "age_l": "70\u201374"
+      },
+      {
+        "g": "Densest third",
+        "age": "75-79",
+        "rate": 0.03676607082081904,
+        "pos": 15,
+        "age_l": "75\u201379"
+      },
+      {
+        "g": "Densest third",
+        "age": "80-84",
+        "rate": 0.0573716449991026,
+        "pos": 16,
+        "age_l": "80\u201384"
+      },
+      {
+        "g": "Densest third",
+        "age": "85-89",
+        "rate": 0.02176508744084245,
+        "pos": 17,
+        "age_l": "85\u201389"
+      },
+      {
+        "g": "Densest third",
+        "age": "90+",
+        "rate": -0.03836580649473775,
+        "pos": 18,
+        "age_l": "90+"
+      },
+      {
+        "g": "Least dense third",
+        "age": "0-4",
+        "rate": 1.06521888446747,
+        "pos": 0,
+        "age_l": "0\u20134"
+      },
+      {
+        "g": "Least dense third",
+        "age": "10-14",
+        "rate": 0.6166504761105864,
+        "pos": 2,
+        "age_l": "10\u201314"
+      },
+      {
+        "g": "Least dense third",
+        "age": "15-19",
+        "rate": -1.2408327387243356,
+        "pos": 3,
+        "age_l": "15\u201319"
+      },
+      {
+        "g": "Least dense third",
+        "age": "20-24",
+        "rate": -0.5309536004013369,
+        "pos": 4,
+        "age_l": "20\u201324"
+      },
+      {
+        "g": "Least dense third",
+        "age": "25-29",
+        "rate": 0.019714801161686578,
+        "pos": 5,
+        "age_l": "25\u201329"
+      },
+      {
+        "g": "Least dense third",
+        "age": "30-34",
+        "rate": 0.9579313029224695,
+        "pos": 6,
+        "age_l": "30\u201334"
+      },
+      {
+        "g": "Least dense third",
+        "age": "35-39",
+        "rate": 1.0273178335025883,
+        "pos": 7,
+        "age_l": "35\u201339"
+      },
+      {
+        "g": "Least dense third",
+        "age": "40-44",
+        "rate": 0.7995903072807925,
+        "pos": 8,
+        "age_l": "40\u201344"
+      },
+      {
+        "g": "Least dense third",
+        "age": "45-49",
+        "rate": 0.636588501017778,
+        "pos": 9,
+        "age_l": "45\u201349"
+      },
+      {
+        "g": "Least dense third",
+        "age": "5-9",
+        "rate": 0.7746994574396208,
+        "pos": 1,
+        "age_l": "5\u20139"
+      },
+      {
+        "g": "Least dense third",
+        "age": "50-54",
+        "rate": 0.6788527087626156,
+        "pos": 10,
+        "age_l": "50\u201354"
+      },
+      {
+        "g": "Least dense third",
+        "age": "55-59",
+        "rate": 0.8451602240142745,
+        "pos": 11,
+        "age_l": "55\u201359"
+      },
+      {
+        "g": "Least dense third",
+        "age": "60-64",
+        "rate": 0.867935313292791,
+        "pos": 12,
+        "age_l": "60\u201364"
+      },
+      {
+        "g": "Least dense third",
+        "age": "65-69",
+        "rate": 0.6183552201366594,
+        "pos": 13,
+        "age_l": "65\u201369"
+      },
+      {
+        "g": "Least dense third",
+        "age": "70-74",
+        "rate": 0.28703962986129533,
+        "pos": 14,
+        "age_l": "70\u201374"
+      },
+      {
+        "g": "Least dense third",
+        "age": "75-79",
+        "rate": 0.14734192442155836,
+        "pos": 15,
+        "age_l": "75\u201379"
+      },
+      {
+        "g": "Least dense third",
+        "age": "80-84",
+        "rate": 0.123004076583657,
+        "pos": 16,
+        "age_l": "80\u201384"
+      },
+      {
+        "g": "Least dense third",
+        "age": "85-89",
+        "rate": 0.23911018860569624,
+        "pos": 17,
+        "age_l": "85\u201389"
+      },
+      {
+        "g": "Least dense third",
+        "age": "90+",
+        "rate": 0.42305954050515543,
+        "pos": 18,
+        "age_l": "90+"
+      },
+      {
+        "g": "London",
+        "age": "0-4",
+        "rate": -3.145059752518439,
+        "pos": 0,
+        "age_l": "0\u20134"
+      },
+      {
+        "g": "London",
+        "age": "10-14",
+        "rate": -1.6657425792549223,
+        "pos": 2,
+        "age_l": "10\u201314"
+      },
+      {
+        "g": "London",
+        "age": "15-19",
+        "rate": -2.8551294227161312,
+        "pos": 3,
+        "age_l": "15\u201319"
+      },
+      {
+        "g": "London",
+        "age": "20-24",
+        "rate": 5.184612155616473,
+        "pos": 4,
+        "age_l": "20\u201324"
+      },
+      {
+        "g": "London",
+        "age": "25-29",
+        "rate": 0.9021279561618237,
+        "pos": 5,
+        "age_l": "25\u201329"
+      },
+      {
+        "g": "London",
+        "age": "30-34",
+        "rate": -2.4907434265531423,
+        "pos": 6,
+        "age_l": "30\u201334"
+      },
+      {
+        "g": "London",
+        "age": "35-39",
+        "rate": -2.8179466851174833,
+        "pos": 7,
+        "age_l": "35\u201339"
+      },
+      {
+        "g": "London",
+        "age": "40-44",
+        "rate": -2.107797704025045,
+        "pos": 8,
+        "age_l": "40\u201344"
+      },
+      {
+        "g": "London",
+        "age": "45-49",
+        "rate": -1.4147517887732965,
+        "pos": 9,
+        "age_l": "45\u201349"
+      },
+      {
+        "g": "London",
+        "age": "5-9",
+        "rate": -2.0734814474336467,
+        "pos": 1,
+        "age_l": "5\u20139"
+      },
+      {
+        "g": "London",
+        "age": "50-54",
+        "rate": -1.2138216423857584,
+        "pos": 10,
+        "age_l": "50\u201354"
+      },
+      {
+        "g": "London",
+        "age": "55-59",
+        "rate": -1.356512676400753,
+        "pos": 11,
+        "age_l": "55\u201359"
+      },
+      {
+        "g": "London",
+        "age": "60-64",
+        "rate": -1.5414677128283043,
+        "pos": 12,
+        "age_l": "60\u201364"
+      },
+      {
+        "g": "London",
+        "age": "65-69",
+        "rate": -1.5261515236262388,
+        "pos": 13,
+        "age_l": "65\u201369"
+      },
+      {
+        "g": "London",
+        "age": "70-74",
+        "rate": -1.1224354100960223,
+        "pos": 14,
+        "age_l": "70\u201374"
+      },
+      {
+        "g": "London",
+        "age": "75-79",
+        "rate": -0.8530109864663202,
+        "pos": 15,
+        "age_l": "75\u201379"
+      },
+      {
+        "g": "London",
+        "age": "80-84",
+        "rate": -0.9216485331852116,
+        "pos": 16,
+        "age_l": "80\u201384"
+      },
+      {
+        "g": "London",
+        "age": "85-89",
+        "rate": -1.2524081328644785,
+        "pos": 17,
+        "age_l": "85\u201389"
+      },
+      {
+        "g": "London",
+        "age": "90+",
+        "rate": -1.888879396095614,
+        "pos": 18,
+        "age_l": "90+"
+      },
+      {
+        "g": "Middle third",
+        "age": "0-4",
+        "rate": 0.7713705194636332,
+        "pos": 0,
+        "age_l": "0\u20134"
+      },
+      {
+        "g": "Middle third",
+        "age": "10-14",
+        "rate": 0.40557759020346035,
+        "pos": 2,
+        "age_l": "10\u201314"
+      },
+      {
+        "g": "Middle third",
+        "age": "15-19",
+        "rate": 0.4688464645876703,
+        "pos": 3,
+        "age_l": "15\u201319"
+      },
+      {
+        "g": "Middle third",
+        "age": "20-24",
+        "rate": -1.3855401102790574,
+        "pos": 4,
+        "age_l": "20\u201324"
+      },
+      {
+        "g": "Middle third",
+        "age": "25-29",
+        "rate": -0.2138462626856197,
+        "pos": 5,
+        "age_l": "25\u201329"
+      },
+      {
+        "g": "Middle third",
+        "age": "30-34",
+        "rate": 0.7816641230543676,
+        "pos": 6,
+        "age_l": "30\u201334"
+      },
+      {
+        "g": "Middle third",
+        "age": "35-39",
+        "rate": 0.8033227882152926,
+        "pos": 7,
+        "age_l": "35\u201339"
+      },
+      {
+        "g": "Middle third",
+        "age": "40-44",
+        "rate": 0.5125953021326605,
+        "pos": 8,
+        "age_l": "40\u201344"
+      },
+      {
+        "g": "Middle third",
+        "age": "45-49",
+        "rate": 0.2731200060168012,
+        "pos": 9,
+        "age_l": "45\u201349"
+      },
+      {
+        "g": "Middle third",
+        "age": "5-9",
+        "rate": 0.5008199752359696,
+        "pos": 1,
+        "age_l": "5\u20139"
+      },
+      {
+        "g": "Middle third",
+        "age": "50-54",
+        "rate": 0.18405093271790543,
+        "pos": 10,
+        "age_l": "50\u201354"
+      },
+      {
+        "g": "Middle third",
+        "age": "55-59",
+        "rate": 0.1614226200272977,
+        "pos": 11,
+        "age_l": "55\u201359"
+      },
+      {
+        "g": "Middle third",
+        "age": "60-64",
+        "rate": 0.14872335941467435,
+        "pos": 12,
+        "age_l": "60\u201364"
+      },
+      {
+        "g": "Middle third",
+        "age": "65-69",
+        "rate": 0.14224326014737568,
+        "pos": 13,
+        "age_l": "65\u201369"
+      },
+      {
+        "g": "Middle third",
+        "age": "70-74",
+        "rate": 0.10485184584277084,
+        "pos": 14,
+        "age_l": "70\u201374"
+      },
+      {
+        "g": "Middle third",
+        "age": "75-79",
+        "rate": 0.08231549375971338,
+        "pos": 15,
+        "age_l": "75\u201379"
+      },
+      {
+        "g": "Middle third",
+        "age": "80-84",
+        "rate": 0.11254608141958372,
+        "pos": 16,
+        "age_l": "80\u201384"
+      },
+      {
+        "g": "Middle third",
+        "age": "85-89",
+        "rate": 0.16412880010648176,
+        "pos": 17,
+        "age_l": "85\u201389"
+      },
+      {
+        "g": "Middle third",
+        "age": "90+",
+        "rate": 0.301034096884227,
+        "pos": 18,
+        "age_l": "90+"
+      }
+    ]
+  },
+  "width": 600,
+  "height": 360
+}

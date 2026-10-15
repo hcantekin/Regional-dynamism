@@ -1,0 +1,1498 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-967b250b00915ccf352077de60cc3767"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.5,
+        "strokeDash": [
+          2,
+          3
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "v",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-53831fc8cb099e6a77a0e06df7494ecd"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.5,
+        "strokeDash": [
+          2,
+          3
+        ]
+      },
+      "encoding": {
+        "y": {
+          "field": "v",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-843402946058bd9056b123150ee58948"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "color": "#122b39",
+        "dx": 4,
+        "dy": 4,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "value": "UK = 100"
+        },
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-f2e8e358e3fc241efc6d67a31d3da214"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "color": "#122b39",
+        "dx": 4,
+        "dy": -3,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "value": "UK 29.5%"
+        },
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-d15c498835ce4410afa0a91999a1712d"
+      },
+      "mark": {
+        "type": "line",
+        "color": "#122b39",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "strokeDash": {
+          "field": "fit",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "Fit: all regions",
+              "Fit: excl. London"
+            ],
+            "range": [
+              [
+                1,
+                0
+              ],
+              [
+                6,
+                4
+              ]
+            ]
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-a97928bde32feb71283888aa96d980c4"
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.9,
+        "size": 70,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "group",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "London",
+              "Rest of UK"
+            ],
+            "range": [
+              "#e6224b",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "itl2_name",
+            "title": "Region",
+            "type": "nominal"
+          },
+          {
+            "field": "prod_rel",
+            "format": ".0f",
+            "title": "GVA/hour (UK=100)",
+            "type": "quantitative"
+          },
+          {
+            "field": "realloc",
+            "format": ".1f",
+            "title": "Reallocation (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "values": [
+              70,
+              80,
+              90,
+              100,
+              110,
+              120,
+              130,
+              140,
+              150,
+              160
+            ]
+          },
+          "field": "prod_rel",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "title": "GVA per hour worked (UK = 100)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "title": "Reallocation rate (% of employment)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-7ef42849de97725edef78a6477994435"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "dx": -8,
+        "dy": 0.0,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "prod_rel",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-e698c40937959a56ddf5d6b520ddff73"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 8,
+        "dy": 0.0,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "prod_rel",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-dc9451238009bc7f12a33e1cb883829b"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 8,
+        "dy": 0.0,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "prod_rel",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-952df1f4fdae72714e5a4fee0c6120e1"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "dx": -8,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "itl2_name",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "prod_rel",
+          "scale": {
+            "domain": [
+              70,
+              160.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20,
+              40
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "independent",
+      "strokeDash": "independent"
+    }
+  },
+  "title": {
+    "text": "Over two decades, more productive regions have churned more, led by London",
+    "subtitle": [
+      "ITL2 regions, 2004\u201323 pooled. Correlation r = 0.76 across all regions; 0.37 excluding London.",
+      "Lines are linear fits. Productivity is current-price GVA per hour relative to the UK in the same year. Northern Ireland 2011\u201323.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS Subregional productivity (June 2025); authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-967b250b00915ccf352077de60cc3767": [
+      {
+        "v": 100.0
+      }
+    ],
+    "data-53831fc8cb099e6a77a0e06df7494ecd": [
+      {
+        "v": 29.53740343033813
+      }
+    ],
+    "data-843402946058bd9056b123150ee58948": [
+      {
+        "x": 100.0,
+        "y": 40
+      }
+    ],
+    "data-f2e8e358e3fc241efc6d67a31d3da214": [
+      {
+        "x": 70,
+        "y": 29.53740343033813
+      }
+    ],
+    "data-d15c498835ce4410afa0a91999a1712d": [
+      {
+        "x": 75.82577184978308,
+        "y": 26.00366638603554,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 77.37397007408092,
+        "y": 26.214789843969022,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 78.92216829837875,
+        "y": 26.425913301902504,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 80.47036652267658,
+        "y": 26.63703675983599,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 82.01856474697442,
+        "y": 26.848160217769475,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 83.56676297127225,
+        "y": 27.059283675702957,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 85.11496119557009,
+        "y": 27.27040713363644,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 86.66315941986792,
+        "y": 27.48153059156992,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 88.21135764416574,
+        "y": 27.692654049503403,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 89.75955586846358,
+        "y": 27.90377750743689,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 91.30775409276141,
+        "y": 28.11490096537037,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 92.85595231705925,
+        "y": 28.326024423303856,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 94.40415054135708,
+        "y": 28.53714788123734,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 95.95234876565492,
+        "y": 28.74827133917082,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 97.50054698995275,
+        "y": 28.959394797104306,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 99.04874521425059,
+        "y": 29.170518255037788,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 100.59694343854842,
+        "y": 29.381641712971273,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 102.14514166284626,
+        "y": 29.592765170904755,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 103.69333988714408,
+        "y": 29.803888628838237,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 105.24153811144191,
+        "y": 30.01501208677172,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 106.78973633573975,
+        "y": 30.2261355447052,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 108.33793456003758,
+        "y": 30.437259002638687,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 109.88613278433542,
+        "y": 30.648382460572172,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 111.43433100863325,
+        "y": 30.859505918505654,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 112.98252923293109,
+        "y": 31.070629376439136,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 114.53072745722892,
+        "y": 31.281752834372618,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 116.07892568152675,
+        "y": 31.492876292306104,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 117.62712390582459,
+        "y": 31.70399975023959,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 119.17532213012242,
+        "y": 31.91512320817307,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 120.72352035442026,
+        "y": 32.12624666610655,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 122.2717185787181,
+        "y": 32.337370124040035,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 123.81991680301593,
+        "y": 32.548493581973524,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 125.36811502731376,
+        "y": 32.759617039907006,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 126.9163132516116,
+        "y": 32.97074049784049,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 128.46451147590943,
+        "y": 33.18186395577397,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 130.01270970020727,
+        "y": 33.39298741370745,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 131.5609079245051,
+        "y": 33.60411087164094,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 133.10910614880294,
+        "y": 33.81523432957442,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 134.65730437310077,
+        "y": 34.026357787507905,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 136.2055025973986,
+        "y": 34.23748124544139,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 137.75370082169644,
+        "y": 34.44860470337487,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 139.30189904599428,
+        "y": 34.65972816130836,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 140.8500972702921,
+        "y": 34.87085161924184,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 142.39829549458995,
+        "y": 35.08197507717532,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 143.94649371888778,
+        "y": 35.293098535108804,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 145.4946919431856,
+        "y": 35.504221993042286,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 147.04289016748342,
+        "y": 35.71534545097577,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 148.59108839178126,
+        "y": 35.92646890890925,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 150.1392866160791,
+        "y": 36.13759236684274,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 151.68748484037692,
+        "y": 36.34871582477622,
+        "fit": "Fit: all regions"
+      },
+      {
+        "x": 75.82577184978308,
+        "y": 26.797140387643974,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 76.67316230252418,
+        "y": 26.86252075490575,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 77.52055275526529,
+        "y": 26.927901122167523,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 78.36794320800638,
+        "y": 26.993281489429297,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 79.21533366074748,
+        "y": 27.058661856691067,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 80.06272411348857,
+        "y": 27.12404222395284,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 80.91011456622968,
+        "y": 27.189422591214615,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 81.75750501897078,
+        "y": 27.25480295847639,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 82.60489547171187,
+        "y": 27.320183325738164,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 83.45228592445298,
+        "y": 27.385563692999938,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 84.29967637719407,
+        "y": 27.450944060261712,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 85.14706682993517,
+        "y": 27.516324427523486,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 85.99445728267628,
+        "y": 27.58170479478526,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 86.84184773541737,
+        "y": 27.647085162047034,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 87.68923818815847,
+        "y": 27.71246552930881,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 88.53662864089958,
+        "y": 27.777845896570582,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 89.38401909364067,
+        "y": 27.843226263832356,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 90.23140954638177,
+        "y": 27.90860663109413,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 91.07879999912288,
+        "y": 27.973986998355905,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 91.92619045186397,
+        "y": 28.03936736561768,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 92.77358090460507,
+        "y": 28.104747732879453,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 93.62097135734618,
+        "y": 28.170128100141227,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 94.46836181008727,
+        "y": 28.235508467403,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 95.31575226282837,
+        "y": 28.300888834664775,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 96.16314271556946,
+        "y": 28.366269201926546,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 97.01053316831056,
+        "y": 28.43164956918832,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 97.85792362105167,
+        "y": 28.497029936450094,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 98.70531407379276,
+        "y": 28.562410303711868,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 99.55270452653386,
+        "y": 28.627790670973642,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 100.40009497927497,
+        "y": 28.693171038235416,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 101.24748543201606,
+        "y": 28.75855140549719,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 102.09487588475716,
+        "y": 28.823931772758964,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 102.94226633749827,
+        "y": 28.88931214002074,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 103.78965679023936,
+        "y": 28.954692507282513,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 104.63704724298046,
+        "y": 29.020072874544283,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 105.48443769572157,
+        "y": 29.08545324180606,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 106.33182814846266,
+        "y": 29.15083360906783,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 107.17921860120376,
+        "y": 29.216213976329605,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 108.02660905394487,
+        "y": 29.28159434359138,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 108.87399950668596,
+        "y": 29.346974710853154,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 109.72138995942706,
+        "y": 29.412355078114928,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 110.56878041216817,
+        "y": 29.4777354453767,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 111.41617086490926,
+        "y": 29.543115812638476,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 112.26356131765036,
+        "y": 29.60849617990025,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 113.11095177039147,
+        "y": 29.673876547162024,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 113.95834222313255,
+        "y": 29.739256914423798,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 114.80573267587366,
+        "y": 29.804637281685572,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 115.65312312861477,
+        "y": 29.870017648947346,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 116.50051358135585,
+        "y": 29.93539801620912,
+        "fit": "Fit: excl. London"
+      },
+      {
+        "x": 117.34790403409696,
+        "y": 30.000778383470895,
+        "fit": "Fit: excl. London"
+      }
+    ],
+    "data-a97928bde32feb71283888aa96d980c4": [
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley and Durham",
+        "realloc": 28.962523946032203,
+        "emp": 456364.75,
+        "prod_rel": 87.53266802528631,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "realloc": 28.102100187523074,
+        "emp": 634455.25,
+        "prod_rel": 86.26740405728067,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "realloc": 23.87491569666277,
+        "emp": 237423.875,
+        "prod_rel": 84.68467813930457,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "realloc": 30.61616303236155,
+        "emp": 1282953.875,
+        "prod_rel": 91.37040338102533,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "realloc": 27.267796194850398,
+        "emp": 644797.25,
+        "prod_rel": 86.57145752968108,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "realloc": 29.915288567546085,
+        "emp": 487537.5,
+        "prod_rel": 106.86742714713681,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "realloc": 29.591149610157636,
+        "emp": 632627.5,
+        "prod_rel": 90.39087969244166,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "realloc": 26.815593788292095,
+        "emp": 396010.25,
+        "prod_rel": 89.09224331014904,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "realloc": 28.359139292816813,
+        "emp": 391648.875,
+        "prod_rel": 89.81221500679773,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "realloc": 28.876046633852475,
+        "emp": 566294.625,
+        "prod_rel": 81.2802155723409,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "realloc": 29.092093288103055,
+        "emp": 1056335.125,
+        "prod_rel": 87.67660272955405,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "realloc": 28.20396031712706,
+        "emp": 934735.75,
+        "prod_rel": 86.55838330122056,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "realloc": 29.58615816699826,
+        "emp": 837309.625,
+        "prod_rel": 86.19295792687545,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "realloc": 26.945400744239905,
+        "emp": 296208.25,
+        "prod_rel": 82.18468231070719,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "realloc": 28.678764811182848,
+        "emp": 625171.625,
+        "prod_rel": 90.16704865676957,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shropshire and Staffordshire",
+        "realloc": 27.96304663461722,
+        "emp": 686933.375,
+        "prod_rel": 82.23970929778312,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "realloc": 31.333303980465995,
+        "emp": 1266202.25,
+        "prod_rel": 87.40439178856728,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "realloc": 26.78581963802428,
+        "emp": 1120814.125,
+        "prod_rel": 92.10982689953354,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "realloc": 31.226132262888164,
+        "emp": 867115.875,
+        "prod_rel": 99.12300254364087,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "realloc": 29.19463146582286,
+        "emp": 706952.75,
+        "prod_rel": 94.27552939635555,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "realloc": 37.96661899809297,
+        "emp": 1897389.125,
+        "prod_rel": 151.68748484037692,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "realloc": 34.028471473703576,
+        "emp": 1197040.25,
+        "prod_rel": 129.80897237119675,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "realloc": 31.312145482856764,
+        "emp": 541383.375,
+        "prod_rel": 111.36621936036745,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "realloc": 32.172837940487504,
+        "emp": 475080.875,
+        "prod_rel": 112.85548346184598,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "realloc": 32.600308324506294,
+        "emp": 881052.25,
+        "prod_rel": 119.38494252191585,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "realloc": 30.235570123592627,
+        "emp": 1275814.375,
+        "prod_rel": 117.34790403409696,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey, East and West Sussex",
+        "realloc": 29.209994323592134,
+        "emp": 1274133.25,
+        "prod_rel": 107.4565715491771,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire and Isle of Wight",
+        "realloc": 28.60595180654702,
+        "emp": 879014.625,
+        "prod_rel": 109.50335033661187,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "realloc": 28.95791361253437,
+        "emp": 705516.125,
+        "prod_rel": 94.06212991986695,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "realloc": 28.66256006748387,
+        "emp": 1202657.75,
+        "prod_rel": 100.726906677282,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset and Somerset",
+        "realloc": 26.134200399879667,
+        "emp": 561356.375,
+        "prod_rel": 86.08535519161184,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "realloc": 27.934026754256678,
+        "emp": 222628.125,
+        "prod_rel": 75.82577184978308,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "realloc": 26.183055405745872,
+        "emp": 504575.375,
+        "prod_rel": 83.3319186159601,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales and The Valleys",
+        "realloc": 25.77651812282836,
+        "emp": 729035.625,
+        "prod_rel": 79.54108079908453,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "realloc": 27.46114726664614,
+        "emp": 544829.75,
+        "prod_rel": 88.82279122332201,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "realloc": 27.20162878109898,
+        "emp": 279350.0,
+        "prod_rel": 102.70675185586857,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands and Islands",
+        "realloc": 24.685132405434572,
+        "emp": 225868.75,
+        "prod_rel": 92.08280615018946,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "realloc": 27.421658239095514,
+        "emp": 909069.75,
+        "prod_rel": 103.82647062905833,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "realloc": 29.10248409206336,
+        "emp": 731474.5,
+        "prod_rel": 91.22253551358865,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "realloc": 25.553077888253405,
+        "emp": 361731.375,
+        "prod_rel": 90.0291200818512,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "realloc": 23.291717291209892,
+        "emp": 805008.8461538461,
+        "prod_rel": 84.09530332830849,
+        "group": "Rest of UK"
+      }
+    ],
+    "data-7ef42849de97725edef78a6477994435": [
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "realloc": 37.96661899809297,
+        "emp": 1897389.125,
+        "prod_rel": 151.68748484037692,
+        "group": "London",
+        "px": 490.12490904226155,
+        "py": 38.634239036233595,
+        "right": true,
+        "dy": 0
+      }
+    ],
+    "data-e698c40937959a56ddf5d6b520ddff73": [
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "realloc": 34.028471473703576,
+        "emp": 1197040.25,
+        "prod_rel": 129.80897237119675,
+        "group": "London",
+        "px": 358.85383422718047,
+        "py": 113.45904199963206,
+        "right": false,
+        "dy": 0
+      }
+    ],
+    "data-dc9451238009bc7f12a33e1cb883829b": [
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "realloc": 30.235570123592627,
+        "emp": 1275814.375,
+        "prod_rel": 117.34790403409696,
+        "group": "Rest of UK",
+        "px": 284.08742420458174,
+        "py": 185.5241676517401,
+        "right": false,
+        "dy": 0
+      }
+    ],
+    "data-952df1f4fdae72714e5a4fee0c6120e1": [
+      {
+        "itl2_code": "TLN0",
+        "itl2_name": "Northern Ireland",
+        "realloc": 23.291717291209892,
+        "emp": 805008.8461538461,
+        "prod_rel": 84.09530332830849,
+        "group": "Rest of UK"
+      }
+    ]
+  },
+  "width": 540,
+  "height": 380
+}

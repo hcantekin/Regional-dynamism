@@ -1,0 +1,696 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "width": 32
+          },
+          "encoding": {
+            "color": {
+              "field": "kind",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "measure",
+                "type": "nominal"
+              },
+              {
+                "field": "label",
+                "type": "nominal"
+              },
+              {
+                "field": "rate",
+                "format": ".1f",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|40.6",
+                "40.6\u2013|41.9",
+                "41.9\u2013|43.8",
+                "Over|43.8",
+                "London|32.6\u201338.2"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": true,
+                "ticks": true,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": "Job reallocation rate (%)",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "color": "#122b39",
+            "dx": 0,
+            "dy": -8,
+            "fontSize": 11
+          },
+          "encoding": {
+            "text": {
+              "field": "rate_lab",
+              "type": "nominal"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|40.6",
+                "40.6\u2013|41.9",
+                "41.9\u2013|43.8",
+                "Over|43.8",
+                "London|32.6\u201338.2"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": true,
+                "ticks": true,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": "Job reallocation rate (%)",
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "data": {
+        "name": "data-c93c06311695f25ca11eaac6698470af"
+      },
+      "height": 240,
+      "title": {
+        "text": "Median age (years)",
+        "anchor": "start",
+        "fontSize": 13,
+        "offset": 8
+      },
+      "width": 245
+    },
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "width": 32
+          },
+          "encoding": {
+            "color": {
+              "field": "kind",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "measure",
+                "type": "nominal"
+              },
+              {
+                "field": "label",
+                "type": "nominal"
+              },
+              {
+                "field": "rate",
+                "format": ".1f",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|18%",
+                "18%\u2013|20%",
+                "20%\u2013|22%",
+                "Over|22%",
+                "London|8%\u201314%"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "color": "#122b39",
+            "dx": 0,
+            "dy": -8,
+            "fontSize": 11
+          },
+          "encoding": {
+            "text": {
+              "field": "rate_lab",
+              "type": "nominal"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|18%",
+                "18%\u2013|20%",
+                "20%\u2013|22%",
+                "Over|22%",
+                "London|8%\u201314%"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "data": {
+        "name": "data-dd57ef2be2d8df38f65eb03e10f26ebb"
+      },
+      "height": 240,
+      "title": {
+        "text": "Share of population aged 65+",
+        "anchor": "start",
+        "fontSize": 13,
+        "offset": 8
+      },
+      "width": 245
+    },
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "width": 32
+          },
+          "encoding": {
+            "color": {
+              "field": "kind",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "measure",
+                "type": "nominal"
+              },
+              {
+                "field": "label",
+                "type": "nominal"
+              },
+              {
+                "field": "rate",
+                "format": ".1f",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|0.1%",
+                "0.1%\u2013|0.3%",
+                "0.3%\u2013|0.5%",
+                "Over|0.5%",
+                "London|0.3%\u20131.1%"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "color": "#122b39",
+            "dx": 0,
+            "dy": -8,
+            "fontSize": 11
+          },
+          "encoding": {
+            "text": {
+              "field": "rate_lab",
+              "type": "nominal"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelExpr": "indexof(datum.label, '\u2013|') >= 0 ? '' : indexof(datum.label, 'London') == 0 ? 'London' : split(datum.label, '|')",
+                "labelFontSize": 10.5,
+                "ticks": false
+              },
+              "field": "label",
+              "sort": [
+                "Under|0.1%",
+                "0.1%\u2013|0.3%",
+                "0.3%\u2013|0.5%",
+                "Over|0.5%",
+                "London|0.3%\u20131.1%"
+              ],
+              "title": null,
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  0,
+                  10,
+                  20,
+                  30
+                ]
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "data": {
+        "name": "data-00ac8810963c74c3a8ff1a17bdc81de0"
+      },
+      "height": 240,
+      "title": {
+        "text": "Working-age (16\u201364) population growth, a year",
+        "anchor": "start",
+        "fontSize": 13,
+        "offset": 8
+      },
+      "width": 245
+    }
+  ],
+  "spacing": 22,
+  "title": {
+    "text": "Younger regions, with growing working-age populations, have more job churn",
+    "subtitle": [
+      "Job reallocation rate (jobs created + destroyed, % of employment), pooled 2011\u201324. Blue bars: the 36 ITL2 regions outside London split into four",
+      "equal groups (9 regions each) by each measure, from lowest to highest. Red bar: London's five regions, shown separately.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-c93c06311695f25ca11eaac6698470af": [
+      {
+        "measure": "Median age (years)",
+        "pos": 0,
+        "label": "Under|40.6",
+        "rate": 28.385115244457836,
+        "kind": "Rest of UK",
+        "rate_lab": "28.4%"
+      },
+      {
+        "measure": "Median age (years)",
+        "pos": 1,
+        "label": "40.6\u2013|41.9",
+        "rate": 26.920429574634344,
+        "kind": "Rest of UK",
+        "rate_lab": "26.9%"
+      },
+      {
+        "measure": "Median age (years)",
+        "pos": 2,
+        "label": "41.9\u2013|43.8",
+        "rate": 26.40234833943735,
+        "kind": "Rest of UK",
+        "rate_lab": "26.4%"
+      },
+      {
+        "measure": "Median age (years)",
+        "pos": 3,
+        "label": "Over|43.8",
+        "rate": 25.23341200601789,
+        "kind": "Rest of UK",
+        "rate_lab": "25.2%"
+      },
+      {
+        "measure": "Median age (years)",
+        "pos": 5,
+        "label": "London|32.6\u201338.2",
+        "rate": 34.25991248094421,
+        "kind": "London",
+        "rate_lab": "34.3%"
+      }
+    ],
+    "data-dd57ef2be2d8df38f65eb03e10f26ebb": [
+      {
+        "measure": "Share of population aged 65+",
+        "pos": 0,
+        "label": "Under|18%",
+        "rate": 28.352314114785628,
+        "kind": "Rest of UK",
+        "rate_lab": "28.4%"
+      },
+      {
+        "measure": "Share of population aged 65+",
+        "pos": 1,
+        "label": "18%\u2013|20%",
+        "rate": 27.192382744572985,
+        "kind": "Rest of UK",
+        "rate_lab": "27.2%"
+      },
+      {
+        "measure": "Share of population aged 65+",
+        "pos": 2,
+        "label": "20%\u2013|22%",
+        "rate": 26.251718770937053,
+        "kind": "Rest of UK",
+        "rate_lab": "26.3%"
+      },
+      {
+        "measure": "Share of population aged 65+",
+        "pos": 3,
+        "label": "Over|22%",
+        "rate": 25.23341200601789,
+        "kind": "Rest of UK",
+        "rate_lab": "25.2%"
+      },
+      {
+        "measure": "Share of population aged 65+",
+        "pos": 5,
+        "label": "London|8%\u201314%",
+        "rate": 34.25991248094421,
+        "kind": "London",
+        "rate_lab": "34.3%"
+      }
+    ],
+    "data-00ac8810963c74c3a8ff1a17bdc81de0": [
+      {
+        "measure": "Working-age (16\u201364) population growth, a year",
+        "pos": 0,
+        "label": "Under|0.1%",
+        "rate": 25.236491640977658,
+        "kind": "Rest of UK",
+        "rate_lab": "25.2%"
+      },
+      {
+        "measure": "Working-age (16\u201364) population growth, a year",
+        "pos": 1,
+        "label": "0.1%\u2013|0.3%",
+        "rate": 26.138395927913056,
+        "kind": "Rest of UK",
+        "rate_lab": "26.1%"
+      },
+      {
+        "measure": "Working-age (16\u201364) population growth, a year",
+        "pos": 2,
+        "label": "0.3%\u2013|0.5%",
+        "rate": 26.93130886132195,
+        "kind": "Rest of UK",
+        "rate_lab": "26.9%"
+      },
+      {
+        "measure": "Working-age (16\u201364) population growth, a year",
+        "pos": 3,
+        "label": "Over|0.5%",
+        "rate": 28.425245797925488,
+        "kind": "Rest of UK",
+        "rate_lab": "28.4%"
+      },
+      {
+        "measure": "Working-age (16\u201364) population growth, a year",
+        "pos": 5,
+        "label": "London|0.3%\u20131.1%",
+        "rate": 34.25991248094421,
+        "kind": "London",
+        "rate_lab": "34.3%"
+      }
+    ]
+  },
+  "width": 245,
+  "height": 240
+}

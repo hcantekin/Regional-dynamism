@@ -1,0 +1,2141 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + 'pp' : datum.value < 0 ? datum.label + 'pp' : datum.label",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Change in reallocation rate"
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-dd705543f802e22cb27324a53c6940bf"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.6,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f42c20b36cba3c09e96d28b2b0c0e343"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.9,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "area",
+              "legend": {
+                "orient": "bottom",
+                "title": null
+              },
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of England",
+                  "Wales",
+                  "Scotland"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "area",
+                "title": "Area",
+                "type": "nominal"
+              },
+              {
+                "field": "d_prod",
+                "format": "+.1f",
+                "title": "Change in GVA/hour (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "d_realloc",
+                "format": "+.1f",
+                "title": "Change in reallocation (pp)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + '%' : datum.label + '%'"
+              },
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "title": "Change in real GVA per hour",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + 'pp' : datum.value < 0 ? datum.label + 'pp' : datum.label",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Change in reallocation rate"
+              },
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-561cbcbe0c242221de5839d2109edf09"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-35d34f0aa5fa74d611257d70620bc4fc"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-064e70974ea2aaa2620360912adef470"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-9ec9d9260beb9581ff0d8cbe8f617619"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-d485729cda70a51ee5f45f5a36a98158"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-5198a3e9ac968eaac89508178e203319"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-b193eedf2c27fab7ed2f81604a5ab8bd"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-beabdf14c00b112ee2d5addb11aed937"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c18b3fbbe516e316324e205b6668dbc7"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 8,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 350,
+      "title": {
+        "text": "2004\u201308 \u2192 2011\u201315",
+        "anchor": "start",
+        "fontSize": 13
+      },
+      "width": 350
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + 'pp' : datum.value < 0 ? datum.label + 'pp' : datum.label",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f7eddc2e80df9119d6aae2bfec73b3f9"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.6,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-6e70d0d164cdb0d97b9644458147f11e"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.9,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "area",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of England",
+                  "Wales",
+                  "Scotland"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "area",
+                "title": "Area",
+                "type": "nominal"
+              },
+              {
+                "field": "d_prod",
+                "format": "+.1f",
+                "title": "Change in GVA/hour (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "d_realloc",
+                "format": "+.1f",
+                "title": "Change in reallocation (pp)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + '%' : datum.label + '%'"
+              },
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "title": "Change in real GVA per hour",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.value > 0 ? '+' + datum.label + 'pp' : datum.value < 0 ? datum.label + 'pp' : datum.label",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-1331e90c486411ff1e40a02eba8c4251"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-bb53f0e01fe6f86bf27211a75b9e3010"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f396e8e3b3880904ff52846879aa4ffa"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-cf8a5a5ae35b62e8a6a648d20f64f35e"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-3dccea2a685eb9c0d58a5384d34b3c5b"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-ac559b054c8220bf7253fc1a32678dcd"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-57dc33fc5ee7bce3f812b167c6a14bee"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-725e3eb231299f26ce93dae2d70465eb"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "d_prod",
+              "scale": {
+                "domain": [
+                  -17.0,
+                  27.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "d_realloc",
+              "scale": {
+                "domain": [
+                  -10.0,
+                  2.0
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 350,
+      "title": {
+        "text": "2004\u201308 \u2192 2019\u201323",
+        "anchor": "start",
+        "fontSize": 13
+      },
+      "width": 350
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "spacing": 16,
+  "title": {
+    "text": "Since before the financial crisis, churn has fallen in almost every region, whatever its productivity growth",
+    "subtitle": [
+      "Change in real GVA per hour (chained volume, 2022 prices) and in the job reallocation rate, each against the pre-crisis years 2004\u201308.",
+      "Each dot is an ITL2 region; grey line = fit across all regions. Results similar excluding 2020\u201321 (COVID). Northern Ireland excluded (no data before 2011).",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS Subregional productivity (June 2025); authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-23d1de8f6fdef12c9f9bd74afd652fbe": [
+      {
+        "v": 0.0
+      }
+    ],
+    "data-dd705543f802e22cb27324a53c6940bf": [
+      {
+        "x": -9.02650427000654,
+        "y": -3.1983920143657008
+      },
+      {
+        "x": 16.02683520179875,
+        "y": -4.675038013384058
+      }
+    ],
+    "data-f42c20b36cba3c09e96d28b2b0c0e343": [
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley & Durham",
+        "d_realloc": -2.9084933885577833,
+        "d_prod": 2.6202329108858446,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Tyneside & Northumb.",
+        "d_realloc": -2.5929669930413155,
+        "d_prod": 5.742179941525527,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "d_realloc": -3.8987298429156,
+        "d_prod": -1.0747322872255105,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "d_realloc": -2.599833146527242,
+        "d_prod": 6.351496333936679,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "d_realloc": -3.3504311556113393,
+        "d_prod": -2.457058831607284,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "d_realloc": -4.151669461194107,
+        "d_prod": -0.9528153710383069,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "d_realloc": -3.362883505217564,
+        "d_prod": 1.5355971632028398,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "E Yorks & N Lincs",
+        "d_realloc": -4.77588785469484,
+        "d_prod": -6.15907862886097,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "d_realloc": -4.610412615736244,
+        "d_prod": -9.02650427000654,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "d_realloc": -2.417466796287613,
+        "d_prod": 3.0004890625038527,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "d_realloc": -4.216875119165135,
+        "d_prod": 1.9005754614473291,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbys & Notts",
+        "d_realloc": -2.7482733494009537,
+        "d_prod": 1.1405980042050512,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leics & Northants",
+        "d_realloc": -4.051300468882864,
+        "d_prod": 3.8338166617867264,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "d_realloc": -4.377070940790915,
+        "d_prod": 1.1043902558009577,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefs, Worcs & Warks",
+        "d_realloc": -3.566561733979519,
+        "d_prod": 6.904617021645665,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shrops & Staffs",
+        "d_realloc": -3.281213584274198,
+        "d_prod": -0.055071350159552335,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "d_realloc": -1.980621351931628,
+        "d_prod": 4.01598098927427,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "d_realloc": -4.728844047231423,
+        "d_prod": 4.291599734477924,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Beds & Herts",
+        "d_realloc": -2.936049918058071,
+        "d_prod": -0.8194030178602318,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "d_realloc": -2.5028331491809475,
+        "d_prod": -1.0571981847938172,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "d_realloc": -1.7982211882834491,
+        "d_prod": 0.9508736629391112,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "d_realloc": -1.3495319474760947,
+        "d_prod": 2.8727904564177065,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "d_realloc": 0.3792037449039256,
+        "d_prod": -1.646755077476092,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "d_realloc": -4.482184756853147,
+        "d_prod": 3.805348327570135,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "d_realloc": -2.747137431205765,
+        "d_prod": 3.7253321267223694,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berks, Bucks & Oxon",
+        "d_realloc": -3.8877505565263277,
+        "d_prod": 10.508618474204434,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey & Sussex",
+        "d_realloc": -6.192526244070962,
+        "d_prod": 4.178291016757685,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire & IoW",
+        "d_realloc": -3.623413272852712,
+        "d_prod": 9.146412231419433,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "d_realloc": -5.9538254827401325,
+        "d_prod": 0.3917869139014707,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Glos, Wilts & Bristol",
+        "d_realloc": -4.355150447417383,
+        "d_prod": 4.32966792743128,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset & Somerset",
+        "d_realloc": -3.7299052652537057,
+        "d_prod": -3.919561119834958,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall",
+        "d_realloc": -5.082906210726286,
+        "d_prod": -0.980841544394162,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "d_realloc": -6.133761693222553,
+        "d_prod": 1.0924047584141894,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales & Valleys",
+        "d_realloc": -5.4905884632531965,
+        "d_prod": 2.0393771111353542,
+        "group": "Rest of UK",
+        "area": "Wales"
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "d_realloc": -4.775487634616592,
+        "d_prod": 6.98009890320106,
+        "group": "Rest of UK",
+        "area": "Wales"
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "d_realloc": -2.4364127841832968,
+        "d_prod": 16.02683520179875,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands & Islands",
+        "d_realloc": -8.724972387971103,
+        "d_prod": 10.99775356872279,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "d_realloc": -2.7981522284638842,
+        "d_prod": 7.383152079389932,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "d_realloc": -7.453600222721974,
+        "d_prod": 12.285383539663597,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "d_realloc": -6.343952406599602,
+        "d_prod": 4.739620342706385,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      }
+    ],
+    "data-561cbcbe0c242221de5839d2109edf09": [
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "d_realloc": -1.3495319474760947,
+        "d_prod": 2.8727904564177065,
+        "group": "London",
+        "area": "London",
+        "px": 158.07901499423178,
+        "py": 97.6946818013861,
+        "short": "Inner London East",
+        "rad": 4.0,
+        "prio": 11.495350249463591,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-35d34f0aa5fa74d611257d70620bc4fc": [
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "d_realloc": -1.7982211882834491,
+        "d_prod": 0.9508736629391112,
+        "group": "London",
+        "area": "London",
+        "px": 142.791040500652,
+        "py": 110.78145132493393,
+        "short": "Inner London West",
+        "rad": 4.0,
+        "prio": 11.294627561649,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-064e70974ea2aaa2620360912adef470": [
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands & Islands",
+        "d_realloc": -8.724972387971103,
+        "d_prod": 10.99775356872279,
+        "group": "Rest of UK",
+        "area": "Scotland",
+        "px": 222.70940338756765,
+        "py": 312.8116946491572,
+        "short": "Highlands & Islands",
+        "rad": 4.0,
+        "prio": 3.275756926014985,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-9ec9d9260beb9581ff0d8cbe8f617619": [
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "d_realloc": -7.453600222721974,
+        "d_prod": 12.285383539663597,
+        "group": "Rest of UK",
+        "area": "Scotland",
+        "px": 232.95191452005136,
+        "py": 275.73000649605757,
+        "short": "West Central Scotland",
+        "rad": 4.0,
+        "prio": 2.830442224860094,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-d485729cda70a51ee5f45f5a36a98158": [
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berks, Bucks & Oxon",
+        "d_realloc": -3.8877505565263277,
+        "d_prod": 10.508618474204434,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 218.818556044808,
+        "py": 171.72605789868456,
+        "short": "Berks, Bucks & Oxon",
+        "rad": 4.0,
+        "prio": 1.5546214382456318,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-5198a3e9ac968eaac89508178e203319": [
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "d_realloc": -6.343952406599602,
+        "d_prod": 4.739620342706385,
+        "group": "Rest of UK",
+        "area": "Scotland",
+        "px": 172.92879818061897,
+        "py": 243.36527852582174,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.4805486023061016,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-b193eedf2c27fab7ed2f81604a5ab8bd": [
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset & Somerset",
+        "d_realloc": -3.7299052652537057,
+        "d_prod": -3.919561119834958,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 104.04894563767647,
+        "py": 167.12223690323307,
+        "short": "Dorset & Somerset",
+        "rad": 4.0,
+        "prio": 1.3945340932781873,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-beabdf14c00b112ee2d5addb11aed937": [
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "d_realloc": -5.9538254827401325,
+        "d_prod": 0.3917869139014707,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 138.34375954239806,
+        "py": 231.98657657992052,
+        "short": "Kent",
+        "rad": 4.0,
+        "prio": 1.307064167932258,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-c18b3fbbe516e316324e205b6668dbc7": [
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "d_realloc": 0.3792037449039256,
+        "d_prod": -1.646755077476092,
+        "group": "London",
+        "area": "London",
+        "short": "Outer London East & North East"
+      }
+    ],
+    "data-f7eddc2e80df9119d6aae2bfec73b3f9": [
+      {
+        "x": -10.893597538486688,
+        "y": -3.5232167653850865
+      },
+      {
+        "x": 22.54899744394807,
+        "y": -6.449379325411217
+      }
+    ],
+    "data-6e70d0d164cdb0d97b9644458147f11e": [
+      {
+        "itl2_code": "TLC1",
+        "itl2_name": "Tees Valley & Durham",
+        "d_realloc": -3.4750180285322827,
+        "d_prod": 7.264613026622757,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLC2",
+        "itl2_name": "Tyneside & Northumb.",
+        "d_realloc": -6.97934370178783,
+        "d_prod": 15.127910379814491,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD1",
+        "itl2_name": "Cumbria",
+        "d_realloc": -5.895628474980459,
+        "d_prod": 5.477085933148174,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD3",
+        "itl2_name": "Greater Manchester",
+        "d_realloc": -4.046185526103034,
+        "d_prod": 17.212285243362714,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD4",
+        "itl2_name": "Lancashire",
+        "d_realloc": -5.756943720482532,
+        "d_prod": 8.202765063870544,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD6",
+        "itl2_name": "Cheshire",
+        "d_realloc": -5.040411792886474,
+        "d_prod": 2.456590769130984,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD7",
+        "itl2_name": "Merseyside",
+        "d_realloc": -4.1973952040357005,
+        "d_prod": 3.028105882890886,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE1",
+        "itl2_name": "E Yorks & N Lincs",
+        "d_realloc": -5.527151393749293,
+        "d_prod": 4.626632503703498,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE2",
+        "itl2_name": "North Yorkshire",
+        "d_realloc": -4.708714952739168,
+        "d_prod": 0.4210754234585279,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE3",
+        "itl2_name": "South Yorkshire",
+        "d_realloc": -3.3446022105740028,
+        "d_prod": 6.444771920298797,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE4",
+        "itl2_name": "West Yorkshire",
+        "d_realloc": -6.969601783423183,
+        "d_prod": 9.614668898100964,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF1",
+        "itl2_name": "Derbys & Notts",
+        "d_realloc": -4.132128701995516,
+        "d_prod": 4.387894347016452,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leics & Northants",
+        "d_realloc": -2.3370483380989704,
+        "d_prod": 6.357119888748297,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF3",
+        "itl2_name": "Lincolnshire",
+        "d_realloc": -6.862289326696985,
+        "d_prod": 8.935017179460703,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefs, Worcs & Warks",
+        "d_realloc": -1.2072412501285328,
+        "d_prod": 18.15275432765493,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG2",
+        "itl2_name": "Shrops & Staffs",
+        "d_realloc": -5.40427257873333,
+        "d_prod": 3.2590161672887197,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG3",
+        "itl2_name": "West Midlands",
+        "d_realloc": -3.6701190750442017,
+        "d_prod": 7.3276098611708695,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH1",
+        "itl2_name": "East Anglia",
+        "d_realloc": -6.017294959050751,
+        "d_prod": 11.490810764054004,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH2",
+        "itl2_name": "Beds & Herts",
+        "d_realloc": -4.692906407151892,
+        "d_prod": 6.051445023197188,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH3",
+        "itl2_name": "Essex",
+        "d_realloc": -4.689333810618898,
+        "d_prod": 4.372063386011482,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "d_realloc": -3.0417341791067614,
+        "d_prod": 6.86891436015975,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "d_realloc": -2.47500060720607,
+        "d_prod": -1.995336984757612,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "itl2_name": "Outer London - East and North East",
+        "d_realloc": -1.418694073935935,
+        "d_prod": -10.893597538486688,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "d_realloc": -7.23062068631906,
+        "d_prod": -0.20384572466191075,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "itl2_name": "Outer London - West and North West",
+        "d_realloc": -4.415748198438894,
+        "d_prod": 0.6014228533307797,
+        "group": "London",
+        "area": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "itl2_name": "Berks, Bucks & Oxon",
+        "d_realloc": -5.442804147310252,
+        "d_prod": 20.974696183041907,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey & Sussex",
+        "d_realloc": -7.800410950422293,
+        "d_prod": 12.399306926320165,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire & IoW",
+        "d_realloc": -4.680159434185935,
+        "d_prod": 22.268560048922392,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "itl2_name": "Kent",
+        "d_realloc": -7.652896259485676,
+        "d_prod": 3.8742936910955983,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK1",
+        "itl2_name": "Glos, Wilts & Bristol",
+        "d_realloc": -5.94549516014413,
+        "d_prod": 9.736786354165483,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK2",
+        "itl2_name": "Dorset & Somerset",
+        "d_realloc": -4.738824938734091,
+        "d_prod": 3.543185780647451,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK3",
+        "itl2_name": "Cornwall",
+        "d_realloc": -5.553634385818164,
+        "d_prod": 9.579122413075037,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK4",
+        "itl2_name": "Devon",
+        "d_realloc": -7.340913307370634,
+        "d_prod": 6.775974845642141,
+        "group": "Rest of UK",
+        "area": "Rest of England"
+      },
+      {
+        "itl2_code": "TLL1",
+        "itl2_name": "West Wales & Valleys",
+        "d_realloc": -4.827479983915726,
+        "d_prod": 9.161229030523831,
+        "group": "Rest of UK",
+        "area": "Wales"
+      },
+      {
+        "itl2_code": "TLL2",
+        "itl2_name": "East Wales",
+        "d_realloc": -5.251783912393279,
+        "d_prod": 16.37416301552015,
+        "group": "Rest of UK",
+        "area": "Wales"
+      },
+      {
+        "itl2_code": "TLM5",
+        "itl2_name": "North Eastern Scotland",
+        "d_realloc": -4.029152144809608,
+        "d_prod": 10.52733254616276,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM6",
+        "itl2_name": "Highlands & Islands",
+        "d_realloc": -8.382006196593437,
+        "d_prod": 19.674854743296155,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM7",
+        "itl2_name": "Eastern Scotland",
+        "d_realloc": -6.45654622623163,
+        "d_prod": 17.502694880685652,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM8",
+        "itl2_name": "West Central Scotland",
+        "d_realloc": -8.729037139493375,
+        "d_prod": 22.54899744394807,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      },
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "d_realloc": -8.080839880906215,
+        "d_prod": 6.386887478947756,
+        "group": "Rest of UK",
+        "area": "Scotland"
+      }
+    ],
+    "data-1331e90c486411ff1e40a02eba8c4251": [
+      {
+        "itl2_code": "TLI4",
+        "itl2_name": "Inner London - East",
+        "d_realloc": -2.47500060720607,
+        "d_prod": -1.995336984757612,
+        "group": "London",
+        "area": "London",
+        "px": 119.35527398488263,
+        "py": 130.5208510435104,
+        "short": "Inner London East",
+        "rad": 4.0,
+        "prio": 12.08739932220237,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-bb53f0e01fe6f86bf27211a75b9e3010": [
+      {
+        "itl2_code": "TLI6",
+        "itl2_name": "Outer London - South",
+        "d_realloc": -7.23062068631906,
+        "d_prod": -0.20384572466191075,
+        "group": "London",
+        "area": "London",
+        "px": 133.60577264473483,
+        "py": 269.22643668430595,
+        "short": "Outer London South",
+        "rad": 4.0,
+        "prio": 11.63497872881231,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-f396e8e3b3880904ff52846879aa4ffa": [
+      {
+        "itl2_code": "TLI3",
+        "itl2_name": "Inner London - West",
+        "d_realloc": -3.0417341791067614,
+        "d_prod": 6.86891436015975,
+        "group": "London",
+        "area": "London",
+        "px": 189.86636422854346,
+        "py": 147.0505802239472,
+        "short": "Inner London West",
+        "rad": 4.0,
+        "prio": 11.20087012273152,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-cf8a5a5ae35b62e8a6a648d20f64f35e": [
+      {
+        "itl2_code": "TLG1",
+        "itl2_name": "Herefs, Worcs & Warks",
+        "d_realloc": -1.2072412501285328,
+        "d_prod": 18.15275432765493,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 279.6241821518006,
+        "py": 93.5445364620822,
+        "short": "Herefs, Worcs & Warks",
+        "rad": 4.0,
+        "prio": 2.5762378125827072,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-3dccea2a685eb9c0d58a5384d34b3c5b": [
+      {
+        "itl2_code": "TLJ3",
+        "itl2_name": "Hampshire & IoW",
+        "d_realloc": -4.680159434185935,
+        "d_prod": 22.268560048922392,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 312.3635458437009,
+        "py": 194.83798349708977,
+        "short": "Hampshire & IoW",
+        "rad": 4.0,
+        "prio": 1.972213188255285,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-ac559b054c8220bf7253fc1a32678dcd": [
+      {
+        "itl2_code": "TLF2",
+        "itl2_name": "Leics & Northants",
+        "d_realloc": -2.3370483380989704,
+        "d_prod": 6.357119888748297,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 185.79527184231603,
+        "py": 126.49724319455329,
+        "short": "Leics & Northants",
+        "rad": 4.0,
+        "prio": 1.5913222598569017,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-57dc33fc5ee7bce3f812b167c6a14bee": [
+      {
+        "itl2_code": "TLM9",
+        "itl2_name": "Southern Scotland",
+        "d_realloc": -8.080839880906215,
+        "d_prod": 6.386887478947756,
+        "group": "Rest of UK",
+        "area": "Scotland",
+        "px": 186.03205949162987,
+        "py": 294.0244965264313,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.5881702883011282,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-725e3eb231299f26ce93dae2d70465eb": [
+      {
+        "itl2_code": "TLJ2",
+        "itl2_name": "Surrey & Sussex",
+        "d_realloc": -7.800410950422293,
+        "d_prod": 12.399306926320165,
+        "group": "Rest of UK",
+        "area": "Rest of England",
+        "px": 233.85812327754678,
+        "py": 285.84531938731686,
+        "short": "Surrey & Sussex",
+        "rad": 4.0,
+        "prio": 1.5182268632625209,
+        "align": "left",
+        "dx": 9.0
+      }
+    ]
+  },
+  "width": 350,
+  "height": 350
+}

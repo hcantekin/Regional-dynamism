@@ -1,0 +1,966 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-26327cbbc14401cffffbe6805a1570fa"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.7,
+            "strokeWidth": 1.8
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  31.440352394557816,
+                  46.86037292844819
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c31dd669fa701dddc3a5c2109f52ceeb"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.9,
+            "size": 60,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "group",
+              "legend": {
+                "orient": "bottom",
+                "title": null
+              },
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of England",
+                  "Wales",
+                  "Scotland",
+                  "Northern Ireland"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39",
+                  "#f4c245"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "median_age",
+                "format": ".1f",
+                "title": "Median age",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "datum.label",
+                "tickCount": 5
+              },
+              "field": "median_age",
+              "scale": {
+                "domain": [
+                  31.440352394557816,
+                  46.86037292844819
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "title": "Median age (years)",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "values": [
+                  20,
+                  25,
+                  30,
+                  35,
+                  40
+                ]
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "title": "Job reallocation rate",
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 250,
+      "title": {
+        "text": "Median age",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = -0.77",
+        "subtitleFontSize": 11
+      },
+      "width": 250
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-804a24aac5e08086713959a288e5943e"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.7,
+            "strokeWidth": 1.8
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  7.23252960018866,
+                  24.2743228008679
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c31dd669fa701dddc3a5c2109f52ceeb"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.9,
+            "size": 60,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "group",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of England",
+                  "Wales",
+                  "Scotland",
+                  "Northern Ireland"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39",
+                  "#f4c245"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "share_65_plus",
+                "format": ".1f",
+                "title": "Share aged 65+",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "tickCount": 5
+              },
+              "field": "share_65_plus",
+              "scale": {
+                "domain": [
+                  7.23252960018866,
+                  24.2743228008679
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "title": "Share of population aged 65+",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  20,
+                  25,
+                  30,
+                  35,
+                  40
+                ]
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 250,
+      "title": {
+        "text": "Share aged 65+",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = -0.77",
+        "subtitleFontSize": 11
+      },
+      "width": 250
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-64ce6f1a02f030bf8fec09d7bce2cd19"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.7,
+            "strokeWidth": 1.8
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  -0.29254901328803284,
+                  1.7047345171172141
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c31dd669fa701dddc3a5c2109f52ceeb"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.9,
+            "size": 60,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "group",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of England",
+                  "Wales",
+                  "Scotland",
+                  "Northern Ireland"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39",
+                  "#f4c245"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "wa_growth",
+                "format": ".1f",
+                "title": "Working-age population growth",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "tickCount": 5
+              },
+              "field": "wa_growth",
+              "scale": {
+                "domain": [
+                  -0.29254901328803284,
+                  1.7047345171172141
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "title": "Growth in 16\u201364 population, % a year",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "values": [
+                  20,
+                  25,
+                  30,
+                  35,
+                  40
+                ]
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20,
+                  40
+                ],
+                "nice": false
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 250,
+      "title": {
+        "text": "Working-age population growth",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = 0.67",
+        "subtitleFontSize": 11
+      },
+      "width": 250
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "spacing": 22,
+  "title": {
+    "text": "Younger regions, with growing working-age populations, have more job churn",
+    "subtitle": [
+      "Each dot is an ITL2 region; job reallocation rate and age measures pooled over 2004\u201324 (Northern Ireland 2011\u201324). Grey line = fit across all regions.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-26327cbbc14401cffffbe6805a1570fa": [
+      {
+        "x": 32.266424923159086,
+        "y": 34.244759396177926
+      },
+      {
+        "x": 46.03430039984692,
+        "y": 25.17794895657004
+      }
+    ],
+    "data-c31dd669fa701dddc3a5c2109f52ceeb": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 28.88476004894186,
+        "share_65_plus": 18.62430354010082,
+        "median_age": 41.54366182409399,
+        "wa_growth": 0.18975333584640744,
+        "itl2_name": "Tees Valley and Durham",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 27.962388549910635,
+        "share_65_plus": 18.762514347410303,
+        "median_age": 41.39892148238804,
+        "wa_growth": 0.18985613055809467,
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 23.799656858917764,
+        "share_65_plus": 22.075144382617005,
+        "median_age": 45.59180773205956,
+        "wa_growth": -0.18555168130203747,
+        "itl2_name": "Cumbria",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 30.65117956820155,
+        "share_65_plus": 15.246279555943072,
+        "median_age": 37.28783951340781,
+        "wa_growth": 0.7605220059666971,
+        "itl2_name": "Greater Manchester",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 27.291505083759052,
+        "share_65_plus": 18.731050609100787,
+        "median_age": 41.22377708300386,
+        "wa_growth": 0.37233367453160193,
+        "itl2_name": "Lancashire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 29.929339367289558,
+        "share_65_plus": 19.47387807830116,
+        "median_age": 42.867304722780645,
+        "wa_growth": 0.45485267488283176,
+        "itl2_name": "Cheshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 29.696209582290518,
+        "share_65_plus": 18.02608786491701,
+        "median_age": 40.3890701587001,
+        "wa_growth": 0.301931171310119,
+        "itl2_name": "Merseyside",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 26.795053806226765,
+        "share_65_plus": 19.528228307845957,
+        "median_age": 42.2271801539992,
+        "wa_growth": 0.0765801645179057,
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 28.29587177859168,
+        "share_65_plus": 21.2664177526864,
+        "median_age": 44.13233138641527,
+        "wa_growth": 0.18526586219347152,
+        "itl2_name": "North Yorkshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 28.926205629051022,
+        "share_65_plus": 17.414659147203576,
+        "median_age": 39.449487554904834,
+        "wa_growth": 0.4473001393231814,
+        "itl2_name": "South Yorkshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 29.1067771318219,
+        "share_65_plus": 15.781645026791766,
+        "median_age": 37.73468248387289,
+        "wa_growth": 0.5787423858451983,
+        "itl2_name": "West Yorkshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 28.23404550081923,
+        "share_65_plus": 18.137958713280003,
+        "median_age": 40.7942407076128,
+        "wa_growth": 0.4300858989668003,
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 29.58263029289688,
+        "share_65_plus": 16.610705023710928,
+        "median_age": 39.40043554275328,
+        "wa_growth": 0.946617925589682,
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 26.881365359938638,
+        "share_65_plus": 21.900776375005446,
+        "median_age": 44.44850934415105,
+        "wa_growth": 0.5694771580869474,
+        "itl2_name": "Lincolnshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 28.612547592424473,
+        "share_65_plus": 20.360827539100082,
+        "median_age": 43.26878255796004,
+        "wa_growth": 0.4631435503757221,
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 27.894564894205715,
+        "share_65_plus": 19.4407941236916,
+        "median_age": 42.37720129414793,
+        "wa_growth": 0.2967839356830898,
+        "itl2_name": "Shropshire and Staffordshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 31.411614165982037,
+        "share_65_plus": 15.442285860936305,
+        "median_age": 36.44614507786083,
+        "wa_growth": 0.821509064945082,
+        "itl2_name": "West Midlands",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 26.807908523417943,
+        "share_65_plus": 20.272002541427884,
+        "median_age": 42.17103042891083,
+        "wa_growth": 0.6384729326247235,
+        "itl2_name": "East Anglia",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 31.142960945042244,
+        "share_65_plus": 15.828510022951297,
+        "median_age": 39.08146485427469,
+        "wa_growth": 0.893656482611909,
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 29.063739655989565,
+        "share_65_plus": 18.719280682855842,
+        "median_age": 41.32979266751919,
+        "wa_growth": 0.5915760007330046,
+        "itl2_name": "Essex",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLI3",
+        "realloc": 37.90109012878566,
+        "share_65_plus": 10.74012169927492,
+        "median_age": 33.94540980026872,
+        "wa_growth": 0.41525830025141247,
+        "itl2_name": "Inner London - West",
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "realloc": 34.00569957081545,
+        "share_65_plus": 8.145482807367905,
+        "median_age": 32.266424923159086,
+        "wa_growth": 1.5977371851312188,
+        "itl2_name": "Inner London - East",
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "realloc": 31.269937884184962,
+        "share_65_plus": 12.897710456445761,
+        "median_age": 35.8090150867882,
+        "wa_growth": 1.2475748241178855,
+        "itl2_name": "Outer London - East and North East",
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "realloc": 32.15528201730926,
+        "share_65_plus": 14.249560734487629,
+        "median_age": 37.83781204421496,
+        "wa_growth": 0.7256722797448292,
+        "itl2_name": "Outer London - South",
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "realloc": 32.62735279763721,
+        "share_65_plus": 12.702475944536706,
+        "median_age": 35.955885893701385,
+        "wa_growth": 1.1709299837443785,
+        "itl2_name": "Outer London - West and North West",
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 30.15174021257202,
+        "share_65_plus": 15.46674548820987,
+        "median_age": 38.76486455666302,
+        "wa_growth": 0.8776016840840593,
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 29.119444266494494,
+        "share_65_plus": 19.884528228044537,
+        "median_age": 42.47150645000722,
+        "wa_growth": 0.6299822326402695,
+        "itl2_name": "Surrey, East and West Sussex",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 28.429789513654082,
+        "share_65_plus": 18.878223543790927,
+        "median_age": 41.19793337934727,
+        "wa_growth": 0.41854231851275614,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 28.924445922488353,
+        "share_65_plus": 18.429635826806862,
+        "median_age": 40.97010742782131,
+        "wa_growth": 0.724606208521415,
+        "itl2_name": "Kent",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 28.603614171374858,
+        "share_65_plus": 18.027708743124347,
+        "median_age": 40.34141032438976,
+        "wa_growth": 0.8039198796279676,
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 26.166318348865776,
+        "share_65_plus": 23.361369593688654,
+        "median_age": 45.26246074416149,
+        "wa_growth": 0.4226802270145802,
+        "itl2_name": "Dorset and Somerset",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 27.899335215478665,
+        "share_65_plus": 23.212077980732158,
+        "median_age": 46.03430039984692,
+        "wa_growth": 0.3172175133673617,
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 26.15851616942669,
+        "share_65_plus": 22.56454717276998,
+        "median_age": 44.614958199934556,
+        "wa_growth": 0.45162177714244045,
+        "itl2_name": "Devon",
+        "group": "Rest of England"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 25.682649948866118,
+        "share_65_plus": 20.511970495503817,
+        "median_age": 42.81889843492955,
+        "wa_growth": 0.027812160602429543,
+        "itl2_name": "West Wales and The Valleys",
+        "group": "Wales"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 27.438485065309195,
+        "share_65_plus": 18.180953494757098,
+        "median_age": 40.285528482371106,
+        "wa_growth": 0.46048109548139743,
+        "itl2_name": "East Wales",
+        "group": "Wales"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 27.10879966147273,
+        "share_65_plus": 16.90660391410443,
+        "median_age": 40.59073614911081,
+        "wa_growth": 0.2861470513747154,
+        "itl2_name": "North Eastern Scotland",
+        "group": "Scotland"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 24.594518058908182,
+        "share_65_plus": 21.069652426676218,
+        "median_age": 45.3098433297519,
+        "wa_growth": -0.049132329740759685,
+        "itl2_name": "Highlands and Islands",
+        "group": "Scotland"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 27.278759453289105,
+        "share_65_plus": 17.81694798869468,
+        "median_age": 40.986129139126795,
+        "wa_growth": 0.4556629757367955,
+        "itl2_name": "Eastern Scotland",
+        "group": "Scotland"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 29.050631041371677,
+        "share_65_plus": 16.393310902748095,
+        "median_age": 39.851794653942655,
+        "wa_growth": 0.4108927357056641,
+        "itl2_name": "West Central Scotland",
+        "group": "Scotland"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 25.51874179294571,
+        "share_65_plus": 20.666238447347563,
+        "median_age": 44.785545574855846,
+        "wa_growth": -0.16620791350224978,
+        "itl2_name": "Southern Scotland",
+        "group": "Scotland"
+      },
+      {
+        "itl2_code": "TLN0",
+        "realloc": 23.00199184355599,
+        "share_65_plus": 16.398860989957114,
+        "median_age": 38.878346689209536,
+        "wa_growth": 0.17086620366124555,
+        "itl2_name": "Northern Ireland",
+        "group": "Northern Ireland"
+      }
+    ],
+    "data-804a24aac5e08086713959a288e5943e": [
+      {
+        "x": 8.145482807367905,
+        "y": 34.999888845909666
+      },
+      {
+        "x": 23.361369593688654,
+        "y": 25.176615905645534
+      }
+    ],
+    "data-64ce6f1a02f030bf8fec09d7bce2cd19": [
+      {
+        "x": -0.18555168130203747,
+        "y": 25.25191001743007
+      },
+      {
+        "x": 1.5977371851312188,
+        "y": 34.077835167415486
+      }
+    ]
+  },
+  "width": 250,
+  "height": 250
+}

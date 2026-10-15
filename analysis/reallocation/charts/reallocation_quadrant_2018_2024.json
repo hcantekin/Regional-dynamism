@@ -347,17 +347,34 @@
     },
     {
       "data": {
-        "name": "data-b805a0f7bac8d370669c23ae174bcc8e"
+        "name": "data-648a5c1f1d7e18495fe039f95c354a62"
       },
       "mark": {
         "type": "circle",
-        "color": "#179fdb",
         "opacity": 0.9,
         "size": 70,
         "stroke": "white",
         "strokeWidth": 1
       },
       "encoding": {
+        "color": {
+          "field": "group",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "London",
+              "Rest of UK"
+            ],
+            "range": [
+              "#e6224b",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
         "tooltip": [
           {
             "field": "itl2_name",
@@ -680,7 +697,7 @@
         "baseline": "bottom"
       }
     ],
-    "data-b805a0f7bac8d370669c23ae174bcc8e": [
+    "data-648a5c1f1d7e18495fe039f95c354a62": [
       {
         "itl2_code": "TLC1",
         "itl2_name": "Tees Valley and Durham",
@@ -692,7 +709,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -0.1126873908260535,
         "net_rel": 0.06473213848340831,
-        "quadrant_rel": "Stable growth"
+        "quadrant_rel": "Stable growth",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLC2",
@@ -705,7 +723,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.355935584086314,
         "net_rel": -0.22628221804263737,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLD1",
@@ -718,7 +737,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -6.02918287739563,
         "net_rel": -0.720657439286315,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLD3",
@@ -731,7 +751,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 1.408764188258992,
         "net_rel": 0.88164035925471,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLD4",
@@ -744,7 +765,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -2.6357995106576766,
         "net_rel": -0.1719507843740231,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLD6",
@@ -757,7 +779,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 0.24424269718717895,
         "net_rel": -0.6753296062445318,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLD7",
@@ -770,7 +793,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 0.6392716086677055,
         "net_rel": 0.08815001430610037,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLE1",
@@ -783,7 +807,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -2.78337716512328,
         "net_rel": -0.42902761438121123,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLE2",
@@ -796,7 +821,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -0.6786065595169077,
         "net_rel": -0.01723496077168729,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLE3",
@@ -809,7 +835,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -0.280872318545871,
         "net_rel": -0.41711843001139753,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLE4",
@@ -822,7 +849,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.409739684941517,
         "net_rel": -0.05970904906489127,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLF1",
@@ -835,7 +863,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -0.9002587787735834,
         "net_rel": -0.5142532897792316,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLF2",
@@ -848,7 +877,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 1.5222638145598637,
         "net_rel": -0.05527116900865581,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLF3",
@@ -861,7 +891,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.755274878035891,
         "net_rel": -0.44857078057153194,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLG1",
@@ -874,7 +905,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 0.783902788000141,
         "net_rel": -0.29323194928409035,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLG2",
@@ -887,7 +919,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -2.2850326683568305,
         "net_rel": -0.09679185026047932,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLG3",
@@ -900,7 +933,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 2.341296647035417,
         "net_rel": 0.4114426872988117,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLH1",
@@ -913,7 +947,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.1011507332972563,
         "net_rel": 0.07528583501016839,
-        "quadrant_rel": "Stable growth"
+        "quadrant_rel": "Stable growth",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLH2",
@@ -926,7 +961,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 1.509137707429371,
         "net_rel": -0.30551329092550683,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLH3",
@@ -939,7 +975,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -0.7581406560413946,
         "net_rel": -0.2883399233888493,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLI3",
@@ -952,7 +989,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 9.21444458298448,
         "net_rel": 1.0891827236998115,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "London"
       },
       {
         "itl2_code": "TLI4",
@@ -965,7 +1003,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 5.534506723820559,
         "net_rel": 1.1260573467970605,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "London"
       },
       {
         "itl2_code": "TLI5",
@@ -978,7 +1017,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 2.28860446470199,
         "net_rel": 0.7085309842697842,
-        "quadrant_rel": "Dynamic + growing"
+        "quadrant_rel": "Dynamic + growing",
+        "group": "London"
       },
       {
         "itl2_code": "TLI6",
@@ -991,7 +1031,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 1.5257897113144097,
         "net_rel": -0.0804132429484985,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "London"
       },
       {
         "itl2_code": "TLI7",
@@ -1004,7 +1045,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 3.521883096302574,
         "net_rel": -0.2593453250890585,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "London"
       },
       {
         "itl2_code": "TLJ1",
@@ -1017,7 +1059,8 @@
         "quadrant": "Dynamic + growing",
         "realloc_rel": 0.8609849572158765,
         "net_rel": -0.27099477568447783,
-        "quadrant_rel": "Churning + declining"
+        "quadrant_rel": "Churning + declining",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLJ2",
@@ -1030,7 +1073,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.5771867945525067,
         "net_rel": -0.6678126558034586,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLJ3",
@@ -1043,7 +1087,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.3466184575498303,
         "net_rel": -0.6237272427270337,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLJ4",
@@ -1056,7 +1101,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.5015171232342155,
         "net_rel": 0.01496588540239474,
-        "quadrant_rel": "Stable growth"
+        "quadrant_rel": "Stable growth",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLK1",
@@ -1069,7 +1115,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.4191842962792265,
         "net_rel": -0.033288586100857165,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLK2",
@@ -1082,7 +1129,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.1667163524190904,
         "net_rel": -0.5769530082297447,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLK3",
@@ -1095,7 +1143,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.2022854997360177,
         "net_rel": 0.1794126128616671,
-        "quadrant_rel": "Stable growth"
+        "quadrant_rel": "Stable growth",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLK4",
@@ -1108,7 +1157,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.99303434755652,
         "net_rel": -0.1227223322392399,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLL1",
@@ -1121,7 +1171,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.746552149799843,
         "net_rel": -0.3689470958177576,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLL2",
@@ -1134,7 +1185,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -2.290035869737231,
         "net_rel": -0.04092073945224772,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLM5",
@@ -1147,7 +1199,8 @@
         "quadrant": "Stagnant",
         "realloc_rel": -2.0829089470427,
         "net_rel": -1.8693322962869638,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLM6",
@@ -1160,7 +1213,8 @@
         "quadrant": "Stagnant",
         "realloc_rel": -5.5372248837205476,
         "net_rel": -0.9504048024307634,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLM7",
@@ -1173,7 +1227,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -3.36067617145212,
         "net_rel": -0.1772299504757563,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLM8",
@@ -1186,7 +1241,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -1.4015543759229772,
         "net_rel": -0.161148669146289,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLM9",
@@ -1199,7 +1255,8 @@
         "quadrant": "Stagnant",
         "realloc_rel": -5.16321665672697,
         "net_rel": -0.867394173410555,
-        "quadrant_rel": "Stagnant"
+        "quadrant_rel": "Stagnant",
+        "group": "Rest of UK"
       },
       {
         "itl2_code": "TLN0",
@@ -1212,7 +1269,8 @@
         "quadrant": "Stable growth",
         "realloc_rel": -6.328815707388895,
         "net_rel": 0.5076873747198052,
-        "quadrant_rel": "Stable growth"
+        "quadrant_rel": "Stable growth",
+        "group": "Rest of UK"
       }
     ],
     "data-d9d6b3a7f8eb928fe3d421e0a63c93ce": [

@@ -1,0 +1,3650 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-1144b92624731fac59a90da755f2cb76"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5,
+            "strokeDash": [
+              2,
+              3
+            ]
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Job reallocation rate"
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-8fb91d3815e86c029881fc123e794f92"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.7,
+            "strokeWidth": 1.8
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c10d0c2926a1736cd356bd37b089ae9b"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.95,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "nation",
+              "legend": {
+                "orient": "bottom",
+                "title": null
+              },
+              "scale": {
+                "domain": [
+                  "England",
+                  "Wales",
+                  "Scotland",
+                  "Northern Ireland"
+                ],
+                "range": [
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39",
+                  "#f4c245"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "net_long",
+                "format": "+.2f",
+                "title": "Net (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "(datum.value > 0 ? '+' : '') + format(datum.value, '.1f') + '%'",
+                "values": [
+                  -0.8,
+                  -0.4,
+                  0.0,
+                  0.4,
+                  0.8,
+                  1.2,
+                  1.6,
+                  2.0
+                ]
+              },
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "title": "Net migration, % of population a year",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Job reallocation rate"
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-2872629ff232aa113fddd68b0ad4fca4"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-88568c09c1402e3a45cea4e819b0f496"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-3e15fa8f1d3a1b87c4daac838daef742"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-21a7eeb75a39c0f83beb548be4e8f26f"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-e56c0af341619f125b81a2411ca039c6"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-118291f9d677e58230160661dd91b9c5"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-20fe3c1cfa14ee0c44de5d6fa21088ee"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-2f20c7f88bfe031af34580adaae37c8b"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-03167fd852c5330b488778d9321a4d88"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-da1f1115dd2eb1869e628b45ca657ea1"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-6c9b77108deeb95b8695523e7a29a70a"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 360,
+      "title": {
+        "text": "2012\u201316",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = -0.11",
+        "subtitleFontSize": 11
+      },
+      "width": 350
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5
+          },
+          "encoding": {
+            "x": {
+              "field": "v",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-86b654aa42bcd6dac506b3d93c25fe87"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5,
+            "strokeDash": [
+              2,
+              3
+            ]
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-ae397e28a853f0948e38e592da9700a1"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#B4B4B4",
+            "opacity": 0.7,
+            "strokeWidth": 1.8
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-9a7dd8e3ff45d9ff282f588a90b5326a"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.95,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "nation",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "England",
+                  "Wales",
+                  "Scotland",
+                  "Northern Ireland"
+                ],
+                "range": [
+                  "#179fdb",
+                  "#36b7b4",
+                  "#122b39",
+                  "#f4c245"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "net_long",
+                "format": "+.2f",
+                "title": "Net (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "labelExpr": "(datum.value > 0 ? '+' : '') + format(datum.value, '.1f') + '%'",
+                "values": [
+                  -0.8,
+                  -0.4,
+                  0.0,
+                  0.4,
+                  0.8,
+                  1.2,
+                  1.6,
+                  2.0
+                ]
+              },
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "title": "Net migration, % of population a year",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-a763f1a00c8c94c501059dc51e951636"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-0ce3f3719da5922ac277e04a95afc582"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-66257228c68fa95f8a4e790bf0b29132"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-0250ebbb91f6684a40c41bd4616b570c"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-166c9eb95e8be7f93f0861084050e3fe"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-9a97703f864a8caf9b9de5e75c64b3ce"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-11888a6f6863ff05701a6afaf3f0ad8a"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-596a5e2082be3fe1929e395e97b762e0"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-becf162f7f6b66729c81e3fcb37267b5"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-79f3cef75c24ab97e1f70640ca0de742"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f86df5caf56391e1668874b82165cdf3"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "net_long",
+              "scale": {
+                "domain": [
+                  -0.4,
+                  1.2
+                ],
+                "nice": false
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  32.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 360,
+      "title": {
+        "text": "2020\u201324",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = -0.21",
+        "subtitleFontSize": 11
+      },
+      "width": 350
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "spacing": 14,
+  "title": {
+    "text": "Outside London, net migration says little about job churn in either period",
+    "subtitle": [
+      "ITL2 regions outside London: net longer-distance migration (between English regions and nations) against job reallocation, pooled over each period.",
+      "Same axes in both panels. Grey line = fit; dotted line = average reallocation outside London. 2020\u201324 includes COVID and ONS's 2023 migration method change.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS and National Records of Scotland internal migration; ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-23d1de8f6fdef12c9f9bd74afd652fbe": [
+      {
+        "v": 0.0
+      }
+    ],
+    "data-1144b92624731fac59a90da755f2cb76": [
+      {
+        "v": 28.010755930184946
+      }
+    ],
+    "data-8fb91d3815e86c029881fc123e794f92": [
+      {
+        "x": -0.18253393969162168,
+        "y": 27.786324818355283
+      },
+      {
+        "x": 0.815258785343504,
+        "y": 26.995882561314332
+      }
+    ],
+    "data-c10d0c2926a1736cd356bd37b089ae9b": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 27.787149943899898,
+        "net_job": 0.6627216238844054,
+        "entry_exit": 5.909134919324065,
+        "incumbent": 21.87801502457583,
+        "in_rate": 2.60485251960354,
+        "out_rate": 2.704157251006595,
+        "gross_xlon": 5.3090097706101345,
+        "in_long": 1.9281612231958511,
+        "out_long": 2.021979131103922,
+        "gross": 5.309009770610135,
+        "net": -0.09930473140305507,
+        "gross_long": 3.950140354299773,
+        "log_pwd": 7.979306086504948,
+        "median_age": 42.03962,
+        "itl2_name": "Tees Valley and Durham",
+        "group": "England & Wales",
+        "net_long": -0.09381790790807076,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 28.07779615397088,
+        "net_job": 1.0453351493335927,
+        "entry_exit": 5.849790835684405,
+        "incumbent": 22.228005318286474,
+        "in_rate": 2.565330774918833,
+        "out_rate": 2.563733633857373,
+        "gross_xlon": 5.129064408776206,
+        "in_long": 2.0009655698417177,
+        "out_long": 2.0039076717970388,
+        "gross": 5.129064408776205,
+        "net": 0.001597141061460139,
+        "gross_long": 4.004873241638757,
+        "log_pwd": 8.237661758737435,
+        "median_age": 41.78834,
+        "itl2_name": "Tyneside & Northumb.",
+        "group": "England & Wales",
+        "net_long": -0.0029421019553210748,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 24.3697995351232,
+        "net_job": 1.2403777494792914,
+        "entry_exit": 5.223825253785864,
+        "incumbent": 19.145974281337338,
+        "in_rate": 2.7590154688428896,
+        "out_rate": 2.720265138903486,
+        "gross_xlon": 5.479280607746375,
+        "in_long": 1.8871731594194991,
+        "out_long": 1.8507895680581752,
+        "gross": 5.479280607746375,
+        "net": 0.03875032993940364,
+        "gross_long": 3.737962727477674,
+        "log_pwd": 7.532771198904731,
+        "median_age": 46.04412,
+        "itl2_name": "Cumbria",
+        "group": "England & Wales",
+        "net_long": 0.036383591361323964,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 30.606722559177314,
+        "net_job": 1.505355348636654,
+        "entry_exit": 7.099813284844343,
+        "incumbent": 23.506909274332973,
+        "in_rate": 2.9264801204107322,
+        "out_rate": 3.087599450537651,
+        "gross_xlon": 6.014079570948383,
+        "in_long": 2.0656991131205538,
+        "out_long": 2.1011325100942453,
+        "gross": 6.014079570948383,
+        "net": -0.16111933012691892,
+        "gross_long": 4.166831623214799,
+        "log_pwd": 8.489074418234972,
+        "median_age": 37.353179999999995,
+        "itl2_name": "Greater Manchester",
+        "group": "England & Wales",
+        "net_long": -0.03543339697369152,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 26.828090447946266,
+        "net_job": 0.8057534007000318,
+        "entry_exit": 5.978709140196208,
+        "incumbent": 20.849381307750058,
+        "in_rate": 3.11111767409794,
+        "out_rate": 3.2073723054630228,
+        "gross_xlon": 6.318489979560963,
+        "in_long": 1.7250645298906193,
+        "out_long": 1.8829058683895048,
+        "gross": 6.318489979560963,
+        "net": -0.09625463136508294,
+        "gross_long": 3.6079703982801243,
+        "log_pwd": 8.154558034932474,
+        "median_age": 41.70512,
+        "itl2_name": "Lancashire",
+        "group": "England & Wales",
+        "net_long": -0.1578413384988855,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 29.361426448233665,
+        "net_job": 2.496115037240597,
+        "entry_exit": 6.715375137085198,
+        "incumbent": 22.64605131114847,
+        "in_rate": 3.869350924885774,
+        "out_rate": 3.59333175210924,
+        "gross_xlon": 7.462682676995014,
+        "in_long": 2.257458034573204,
+        "out_long": 2.3254202624310714,
+        "gross": 7.462682676995014,
+        "net": 0.2760191727765342,
+        "gross_long": 4.582878297004275,
+        "log_pwd": 7.92196605472793,
+        "median_age": 43.40122,
+        "itl2_name": "Cheshire",
+        "group": "England & Wales",
+        "net_long": -0.06796222785786732,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 29.76527116812654,
+        "net_job": 1.9232853497285527,
+        "entry_exit": 6.442808863665475,
+        "incumbent": 23.322462304461062,
+        "in_rate": 2.7033889476388224,
+        "out_rate": 2.7061485587105936,
+        "gross_xlon": 5.409537506349416,
+        "in_long": 1.6661448933133038,
+        "out_long": 1.6261899502358939,
+        "gross": 5.409537506349416,
+        "net": -0.0027596110717711397,
+        "gross_long": 3.292334843549198,
+        "log_pwd": 8.470615372205987,
+        "median_age": 41.01078,
+        "itl2_name": "Merseyside",
+        "group": "England & Wales",
+        "net_long": 0.03995494307740999,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 25.826593580499676,
+        "net_job": 0.7424391594220309,
+        "entry_exit": 5.789092960277024,
+        "incumbent": 20.037500620222655,
+        "in_rate": 2.699141297348532,
+        "out_rate": 2.7841268818120684,
+        "gross_xlon": 5.4832681791606,
+        "in_long": 1.7692964755316574,
+        "out_long": 1.8999220659046012,
+        "gross": 5.4832681791606,
+        "net": -0.08498558446353632,
+        "gross_long": 3.6692185414362584,
+        "log_pwd": 8.076041287307472,
+        "median_age": 42.64752,
+        "itl2_name": "E Yorks & N Lincs",
+        "group": "England & Wales",
+        "net_long": -0.13062559037294386,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 28.049325954897228,
+        "net_job": 1.1722975784305567,
+        "entry_exit": 6.264822751102605,
+        "incumbent": 21.784503203794625,
+        "in_rate": 4.45010821603106,
+        "out_rate": 4.170126221431687,
+        "gross_xlon": 8.620234437462747,
+        "in_long": 2.987640890522896,
+        "out_long": 2.9026760452239286,
+        "gross": 8.620234437462747,
+        "net": 0.2799819945993729,
+        "gross_long": 5.890316935746824,
+        "log_pwd": 7.665683138856995,
+        "median_age": 44.37414,
+        "itl2_name": "North Yorkshire",
+        "group": "England & Wales",
+        "net_long": 0.08496484529896753,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 28.589635092847367,
+        "net_job": 0.9821566921344029,
+        "entry_exit": 5.805653635730993,
+        "incumbent": 22.783981457116372,
+        "in_rate": 3.0313149187593624,
+        "out_rate": 3.157011568779995,
+        "gross_xlon": 6.188326487539357,
+        "in_long": 2.327024470156776,
+        "out_long": 2.4513500448253183,
+        "gross": 6.188326487539357,
+        "net": -0.12569665002063246,
+        "gross_long": 4.778374514982094,
+        "log_pwd": 8.152146502002559,
+        "median_age": 39.73374,
+        "itl2_name": "South Yorkshire",
+        "group": "England & Wales",
+        "net_long": -0.12432557466854233,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 29.08109116608326,
+        "net_job": 1.470894927913157,
+        "entry_exit": 6.854733740960145,
+        "incumbent": 22.226357425123116,
+        "in_rate": 2.9845901012736045,
+        "out_rate": 3.212220119266645,
+        "gross_xlon": 6.196810220540249,
+        "in_long": 2.3363210176856706,
+        "out_long": 2.4769714621393133,
+        "gross": 6.196810220540249,
+        "net": -0.2276300179930404,
+        "gross_long": 4.813292479824984,
+        "log_pwd": 8.28606265387582,
+        "median_age": 37.71642,
+        "itl2_name": "West Yorkshire",
+        "group": "England & Wales",
+        "net_long": -0.14065044445364272,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 27.9243174120001,
+        "net_job": 1.627282657397764,
+        "entry_exit": 5.930923180778737,
+        "incumbent": 21.993394231221366,
+        "in_rate": 3.2268383493987107,
+        "out_rate": 3.1019922711397996,
+        "gross_xlon": 6.32883062053851,
+        "in_long": 2.7492561149461605,
+        "out_long": 2.6290505647625375,
+        "gross": 6.32883062053851,
+        "net": 0.12484607825891114,
+        "gross_long": 5.3783066797086985,
+        "log_pwd": 8.097605771231146,
+        "median_age": 41.259519999999995,
+        "itl2_name": "Derbys & Notts",
+        "group": "England & Wales",
+        "net_long": 0.120205550183623,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 28.591814615382717,
+        "net_job": 1.6524334693696163,
+        "entry_exit": 6.60603053039337,
+        "incumbent": 21.985784084989348,
+        "in_rate": 3.6064296789845547,
+        "out_rate": 3.4531555427108986,
+        "gross_xlon": 7.059585221695453,
+        "in_long": 3.149226375976026,
+        "out_long": 2.9687338599015463,
+        "gross": 7.059585221695453,
+        "net": 0.15327413627365605,
+        "gross_long": 6.117960235877572,
+        "log_pwd": 8.233681212027673,
+        "median_age": 39.727959999999996,
+        "itl2_name": "Leics & Northants",
+        "group": "England & Wales",
+        "net_long": 0.1804925160744797,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 26.526361829976917,
+        "net_job": 1.3726364563631797,
+        "entry_exit": 6.144231048510415,
+        "incumbent": 20.382130781466504,
+        "in_rate": 4.2207578604497025,
+        "out_rate": 3.8446366696049146,
+        "gross_xlon": 8.065394530054617,
+        "in_long": 3.293230664823824,
+        "out_long": 2.9693591444157414,
+        "gross": 8.065394530054617,
+        "net": 0.3761211908447879,
+        "gross_long": 6.262589809239565,
+        "log_pwd": 7.498569412029881,
+        "median_age": 44.67846,
+        "itl2_name": "Lincolnshire",
+        "group": "England & Wales",
+        "net_long": 0.3238715204080824,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 26.85980800699602,
+        "net_job": 1.6665231246232022,
+        "entry_exit": 6.5539640791557074,
+        "incumbent": 20.30584392784031,
+        "in_rate": 3.7751220600202706,
+        "out_rate": 3.4869384505179135,
+        "gross_xlon": 7.262060510538184,
+        "in_long": 2.367584587072003,
+        "out_long": 2.5501185267636246,
+        "gross": 7.262060510538184,
+        "net": 0.2881836095023571,
+        "gross_long": 4.9177031138356275,
+        "log_pwd": 7.780603084693388,
+        "median_age": 43.7573,
+        "itl2_name": "Herefs, Worcs & Warks",
+        "group": "England & Wales",
+        "net_long": -0.18253393969162168,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 28.21965569840924,
+        "net_job": 1.6734782821387435,
+        "entry_exit": 7.011887343736797,
+        "incumbent": 21.207768354672442,
+        "in_rate": 3.0105748398680583,
+        "out_rate": 2.921284577336574,
+        "gross_xlon": 5.931859417204633,
+        "in_long": 2.122162512302724,
+        "out_long": 2.238319094142174,
+        "gross": 5.931859417204633,
+        "net": 0.0892902625314842,
+        "gross_long": 4.360481606444898,
+        "log_pwd": 7.851880764673265,
+        "median_age": 42.9131,
+        "itl2_name": "Shrops & Staffs",
+        "group": "England & Wales",
+        "net_long": -0.11615658183944966,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 30.927344120089565,
+        "net_job": 1.6142801321091418,
+        "entry_exit": 6.495863915305463,
+        "incumbent": 24.431480204784105,
+        "in_rate": 2.9416079007785623,
+        "out_rate": 3.277092205419445,
+        "gross_xlon": 6.218700106198007,
+        "in_long": 2.326344468624734,
+        "out_long": 2.3240088814972935,
+        "gross": 6.218700106198007,
+        "net": -0.33548430464088286,
+        "gross_long": 4.650353350122027,
+        "log_pwd": 8.585433988165867,
+        "median_age": 36.25288,
+        "itl2_name": "West Midlands",
+        "group": "England & Wales",
+        "net_long": 0.0023355871274404194,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 26.59652286915739,
+        "net_job": 1.7029214019859849,
+        "entry_exit": 6.187710941079301,
+        "incumbent": 20.408811928078087,
+        "in_rate": 3.1699163506394283,
+        "out_rate": 2.86212610453504,
+        "gross_xlon": 6.0320424551744685,
+        "in_long": 2.5287579020377295,
+        "out_long": 2.461459058784933,
+        "gross": 6.0320424551744685,
+        "net": 0.3077902461043882,
+        "gross_long": 4.9902169608226625,
+        "log_pwd": 7.75948811886444,
+        "median_age": 42.397119999999994,
+        "itl2_name": "East Anglia",
+        "group": "England & Wales",
+        "net_long": 0.06729884325279656,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 31.377621151220993,
+        "net_job": 2.5105936220233582,
+        "entry_exit": 9.585568974670105,
+        "incumbent": 21.792052176550886,
+        "in_rate": 4.198691433324092,
+        "out_rate": 4.000255059606321,
+        "gross_xlon": 8.198946492930412,
+        "in_long": 3.7155530912115333,
+        "out_long": 3.3347158303299143,
+        "gross": 8.198946492930414,
+        "net": 0.19843637371777145,
+        "gross_long": 7.050268921541448,
+        "log_pwd": 8.269053575224667,
+        "median_age": 39.06674,
+        "itl2_name": "Beds & Herts",
+        "group": "England & Wales",
+        "net_long": 0.38083726088161907,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 29.72328658430286,
+        "net_job": 0.8419560412282974,
+        "entry_exit": 7.205984373307353,
+        "incumbent": 22.517302210995503,
+        "in_rate": 3.3574209207394916,
+        "out_rate": 2.9228987060473766,
+        "gross_xlon": 6.280319626786868,
+        "in_long": 2.7552274830403722,
+        "out_long": 2.173297789225542,
+        "gross": 6.280319626786868,
+        "net": 0.43452221469211505,
+        "gross_long": 4.928525272265914,
+        "log_pwd": 8.13942356812716,
+        "median_age": 41.80368,
+        "itl2_name": "Essex",
+        "group": "England & Wales",
+        "net_long": 0.5819296938148302,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 29.371168819990466,
+        "net_job": 2.136406857614289,
+        "entry_exit": 6.774058125532377,
+        "incumbent": 22.59711069445809,
+        "in_rate": 4.409134275694647,
+        "out_rate": 4.458941037478911,
+        "gross_xlon": 8.86807531317356,
+        "in_long": 3.6549224342640048,
+        "out_long": 3.6661805908195912,
+        "gross": 8.86807531317356,
+        "net": -0.049806761784263465,
+        "gross_long": 7.3211030250835964,
+        "log_pwd": 8.110496204857286,
+        "median_age": 38.7356,
+        "itl2_name": "Berks, Bucks & Oxon",
+        "group": "England & Wales",
+        "net_long": -0.011258156555586485,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 28.397132406259853,
+        "net_job": 1.5217771207157333,
+        "entry_exit": 7.298343440349189,
+        "incumbent": 21.098788965910664,
+        "in_rate": 4.034627949482681,
+        "out_rate": 3.6139726224925246,
+        "gross_xlon": 7.648600571975206,
+        "in_long": 3.0953241290005877,
+        "out_long": 2.600302924166713,
+        "gross": 7.648600571975206,
+        "net": 0.42065532699015673,
+        "gross_long": 5.695627053167301,
+        "log_pwd": 8.18054230683843,
+        "median_age": 42.631299999999996,
+        "itl2_name": "Surrey & Sussex",
+        "group": "England & Wales",
+        "net_long": 0.4950212048338747,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 28.09416952722106,
+        "net_job": 1.0253161937651027,
+        "entry_exit": 6.656220757393566,
+        "incumbent": 21.437948769827493,
+        "in_rate": 3.84481155225597,
+        "out_rate": 3.6824074849927415,
+        "gross_xlon": 7.527219037248711,
+        "in_long": 2.61276753123941,
+        "out_long": 2.66870808586096,
+        "gross": 7.527219037248711,
+        "net": 0.1624040672632283,
+        "gross_long": 5.28147561710037,
+        "log_pwd": 8.276121614142316,
+        "median_age": 41.471520000000005,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "group": "England & Wales",
+        "net_long": -0.05594055462155012,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 28.613062138512724,
+        "net_job": 1.2013725833855995,
+        "entry_exit": 6.696920667982856,
+        "incumbent": 21.91614147052987,
+        "in_rate": 3.5951835778345402,
+        "out_rate": 3.113489613414129,
+        "gross_xlon": 6.7086731912486695,
+        "in_long": 2.913945309696404,
+        "out_long": 2.363111685187531,
+        "gross": 6.7086731912486695,
+        "net": 0.481693964420411,
+        "gross_long": 5.277056994883935,
+        "log_pwd": 8.156292130009591,
+        "median_age": 41.27342,
+        "itl2_name": "Kent",
+        "group": "England & Wales",
+        "net_long": 0.550833624508873,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 27.90186111447667,
+        "net_job": 1.0894140685372713,
+        "entry_exit": 5.776985646158344,
+        "incumbent": 22.124875468318326,
+        "in_rate": 3.8978322347698744,
+        "out_rate": 3.4665468068524046,
+        "gross_xlon": 7.364379041622279,
+        "in_long": 3.228554336435359,
+        "out_long": 2.7724358457864327,
+        "gross": 7.3643790416222785,
+        "net": 0.4312854279174698,
+        "gross_long": 6.000990182221791,
+        "log_pwd": 8.186922592823374,
+        "median_age": 40.74564,
+        "itl2_name": "Glos, Wilts & Bristol",
+        "group": "England & Wales",
+        "net_long": 0.4561184906489264,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 25.666634441371496,
+        "net_job": 0.9407376821820922,
+        "entry_exit": 6.2313481045653605,
+        "incumbent": 19.435286336806136,
+        "in_rate": 4.2019372922778695,
+        "out_rate": 3.600066784132262,
+        "gross_xlon": 7.802004076410132,
+        "in_long": 3.0624483811753453,
+        "out_long": 2.503346112141484,
+        "gross": 7.802004076410132,
+        "net": 0.6018705081456073,
+        "gross_long": 5.5657944933168295,
+        "log_pwd": 7.9379195120099,
+        "median_age": 45.38192,
+        "itl2_name": "Dorset and Somerset",
+        "group": "England & Wales",
+        "net_long": 0.5591022690338612,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.439968276243523,
+        "net_job": 1.1825555908549643,
+        "entry_exit": 6.564623440381965,
+        "incumbent": 19.875344835861558,
+        "in_rate": 4.3683941481819994,
+        "out_rate": 3.5793903282126998,
+        "gross_xlon": 7.947784476394699,
+        "in_long": 2.8945641602512273,
+        "out_long": 2.0793053749077233,
+        "gross": 7.947784476394699,
+        "net": 0.7890038199692997,
+        "gross_long": 4.973869535158951,
+        "log_pwd": 7.3798136083850085,
+        "median_age": 46.02932,
+        "itl2_name": "Cornwall",
+        "group": "England & Wales",
+        "net_long": 0.815258785343504,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 25.010237665508924,
+        "net_job": 0.5712870135844974,
+        "entry_exit": 6.385067669705105,
+        "incumbent": 18.62516999580382,
+        "in_rate": 4.221753495837571,
+        "out_rate": 3.6108972371674626,
+        "gross_xlon": 7.832650733005033,
+        "in_long": 2.8912491196971533,
+        "out_long": 2.2965594834012015,
+        "gross": 7.832650733005034,
+        "net": 0.6108562586701081,
+        "gross_long": 5.187808603098355,
+        "log_pwd": 8.000302780618545,
+        "median_age": 44.870760000000004,
+        "itl2_name": "Devon",
+        "group": "England & Wales",
+        "net_long": 0.5946896362959517,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 24.19136175875836,
+        "net_job": 0.6734993691560518,
+        "entry_exit": 5.315542957880364,
+        "incumbent": 18.875818800877997,
+        "in_rate": 2.593170907697737,
+        "out_rate": 2.5371403108751696,
+        "gross_xlon": 5.130311218572907,
+        "in_long": 1.8304948772912346,
+        "out_long": 1.7819219249783718,
+        "gross": 5.130311218572906,
+        "net": 0.05603059682256761,
+        "gross_long": 3.6124168022696064,
+        "log_pwd": 7.444083957573162,
+        "median_age": 43.147800000000004,
+        "itl2_name": "West Wales and The Valleys",
+        "group": "England & Wales",
+        "net_long": 0.04857295231286285,
+        "nation": "Wales"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 26.79060685608836,
+        "net_job": 0.9324671440301504,
+        "entry_exit": 5.314517198535366,
+        "incumbent": 21.476089657552993,
+        "in_rate": 4.123420033114849,
+        "out_rate": 4.176669160050308,
+        "gross_xlon": 8.300089193165157,
+        "in_long": 2.8419659282811134,
+        "out_long": 2.882560928479437,
+        "gross": 8.300089193165157,
+        "net": -0.05324912693545869,
+        "gross_long": 5.7245268567605505,
+        "log_pwd": 8.088261729554917,
+        "median_age": 40.61184,
+        "itl2_name": "East Wales",
+        "group": "England & Wales",
+        "net_long": -0.04059500019832374,
+        "nation": "Wales"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 27.786624203821656,
+        "net_job": 1.5469095978786802,
+        "entry_exit": 5.262294633826303,
+        "incumbent": 22.524329569995352,
+        "in_rate": 2.3710088374639318,
+        "out_rate": 2.4140642043606935,
+        "gross_xlon": 4.785073041824625,
+        "in_long": 0.9006227798290134,
+        "out_long": 0.8693397216631061,
+        "gross": 4.785073041824625,
+        "net": -0.043055366896761704,
+        "gross_long": 1.7699625014921194,
+        "log_pwd": 8.084379907829682,
+        "median_age": 40.2082,
+        "itl2_name": "North Eastern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.03128305816590726,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 23.068083438690806,
+        "net_job": 0.9565203913762601,
+        "entry_exit": 5.27326149097616,
+        "incumbent": 17.794821947714645,
+        "in_rate": 2.804704512181619,
+        "out_rate": 2.5764503733837465,
+        "gross_xlon": 5.3811548855653655,
+        "in_long": 1.215496348179831,
+        "out_long": 0.8710236988980976,
+        "gross": 5.3811548855653655,
+        "net": 0.22825413879787249,
+        "gross_long": 2.086520047077929,
+        "log_pwd": 7.341271905082147,
+        "median_age": 45.55766,
+        "itl2_name": "Highlands and Islands",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.3444726492817335,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 27.88870527314106,
+        "net_job": 1.134037811367668,
+        "entry_exit": 6.366918169704749,
+        "incumbent": 21.52178710343631,
+        "in_rate": 1.9717978799742788,
+        "out_rate": 1.7485293706503697,
+        "gross_xlon": 3.7203272506246488,
+        "in_long": 1.023978429043752,
+        "out_long": 0.8570603152184381,
+        "gross": 3.7203272506246483,
+        "net": 0.22326850932390907,
+        "gross_long": 1.8810387442621899,
+        "log_pwd": 8.392445939300979,
+        "median_age": 41.3196,
+        "itl2_name": "Eastern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.16691811382531385,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 27.591655636121676,
+        "net_job": 1.1271815900797761,
+        "entry_exit": 5.286112626970003,
+        "incumbent": 22.30554300915167,
+        "in_rate": 1.8482137423163532,
+        "out_rate": 1.8471723503675301,
+        "gross_xlon": 3.6953860926838833,
+        "in_long": 0.6637859330939484,
+        "out_long": 0.5953516050284354,
+        "gross": 3.6953860926838833,
+        "net": 0.0010413919488230228,
+        "gross_long": 1.259137538122384,
+        "log_pwd": 8.559815708023315,
+        "median_age": 40.30026,
+        "itl2_name": "West Central Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.06843432806551297,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 24.257084490952742,
+        "net_job": 0.3680146087258053,
+        "entry_exit": 5.196109000557895,
+        "incumbent": 19.060975490394846,
+        "in_rate": 2.2103089925398214,
+        "out_rate": 1.967706163048592,
+        "gross_xlon": 4.1780151555884135,
+        "in_long": 0.7586195308824518,
+        "out_long": 0.6038292223939781,
+        "gross": 4.1780151555884135,
+        "net": 0.24260282949122947,
+        "gross_long": 1.3624487532764298,
+        "log_pwd": 7.9770449305195275,
+        "median_age": 45.2455,
+        "itl2_name": "Southern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.15479030848847375,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLN0",
+        "realloc": 25.067760774497714,
+        "net_job": 0.8647719784331855,
+        "entry_exit": 4.985560135217006,
+        "incumbent": 20.08220063928071,
+        "in_rate": 0.5717833108163581,
+        "out_rate": 0.6223556743590959,
+        "gross_xlon": 1.194138985175454,
+        "in_long": 0.5717833108163581,
+        "out_long": 0.6223556743590959,
+        "gross": 1.194138985175454,
+        "net": -0.05057236354273775,
+        "gross_long": 1.194138985175454,
+        "log_pwd": 8.018560958520071,
+        "median_age": 38.022479999999995,
+        "itl2_name": "Northern Ireland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": -0.05057236354273775,
+        "nation": "Northern Ireland"
+      }
+    ],
+    "data-2872629ff232aa113fddd68b0ad4fca4": [
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.439968276243523,
+        "net_job": 1.1825555908549643,
+        "entry_exit": 6.564623440381965,
+        "incumbent": 19.875344835861558,
+        "in_rate": 4.3683941481819994,
+        "out_rate": 3.5793903282126998,
+        "gross_xlon": 7.947784476394699,
+        "in_long": 2.8945641602512273,
+        "out_long": 2.0793053749077233,
+        "gross": 7.947784476394699,
+        "net": 0.7890038199692997,
+        "gross_long": 4.973869535158951,
+        "log_pwd": 7.3798136083850085,
+        "median_age": 46.02932,
+        "itl2_name": "Cornwall",
+        "group": "x",
+        "net_long": 0.815258785343504,
+        "nation": "England",
+        "px": 265.8378592938915,
+        "py": 166.8009517126943,
+        "short": "Cornwall",
+        "rad": 4.0,
+        "prio": 2.654429135035094,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-88568c09c1402e3a45cea4e819b0f496": [
+      {
+        "itl2_code": "TLM6",
+        "realloc": 23.068083438690806,
+        "net_job": 0.9565203913762601,
+        "entry_exit": 5.27326149097616,
+        "incumbent": 17.794821947714645,
+        "in_rate": 2.804704512181619,
+        "out_rate": 2.5764503733837465,
+        "gross_xlon": 5.3811548855653655,
+        "in_long": 1.215496348179831,
+        "out_long": 0.8710236988980976,
+        "gross": 5.3811548855653655,
+        "net": 0.22825413879787249,
+        "gross_long": 2.086520047077929,
+        "log_pwd": 7.341271905082147,
+        "median_age": 45.55766,
+        "itl2_name": "Highlands and Islands",
+        "group": "x",
+        "net_long": 0.3444726492817335,
+        "nation": "Scotland",
+        "px": 162.85339203037918,
+        "py": 267.9574968392758,
+        "short": "Highlands & Islands",
+        "rad": 4.0,
+        "prio": 2.4019486218183803,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-3e15fa8f1d3a1b87c4daac838daef742": [
+      {
+        "itl2_code": "TLK4",
+        "realloc": 25.010237665508924,
+        "net_job": 0.5712870135844974,
+        "entry_exit": 6.385067669705105,
+        "incumbent": 18.62516999580382,
+        "in_rate": 4.221753495837571,
+        "out_rate": 3.6108972371674626,
+        "gross_xlon": 7.832650733005033,
+        "in_long": 2.8912491196971533,
+        "out_long": 2.2965594834012015,
+        "gross": 7.832650733005034,
+        "net": 0.6108562586701081,
+        "gross_long": 5.187808603098355,
+        "log_pwd": 8.000302780618545,
+        "median_age": 44.870760000000004,
+        "itl2_name": "Devon",
+        "group": "x",
+        "net_long": 0.5946896362959517,
+        "nation": "England",
+        "px": 217.58835793973944,
+        "py": 209.69287003473227,
+        "short": "Devon",
+        "rad": 4.0,
+        "prio": 2.170838669809386,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-21a7eeb75a39c0f83beb548be4e8f26f": [
+      {
+        "itl2_code": "TLH2",
+        "realloc": 31.377621151220993,
+        "net_job": 2.5105936220233582,
+        "entry_exit": 9.585568974670105,
+        "incumbent": 21.792052176550886,
+        "in_rate": 4.198691433324092,
+        "out_rate": 4.000255059606321,
+        "gross_xlon": 8.198946492930412,
+        "in_long": 3.7155530912115333,
+        "out_long": 3.3347158303299143,
+        "gross": 8.198946492930414,
+        "net": 0.19843637371777145,
+        "gross_long": 7.050268921541448,
+        "log_pwd": 8.269053575224667,
+        "median_age": 39.06674,
+        "itl2_name": "Beds & Herts",
+        "group": "x",
+        "net_long": 0.38083726088161907,
+        "nation": "England",
+        "px": 170.80815081785417,
+        "py": 18.671365463370222,
+        "short": "Beds & Herts",
+        "rad": 4.0,
+        "prio": 2.163042138067388,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-e56c0af341619f125b81a2411ca039c6": [
+      {
+        "itl2_code": "TLH3",
+        "realloc": 29.72328658430286,
+        "net_job": 0.8419560412282974,
+        "entry_exit": 7.205984373307353,
+        "incumbent": 22.517302210995503,
+        "in_rate": 3.3574209207394916,
+        "out_rate": 2.9228987060473766,
+        "gross_xlon": 6.280319626786868,
+        "in_long": 2.7552274830403722,
+        "out_long": 2.173297789225542,
+        "gross": 6.280319626786868,
+        "net": 0.43452221469211505,
+        "gross_long": 4.928525272265914,
+        "log_pwd": 8.13942356812716,
+        "median_age": 41.80368,
+        "itl2_name": "Essex",
+        "group": "x",
+        "net_long": 0.5819296938148302,
+        "nation": "England",
+        "px": 214.7971205219941,
+        "py": 68.30140247091424,
+        "short": "Essex",
+        "rad": 4.0,
+        "prio": 2.0342221241335796,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-118291f9d677e58230160661dd91b9c5": [
+      {
+        "itl2_code": "TLK2",
+        "realloc": 25.666634441371496,
+        "net_job": 0.9407376821820922,
+        "entry_exit": 6.2313481045653605,
+        "incumbent": 19.435286336806136,
+        "in_rate": 4.2019372922778695,
+        "out_rate": 3.600066784132262,
+        "gross_xlon": 7.802004076410132,
+        "in_long": 3.0624483811753453,
+        "out_long": 2.503346112141484,
+        "gross": 7.802004076410132,
+        "net": 0.6018705081456073,
+        "gross_long": 5.5657944933168295,
+        "log_pwd": 7.9379195120099,
+        "median_age": 45.38192,
+        "itl2_name": "Dorset and Somerset",
+        "group": "x",
+        "net_long": 0.5591022690338612,
+        "nation": "England",
+        "px": 209.80362135115712,
+        "py": 190.00096675885513,
+        "short": "Dorset & Somerset",
+        "rad": 4.0,
+        "prio": 1.874113027041877,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-20fe3c1cfa14ee0c44de5d6fa21088ee": [
+      {
+        "itl2_code": "TLG3",
+        "realloc": 30.927344120089565,
+        "net_job": 1.6142801321091418,
+        "entry_exit": 6.495863915305463,
+        "incumbent": 24.431480204784105,
+        "in_rate": 2.9416079007785623,
+        "out_rate": 3.277092205419445,
+        "gross_xlon": 6.218700106198007,
+        "in_long": 2.326344468624734,
+        "out_long": 2.3240088814972935,
+        "gross": 6.218700106198007,
+        "net": -0.33548430464088286,
+        "gross_long": 4.650353350122027,
+        "log_pwd": 8.585433988165867,
+        "median_age": 36.25288,
+        "itl2_name": "West Midlands",
+        "group": "x",
+        "net_long": 0.0023355871274404194,
+        "nation": "England",
+        "px": 88.0109096841276,
+        "py": 32.17967639731306,
+        "short": "West Midlands",
+        "rad": 4.0,
+        "prio": 1.7957353493358357,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-2f20c7f88bfe031af34580adaae37c8b": [
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 28.613062138512724,
+        "net_job": 1.2013725833855995,
+        "entry_exit": 6.696920667982856,
+        "incumbent": 21.91614147052987,
+        "in_rate": 3.5951835778345402,
+        "out_rate": 3.113489613414129,
+        "gross_xlon": 6.7086731912486695,
+        "in_long": 2.913945309696404,
+        "out_long": 2.363111685187531,
+        "gross": 6.7086731912486695,
+        "net": 0.481693964420411,
+        "gross_long": 5.277056994883935,
+        "log_pwd": 8.156292130009591,
+        "median_age": 41.27342,
+        "itl2_name": "Kent",
+        "group": "x",
+        "net_long": 0.550833624508873,
+        "nation": "England",
+        "px": 207.99485536131596,
+        "py": 101.60813584461827,
+        "short": "Kent",
+        "rad": 4.0,
+        "prio": 1.677238535817071,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-03167fd852c5330b488778d9321a4d88": [
+      {
+        "itl2_code": "TLM9",
+        "realloc": 24.257084490952742,
+        "net_job": 0.3680146087258053,
+        "entry_exit": 5.196109000557895,
+        "incumbent": 19.060975490394846,
+        "in_rate": 2.2103089925398214,
+        "out_rate": 1.967706163048592,
+        "gross_xlon": 4.1780151555884135,
+        "in_long": 0.7586195308824518,
+        "out_long": 0.6038292223939781,
+        "gross": 4.1780151555884135,
+        "net": 0.24260282949122947,
+        "gross_long": 1.3624487532764298,
+        "log_pwd": 7.9770449305195275,
+        "median_age": 45.2455,
+        "itl2_name": "Southern Scotland",
+        "group": "x",
+        "net_long": 0.15479030848847375,
+        "nation": "Scotland",
+        "px": 121.36037998185363,
+        "py": 232.28746527141772,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.6642056135194134,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-da1f1115dd2eb1869e628b45ca657ea1": [
+      {
+        "itl2_code": "TLD1",
+        "realloc": 24.3697995351232,
+        "net_job": 1.2403777494792914,
+        "entry_exit": 5.223825253785864,
+        "incumbent": 19.145974281337338,
+        "in_rate": 2.7590154688428896,
+        "out_rate": 2.720265138903486,
+        "gross_xlon": 5.479280607746375,
+        "in_long": 1.8871731594194991,
+        "out_long": 1.8507895680581752,
+        "gross": 5.479280607746375,
+        "net": 0.03875032993940364,
+        "gross_long": 3.737962727477674,
+        "log_pwd": 7.532771198904731,
+        "median_age": 46.04412,
+        "itl2_name": "Cumbria",
+        "group": "x",
+        "net_long": 0.036383591361323964,
+        "nation": "England",
+        "px": 95.4589106102896,
+        "py": 228.906013946304,
+        "short": "Cumbria",
+        "rad": 4.0,
+        "prio": 1.6498882198741893,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-6c9b77108deeb95b8695523e7a29a70a": [
+      {
+        "itl2_code": "TLN0",
+        "realloc": 25.067760774497714,
+        "net_job": 0.8647719784331855,
+        "entry_exit": 4.985560135217006,
+        "incumbent": 20.08220063928071,
+        "in_rate": 0.5717833108163581,
+        "out_rate": 0.6223556743590959,
+        "gross_xlon": 1.194138985175454,
+        "in_long": 0.5717833108163581,
+        "out_long": 0.6223556743590959,
+        "gross": 1.194138985175454,
+        "net": -0.05057236354273775,
+        "gross_long": 1.194138985175454,
+        "log_pwd": 8.018560958520071,
+        "median_age": 38.022479999999995,
+        "itl2_name": "Northern Ireland",
+        "group": "x",
+        "net_long": -0.05057236354273775,
+        "nation": "Northern Ireland",
+        "px": 76.43729547502612,
+        "py": 207.9671767650686,
+        "short": "Northern Ireland",
+        "rad": 4.0,
+        "prio": 1.439997984228867,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-86b654aa42bcd6dac506b3d93c25fe87": [
+      {
+        "v": 26.53909902408301
+      }
+    ],
+    "data-ae397e28a853f0948e38e592da9700a1": [
+      {
+        "x": -0.142127852556428,
+        "y": 26.799757382359143
+      },
+      {
+        "x": 0.9750050954831142,
+        "y": 25.074670126268618
+      }
+    ],
+    "data-9a7dd8e3ff45d9ff282f588a90b5326a": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 28.0083409729317,
+        "net_job": 0.058529462976443465,
+        "entry_exit": 7.197655464952599,
+        "incumbent": 20.810685507979098,
+        "in_rate": 3.4258092635715864,
+        "out_rate": 3.0777830401239763,
+        "gross_xlon": 6.503592303695562,
+        "in_long": 2.5372424995834355,
+        "out_long": 2.2398114091860863,
+        "gross": 6.503592303695562,
+        "net": 0.34802622344761014,
+        "gross_long": 4.777053908769522,
+        "log_pwd": 7.979306086504948,
+        "median_age": 42.49368,
+        "itl2_name": "Tees Valley and Durham",
+        "group": "England & Wales",
+        "net_long": 0.29743109039734916,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 24.355055837305585,
+        "net_job": 0.6155996554858643,
+        "entry_exit": 5.1978839627746165,
+        "incumbent": 19.15717187453097,
+        "in_rate": 3.0965571703047208,
+        "out_rate": 2.8186866782444904,
+        "gross_xlon": 5.915243848549211,
+        "in_long": 2.4014383627960485,
+        "out_long": 2.081597919423413,
+        "gross": 5.915243848549212,
+        "net": 0.2778704920602304,
+        "gross_long": 4.483036282219461,
+        "log_pwd": 8.237661758737435,
+        "median_age": 42.1598,
+        "itl2_name": "Tyneside & Northumb.",
+        "group": "England & Wales",
+        "net_long": 0.3198404433726356,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 22.800864449319022,
+        "net_job": -0.2286817147884897,
+        "entry_exit": 5.17331560103961,
+        "incumbent": 17.627548848279414,
+        "in_rate": 3.1750437817939217,
+        "out_rate": 2.5178999035013523,
+        "gross_xlon": 5.692943685295274,
+        "in_long": 2.2066818364129506,
+        "out_long": 1.6775277284694838,
+        "gross": 5.692943685295274,
+        "net": 0.6571438782925694,
+        "gross_long": 3.8842095648824344,
+        "log_pwd": 7.532771198904731,
+        "median_age": 48.03088,
+        "itl2_name": "Cumbria",
+        "group": "England & Wales",
+        "net_long": 0.5291541079434667,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 28.9345306834141,
+        "net_job": 1.5912170891315696,
+        "entry_exit": 7.145923086252445,
+        "incumbent": 21.788607597161654,
+        "in_rate": 3.2786605706149317,
+        "out_rate": 3.476045161440982,
+        "gross_xlon": 6.754705732055913,
+        "in_long": 2.385064376494997,
+        "out_long": 2.175469511740387,
+        "gross": 6.754705732055914,
+        "net": -0.1973845908260503,
+        "gross_long": 4.560533888235383,
+        "log_pwd": 8.489074418234972,
+        "median_age": 37.36886,
+        "itl2_name": "Greater Manchester",
+        "group": "England & Wales",
+        "net_long": 0.20959486475460976,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 25.097861919562966,
+        "net_job": 0.8128849957615145,
+        "entry_exit": 6.581444852594895,
+        "incumbent": 18.51641706696807,
+        "in_rate": 3.6307389656602282,
+        "out_rate": 3.0339347534691754,
+        "gross_xlon": 6.664673719129404,
+        "in_long": 1.855421299466083,
+        "out_long": 1.6851207179754224,
+        "gross": 6.664673719129404,
+        "net": 0.5968042121910528,
+        "gross_long": 3.5405420174415054,
+        "log_pwd": 8.154558034932474,
+        "median_age": 42.05782,
+        "itl2_name": "Lancashire",
+        "group": "England & Wales",
+        "net_long": 0.17030058149066063,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 28.117199041022705,
+        "net_job": 0.8817876066824215,
+        "entry_exit": 6.021936320409448,
+        "incumbent": 22.09526272061326,
+        "in_rate": 4.485348463176709,
+        "out_rate": 3.7924607807975144,
+        "gross_xlon": 8.277809243974223,
+        "in_long": 2.406115154873768,
+        "out_long": 2.2164625844521146,
+        "gross": 8.277809243974223,
+        "net": 0.6928876823791943,
+        "gross_long": 4.622577739325882,
+        "log_pwd": 7.92196605472793,
+        "median_age": 44.18576,
+        "itl2_name": "Cheshire",
+        "group": "England & Wales",
+        "net_long": 0.18965257042165318,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 28.640039936370037,
+        "net_job": 0.8282326293554673,
+        "entry_exit": 6.216662258267611,
+        "incumbent": 22.423377678102426,
+        "in_rate": 3.5379964724647226,
+        "out_rate": 3.222595264642141,
+        "gross_xlon": 6.760591737106863,
+        "in_long": 2.164360134397083,
+        "out_long": 1.8276547413711368,
+        "gross": 6.760591737106864,
+        "net": 0.3154012078225814,
+        "gross_long": 3.99201487576822,
+        "log_pwd": 8.470615372205987,
+        "median_age": 40.73644,
+        "itl2_name": "Merseyside",
+        "group": "England & Wales",
+        "net_long": 0.33670539302594626,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 24.646059129881337,
+        "net_job": 0.14124587675868863,
+        "entry_exit": 5.4307448455658704,
+        "incumbent": 19.215314284315465,
+        "in_rate": 3.079163483070667,
+        "out_rate": 2.7908697108713594,
+        "gross_xlon": 5.870033193942026,
+        "in_long": 1.9186119627120328,
+        "out_long": 1.8324620055650844,
+        "gross": 5.870033193942026,
+        "net": 0.2882937721993075,
+        "gross_long": 3.751073968277117,
+        "log_pwd": 8.076041287307472,
+        "median_age": 43.73121999999999,
+        "itl2_name": "E Yorks & N Lincs",
+        "group": "England & Wales",
+        "net_long": 0.0861499571469484,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 26.34895526463718,
+        "net_job": 1.1301617134963793,
+        "entry_exit": 5.914283359635711,
+        "incumbent": 20.43467190500147,
+        "in_rate": 5.404967781367159,
+        "out_rate": 4.8316711468808595,
+        "gross_xlon": 10.236638928248018,
+        "in_long": 3.6156935663995293,
+        "out_long": 3.3138440189442613,
+        "gross": 10.236638928248018,
+        "net": 0.5732966344862991,
+        "gross_long": 6.929537585343791,
+        "log_pwd": 7.665683138856995,
+        "median_age": 46.33202,
+        "itl2_name": "North Yorkshire",
+        "group": "England & Wales",
+        "net_long": 0.30184954745526804,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 27.08997022772864,
+        "net_job": 0.41238790905092304,
+        "entry_exit": 6.021744860194058,
+        "incumbent": 21.06822536753458,
+        "in_rate": 3.587305066184207,
+        "out_rate": 3.551249517432937,
+        "gross_xlon": 7.138554583617144,
+        "in_long": 2.7233470779892834,
+        "out_long": 2.719794524914069,
+        "gross": 7.138554583617144,
+        "net": 0.03605554875127037,
+        "gross_long": 5.443141602903353,
+        "log_pwd": 8.152146502002559,
+        "median_age": 39.8082,
+        "itl2_name": "South Yorkshire",
+        "group": "England & Wales",
+        "net_long": 0.003552553075214515,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 26.41497393205932,
+        "net_job": 0.6807640124450205,
+        "entry_exit": 6.474987944616693,
+        "incumbent": 19.93998598744263,
+        "in_rate": 3.201560683416646,
+        "out_rate": 3.474881963442596,
+        "gross_xlon": 6.676442646859242,
+        "in_long": 2.4879505441845593,
+        "out_long": 2.567446910335074,
+        "gross": 6.6764426468592415,
+        "net": -0.2733212800259497,
+        "gross_long": 5.055397454519634,
+        "log_pwd": 8.28606265387582,
+        "median_age": 38.38558,
+        "itl2_name": "West Yorkshire",
+        "group": "England & Wales",
+        "net_long": -0.07949636615051459,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 26.846663218326054,
+        "net_job": 0.5059842366449353,
+        "entry_exit": 6.001444206019573,
+        "incumbent": 20.84521901230648,
+        "in_rate": 4.052321631595061,
+        "out_rate": 3.724673437519448,
+        "gross_xlon": 7.776995069114508,
+        "in_long": 3.448002291594267,
+        "out_long": 3.162761843880932,
+        "gross": 7.776995069114509,
+        "net": 0.32764819407561285,
+        "gross_long": 6.610764135475199,
+        "log_pwd": 8.097605771231146,
+        "median_age": 41.59556,
+        "itl2_name": "Derbys & Notts",
+        "group": "England & Wales",
+        "net_long": 0.28524044771333523,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 29.706362973028476,
+        "net_job": 0.7081500058985193,
+        "entry_exit": 7.460862232436613,
+        "incumbent": 22.24550074059186,
+        "in_rate": 4.003298855000047,
+        "out_rate": 4.054794435711035,
+        "gross_xlon": 8.058093290711081,
+        "in_long": 3.472932564426246,
+        "out_long": 3.421457627363569,
+        "gross": 8.058093290711081,
+        "net": -0.05149558071098781,
+        "gross_long": 6.894390191789815,
+        "log_pwd": 8.233681212027673,
+        "median_age": 40.01782,
+        "itl2_name": "Leics & Northants",
+        "group": "England & Wales",
+        "net_long": 0.05147493706267703,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 24.646587822361585,
+        "net_job": 0.27776164760079747,
+        "entry_exit": 6.108498022440302,
+        "incumbent": 18.538089799921284,
+        "in_rate": 4.906688143103054,
+        "out_rate": 4.0972820814989594,
+        "gross_xlon": 9.003970224602012,
+        "in_long": 3.813654176197693,
+        "out_long": 3.1390762216224144,
+        "gross": 9.003970224602014,
+        "net": 0.8094060616040943,
+        "gross_long": 6.952730397820107,
+        "log_pwd": 7.498569412029881,
+        "median_age": 45.81902,
+        "itl2_name": "Lincolnshire",
+        "group": "England & Wales",
+        "net_long": 0.6745779545752786,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 28.27446040095013,
+        "net_job": 0.0925699720082533,
+        "entry_exit": 8.082285727741263,
+        "incumbent": 20.192174673208868,
+        "in_rate": 4.67341210276586,
+        "out_rate": 3.6937910082072105,
+        "gross_xlon": 8.36720311097307,
+        "in_long": 2.7720742861594077,
+        "out_long": 2.687963254489646,
+        "gross": 8.36720311097307,
+        "net": 0.9796210945586492,
+        "gross_long": 5.460037540649054,
+        "log_pwd": 7.780603084693388,
+        "median_age": 44.50614,
+        "itl2_name": "Herefs, Worcs & Warks",
+        "group": "England & Wales",
+        "net_long": 0.08411103166976153,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 25.858153655744555,
+        "net_job": 0.4562409954699427,
+        "entry_exit": 5.720496633605027,
+        "incumbent": 20.13765702213953,
+        "in_rate": 3.7110481586402266,
+        "out_rate": 3.047983461178043,
+        "gross_xlon": 6.75903161981827,
+        "in_long": 2.3724882504052514,
+        "out_long": 2.34243184515132,
+        "gross": 6.75903161981827,
+        "net": 0.6630646974621834,
+        "gross_long": 4.714920095556572,
+        "log_pwd": 7.851880764673265,
+        "median_age": 43.6848,
+        "itl2_name": "Shrops & Staffs",
+        "group": "England & Wales",
+        "net_long": 0.030056405253931384,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 29.968070018771094,
+        "net_job": 1.4617985535722253,
+        "entry_exit": 7.561448437222928,
+        "incumbent": 22.40662158154817,
+        "in_rate": 3.2302797267046244,
+        "out_rate": 4.154610315252592,
+        "gross_xlon": 7.384890041957217,
+        "in_long": 2.596793462253795,
+        "out_long": 2.738921314810223,
+        "gross": 7.384890041957217,
+        "net": -0.9243305885479676,
+        "gross_long": 5.335714777064018,
+        "log_pwd": 8.585433988165867,
+        "median_age": 36.706779999999995,
+        "itl2_name": "West Midlands",
+        "group": "England & Wales",
+        "net_long": -0.142127852556428,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 24.734928337743757,
+        "net_job": 0.886513411266236,
+        "entry_exit": 5.569214275066634,
+        "incumbent": 19.16571406267712,
+        "in_rate": 3.73047328949276,
+        "out_rate": 3.1652812114787334,
+        "gross_xlon": 6.895754500971494,
+        "in_long": 2.875444037301051,
+        "out_long": 2.7446740453629506,
+        "gross": 6.895754500971494,
+        "net": 0.5651920780140265,
+        "gross_long": 5.620118082664002,
+        "log_pwd": 7.75948811886444,
+        "median_age": 43.25336,
+        "itl2_name": "East Anglia",
+        "group": "England & Wales",
+        "net_long": 0.13076999193810046,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 27.912532339961334,
+        "net_job": 0.3031389055293813,
+        "entry_exit": 6.815864304269006,
+        "incumbent": 21.096668035692332,
+        "in_rate": 4.469254780988531,
+        "out_rate": 4.5919738480794035,
+        "gross_xlon": 9.061228629067934,
+        "in_long": 3.9784923426054752,
+        "out_long": 3.8238387919120695,
+        "gross": 9.061228629067934,
+        "net": -0.12271906709087244,
+        "gross_long": 7.802331134517544,
+        "log_pwd": 8.269053575224667,
+        "median_age": 39.77804,
+        "itl2_name": "Beds & Herts",
+        "group": "England & Wales",
+        "net_long": 0.1546535506934057,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 27.112638340479748,
+        "net_job": 0.4360365514924306,
+        "entry_exit": 7.170851947827302,
+        "incumbent": 19.941786392652446,
+        "in_rate": 3.8477611328774106,
+        "out_rate": 3.529717588414099,
+        "gross_xlon": 7.37747872129151,
+        "in_long": 3.233476314762377,
+        "out_long": 2.5988009600217046,
+        "gross": 7.37747872129151,
+        "net": 0.3180435444633116,
+        "gross_long": 5.832277274784081,
+        "log_pwd": 8.13942356812716,
+        "median_age": 41.89306,
+        "itl2_name": "Essex",
+        "group": "England & Wales",
+        "net_long": 0.6346753547406725,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 28.112590617352357,
+        "net_job": 0.276902387218913,
+        "entry_exit": 6.337442859121762,
+        "incumbent": 21.775147758230595,
+        "in_rate": 4.830658166376825,
+        "out_rate": 4.733182384126064,
+        "gross_xlon": 9.563840550502889,
+        "in_long": 4.067372301535803,
+        "out_long": 3.9401176717092756,
+        "gross": 9.563840550502889,
+        "net": 0.09747578225076126,
+        "gross_long": 8.007489973245079,
+        "log_pwd": 8.110496204857286,
+        "median_age": 39.84212,
+        "itl2_name": "Berks, Bucks & Oxon",
+        "group": "England & Wales",
+        "net_long": 0.12725462982652758,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 26.11585432573068,
+        "net_job": 0.30690743082235084,
+        "entry_exit": 6.836687861693333,
+        "incumbent": 19.27916646403735,
+        "in_rate": 4.631156117419673,
+        "out_rate": 4.2447621991882905,
+        "gross_xlon": 8.875918316607963,
+        "in_long": 3.6111926125912412,
+        "out_long": 3.119820113491678,
+        "gross": 8.875918316607963,
+        "net": 0.38639391823138247,
+        "gross_long": 6.73101272608292,
+        "log_pwd": 8.18054230683843,
+        "median_age": 43.60288,
+        "itl2_name": "Surrey & Sussex",
+        "group": "England & Wales",
+        "net_long": 0.49137249909956315,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 26.909985364692222,
+        "net_job": 0.09512672555939676,
+        "entry_exit": 6.127737321477827,
+        "incumbent": 20.782248043214395,
+        "in_rate": 3.9463947673520017,
+        "out_rate": 3.8115031609105667,
+        "gross_xlon": 7.757897928262569,
+        "in_long": 2.58700360382938,
+        "out_long": 2.728091330215048,
+        "gross": 7.757897928262569,
+        "net": 0.13489160644143494,
+        "gross_long": 5.315094934044428,
+        "log_pwd": 8.276121614142316,
+        "median_age": 42.42134,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "group": "England & Wales",
+        "net_long": -0.1410877263856678,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 26.77018637647294,
+        "net_job": 0.8244019812625093,
+        "entry_exit": 6.619416293245894,
+        "incumbent": 20.150770083227044,
+        "in_rate": 3.8125302308464044,
+        "out_rate": 3.3527985141545624,
+        "gross_xlon": 7.165328745000966,
+        "in_long": 3.1777859230534626,
+        "out_long": 2.6263667950644156,
+        "gross": 7.165328745000966,
+        "net": 0.459731716691842,
+        "gross_long": 5.804152718117878,
+        "log_pwd": 8.156292130009591,
+        "median_age": 41.730380000000004,
+        "itl2_name": "Kent",
+        "group": "England & Wales",
+        "net_long": 0.551419127989047,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 26.380606855789843,
+        "net_job": 0.9141520602703033,
+        "entry_exit": 5.711483075954559,
+        "incumbent": 20.669123779835285,
+        "in_rate": 4.375163735110925,
+        "out_rate": 4.035341009504619,
+        "gross_xlon": 8.410504744615544,
+        "in_long": 3.6497782435132042,
+        "out_long": 3.238894960632405,
+        "gross": 8.410504744615544,
+        "net": 0.33982272560630555,
+        "gross_long": 6.88867320414561,
+        "log_pwd": 8.186922592823374,
+        "median_age": 40.88818,
+        "itl2_name": "Glos, Wilts & Bristol",
+        "group": "England & Wales",
+        "net_long": 0.41088328288079934,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 25.36701998309659,
+        "net_job": -0.0734635156713664,
+        "entry_exit": 5.91704404579906,
+        "incumbent": 19.44997593729753,
+        "in_rate": 4.4395443013485405,
+        "out_rate": 3.8125995723245,
+        "gross_xlon": 8.25214387367304,
+        "in_long": 3.248428461086366,
+        "out_long": 2.6365798857675515,
+        "gross": 8.25214387367304,
+        "net": 0.6269447290240406,
+        "gross_long": 5.885008346853917,
+        "log_pwd": 7.9379195120099,
+        "median_age": 47.130880000000005,
+        "itl2_name": "Dorset and Somerset",
+        "group": "England & Wales",
+        "net_long": 0.6118485753188145,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.959846239154814,
+        "net_job": 1.071489620726028,
+        "entry_exit": 6.962181002530717,
+        "incumbent": 19.997665236624098,
+        "in_rate": 4.671414131750475,
+        "out_rate": 3.61242022275927,
+        "gross_xlon": 8.283834354509745,
+        "in_long": 3.1083140259585402,
+        "out_long": 2.133308930475426,
+        "gross": 8.283834354509745,
+        "net": 1.058993908991205,
+        "gross_long": 5.241622956433966,
+        "log_pwd": 7.3798136083850085,
+        "median_age": 47.971379999999996,
+        "itl2_name": "Cornwall",
+        "group": "England & Wales",
+        "net_long": 0.9750050954831142,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 24.365681526671583,
+        "net_job": 0.5580363524091047,
+        "entry_exit": 5.6640308597152265,
+        "incumbent": 18.701650666956358,
+        "in_rate": 4.604350778025038,
+        "out_rate": 3.8191755212915637,
+        "gross_xlon": 8.423526299316602,
+        "in_long": 3.1772808953633755,
+        "out_long": 2.4860822619651595,
+        "gross": 8.423526299316602,
+        "net": 0.7851752567334747,
+        "gross_long": 5.663363157328535,
+        "log_pwd": 8.000302780618545,
+        "median_age": 46.07114,
+        "itl2_name": "Devon",
+        "group": "England & Wales",
+        "net_long": 0.6911986333982161,
+        "nation": "England"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 25.14441789366181,
+        "net_job": 0.3916551380373653,
+        "entry_exit": 6.02232328932371,
+        "incumbent": 19.122094604338102,
+        "in_rate": 2.836752602998007,
+        "out_rate": 2.3726867805240133,
+        "gross_xlon": 5.20943938352202,
+        "in_long": 2.1343563967717176,
+        "out_long": 1.7445689807922478,
+        "gross": 5.20943938352202,
+        "net": 0.46406582247399353,
+        "gross_long": 3.8789253775639656,
+        "log_pwd": 7.444083957573162,
+        "median_age": 44.22638,
+        "itl2_name": "West Wales and The Valleys",
+        "group": "England & Wales",
+        "net_long": 0.38978741597946986,
+        "nation": "Wales"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 26.52023591620907,
+        "net_job": 0.49192666642331073,
+        "entry_exit": 5.652637196261358,
+        "incumbent": 20.867598719947715,
+        "in_rate": 4.372057496077505,
+        "out_rate": 4.037255817193931,
+        "gross_xlon": 8.409313313271436,
+        "in_long": 3.3381314770089747,
+        "out_long": 2.881062323517241,
+        "gross": 8.409313313271436,
+        "net": 0.3348016788835739,
+        "gross_long": 6.219193800526216,
+        "log_pwd": 8.088261729554917,
+        "median_age": 41.10858,
+        "itl2_name": "East Wales",
+        "group": "England & Wales",
+        "net_long": 0.4570691534917337,
+        "nation": "Wales"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 24.916323751014257,
+        "net_job": -1.289193810130984,
+        "entry_exit": 5.634925234728179,
+        "incumbent": 19.281398516286078,
+        "in_rate": 1.9627607848264703,
+        "out_rate": 2.152389046424398,
+        "gross_xlon": 4.115149831250868,
+        "in_long": 0.766930073301681,
+        "out_long": 0.7281136870663801,
+        "gross": 4.115149831250868,
+        "net": -0.18962826159792767,
+        "gross_long": 1.495043760368061,
+        "log_pwd": 8.084379907829682,
+        "median_age": 42.06482,
+        "itl2_name": "North Eastern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.038816386235300815,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 23.078838911159767,
+        "net_job": -0.16806031112814815,
+        "entry_exit": 4.689662341712526,
+        "incumbent": 18.38917656944724,
+        "in_rate": 2.8908041982345174,
+        "out_rate": 2.3265284427526485,
+        "gross_xlon": 5.217332640987165,
+        "in_long": 1.3202278200499633,
+        "out_long": 0.7739830484219823,
+        "gross": 5.217332640987166,
+        "net": 0.5642757554818689,
+        "gross_long": 2.0942108684719454,
+        "log_pwd": 7.341271905082147,
+        "median_age": 48.28614,
+        "itl2_name": "Highlands and Islands",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.546244771627981,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 24.582966691549654,
+        "net_job": 0.5591374083048013,
+        "entry_exit": 4.569225444036215,
+        "incumbent": 20.01374124751344,
+        "in_rate": 1.910041048531618,
+        "out_rate": 1.7086863570352706,
+        "gross_xlon": 3.6187274055668883,
+        "in_long": 1.0328598143171122,
+        "out_long": 0.8213704232686305,
+        "gross": 3.6187274055668883,
+        "net": 0.20135469149634733,
+        "gross_long": 1.8542302375857427,
+        "log_pwd": 8.392445939300979,
+        "median_age": 42.015159999999995,
+        "itl2_name": "Eastern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.21148939104848163,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 26.209183515128785,
+        "net_job": 0.8996118013960359,
+        "entry_exit": 5.440855344350452,
+        "incumbent": 20.768328170778332,
+        "in_rate": 1.8681471164217869,
+        "out_rate": 1.8855051367173181,
+        "gross_xlon": 3.753652253139105,
+        "in_long": 0.7032223606907602,
+        "out_long": 0.5810878739959576,
+        "gross": 3.753652253139105,
+        "net": -0.01735802029553124,
+        "gross_long": 1.2843102346867177,
+        "log_pwd": 8.559815708023315,
+        "median_age": 40.3934,
+        "itl2_name": "West Central Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.12213448669480254,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 23.16051251554306,
+        "net_job": -0.018298185568553737,
+        "entry_exit": 5.1975164371769225,
+        "incumbent": 17.96299607836614,
+        "in_rate": 2.3833868885202474,
+        "out_rate": 1.752633536271974,
+        "gross_xlon": 4.136020424792221,
+        "in_long": 0.7939260478779192,
+        "out_long": 0.5145894357692935,
+        "gross": 4.136020424792221,
+        "net": 0.6307533522482733,
+        "gross_long": 1.3085154836472128,
+        "log_pwd": 7.9770449305195275,
+        "median_age": 47.38898,
+        "itl2_name": "Southern Scotland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": 0.2793366121086257,
+        "nation": "Scotland"
+      },
+      {
+        "itl2_code": "TLN0",
+        "realloc": 21.404620156332747,
+        "net_job": 1.3142342263974172,
+        "entry_exit": 4.450881083549678,
+        "incumbent": 16.95373907278307,
+        "in_rate": 0.5873565577605795,
+        "out_rate": 0.6604232367514102,
+        "gross_xlon": 1.2477797945119897,
+        "in_long": 0.5873565577605795,
+        "out_long": 0.6604232367514102,
+        "gross": 1.2477797945119897,
+        "net": -0.07306667899083075,
+        "gross_long": 1.2477797945119897,
+        "log_pwd": 8.018560958520071,
+        "median_age": 39.951260000000005,
+        "itl2_name": "Northern Ireland",
+        "group": "Scotland & Northern Ireland",
+        "net_long": -0.07306667899083075,
+        "nation": "Northern Ireland"
+      }
+    ],
+    "data-a763f1a00c8c94c501059dc51e951636": [
+      {
+        "itl2_code": "TLN0",
+        "realloc": 21.404620156332747,
+        "net_job": 1.3142342263974172,
+        "entry_exit": 4.450881083549678,
+        "incumbent": 16.95373907278307,
+        "in_rate": 0.5873565577605795,
+        "out_rate": 0.6604232367514102,
+        "gross_xlon": 1.2477797945119897,
+        "in_long": 0.5873565577605795,
+        "out_long": 0.6604232367514102,
+        "gross": 1.2477797945119897,
+        "net": -0.07306667899083075,
+        "gross_long": 1.2477797945119897,
+        "log_pwd": 8.018560958520071,
+        "median_age": 39.951260000000005,
+        "itl2_name": "Northern Ireland",
+        "group": "x",
+        "net_long": -0.07306667899083075,
+        "nation": "Northern Ireland",
+        "px": 71.51666397075577,
+        "py": 317.8613953100176,
+        "short": "Northern Ireland",
+        "rad": 4.0,
+        "prio": 2.7525746286805166,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-0ce3f3719da5922ac277e04a95afc582": [
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.959846239154814,
+        "net_job": 1.071489620726028,
+        "entry_exit": 6.962181002530717,
+        "incumbent": 19.997665236624098,
+        "in_rate": 4.671414131750475,
+        "out_rate": 3.61242022275927,
+        "gross_xlon": 8.283834354509745,
+        "in_long": 3.1083140259585402,
+        "out_long": 2.133308930475426,
+        "gross": 8.283834354509745,
+        "net": 1.058993908991205,
+        "gross_long": 5.241622956433966,
+        "log_pwd": 7.3798136083850085,
+        "median_age": 47.971379999999996,
+        "itl2_name": "Cornwall",
+        "group": "x",
+        "net_long": 0.9750050954831142,
+        "nation": "England",
+        "px": 300.7823646369312,
+        "py": 151.20461282535558,
+        "short": "Cornwall",
+        "rad": 4.0,
+        "prio": 2.691971075147661,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-66257228c68fa95f8a4e790bf0b29132": [
+      {
+        "itl2_code": "TLF2",
+        "realloc": 29.706362973028476,
+        "net_job": 0.7081500058985193,
+        "entry_exit": 7.460862232436613,
+        "incumbent": 22.24550074059186,
+        "in_rate": 4.003298855000047,
+        "out_rate": 4.054794435711035,
+        "gross_xlon": 8.058093290711081,
+        "in_long": 3.472932564426246,
+        "out_long": 3.421457627363569,
+        "gross": 8.058093290711081,
+        "net": -0.05149558071098781,
+        "gross_long": 6.894390191789815,
+        "log_pwd": 8.233681212027673,
+        "median_age": 40.01782,
+        "itl2_name": "Leics & Northants",
+        "group": "x",
+        "net_long": 0.05147493706267703,
+        "nation": "England",
+        "px": 98.7601424824606,
+        "py": 68.80911080914572,
+        "short": "Leics & Northants",
+        "rad": 4.0,
+        "prio": 1.9960744758517102,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-0250ebbb91f6684a40c41bd4616b570c": [
+      {
+        "itl2_code": "TLD1",
+        "realloc": 22.800864449319022,
+        "net_job": -0.2286817147884897,
+        "entry_exit": 5.17331560103961,
+        "incumbent": 17.627548848279414,
+        "in_rate": 3.1750437817939217,
+        "out_rate": 2.5178999035013523,
+        "gross_xlon": 5.692943685295274,
+        "in_long": 2.2066818364129506,
+        "out_long": 1.6775277284694838,
+        "gross": 5.692943685295274,
+        "net": 0.6571438782925694,
+        "gross_long": 3.8842095648824344,
+        "log_pwd": 7.532771198904731,
+        "median_age": 48.03088,
+        "itl2_name": "Cumbria",
+        "group": "x",
+        "net_long": 0.5291541079434667,
+        "nation": "England",
+        "px": 203.25246111263334,
+        "py": 275.97406652042935,
+        "short": "Cumbria",
+        "rad": 4.0,
+        "prio": 1.9537966132878395,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-166c9eb95e8be7f93f0861084050e3fe": [
+      {
+        "itl2_code": "TLK4",
+        "realloc": 24.365681526671583,
+        "net_job": 0.5580363524091047,
+        "entry_exit": 5.6640308597152265,
+        "incumbent": 18.701650666956358,
+        "in_rate": 4.604350778025038,
+        "out_rate": 3.8191755212915637,
+        "gross_xlon": 8.423526299316602,
+        "in_long": 3.1772808953633755,
+        "out_long": 2.4860822619651595,
+        "gross": 8.423526299316602,
+        "net": 0.7851752567334747,
+        "gross_long": 5.663363157328535,
+        "log_pwd": 8.000302780618545,
+        "median_age": 46.07114,
+        "itl2_name": "Devon",
+        "group": "x",
+        "net_long": 0.6911986333982161,
+        "nation": "England",
+        "px": 238.69970105585975,
+        "py": 229.0295541998525,
+        "short": "Devon",
+        "rad": 4.0,
+        "prio": 1.8212202753698896,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-9a97703f864a8caf9b9de5e75c64b3ce": [
+      {
+        "itl2_code": "TLF3",
+        "realloc": 24.646587822361585,
+        "net_job": 0.27776164760079747,
+        "entry_exit": 6.108498022440302,
+        "incumbent": 18.538089799921284,
+        "in_rate": 4.906688143103054,
+        "out_rate": 4.0972820814989594,
+        "gross_xlon": 9.003970224602012,
+        "in_long": 3.813654176197693,
+        "out_long": 3.1390762216224144,
+        "gross": 9.003970224602014,
+        "net": 0.8094060616040943,
+        "gross_long": 6.952730397820107,
+        "log_pwd": 7.498569412029881,
+        "median_age": 45.81902,
+        "itl2_name": "Lincolnshire",
+        "group": "x",
+        "net_long": 0.6745779545752786,
+        "nation": "England",
+        "px": 235.06392756334216,
+        "py": 220.60236532915246,
+        "short": "Lincolnshire",
+        "rad": 4.0,
+        "prio": 1.6978616932940638,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-11888a6f6863ff05701a6afaf3f0ad8a": [
+      {
+        "itl2_code": "TLM9",
+        "realloc": 23.16051251554306,
+        "net_job": -0.018298185568553737,
+        "entry_exit": 5.1975164371769225,
+        "incumbent": 17.96299607836614,
+        "in_rate": 2.3833868885202474,
+        "out_rate": 1.752633536271974,
+        "gross_xlon": 4.136020424792221,
+        "in_long": 0.7939260478779192,
+        "out_long": 0.5145894357692935,
+        "gross": 4.136020424792221,
+        "net": 0.6307533522482733,
+        "gross_long": 1.3085154836472128,
+        "log_pwd": 7.9770449305195275,
+        "median_age": 47.38898,
+        "itl2_name": "Southern Scotland",
+        "group": "x",
+        "net_long": 0.2793366121086257,
+        "nation": "Scotland",
+        "px": 148.60488389876187,
+        "py": 265.1846245337082,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.5180801469540532,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-596a5e2082be3fe1929e395e97b762e0": [
+      {
+        "itl2_code": "TLD3",
+        "realloc": 28.9345306834141,
+        "net_job": 1.5912170891315696,
+        "entry_exit": 7.145923086252445,
+        "incumbent": 21.788607597161654,
+        "in_rate": 3.2786605706149317,
+        "out_rate": 3.476045161440982,
+        "gross_xlon": 6.754705732055913,
+        "in_long": 2.385064376494997,
+        "out_long": 2.175469511740387,
+        "gross": 6.754705732055914,
+        "net": -0.1973845908260503,
+        "gross_long": 4.560533888235383,
+        "log_pwd": 8.489074418234972,
+        "median_age": 37.36886,
+        "itl2_name": "Greater Manchester",
+        "group": "x",
+        "net_long": 0.20959486475460976,
+        "nation": "England",
+        "px": 133.3488766650709,
+        "py": 91.96407949757702,
+        "short": "Greater Manchester",
+        "rad": 4.0,
+        "prio": 1.433802008955794,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-becf162f7f6b66729c81e3fcb37267b5": [
+      {
+        "itl2_code": "TLK2",
+        "realloc": 25.36701998309659,
+        "net_job": -0.0734635156713664,
+        "entry_exit": 5.91704404579906,
+        "incumbent": 19.44997593729753,
+        "in_rate": 4.4395443013485405,
+        "out_rate": 3.8125995723245,
+        "gross_xlon": 8.25214387367304,
+        "in_long": 3.248428461086366,
+        "out_long": 2.6365798857675515,
+        "gross": 8.25214387367304,
+        "net": 0.6269447290240406,
+        "gross_long": 5.885008346853917,
+        "log_pwd": 7.9379195120099,
+        "median_age": 47.130880000000005,
+        "itl2_name": "Dorset and Somerset",
+        "group": "x",
+        "net_long": 0.6118485753188145,
+        "nation": "England",
+        "px": 221.34187585099065,
+        "py": 198.9894005071023,
+        "short": "Dorset & Somerset",
+        "rad": 4.0,
+        "prio": 1.3379748293671911,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-79f3cef75c24ab97e1f70640ca0de742": [
+      {
+        "itl2_code": "TLD7",
+        "realloc": 28.640039936370037,
+        "net_job": 0.8282326293554673,
+        "entry_exit": 6.216662258267611,
+        "incumbent": 22.423377678102426,
+        "in_rate": 3.5379964724647226,
+        "out_rate": 3.222595264642141,
+        "gross_xlon": 6.760591737106863,
+        "in_long": 2.164360134397083,
+        "out_long": 1.8276547413711368,
+        "gross": 6.760591737106864,
+        "net": 0.3154012078225814,
+        "gross_long": 3.99201487576822,
+        "log_pwd": 8.470615372205987,
+        "median_age": 40.73644,
+        "itl2_name": "Merseyside",
+        "group": "x",
+        "net_long": 0.33670539302594626,
+        "nation": "England",
+        "px": 161.15430472442574,
+        "py": 100.79880190889888,
+        "short": "Merseyside",
+        "rad": 4.0,
+        "prio": 1.2821149608041935,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-f86df5caf56391e1668874b82165cdf3": [
+      {
+        "itl2_code": "TLG2",
+        "realloc": 25.858153655744555,
+        "net_job": 0.4562409954699427,
+        "entry_exit": 5.720496633605027,
+        "incumbent": 20.13765702213953,
+        "in_rate": 3.7110481586402266,
+        "out_rate": 3.047983461178043,
+        "gross_xlon": 6.75903161981827,
+        "in_long": 2.3724882504052514,
+        "out_long": 2.34243184515132,
+        "gross": 6.75903161981827,
+        "net": 0.6630646974621834,
+        "gross_long": 4.714920095556572,
+        "log_pwd": 7.851880764673265,
+        "median_age": 43.6848,
+        "itl2_name": "Shrops & Staffs",
+        "group": "x",
+        "net_long": 0.030056405253931384,
+        "nation": "England",
+        "px": 94.07483864929749,
+        "py": 184.25539032766332,
+        "short": "Shrops & Staffs",
+        "rad": 4.0,
+        "prio": 0.9511311181541819,
+        "align": "left",
+        "dx": 9.0
+      }
+    ]
+  },
+  "width": 350,
+  "height": 360
+}

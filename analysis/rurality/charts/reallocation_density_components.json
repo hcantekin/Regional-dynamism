@@ -1,0 +1,407 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-684c5b25e91cda1787ccf6b9895cb476"
+      },
+      "mark": {
+        "type": "bar",
+        "height": 24
+      },
+      "encoding": {
+        "color": {
+          "field": "flow",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "Entry and exit",
+              "Site openings and closures",
+              "Expansion and contraction"
+            ],
+            "range": [
+              "#122b39",
+              "#36b7b4",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
+        "order": {
+          "field": "order",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "dgroup",
+            "type": "nominal"
+          },
+          {
+            "field": "flow",
+            "type": "nominal"
+          },
+          {
+            "field": "rate",
+            "format": ".1f",
+            "title": "% of employment",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "rate",
+          "stack": "zero",
+          "title": "Reallocation rate, 2011\u201324 (% of employment)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "dgroup",
+          "sort": [
+            "London",
+            "Densest quarter",
+            "Upper-middle quarter",
+            "Lower-middle quarter",
+            "Least dense quarter"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-684c5b25e91cda1787ccf6b9895cb476"
+      },
+      "mark": {
+        "type": "text",
+        "color": "white",
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "rate",
+          "format": ".1f",
+          "type": "quantitative"
+        },
+        "x": {
+          "field": "mid",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "dgroup",
+          "sort": [
+            "London",
+            "Densest quarter",
+            "Upper-middle quarter",
+            "Lower-middle quarter",
+            "Least dense quarter"
+          ],
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "groupby": [
+            "dgroup"
+          ],
+          "stack": "rate",
+          "sort": [
+            {
+              "field": "order"
+            }
+          ],
+          "as": [
+            "x0",
+            "x1"
+          ]
+        },
+        {
+          "calculate": "(datum.x0 + datum.x1) / 2",
+          "as": "mid"
+        }
+      ]
+    },
+    {
+      "data": {
+        "name": "data-e7063f94d3db476ddadf92e9b3c8a109"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 5,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "Total",
+          "format": ".1f",
+          "type": "quantitative"
+        },
+        "x": {
+          "field": "Total",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "dgroup",
+          "sort": [
+            "London",
+            "Densest quarter",
+            "Upper-middle quarter",
+            "Lower-middle quarter",
+            "Least dense quarter"
+          ],
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Denser regions have more of every type of job flow",
+    "subtitle": [
+      "Reallocation by type of flow and density group, pooled 2011\u201324 (job creation + destruction, % of average employment).",
+      "Densest vs least dense quarter: +0.5 pp entry/exit, +0.9 pp site openings/closures, +1.3 pp expansion/contraction. Groups as in the previous chart; Northern Ireland included here.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-684c5b25e91cda1787ccf6b9895cb476": [
+      {
+        "dgroup": "London",
+        "flow": "Entry and exit",
+        "rate": 9.764552390552925,
+        "order": 0
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Entry and exit",
+        "rate": 6.637023769765527,
+        "order": 0
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Entry and exit",
+        "rate": 6.7174889110107125,
+        "order": 0
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Entry and exit",
+        "rate": 5.786598890730774,
+        "order": 0
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Entry and exit",
+        "rate": 6.180873252892339,
+        "order": 0
+      },
+      {
+        "dgroup": "London",
+        "flow": "Site openings and closures",
+        "rate": 8.464649105027316,
+        "order": 1
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Site openings and closures",
+        "rate": 7.344088366863144,
+        "order": 1
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Site openings and closures",
+        "rate": 7.101164384284961,
+        "order": 1
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Site openings and closures",
+        "rate": 6.38335678588938,
+        "order": 1
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Site openings and closures",
+        "rate": 6.410084555845751,
+        "order": 1
+      },
+      {
+        "dgroup": "London",
+        "flow": "Expansion and contraction",
+        "rate": 16.03071098536397,
+        "order": 2
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Expansion and contraction",
+        "rate": 14.274691812892627,
+        "order": 2
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Expansion and contraction",
+        "rate": 13.78199783058615,
+        "order": 2
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Expansion and contraction",
+        "rate": 13.174437656597053,
+        "order": 2
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Expansion and contraction",
+        "rate": 12.982870826771487,
+        "order": 2
+      }
+    ],
+    "data-e7063f94d3db476ddadf92e9b3c8a109": [
+      {
+        "dgroup": "London",
+        "Entry and exit": 9.764552390552925,
+        "Site openings and closures": 8.464649105027316,
+        "Expansion and contraction": 16.03071098536397,
+        "Total": 34.25991248094421
+      },
+      {
+        "dgroup": "Densest quarter",
+        "Entry and exit": 6.637023769765527,
+        "Site openings and closures": 7.344088366863144,
+        "Expansion and contraction": 14.274691812892627,
+        "Total": 28.255803949521297
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "Entry and exit": 6.7174889110107125,
+        "Site openings and closures": 7.101164384284961,
+        "Expansion and contraction": 13.78199783058615,
+        "Total": 27.600651125881825
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "Entry and exit": 5.786598890730774,
+        "Site openings and closures": 6.38335678588938,
+        "Expansion and contraction": 13.174437656597053,
+        "Total": 25.34439333321721
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "Entry and exit": 6.180873252892339,
+        "Site openings and closures": 6.410084555845751,
+        "Expansion and contraction": 12.982870826771487,
+        "Total": 25.573828635509578
+      }
+    ]
+  },
+  "width": 560,
+  "height": 270
+}

@@ -19,6 +19,7 @@ raw/**
 !raw/migration/scotland/*.xlsx
 !raw/demographic/rural-urban-classification-2021.xlsx
 !raw/productivity/*.xlsx
+!raw/payroll/*.xlsx
 !raw/geography/*.csv
 !raw/geography/*.geojson
 !raw/density/sgur2022_population_tables.xlsx

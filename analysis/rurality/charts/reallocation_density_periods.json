@@ -1,0 +1,3799 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-6a47bcb36643305ee1636d3fda118494"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5,
+            "strokeDash": [
+              2,
+              3
+            ]
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Job reallocation rate"
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-30e69f394edb06b79b6b8d9cfb195479"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "baseline": "bottom",
+            "color": "#122b39",
+            "dx": -3,
+            "dy": -3,
+            "fontSize": 10
+          },
+          "encoding": {
+            "text": {
+              "value": "UK 31.9%"
+            },
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-037894d276ef017030d9d049d2c0081d"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#e6224b",
+            "opacity": 0.65,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-e7b2a71764bd90d5f00fe29aefccce8f"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#122b39",
+            "opacity": 0.65,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-6754288e2a327f3def049e09644645e4"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.85,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "group",
+              "legend": {
+                "orient": "bottom",
+                "title": null
+              },
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "pop_weighted_density",
+                "format": ",.0f",
+                "title": "Pop.-weighted density",
+                "type": "quantitative"
+              },
+              {
+                "field": "share_rural",
+                "format": ".0f",
+                "title": "Rural share (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "format": ",",
+                "values": [
+                  1000,
+                  2000,
+                  5000,
+                  10000,
+                  20000
+                ]
+              },
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "title": "Population-weighted density, 2021 (residents per km\u00b2, log scale)",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": true,
+                "ticks": true,
+                "title": "Job reallocation rate"
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-662639317bf3517184870e6a2d0442ff"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-e2acb1398c61bb1fdec4363d6e79fac7"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-104d4e7f6be309a36bc4aa8647d4e30f"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-3ce4c6421346b0633e179ec9674e35e3"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-cd1c8377936b7e560be1be7ae5afa53e"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-a7671704057eb2f00f918fb4d97d816a"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-e69cb0f051c35cdddc108c08e3642117"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 360,
+      "title": {
+        "text": "2004\u201309",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = 0.77 (excl. London 0.58)",
+        "subtitleFontSize": 11
+      },
+      "width": 360
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "name": "data-b2b1a798acc4397861c6f49c5c3f96d3"
+          },
+          "mark": {
+            "type": "rule",
+            "color": "#122b39",
+            "opacity": 0.5,
+            "strokeDash": [
+              2,
+              3
+            ]
+          },
+          "encoding": {
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "v",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f6a4ea7114025e994303b8245e87cd4c"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "baseline": "bottom",
+            "color": "#122b39",
+            "dx": -3,
+            "dy": -3,
+            "fontSize": 10
+          },
+          "encoding": {
+            "text": {
+              "value": "UK 28.0%"
+            },
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-13e973becde72c68222ed6d2cbf62ace"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#e6224b",
+            "opacity": 0.65,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-8c7dfb28479fd181d075c428472465b0"
+          },
+          "mark": {
+            "type": "line",
+            "color": "#122b39",
+            "opacity": 0.65,
+            "strokeWidth": 1.6
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-c22da6a4547c584d7ddd69a7905c65cc"
+          },
+          "mark": {
+            "type": "circle",
+            "opacity": 0.85,
+            "size": 70,
+            "stroke": "white",
+            "strokeWidth": 0.6
+          },
+          "encoding": {
+            "color": {
+              "field": "group",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#179fdb"
+                ]
+              },
+              "type": "nominal"
+            },
+            "tooltip": [
+              {
+                "field": "itl2_name",
+                "title": "Region",
+                "type": "nominal"
+              },
+              {
+                "field": "pop_weighted_density",
+                "format": ",.0f",
+                "title": "Pop.-weighted density",
+                "type": "quantitative"
+              },
+              {
+                "field": "share_rural",
+                "format": ".0f",
+                "title": "Rural share (%)",
+                "type": "quantitative"
+              },
+              {
+                "field": "realloc",
+                "format": ".1f",
+                "title": "Reallocation (%)",
+                "type": "quantitative"
+              }
+            ],
+            "x": {
+              "axis": {
+                "format": ",",
+                "values": [
+                  1000,
+                  2000,
+                  5000,
+                  10000,
+                  20000
+                ]
+              },
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "title": "Population-weighted density, 2021 (residents per km\u00b2, log scale)",
+              "type": "quantitative"
+            },
+            "y": {
+              "axis": {
+                "labelExpr": "datum.label + '%'",
+                "labelFlush": true,
+                "labels": false,
+                "ticks": false,
+                "title": null
+              },
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-919b3de836ed9c09616e10b34bde481f"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f334efc23de16cc6b1f9d2d4837462f6"
+          },
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "color": "#122b39",
+            "dx": -9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-bb93671fda6d14c26f0757f2d0a3f775"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-3cc76dfca46fed5dfcd47762db41fbe5"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-71cc8b8ccf7082f404f24ac828363117"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-f3f49ccc6e4351913034a118977b4071"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "data": {
+            "name": "data-1ca978856332fef9236dcde5d415fa03"
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "color": "#122b39",
+            "dx": 9.0,
+            "fontSize": 9
+          },
+          "encoding": {
+            "text": {
+              "field": "short",
+              "type": "nominal"
+            },
+            "x": {
+              "field": "pop_weighted_density",
+              "scale": {
+                "domain": [
+                  1000,
+                  20000
+                ],
+                "nice": false,
+                "type": "log"
+              },
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "realloc",
+              "scale": {
+                "domain": [
+                  20.0,
+                  40.0
+                ],
+                "nice": false,
+                "zero": false
+              },
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "height": 360,
+      "title": {
+        "text": "2018\u201323",
+        "anchor": "start",
+        "fontSize": 13,
+        "subtitle": "r = 0.78 (excl. London 0.50)",
+        "subtitleFontSize": 11
+      },
+      "width": 360
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+  "spacing": 14,
+  "title": {
+    "text": "The density gap in job churn has persisted as churn fell everywhere",
+    "subtitle": [
+      "ITL2 regions, reallocation pooled over each six-year period, against population-weighted density (2021). Same axes in both panels.",
+      "Red line = fit across all regions; navy = excluding London. Northern Ireland excluded (job flows only from 2011).",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-6a47bcb36643305ee1636d3fda118494": [
+      {
+        "v": 31.91736971519433
+      }
+    ],
+    "data-30e69f394edb06b79b6b8d9cfb195479": [
+      {
+        "x": 20000,
+        "y": 31.91736971519433
+      }
+    ],
+    "data-037894d276ef017030d9d049d2c0081d": [
+      {
+        "x": 1542.673,
+        "y": 28.64742304107158
+      },
+      {
+        "x": 1615.5497899345428,
+        "y": 28.794861676312323
+      },
+      {
+        "x": 1691.8693227648002,
+        "y": 28.942300311553065
+      },
+      {
+        "x": 1771.7942357125391,
+        "y": 29.08973894679381
+      },
+      {
+        "x": 1855.4948490785969,
+        "y": 29.237177582034555
+      },
+      {
+        "x": 1943.1495291961098,
+        "y": 29.384616217275294
+      },
+      {
+        "x": 2034.9450685298705,
+        "y": 29.532054852516037
+      },
+      {
+        "x": 2131.0770837317864,
+        "y": 29.679493487756783
+      },
+      {
+        "x": 2231.750432500734,
+        "y": 29.826932122997526
+      },
+      {
+        "x": 2337.1796501351114,
+        "y": 29.97437075823827
+      },
+      {
+        "x": 2447.5894067083996,
+        "y": 30.121809393479012
+      },
+      {
+        "x": 2563.2149858419552,
+        "y": 30.269248028719755
+      },
+      {
+        "x": 2684.302786095329,
+        "y": 30.416686663960498
+      },
+      {
+        "x": 2811.110846042561,
+        "y": 30.56412529920124
+      },
+      {
+        "x": 2943.9093941533783,
+        "y": 30.711563934441983
+      },
+      {
+        "x": 3082.981424651117,
+        "y": 30.859002569682726
+      },
+      {
+        "x": 3228.623300574531,
+        "y": 31.006441204923473
+      },
+      {
+        "x": 3381.1453853285493,
+        "y": 31.153879840164212
+      },
+      {
+        "x": 3540.8727040699364,
+        "y": 31.301318475404955
+      },
+      {
+        "x": 3708.1456363371544,
+        "y": 31.4487571106457
+      },
+      {
+        "x": 3883.3206414004626,
+        "y": 31.596195745886444
+      },
+      {
+        "x": 4066.77101787805,
+        "y": 31.743634381127183
+      },
+      {
+        "x": 4258.887699236829,
+        "y": 31.89107301636793
+      },
+      {
+        "x": 4460.080086873148,
+        "y": 32.03851165160867
+      },
+      {
+        "x": 4670.776922548813,
+        "y": 32.18595028684941
+      },
+      {
+        "x": 4891.427202041425,
+        "y": 32.33338892209016
+      },
+      {
+        "x": 5122.501131956107,
+        "y": 32.480827557330905
+      },
+      {
+        "x": 5364.4911317376655,
+        "y": 32.628266192571644
+      },
+      {
+        "x": 5617.912883018313,
+        "y": 32.77570482781239
+      },
+      {
+        "x": 5883.306428537213,
+        "y": 32.92314346305313
+      },
+      {
+        "x": 6161.237322973716,
+        "y": 33.070582098293876
+      },
+      {
+        "x": 6452.297838146555,
+        "y": 33.21802073353462
+      },
+      {
+        "x": 6757.1082251473645,
+        "y": 33.36545936877536
+      },
+      {
+        "x": 7076.318036098256,
+        "y": 33.51289800401611
+      },
+      {
+        "x": 7410.607508349821,
+        "y": 33.66033663925685
+      },
+      {
+        "x": 7760.689014069661,
+        "y": 33.80777527449759
+      },
+      {
+        "x": 8127.308578310222,
+        "y": 33.95521390973833
+      },
+      {
+        "x": 8511.247468791036,
+        "y": 34.10265254497908
+      },
+      {
+        "x": 8913.323860783365,
+        "y": 34.25009118021982
+      },
+      {
+        "x": 9334.394580644845,
+        "y": 34.397529815460565
+      },
+      {
+        "x": 9775.356931719747,
+        "y": 34.544968450701305
+      },
+      {
+        "x": 10237.150606495998,
+        "y": 34.69240708594205
+      },
+      {
+        "x": 10720.759689093476,
+        "y": 34.8398457211828
+      },
+      {
+        "x": 11227.214752351058,
+        "y": 34.98728435642354
+      },
+      {
+        "x": 11757.595053981455,
+        "y": 35.134722991664276
+      },
+      {
+        "x": 12313.03083647356,
+        "y": 35.28216162690502
+      },
+      {
+        "x": 12894.705735643514,
+        "y": 35.42960026214576
+      },
+      {
+        "x": 13503.859302967383,
+        "y": 35.57703889738651
+      },
+      {
+        "x": 14141.789647070114,
+        "y": 35.724477532627255
+      },
+      {
+        "x": 14809.856199999997,
+        "y": 35.871916167867994
+      }
+    ],
+    "data-e7b2a71764bd90d5f00fe29aefccce8f": [
+      {
+        "x": 1542.673,
+        "y": 28.994423491311302
+      },
+      {
+        "x": 1582.3446282573,
+        "y": 29.061080481647007
+      },
+      {
+        "x": 1623.0364585201985,
+        "y": 29.127737471982712
+      },
+      {
+        "x": 1664.7747264684012,
+        "y": 29.19439446231842
+      },
+      {
+        "x": 1707.5863424625895,
+        "y": 29.26105145265413
+      },
+      {
+        "x": 1751.4989088946304,
+        "y": 29.327708442989834
+      },
+      {
+        "x": 1796.540737983967,
+        "y": 29.39436543332554
+      },
+      {
+        "x": 1842.7408700316498,
+        "y": 29.461022423661248
+      },
+      {
+        "x": 1890.1290921438076,
+        "y": 29.527679413996957
+      },
+      {
+        "x": 1938.735957436604,
+        "y": 29.59433640433266
+      },
+      {
+        "x": 1988.5928047350822,
+        "y": 29.660993394668367
+      },
+      {
+        "x": 2039.7317787785712,
+        "y": 29.727650385004075
+      },
+      {
+        "x": 2092.1858509457134,
+        "y": 29.79430737533978
+      },
+      {
+        "x": 2145.9888405124593,
+        "y": 29.86096436567549
+      },
+      {
+        "x": 2201.1754364567223,
+        "y": 29.927621356011194
+      },
+      {
+        "x": 2257.7812198237793,
+        "y": 29.9942783463469
+      },
+      {
+        "x": 2315.842686666825,
+        "y": 30.060935336682608
+      },
+      {
+        "x": 2375.397271577453,
+        "y": 30.127592327018316
+      },
+      {
+        "x": 2436.4833718212644,
+        "y": 30.19424931735402
+      },
+      {
+        "x": 2499.140372094158,
+        "y": 30.260906307689726
+      },
+      {
+        "x": 2563.408669915232,
+        "y": 30.327563298025435
+      },
+      {
+        "x": 2629.3297016727183,
+        "y": 30.394220288361144
+      },
+      {
+        "x": 2696.945969339705,
+        "y": 30.46087727869685
+      },
+      {
+        "x": 2766.3010678768983,
+        "y": 30.527534269032554
+      },
+      {
+        "x": 2837.439713340055,
+        "y": 30.594191259368262
+      },
+      {
+        "x": 2910.4077717102487,
+        "y": 30.660848249703967
+      },
+      {
+        "x": 2985.2522884655464,
+        "y": 30.727505240039676
+      },
+      {
+        "x": 3062.021518913123,
+        "y": 30.79416223037538
+      },
+      {
+        "x": 3140.764959301448,
+        "y": 30.86081922071109
+      },
+      {
+        "x": 3221.533378732498,
+        "y": 30.927476211046795
+      },
+      {
+        "x": 3304.3788518947003,
+        "y": 30.9941332013825
+      },
+      {
+        "x": 3389.354792637589,
+        "y": 31.06079019171821
+      },
+      {
+        "x": 3476.51598840987,
+        "y": 31.127447182053913
+      },
+      {
+        "x": 3565.918635583153,
+        "y": 31.19410417238962
+      },
+      {
+        "x": 3657.6203756840287,
+        "y": 31.26076116272533
+      },
+      {
+        "x": 3751.6803325578812,
+        "y": 31.327418153061036
+      },
+      {
+        "x": 3848.159150488489,
+        "y": 31.394075143396744
+      },
+      {
+        "x": 3947.119033297808,
+        "y": 31.46073213373245
+      },
+      {
+        "x": 4048.623784451356,
+        "y": 31.527389124068154
+      },
+      {
+        "x": 4152.7388481948865,
+        "y": 31.594046114403863
+      },
+      {
+        "x": 4259.531351748931,
+        "y": 31.660703104739568
+      },
+      {
+        "x": 4369.070148588502,
+        "y": 31.727360095075273
+      },
+      {
+        "x": 4481.425862835705,
+        "y": 31.794017085410985
+      },
+      {
+        "x": 4596.670934793962,
+        "y": 31.86067407574669
+      },
+      {
+        "x": 4714.879667653275,
+        "y": 31.927331066082395
+      },
+      {
+        "x": 4836.12827539649,
+        "y": 31.993988056418104
+      },
+      {
+        "x": 4960.494931937533,
+        "y": 32.060645046753805
+      },
+      {
+        "x": 5088.05982152336,
+        "y": 32.127302037089514
+      },
+      {
+        "x": 5218.905190431992,
+        "y": 32.19395902742522
+      },
+      {
+        "x": 5353.115399999998,
+        "y": 32.260616017760924
+      }
+    ],
+    "data-6754288e2a327f3def049e09644645e4": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 30.881383059826792,
+        "emp": 461826.25,
+        "Entry and exit": 5.588501447604303,
+        "Site openings and closures": 10.986094156983642,
+        "Expansion and contraction": 14.306787455238847,
+        "itl2_name": "Tees Valley and Durham",
+        "share_rural": 24.6862,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2919.9042,
+        "area_density": 397.1575,
+        "prod_rel": 86.6156408971713,
+        "log_pwd": 7.979306086504948,
+        "log_area_density": 5.984332927453266,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 31.18001611102621,
+        "emp": 643451.6666666666,
+        "Entry and exit": 5.755677064581385,
+        "Site openings and closures": 11.129429560883878,
+        "Expansion and contraction": 14.294909485560947,
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "share_rural": 12.0358,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3780.6898,
+        "area_density": 260.3771,
+        "prod_rel": 86.50747756953594,
+        "log_pwd": 8.237661758737435,
+        "log_area_density": 5.562130964839058,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 26.775115489659846,
+        "emp": 229908.75,
+        "Entry and exit": 6.437336552001609,
+        "Site openings and closures": 8.135111575063295,
+        "Expansion and contraction": 12.202667362594942,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1868.2757,
+        "area_density": 73.9849,
+        "prod_rel": 84.32632596611026,
+        "log_pwd": 7.532771198904731,
+        "log_area_density": 4.303861018328255,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 32.310105897073406,
+        "emp": 1241102.9166666667,
+        "Entry and exit": 6.843979833797023,
+        "Site openings and closures": 10.242032708138964,
+        "Expansion and contraction": 15.224093355137416,
+        "itl2_name": "Greater Manchester",
+        "share_rural": 0.9253,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 4861.3644,
+        "area_density": 2248.7844,
+        "prod_rel": 91.5625238930355,
+        "log_pwd": 8.489074418234972,
+        "log_area_density": 7.718145082535177,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 30.269696293103895,
+        "emp": 641956.6666666666,
+        "Entry and exit": 7.472466988945256,
+        "Site openings and closures": 8.932196877255475,
+        "Expansion and contraction": 13.865032426903166,
+        "itl2_name": "Lancashire",
+        "share_rural": 17.4295,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3479.2013,
+        "area_density": 499.7578,
+        "prod_rel": 86.44931290995922,
+        "log_pwd": 8.154558034932474,
+        "log_area_density": 6.214123581062611,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 32.2628361373243,
+        "emp": 472664.5833333333,
+        "Entry and exit": 8.058392358922598,
+        "Site openings and closures": 9.873456776519642,
+        "Expansion and contraction": 14.330987001882061,
+        "itl2_name": "Cheshire",
+        "share_rural": 18.7562,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2757.1865,
+        "area_density": 427.6122,
+        "prod_rel": 105.80715154403508,
+        "log_pwd": 7.92196605472793,
+        "log_area_density": 6.058216710081578,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 31.399566238168937,
+        "emp": 633220.0,
+        "Entry and exit": 6.417464177800238,
+        "Site openings and closures": 10.806407462388007,
+        "Expansion and contraction": 14.17569459798069,
+        "itl2_name": "Merseyside",
+        "share_rural": 1.0204,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 4772.4514,
+        "area_density": 2122.6657,
+        "prod_rel": 89.12679740271837,
+        "log_pwd": 8.470615372205987,
+        "log_area_density": 7.660427983453996,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 30.023551243284135,
+        "emp": 398775.8333333333,
+        "Entry and exit": 6.378688110070194,
+        "Site openings and closures": 9.91430022297406,
+        "Expansion and contraction": 13.73056291023988,
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "share_rural": 25.0636,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3216.4749,
+        "area_density": 266.5591,
+        "prod_rel": 87.61388677143084,
+        "log_pwd": 8.076041287307472,
+        "log_area_density": 5.585595982622237,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 30.85613392849434,
+        "emp": 386076.6666666667,
+        "Entry and exit": 6.796145843226302,
+        "Site openings and closures": 9.709427315818102,
+        "Expansion and contraction": 14.350560769449936,
+        "itl2_name": "North Yorkshire",
+        "share_rural": 42.3816,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2133.85,
+        "area_density": 98.7424,
+        "prod_rel": 88.46288562246373,
+        "log_pwd": 7.665683138856995,
+        "log_area_density": 4.592514438794186,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 29.932922156125688,
+        "emp": 570854.1666666666,
+        "Entry and exit": 5.752198824860407,
+        "Site openings and closures": 9.866501222583118,
+        "Expansion and contraction": 14.314222108682165,
+        "itl2_name": "South Yorkshire",
+        "share_rural": 8.2851,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3470.8212,
+        "area_density": 886.0868,
+        "prod_rel": 80.80502902613674,
+        "log_pwd": 8.152146502002559,
+        "log_area_density": 6.786814914203783,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 32.431973551099716,
+        "emp": 1060157.5,
+        "Entry and exit": 6.875000491279205,
+        "Site openings and closures": 10.910642994083426,
+        "Expansion and contraction": 14.646330065737088,
+        "itl2_name": "West Yorkshire",
+        "share_rural": 10.4144,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3968.1793,
+        "area_density": 1158.2481,
+        "prod_rel": 87.13145435426183,
+        "log_pwd": 8.28606265387582,
+        "log_area_density": 7.054663883889628,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 29.966512896888386,
+        "emp": 918761.6666666666,
+        "Entry and exit": 6.221054789326939,
+        "Site openings and closures": 9.690126383882653,
+        "Expansion and contraction": 14.055331723678792,
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "share_rural": 20.374,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3286.5898,
+        "area_density": 460.7078,
+        "prod_rel": 86.31012533390859,
+        "log_pwd": 8.097605771231146,
+        "log_area_density": 6.13276400255609,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 31.200242709005906,
+        "emp": 803431.25,
+        "Entry and exit": 7.198603904607063,
+        "Site openings and closures": 9.27978176933828,
+        "Expansion and contraction": 14.72185703506056,
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "share_rural": 24.8909,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3765.6705,
+        "area_density": 389.2318,
+        "prod_rel": 86.06778450976208,
+        "log_pwd": 8.233681212027673,
+        "log_area_density": 5.9641750530378115,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 30.221746537058486,
+        "emp": 288862.0833333333,
+        "Entry and exit": 7.175569656222909,
+        "Site openings and closures": 10.22950687251269,
+        "Expansion and contraction": 12.816670008322887,
+        "itl2_name": "Lincolnshire",
+        "share_rural": 47.4961,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1805.4577,
+        "area_density": 129.594,
+        "prod_rel": 82.60576433363956,
+        "log_pwd": 7.498569412029881,
+        "log_area_density": 4.8644064865501715,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 30.149616109703192,
+        "emp": 599617.9166666666,
+        "Entry and exit": 7.39109557961563,
+        "Site openings and closures": 9.172646747963807,
+        "Expansion and contraction": 13.585873782123755,
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "share_rural": 31.5615,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2393.718,
+        "area_density": 236.0405,
+        "prod_rel": 91.40605602961072,
+        "log_pwd": 7.780603084693388,
+        "log_area_density": 5.464003400471761,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 30.16039919825055,
+        "emp": 676021.6666666666,
+        "Entry and exit": 6.48660176079169,
+        "Site openings and closures": 9.684107757887444,
+        "Expansion and contraction": 13.989689679571415,
+        "itl2_name": "Shropshire and Staffordshire",
+        "share_rural": 24.5151,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2570.5644,
+        "area_density": 265.496,
+        "prod_rel": 81.40815947179384,
+        "log_pwd": 7.851880764673265,
+        "log_area_density": 5.58159977465513,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 32.45627083303691,
+        "emp": 1288518.3333333333,
+        "Entry and exit": 6.075841632055423,
+        "Site openings and closures": 11.41388494019617,
+        "Expansion and contraction": 14.966544260785321,
+        "itl2_name": "West Midlands",
+        "share_rural": 0.937,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 5353.1154,
+        "area_density": 3236.6004,
+        "prod_rel": 87.70192156365108,
+        "log_pwd": 8.585433988165867,
+        "log_area_density": 8.082278798669257,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 29.920650639994058,
+        "emp": 1077093.3333333333,
+        "Entry and exit": 6.5026862419846,
+        "Site openings and closures": 8.94746044910995,
+        "Expansion and contraction": 14.470503948899507,
+        "itl2_name": "East Anglia",
+        "share_rural": 40.8994,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2343.7046,
+        "area_density": 205.1215,
+        "prod_rel": 92.02150496818354,
+        "log_pwd": 7.75948811886444,
+        "log_area_density": 5.323602486498078,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 33.308080185928866,
+        "emp": 811780.0,
+        "Entry and exit": 7.806096889961976,
+        "Site openings and closures": 10.02570482971577,
+        "Expansion and contraction": 15.476278466251118,
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "share_rural": 15.9954,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3901.255,
+        "area_density": 662.6015,
+        "prod_rel": 97.04462065824515,
+        "log_pwd": 8.269053575224667,
+        "log_area_density": 6.496173753672469,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 31.38423704084348,
+        "emp": 681106.25,
+        "Entry and exit": 7.5756658132755845,
+        "Site openings and closures": 10.124705213026601,
+        "Expansion and contraction": 13.683866014541294,
+        "itl2_name": "Essex",
+        "share_rural": 20.6811,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3426.9419,
+        "area_density": 508.5563,
+        "prod_rel": 93.5231699959051,
+        "log_pwd": 8.13942356812716,
+        "log_area_density": 6.231575927157295,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLI3",
+        "realloc": 38.45644937926798,
+        "emp": 1614189.5833333333,
+        "Entry and exit": 10.061447243263196,
+        "Site openings and closures": 11.83535081458575,
+        "Expansion and contraction": 16.55965132141903,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14369.6678,
+        "area_density": 9925.8923,
+        "prod_rel": 152.2396341113365,
+        "log_pwd": 9.57287486119973,
+        "log_area_density": 9.202902005796359,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "realloc": 34.71985118575073,
+        "emp": 1015583.75,
+        "Entry and exit": 7.334533792346848,
+        "Site openings and closures": 10.996877411636412,
+        "Expansion and contraction": 16.388439981767466,
+        "itl2_name": "Inner London - East",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14809.8562,
+        "area_density": 11076.772,
+        "prod_rel": 127.94684842304711,
+        "log_pwd": 9.603048197559067,
+        "log_area_density": 9.312605582114701,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "realloc": 31.577212709526407,
+        "emp": 508214.5833333333,
+        "Entry and exit": 7.5271682319230315,
+        "Site openings and closures": 9.945110128185682,
+        "Expansion and contraction": 14.104934349417691,
+        "itl2_name": "Outer London - East and North East",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 8240.3093,
+        "area_density": 4475.9234,
+        "prod_rel": 107.616409755021,
+        "log_pwd": 9.016793158606811,
+        "log_area_density": 8.406467955791188,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "realloc": 35.766822717376606,
+        "emp": 477497.9166666667,
+        "Entry and exit": 7.938429050737569,
+        "Site openings and closures": 11.496210716451642,
+        "Expansion and contraction": 16.33218295018739,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 6879.7286,
+        "area_density": 3696.3871,
+        "prod_rel": 110.80383732322085,
+        "log_pwd": 8.836334482474891,
+        "log_area_density": 8.215111162125748,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "realloc": 34.103474071032956,
+        "emp": 827139.5833333334,
+        "Entry and exit": 8.611605759809786,
+        "Site openings and closures": 10.030249831875414,
+        "Expansion and contraction": 15.461618479347752,
+        "itl2_name": "Outer London - West and North West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 7848.0527,
+        "area_density": 4611.7648,
+        "prod_rel": 117.65236714844137,
+        "log_pwd": 8.968020716309299,
+        "log_area_density": 8.436365882690446,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 32.68789206545841,
+        "emp": 1228337.0833333333,
+        "Entry and exit": 7.591835710135213,
+        "Site openings and closures": 10.52547668612952,
+        "Expansion and contraction": 14.570579669193682,
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "share_rural": 21.6622,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3329.2296,
+        "area_density": 439.2039,
+        "prod_rel": 116.43480428076455,
+        "log_pwd": 8.110496204857286,
+        "log_area_density": 6.084963769937317,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 33.01017398030758,
+        "emp": 1271216.6666666667,
+        "Entry and exit": 9.54610412596856,
+        "Site openings and closures": 9.699107154563213,
+        "Expansion and contraction": 13.764962699775806,
+        "itl2_name": "Surrey, East and West Sussex",
+        "share_rural": 14.4761,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3570.7906,
+        "area_density": 535.2335,
+        "prod_rel": 107.48194964359826,
+        "log_pwd": 8.18054230683843,
+        "log_area_density": 6.282703100278152,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 30.953315942739874,
+        "emp": 873237.0833333334,
+        "Entry and exit": 6.658653697043901,
+        "Site openings and closures": 9.875420430400489,
+        "Expansion and contraction": 14.419241815295484,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "share_rural": 16.6787,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3928.9269,
+        "area_density": 482.5571,
+        "prod_rel": 110.77469493161007,
+        "log_pwd": 8.276121614142316,
+        "log_area_density": 6.179099255746094,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 32.837097940556276,
+        "emp": 685662.5,
+        "Entry and exit": 7.167763537697725,
+        "Site openings and closures": 12.098882467686362,
+        "Expansion and contraction": 13.570451935172187,
+        "itl2_name": "Kent",
+        "share_rural": 23.8495,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3485.2398,
+        "area_density": 497.1635,
+        "prod_rel": 93.39029437022293,
+        "log_pwd": 8.156292130009591,
+        "log_area_density": 6.208918945839657,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 31.740918218812755,
+        "emp": 1176462.5,
+        "Entry and exit": 5.990699519392529,
+        "Site openings and closures": 11.022875782271003,
+        "Expansion and contraction": 14.727342917149223,
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "share_rural": 21.3416,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3593.6461,
+        "area_density": 343.6965,
+        "prod_rel": 100.67750464287865,
+        "log_pwd": 8.186922592823374,
+        "log_area_density": 5.839759000504549,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 28.637019115036402,
+        "emp": 545229.5833333334,
+        "Entry and exit": 7.228606298111423,
+        "Site openings and closures": 8.485416311630193,
+        "Expansion and contraction": 12.922996505294789,
+        "itl2_name": "Dorset and Somerset",
+        "share_rural": 33.7116,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2801.5259,
+        "area_density": 221.9305,
+        "prod_rel": 85.54416648218408,
+        "log_pwd": 7.9379195120099,
+        "log_area_density": 5.402364269794746,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 30.678700416970223,
+        "emp": 215043.33333333334,
+        "Entry and exit": 7.526777548711112,
+        "Site openings and closures": 9.77167392618542,
+        "Expansion and contraction": 13.38024894207369,
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "share_rural": 55.56,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1603.2909,
+        "area_density": 161.2169,
+        "prod_rel": 76.04258351682803,
+        "log_pwd": 7.3798136083850085,
+        "log_area_density": 5.082750663287012,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 30.314589906475064,
+        "emp": 502227.9166666667,
+        "Entry and exit": 6.653021909873257,
+        "Site openings and closures": 9.36012617113578,
+        "Expansion and contraction": 14.301441825466028,
+        "itl2_name": "Devon",
+        "share_rural": 33.4129,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2981.8607,
+        "area_density": 181.7092,
+        "prod_rel": 82.8988924311399,
+        "log_pwd": 8.000302780618545,
+        "log_area_density": 5.202407607031716,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 29.133021204355213,
+        "emp": 715694.1666666666,
+        "Entry and exit": 6.243705120785997,
+        "Site openings and closures": 9.483333779675442,
+        "Expansion and contraction": 13.405982303893772,
+        "itl2_name": "West Wales and The Valleys",
+        "share_rural": 32.8443,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1709.7184,
+        "area_density": 147.8376,
+        "prod_rel": 79.63676657074825,
+        "log_pwd": 7.444083957573162,
+        "log_area_density": 4.996114373995371,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 30.57877558756045,
+        "emp": 536434.1666666666,
+        "Entry and exit": 5.64872048604908,
+        "Site openings and closures": 9.9813428488429,
+        "Expansion and contraction": 14.94871225266847,
+        "itl2_name": "East Wales",
+        "share_rural": 25.9265,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3256.0228,
+        "area_density": 153.0762,
+        "prod_rel": 89.54846399846488,
+        "log_pwd": 8.088261729554917,
+        "log_area_density": 5.030935836627755,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 28.435641310225105,
+        "emp": 263542.5,
+        "Entry and exit": 5.956028597538031,
+        "Site openings and closures": 8.031595157011362,
+        "Expansion and contraction": 14.448017555675714,
+        "itl2_name": "North Eastern Scotland",
+        "share_rural": 27.5837,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 3243.408,
+        "area_density": 74.4468,
+        "prod_rel": 101.87191333191737,
+        "log_pwd": 8.084379907829682,
+        "log_area_density": 4.310084776339246,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 29.65948022941076,
+        "emp": 220129.16666666666,
+        "Entry and exit": 5.677348526433344,
+        "Site openings and closures": 10.562359220911965,
+        "Expansion and contraction": 13.419772482065454,
+        "itl2_name": "Highlands and Islands",
+        "share_rural": 50.4693,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 1542.673,
+        "area_density": 12.136,
+        "prod_rel": 93.81793701924097,
+        "log_pwd": 7.341271905082147,
+        "log_area_density": 2.4961762420462312,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 30.304582764616793,
+        "emp": 891383.3333333334,
+        "Entry and exit": 5.472673559822748,
+        "Site openings and closures": 10.516145317203597,
+        "Expansion and contraction": 14.31576388759045,
+        "itl2_name": "Eastern Scotland",
+        "share_rural": 13.5221,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 4413.5999,
+        "area_density": 149.6954,
+        "prod_rel": 105.55821900256745,
+        "log_pwd": 8.392445939300979,
+        "log_area_density": 5.008602562830552,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 33.18693478820054,
+        "emp": 740273.75,
+        "Entry and exit": 5.5151894822692284,
+        "Site openings and closures": 11.978226523183709,
+        "Expansion and contraction": 15.6935187827476,
+        "itl2_name": "West Central Scotland",
+        "share_rural": 2.7691,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 5217.7195,
+        "area_density": 957.0828,
+        "prod_rel": 92.8077576558664,
+        "log_pwd": 8.559815708023315,
+        "log_area_density": 6.863889908086458,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 29.487013179125505,
+        "emp": 366172.5,
+        "Entry and exit": 5.983291117346788,
+        "Site openings and closures": 8.816427594462537,
+        "Expansion and contraction": 14.687294467316178,
+        "itl2_name": "Southern Scotland",
+        "share_rural": 22.9586,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 2913.3093,
+        "area_density": 58.5701,
+        "prod_rel": 90.24175070446351,
+        "log_pwd": 7.9770449305195275,
+        "log_area_density": 4.070224327458949,
+        "group": "Rest of UK"
+      }
+    ],
+    "data-662639317bf3517184870e6a2d0442ff": [
+      {
+        "itl2_code": "TLI3",
+        "realloc": 38.45644937926798,
+        "emp": 1614189.5833333333,
+        "Entry and exit": 10.061447243263196,
+        "Site openings and closures": 11.83535081458575,
+        "Expansion and contraction": 16.55965132141903,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14369.6678,
+        "area_density": 9925.8923,
+        "prod_rel": 152.2396341113365,
+        "log_pwd": 9.57287486119973,
+        "log_area_density": 9.202902005796359,
+        "group": "London",
+        "px": 320.269958056064,
+        "py": 27.783911173176364,
+        "short": "Inner London West",
+        "rad": 4.0,
+        "prio": 14.358528503000429,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-e2acb1398c61bb1fdec4363d6e79fac7": [
+      {
+        "itl2_code": "TLI6",
+        "realloc": 35.766822717376606,
+        "emp": 477497.9166666667,
+        "Entry and exit": 7.938429050737569,
+        "Site openings and closures": 11.496210716451642,
+        "Expansion and contraction": 16.33218295018739,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 6879.7286,
+        "area_density": 3696.3871,
+        "prod_rel": 110.80383732322085,
+        "log_pwd": 8.836334482474891,
+        "log_area_density": 8.215111162125748,
+        "group": "London",
+        "px": 231.75919937388852,
+        "py": 76.1971910872211,
+        "short": "Outer London South",
+        "rad": 4.0,
+        "prio": 12.472052314352613,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-104d4e7f6be309a36bc4aa8647d4e30f": [
+      {
+        "itl2_code": "TLD1",
+        "realloc": 26.775115489659846,
+        "emp": 229908.75,
+        "Entry and exit": 6.437336552001609,
+        "Site openings and closures": 8.135111575063295,
+        "Expansion and contraction": 12.202667362594942,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1868.2757,
+        "area_density": 73.9849,
+        "prod_rel": 84.32632596611026,
+        "log_pwd": 7.532771198904731,
+        "log_area_density": 4.303861018328255,
+        "group": "Rest of UK",
+        "px": 75.1087582687081,
+        "py": 238.04792118612278,
+        "short": "Cumbria",
+        "rad": 4.0,
+        "prio": 2.519044149952315,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-3ce4c6421346b0633e179ec9674e35e3": [
+      {
+        "itl2_code": "TLM5",
+        "realloc": 28.435641310225105,
+        "emp": 263542.5,
+        "Entry and exit": 5.956028597538031,
+        "Site openings and closures": 8.031595157011362,
+        "Expansion and contraction": 14.448017555675714,
+        "itl2_name": "North Eastern Scotland",
+        "share_rural": 27.5837,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 3243.408,
+        "area_density": 74.4468,
+        "prod_rel": 101.87191333191737,
+        "log_pwd": 8.084379907829682,
+        "log_area_density": 4.310084776339246,
+        "group": "Rest of UK",
+        "px": 141.39610208978917,
+        "py": 208.15845641594814,
+        "short": "North Eastern Scotland",
+        "rad": 4.0,
+        "prio": 1.3928102799734605,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-cd1c8377936b7e560be1be7ae5afa53e": [
+      {
+        "itl2_code": "TLG3",
+        "realloc": 32.45627083303691,
+        "emp": 1288518.3333333333,
+        "Entry and exit": 6.075841632055423,
+        "Site openings and closures": 11.41388494019617,
+        "Expansion and contraction": 14.966544260785321,
+        "itl2_name": "West Midlands",
+        "share_rural": 0.937,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 5353.1154,
+        "area_density": 3236.6004,
+        "prod_rel": 87.70192156365108,
+        "log_pwd": 8.585433988165867,
+        "log_area_density": 8.082278798669257,
+        "group": "Rest of UK",
+        "px": 201.60824805269706,
+        "py": 135.7871250053356,
+        "short": "West Midlands",
+        "rad": 4.0,
+        "prio": 0.9571058507761947,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-a7671704057eb2f00f918fb4d97d816a": [
+      {
+        "itl2_code": "TLD6",
+        "realloc": 32.2628361373243,
+        "emp": 472664.5833333333,
+        "Entry and exit": 8.058392358922598,
+        "Site openings and closures": 9.873456776519642,
+        "Expansion and contraction": 14.330987001882061,
+        "itl2_name": "Cheshire",
+        "share_rural": 18.7562,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2757.1865,
+        "area_density": 427.6122,
+        "prod_rel": 105.80715154403508,
+        "log_pwd": 7.92196605472793,
+        "log_area_density": 6.058216710081578,
+        "group": "Rest of UK",
+        "px": 121.878674703908,
+        "py": 139.2689495281626,
+        "short": "Cheshire",
+        "rad": 4.0,
+        "prio": 0.6772428777451842,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-e69cb0f051c35cdddc108c08e3642117": [
+      {
+        "itl2_code": "TLM7",
+        "realloc": 30.304582764616793,
+        "emp": 891383.3333333334,
+        "Entry and exit": 5.472673559822748,
+        "Site openings and closures": 10.516145317203597,
+        "Expansion and contraction": 14.31576388759045,
+        "itl2_name": "Eastern Scotland",
+        "share_rural": 13.5221,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 4413.5999,
+        "area_density": 149.6954,
+        "prod_rel": 105.55821900256745,
+        "log_pwd": 8.392445939300979,
+        "log_area_density": 5.008602562830552,
+        "group": "Rest of UK",
+        "px": 178.41669044767204,
+        "py": 174.51751023689772,
+        "short": "Eastern Scotland",
+        "rad": 4.0,
+        "prio": 0.6413837284023487,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-b2b1a798acc4397861c6f49c5c3f96d3": [
+      {
+        "v": 28.00839729088368
+      }
+    ],
+    "data-f6a4ea7114025e994303b8245e87cd4c": [
+      {
+        "x": 20000,
+        "y": 28.00839729088368
+      }
+    ],
+    "data-13e973becde72c68222ed6d2cbf62ace": [
+      {
+        "x": 1542.673,
+        "y": 23.08758131963094
+      },
+      {
+        "x": 1615.5497899345428,
+        "y": 23.301430395516025
+      },
+      {
+        "x": 1691.8693227648002,
+        "y": 23.515279471401104
+      },
+      {
+        "x": 1771.7942357125391,
+        "y": 23.729128547286184
+      },
+      {
+        "x": 1855.4948490785969,
+        "y": 23.94297762317127
+      },
+      {
+        "x": 1943.1495291961098,
+        "y": 24.15682669905635
+      },
+      {
+        "x": 2034.9450685298705,
+        "y": 24.37067577494143
+      },
+      {
+        "x": 2131.0770837317864,
+        "y": 24.584524850826508
+      },
+      {
+        "x": 2231.750432500734,
+        "y": 24.798373926711594
+      },
+      {
+        "x": 2337.1796501351114,
+        "y": 25.012223002596674
+      },
+      {
+        "x": 2447.5894067083996,
+        "y": 25.226072078481753
+      },
+      {
+        "x": 2563.2149858419552,
+        "y": 25.43992115436684
+      },
+      {
+        "x": 2684.302786095329,
+        "y": 25.65377023025192
+      },
+      {
+        "x": 2811.110846042561,
+        "y": 25.867619306136998
+      },
+      {
+        "x": 2943.9093941533783,
+        "y": 26.081468382022084
+      },
+      {
+        "x": 3082.981424651117,
+        "y": 26.295317457907156
+      },
+      {
+        "x": 3228.623300574531,
+        "y": 26.50916653379225
+      },
+      {
+        "x": 3381.1453853285493,
+        "y": 26.723015609677322
+      },
+      {
+        "x": 3540.8727040699364,
+        "y": 26.9368646855624
+      },
+      {
+        "x": 3708.1456363371544,
+        "y": 27.150713761447488
+      },
+      {
+        "x": 3883.3206414004626,
+        "y": 27.364562837332567
+      },
+      {
+        "x": 4066.77101787805,
+        "y": 27.578411913217646
+      },
+      {
+        "x": 4258.887699236829,
+        "y": 27.792260989102733
+      },
+      {
+        "x": 4460.080086873148,
+        "y": 28.006110064987812
+      },
+      {
+        "x": 4670.776922548813,
+        "y": 28.21995914087289
+      },
+      {
+        "x": 4891.427202041425,
+        "y": 28.433808216757978
+      },
+      {
+        "x": 5122.501131956107,
+        "y": 28.647657292643057
+      },
+      {
+        "x": 5364.4911317376655,
+        "y": 28.861506368528136
+      },
+      {
+        "x": 5617.912883018313,
+        "y": 29.075355444413223
+      },
+      {
+        "x": 5883.306428537213,
+        "y": 29.289204520298302
+      },
+      {
+        "x": 6161.237322973716,
+        "y": 29.50305359618338
+      },
+      {
+        "x": 6452.297838146555,
+        "y": 29.716902672068468
+      },
+      {
+        "x": 6757.1082251473645,
+        "y": 29.930751747953547
+      },
+      {
+        "x": 7076.318036098256,
+        "y": 30.144600823838633
+      },
+      {
+        "x": 7410.607508349821,
+        "y": 30.358449899723713
+      },
+      {
+        "x": 7760.689014069661,
+        "y": 30.572298975608785
+      },
+      {
+        "x": 8127.308578310222,
+        "y": 30.78614805149387
+      },
+      {
+        "x": 8511.247468791036,
+        "y": 30.99999712737895
+      },
+      {
+        "x": 8913.323860783365,
+        "y": 31.21384620326403
+      },
+      {
+        "x": 9334.394580644845,
+        "y": 31.427695279149116
+      },
+      {
+        "x": 9775.356931719747,
+        "y": 31.641544355034195
+      },
+      {
+        "x": 10237.150606495998,
+        "y": 31.855393430919275
+      },
+      {
+        "x": 10720.759689093476,
+        "y": 32.06924250680436
+      },
+      {
+        "x": 11227.214752351058,
+        "y": 32.28309158268944
+      },
+      {
+        "x": 11757.595053981455,
+        "y": 32.496940658574516
+      },
+      {
+        "x": 12313.03083647356,
+        "y": 32.71078973445961
+      },
+      {
+        "x": 12894.705735643514,
+        "y": 32.92463881034469
+      },
+      {
+        "x": 13503.859302967383,
+        "y": 33.13848788622977
+      },
+      {
+        "x": 14141.789647070114,
+        "y": 33.35233696211485
+      },
+      {
+        "x": 14809.856199999997,
+        "y": 33.56618603799993
+      }
+    ],
+    "data-8c7dfb28479fd181d075c428472465b0": [
+      {
+        "x": 1542.673,
+        "y": 23.992568917587867
+      },
+      {
+        "x": 1582.3446282573,
+        "y": 24.07409251273021
+      },
+      {
+        "x": 1623.0364585201985,
+        "y": 24.15561610787255
+      },
+      {
+        "x": 1664.7747264684012,
+        "y": 24.23713970301489
+      },
+      {
+        "x": 1707.5863424625895,
+        "y": 24.318663298157233
+      },
+      {
+        "x": 1751.4989088946304,
+        "y": 24.40018689329957
+      },
+      {
+        "x": 1796.540737983967,
+        "y": 24.481710488441912
+      },
+      {
+        "x": 1842.7408700316498,
+        "y": 24.563234083584252
+      },
+      {
+        "x": 1890.1290921438076,
+        "y": 24.644757678726595
+      },
+      {
+        "x": 1938.735957436604,
+        "y": 24.726281273868935
+      },
+      {
+        "x": 1988.5928047350822,
+        "y": 24.807804869011274
+      },
+      {
+        "x": 2039.7317787785712,
+        "y": 24.889328464153618
+      },
+      {
+        "x": 2092.1858509457134,
+        "y": 24.970852059295954
+      },
+      {
+        "x": 2145.9888405124593,
+        "y": 25.052375654438297
+      },
+      {
+        "x": 2201.1754364567223,
+        "y": 25.133899249580637
+      },
+      {
+        "x": 2257.7812198237793,
+        "y": 25.215422844722976
+      },
+      {
+        "x": 2315.842686666825,
+        "y": 25.296946439865316
+      },
+      {
+        "x": 2375.397271577453,
+        "y": 25.37847003500766
+      },
+      {
+        "x": 2436.4833718212644,
+        "y": 25.45999363015
+      },
+      {
+        "x": 2499.140372094158,
+        "y": 25.54151722529234
+      },
+      {
+        "x": 2563.408669915232,
+        "y": 25.62304082043468
+      },
+      {
+        "x": 2629.3297016727183,
+        "y": 25.70456441557702
+      },
+      {
+        "x": 2696.945969339705,
+        "y": 25.78608801071936
+      },
+      {
+        "x": 2766.3010678768983,
+        "y": 25.8676116058617
+      },
+      {
+        "x": 2837.439713340055,
+        "y": 25.949135201004044
+      },
+      {
+        "x": 2910.4077717102487,
+        "y": 26.030658796146383
+      },
+      {
+        "x": 2985.2522884655464,
+        "y": 26.112182391288723
+      },
+      {
+        "x": 3062.021518913123,
+        "y": 26.193705986431063
+      },
+      {
+        "x": 3140.764959301448,
+        "y": 26.275229581573406
+      },
+      {
+        "x": 3221.533378732498,
+        "y": 26.356753176715745
+      },
+      {
+        "x": 3304.3788518947003,
+        "y": 26.438276771858085
+      },
+      {
+        "x": 3389.354792637589,
+        "y": 26.51980036700043
+      },
+      {
+        "x": 3476.51598840987,
+        "y": 26.601323962142768
+      },
+      {
+        "x": 3565.918635583153,
+        "y": 26.682847557285104
+      },
+      {
+        "x": 3657.6203756840287,
+        "y": 26.76437115242745
+      },
+      {
+        "x": 3751.6803325578812,
+        "y": 26.845894747569787
+      },
+      {
+        "x": 3848.159150488489,
+        "y": 26.927418342712134
+      },
+      {
+        "x": 3947.119033297808,
+        "y": 27.00894193785447
+      },
+      {
+        "x": 4048.623784451356,
+        "y": 27.09046553299681
+      },
+      {
+        "x": 4152.7388481948865,
+        "y": 27.171989128139153
+      },
+      {
+        "x": 4259.531351748931,
+        "y": 27.253512723281492
+      },
+      {
+        "x": 4369.070148588502,
+        "y": 27.335036318423832
+      },
+      {
+        "x": 4481.425862835705,
+        "y": 27.416559913566175
+      },
+      {
+        "x": 4596.670934793962,
+        "y": 27.498083508708515
+      },
+      {
+        "x": 4714.879667653275,
+        "y": 27.57960710385085
+      },
+      {
+        "x": 4836.12827539649,
+        "y": 27.661130698993198
+      },
+      {
+        "x": 4960.494931937533,
+        "y": 27.742654294135537
+      },
+      {
+        "x": 5088.05982152336,
+        "y": 27.824177889277873
+      },
+      {
+        "x": 5218.905190431992,
+        "y": 27.90570148442022
+      },
+      {
+        "x": 5353.115399999998,
+        "y": 27.987225079562556
+      }
+    ],
+    "data-c22da6a4547c584d7ddd69a7905c65cc": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 27.974477690038587,
+        "emp": 472201.25,
+        "Entry and exit": 7.56474772850206,
+        "Site openings and closures": 7.630397702956808,
+        "Expansion and contraction": 12.77933225857972,
+        "itl2_name": "Tees Valley and Durham",
+        "share_rural": 24.6862,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2919.9042,
+        "area_density": 397.1575,
+        "prod_rel": 86.6156408971713,
+        "log_pwd": 7.979306086504948,
+        "log_area_density": 5.984332927453266,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 24.537414117952537,
+        "emp": 645082.9166666666,
+        "Entry and exit": 5.573960453404246,
+        "Site openings and closures": 6.368690329860696,
+        "Expansion and contraction": 12.594763334687595,
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "share_rural": 12.0358,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3780.6898,
+        "area_density": 260.3771,
+        "prod_rel": 86.50747756953594,
+        "log_pwd": 8.237661758737435,
+        "log_area_density": 5.562130964839058,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 21.910391299207944,
+        "emp": 246720.83333333334,
+        "Entry and exit": 4.991133703747488,
+        "Site openings and closures": 5.711921368618378,
+        "Expansion and contraction": 11.207336226842079,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1868.2757,
+        "area_density": 73.9849,
+        "prod_rel": 84.32632596611026,
+        "log_pwd": 7.532771198904731,
+        "log_area_density": 4.303861018328255,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 29.083105765878283,
+        "emp": 1389850.4166666667,
+        "Entry and exit": 7.653101757653177,
+        "Site openings and closures": 6.989541140668315,
+        "Expansion and contraction": 14.440462867556791,
+        "itl2_name": "Greater Manchester",
+        "share_rural": 0.9253,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 4861.3644,
+        "area_density": 2248.7844,
+        "prod_rel": 91.5625238930355,
+        "log_pwd": 8.489074418234972,
+        "log_area_density": 7.718145082535177,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 24.961161919087857,
+        "emp": 659254.1666666666,
+        "Entry and exit": 6.5648681274925575,
+        "Site openings and closures": 6.07555254991436,
+        "Expansion and contraction": 12.32074124168094,
+        "itl2_name": "Lancashire",
+        "share_rural": 17.4295,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3479.2013,
+        "area_density": 499.7578,
+        "prod_rel": 86.44931290995922,
+        "log_pwd": 8.154558034932474,
+        "log_area_density": 6.214123581062611,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 27.91062209246007,
+        "emp": 520467.9166666667,
+        "Entry and exit": 6.522656295657033,
+        "Site openings and closures": 7.6916364521348175,
+        "Expansion and contraction": 13.69632934466822,
+        "itl2_name": "Cheshire",
+        "share_rural": 18.7562,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2757.1865,
+        "area_density": 427.6122,
+        "prod_rel": 105.80715154403508,
+        "log_pwd": 7.92196605472793,
+        "log_area_density": 6.058216710081578,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 28.12340298273928,
+        "emp": 660410.8333333334,
+        "Entry and exit": 6.481823814216655,
+        "Site openings and closures": 7.598426736892313,
+        "Expansion and contraction": 14.043152431630311,
+        "itl2_name": "Merseyside",
+        "share_rural": 1.0204,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 4772.4514,
+        "area_density": 2122.6657,
+        "prod_rel": 89.12679740271837,
+        "log_pwd": 8.470615372205987,
+        "log_area_density": 7.660427983453996,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 25.020796840924096,
+        "emp": 407714.1666666667,
+        "Entry and exit": 5.966802723313106,
+        "Site openings and closures": 6.6946410577671855,
+        "Expansion and contraction": 12.359353059843803,
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "share_rural": 25.0636,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3216.4749,
+        "area_density": 266.5591,
+        "prod_rel": 87.61388677143084,
+        "log_pwd": 8.076041287307472,
+        "log_area_density": 5.585595982622237,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 27.361212839680682,
+        "emp": 405604.5833333333,
+        "Entry and exit": 6.50962400778262,
+        "Site openings and closures": 7.421226132594245,
+        "Expansion and contraction": 13.430362699303817,
+        "itl2_name": "North Yorkshire",
+        "share_rural": 42.3816,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2133.85,
+        "area_density": 98.7424,
+        "prod_rel": 88.46288562246373,
+        "log_pwd": 7.665683138856995,
+        "log_area_density": 4.592514438794186,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 27.35558632939425,
+        "emp": 585514.1666666666,
+        "Entry and exit": 6.31738201609127,
+        "Site openings and closures": 7.924231836121244,
+        "Expansion and contraction": 13.113972477181736,
+        "itl2_name": "South Yorkshire",
+        "share_rural": 8.2851,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3470.8212,
+        "area_density": 886.0868,
+        "prod_rel": 80.80502902613674,
+        "log_pwd": 8.152146502002559,
+        "log_area_density": 6.786814914203783,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 26.111050533779167,
+        "emp": 1096700.4166666667,
+        "Entry and exit": 6.283925152759356,
+        "Site openings and closures": 6.623884295354133,
+        "Expansion and contraction": 13.203241085665677,
+        "itl2_name": "West Yorkshire",
+        "share_rural": 10.4144,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3968.1793,
+        "area_density": 1158.2481,
+        "prod_rel": 87.13145435426183,
+        "log_pwd": 8.28606265387582,
+        "log_area_density": 7.054663883889628,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 26.811600444448274,
+        "emp": 967491.6666666666,
+        "Entry and exit": 5.955348452613718,
+        "Site openings and closures": 6.951050396644243,
+        "Expansion and contraction": 13.905201595190311,
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "share_rural": 20.374,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3286.5898,
+        "area_density": 460.7078,
+        "prod_rel": 86.31012533390859,
+        "log_pwd": 8.097605771231146,
+        "log_area_density": 6.13276400255609,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 29.52567393858586,
+        "emp": 905003.3333333334,
+        "Entry and exit": 7.853285991580141,
+        "Site openings and closures": 7.465350035543147,
+        "Expansion and contraction": 14.207037911462573,
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "share_rural": 24.8909,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3765.6705,
+        "area_density": 389.2318,
+        "prod_rel": 86.06778450976208,
+        "log_pwd": 8.233681212027673,
+        "log_area_density": 5.9641750530378115,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 24.004353352528152,
+        "emp": 307808.75,
+        "Entry and exit": 6.131783669784133,
+        "Site openings and closures": 5.7749603717676425,
+        "Expansion and contraction": 12.097609310976377,
+        "itl2_name": "Lincolnshire",
+        "share_rural": 47.4961,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1805.4577,
+        "area_density": 129.594,
+        "prod_rel": 82.60576433363956,
+        "log_pwd": 7.498569412029881,
+        "log_area_density": 4.8644064865501715,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 29.019950591959606,
+        "emp": 676003.3333333334,
+        "Entry and exit": 9.170442946533795,
+        "Site openings and closures": 6.526471762959749,
+        "Expansion and contraction": 13.323035882466062,
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "share_rural": 31.5615,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2393.718,
+        "area_density": 236.0405,
+        "prod_rel": 91.40605602961072,
+        "log_pwd": 7.780603084693388,
+        "log_area_density": 5.464003400471761,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 25.565901298363638,
+        "emp": 717955.0,
+        "Entry and exit": 5.78669043788724,
+        "Site openings and closures": 6.922439428654999,
+        "Expansion and contraction": 12.8567714318214,
+        "itl2_name": "Shropshire and Staffordshire",
+        "share_rural": 24.5151,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2570.5644,
+        "area_density": 265.496,
+        "prod_rel": 81.40815947179384,
+        "log_pwd": 7.851880764673265,
+        "log_area_density": 5.58159977465513,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 29.908857131398136,
+        "emp": 1319402.9166666667,
+        "Entry and exit": 7.868521335566245,
+        "Site openings and closures": 7.351052417333977,
+        "Expansion and contraction": 14.689283378497914,
+        "itl2_name": "West Midlands",
+        "share_rural": 0.937,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 5353.1154,
+        "area_density": 3236.6004,
+        "prod_rel": 87.70192156365108,
+        "log_pwd": 8.585433988165867,
+        "log_area_density": 8.082278798669257,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 24.50358853139016,
+        "emp": 1191237.0833333333,
+        "Entry and exit": 5.419016435645157,
+        "Site openings and closures": 6.480937708663507,
+        "Expansion and contraction": 12.603634387081497,
+        "itl2_name": "East Anglia",
+        "share_rural": 40.8994,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2343.7046,
+        "area_density": 205.1215,
+        "prod_rel": 92.02150496818354,
+        "log_pwd": 7.75948811886444,
+        "log_area_density": 5.323602486498078,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 29.487408629700052,
+        "emp": 953480.4166666666,
+        "Entry and exit": 7.723371350486572,
+        "Site openings and closures": 7.102925116885376,
+        "Expansion and contraction": 14.661112162328102,
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "share_rural": 15.9954,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3901.255,
+        "area_density": 662.6015,
+        "prod_rel": 97.04462065824515,
+        "log_pwd": 8.269053575224667,
+        "log_area_density": 6.496173753672469,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 27.347818119242476,
+        "emp": 745763.3333333334,
+        "Entry and exit": 7.537578945956939,
+        "Site openings and closures": 6.8233219654135135,
+        "Expansion and contraction": 12.986917207872024,
+        "itl2_name": "Essex",
+        "share_rural": 20.6811,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3426.9419,
+        "area_density": 508.5563,
+        "prod_rel": 93.5231699959051,
+        "log_pwd": 8.13942356812716,
+        "log_area_density": 6.231575927157295,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLI3",
+        "realloc": 37.27850618179435,
+        "emp": 2238023.3333333335,
+        "Entry and exit": 9.694678488606762,
+        "Site openings and closures": 10.016018599746502,
+        "Expansion and contraction": 17.567809093441088,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14369.6678,
+        "area_density": 9925.8923,
+        "prod_rel": 152.2396341113365,
+        "log_pwd": 9.57287486119973,
+        "log_area_density": 9.202902005796359,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "realloc": 33.51583399817332,
+        "emp": 1413769.5833333333,
+        "Entry and exit": 8.89860942097177,
+        "Site openings and closures": 8.59599056541215,
+        "Expansion and contraction": 16.021234011789403,
+        "itl2_name": "Inner London - East",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14809.8562,
+        "area_density": 11076.772,
+        "prod_rel": 127.94684842304711,
+        "log_pwd": 9.603048197559067,
+        "log_area_density": 9.312605582114701,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "realloc": 30.247896867714154,
+        "emp": 593509.5833333334,
+        "Entry and exit": 10.13926340700761,
+        "Site openings and closures": 6.478974293450752,
+        "Expansion and contraction": 13.629659167255793,
+        "itl2_name": "Outer London - East and North East",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 8240.3093,
+        "area_density": 4475.9234,
+        "prod_rel": 107.616409755021,
+        "log_pwd": 9.016793158606811,
+        "log_area_density": 8.406467955791188,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "realloc": 29.145011701777683,
+        "emp": 488885.8333333333,
+        "Entry and exit": 8.933919473360344,
+        "Site openings and closures": 6.814644864257675,
+        "Expansion and contraction": 13.396447364159663,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 6879.7286,
+        "area_density": 3696.3871,
+        "prod_rel": 110.80383732322085,
+        "log_pwd": 8.836334482474891,
+        "log_area_density": 8.215111162125748,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "realloc": 31.25344627591138,
+        "emp": 947580.8333333334,
+        "Entry and exit": 9.480369748579058,
+        "Site openings and closures": 6.739794406281962,
+        "Expansion and contraction": 15.033282121050359,
+        "itl2_name": "Outer London - West and North West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 7848.0527,
+        "area_density": 4611.7648,
+        "prod_rel": 117.65236714844137,
+        "log_pwd": 8.968020716309299,
+        "log_area_density": 8.436365882690446,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 28.901608235284183,
+        "emp": 1381535.0,
+        "Entry and exit": 7.699829054879777,
+        "Site openings and closures": 7.289054083561642,
+        "Expansion and contraction": 13.912725096842763,
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "share_rural": 21.6622,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3329.2296,
+        "area_density": 439.2039,
+        "prod_rel": 116.43480428076455,
+        "log_pwd": 8.110496204857286,
+        "log_area_density": 6.084963769937317,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 26.26427825171577,
+        "emp": 1314097.9166666667,
+        "Entry and exit": 7.0282053436530445,
+        "Site openings and closures": 6.335080941139914,
+        "Expansion and contraction": 12.90099196692281,
+        "itl2_name": "Surrey, East and West Sussex",
+        "share_rural": 14.4761,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3570.7906,
+        "area_density": 535.2335,
+        "prod_rel": 107.48194964359826,
+        "log_pwd": 8.18054230683843,
+        "log_area_density": 6.282703100278152,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 26.929301130581308,
+        "emp": 899095.0,
+        "Entry and exit": 6.396710025080775,
+        "Site openings and closures": 7.925932928852531,
+        "Expansion and contraction": 12.606658176648,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "share_rural": 16.6787,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3928.9269,
+        "area_density": 482.5571,
+        "prod_rel": 110.77469493161007,
+        "log_pwd": 8.276121614142316,
+        "log_area_density": 6.179099255746094,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 26.186808523248605,
+        "emp": 745197.0833333334,
+        "Entry and exit": 6.744524518961147,
+        "Site openings and closures": 6.59702438896198,
+        "Expansion and contraction": 12.845259615325476,
+        "itl2_name": "Kent",
+        "share_rural": 23.8495,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3485.2398,
+        "area_density": 497.1635,
+        "prod_rel": 93.39029437022293,
+        "log_pwd": 8.156292130009591,
+        "log_area_density": 6.208918945839657,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 26.42205957567581,
+        "emp": 1268428.75,
+        "Entry and exit": 6.02963837477404,
+        "Site openings and closures": 7.162864554539097,
+        "Expansion and contraction": 13.229556646362676,
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "share_rural": 21.3416,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3593.6461,
+        "area_density": 343.6965,
+        "prod_rel": 100.67750464287865,
+        "log_pwd": 8.186922592823374,
+        "log_area_density": 5.839759000504549,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 24.507861209288833,
+        "emp": 586026.25,
+        "Entry and exit": 5.918392449712505,
+        "Site openings and closures": 6.056753714815107,
+        "Expansion and contraction": 12.53271504476122,
+        "itl2_name": "Dorset and Somerset",
+        "share_rural": 33.7116,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2801.5259,
+        "area_density": 221.9305,
+        "prod_rel": 85.54416648218408,
+        "log_pwd": 7.9379195120099,
+        "log_area_density": 5.402364269794746,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.720370755725163,
+        "emp": 236274.16666666666,
+        "Entry and exit": 6.768619788451975,
+        "Site openings and closures": 6.966130448737166,
+        "Expansion and contraction": 12.985620518536022,
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "share_rural": 55.56,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1603.2909,
+        "area_density": 161.2169,
+        "prod_rel": 76.04258351682803,
+        "log_pwd": 7.3798136083850085,
+        "log_area_density": 5.082750663287012,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 23.72054104579488,
+        "emp": 518871.6666666667,
+        "Entry and exit": 5.722513273995175,
+        "Site openings and closures": 5.901266530259569,
+        "Expansion and contraction": 12.096761241540136,
+        "itl2_name": "Devon",
+        "share_rural": 33.4129,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2981.8607,
+        "area_density": 181.7092,
+        "prod_rel": 82.8988924311399,
+        "log_pwd": 8.000302780618545,
+        "log_area_density": 5.202407607031716,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 24.317649230707822,
+        "emp": 751583.75,
+        "Entry and exit": 6.093355087396004,
+        "Site openings and closures": 6.071401446168396,
+        "Expansion and contraction": 12.152892697143422,
+        "itl2_name": "West Wales and The Valleys",
+        "share_rural": 32.8443,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1709.7184,
+        "area_density": 147.8376,
+        "prod_rel": 79.63676657074825,
+        "log_pwd": 7.444083957573162,
+        "log_area_density": 4.996114373995371,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 25.48975225800799,
+        "emp": 570654.1666666666,
+        "Entry and exit": 5.547288565024059,
+        "Site openings and closures": 6.711449579064962,
+        "Expansion and contraction": 13.231014113918967,
+        "itl2_name": "East Wales",
+        "share_rural": 25.9265,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 3256.0228,
+        "area_density": 153.0762,
+        "prod_rel": 89.54846399846488,
+        "log_pwd": 8.088261729554917,
+        "log_area_density": 5.030935836627755,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 26.03367979064713,
+        "emp": 281820.8333333333,
+        "Entry and exit": 5.488120407469284,
+        "Site openings and closures": 7.168265889971465,
+        "Expansion and contraction": 13.37729349320638,
+        "itl2_name": "North Eastern Scotland",
+        "share_rural": 27.5837,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 3243.408,
+        "area_density": 74.4468,
+        "prod_rel": 101.87191333191737,
+        "log_pwd": 8.084379907829682,
+        "log_area_density": 4.310084776339246,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 22.403784829693475,
+        "emp": 231274.16666666666,
+        "Entry and exit": 4.684555487894959,
+        "Site openings and closures": 6.0991824277823214,
+        "Expansion and contraction": 11.620046914016193,
+        "itl2_name": "Highlands and Islands",
+        "share_rural": 50.4693,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 1542.673,
+        "area_density": 12.136,
+        "prod_rel": 93.81793701924097,
+        "log_pwd": 7.341271905082147,
+        "log_area_density": 2.4961762420462312,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 24.648887929362473,
+        "emp": 949542.5,
+        "Entry and exit": 4.80257597737858,
+        "Site openings and closures": 6.743949498486552,
+        "Expansion and contraction": 13.102362453497342,
+        "itl2_name": "Eastern Scotland",
+        "share_rural": 13.5221,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 4413.5999,
+        "area_density": 149.6954,
+        "prod_rel": 105.55821900256745,
+        "log_pwd": 8.392445939300979,
+        "log_area_density": 5.008602562830552,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 26.350241317834193,
+        "emp": 750220.8333333334,
+        "Entry and exit": 5.740754111289454,
+        "Site openings and closures": 6.945399410173671,
+        "Expansion and contraction": 13.664087796371069,
+        "itl2_name": "West Central Scotland",
+        "share_rural": 2.7691,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 5217.7195,
+        "area_density": 957.0828,
+        "prod_rel": 92.8077576558664,
+        "log_pwd": 8.559815708023315,
+        "log_area_density": 6.863889908086458,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 22.50881467944103,
+        "emp": 361140.0,
+        "Entry and exit": 4.970602351811855,
+        "Site openings and closures": 5.178739546990087,
+        "Expansion and contraction": 12.359472780639088,
+        "itl2_name": "Southern Scotland",
+        "share_rural": 22.9586,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 2913.3093,
+        "area_density": 58.5701,
+        "prod_rel": 90.24175070446351,
+        "log_pwd": 7.9770449305195275,
+        "log_area_density": 4.070224327458949,
+        "group": "Rest of UK"
+      }
+    ],
+    "data-919b3de836ed9c09616e10b34bde481f": [
+      {
+        "itl2_code": "TLI3",
+        "realloc": 37.27850618179435,
+        "emp": 2238023.3333333335,
+        "Entry and exit": 9.694678488606762,
+        "Site openings and closures": 10.016018599746502,
+        "Expansion and contraction": 17.567809093441088,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14369.6678,
+        "area_density": 9925.8923,
+        "prod_rel": 152.2396341113365,
+        "log_pwd": 9.57287486119973,
+        "log_area_density": 9.202902005796359,
+        "group": "London",
+        "px": 320.269958056064,
+        "py": 48.986888727701725,
+        "short": "Inner London West",
+        "rad": 4.0,
+        "prio": 14.386547035649684,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-f334efc23de16cc6b1f9d2d4837462f6": [
+      {
+        "itl2_code": "TLI4",
+        "realloc": 33.51583399817332,
+        "emp": 1413769.5833333333,
+        "Entry and exit": 8.89860942097177,
+        "Site openings and closures": 8.59599056541215,
+        "Expansion and contraction": 16.021234011789403,
+        "itl2_name": "Inner London - East",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 14809.8562,
+        "area_density": 11076.772,
+        "prod_rel": 127.94684842304711,
+        "log_pwd": 9.603048197559067,
+        "log_area_density": 9.312605582114701,
+        "group": "London",
+        "px": 323.8959166189347,
+        "py": 116.71498803288021,
+        "short": "Inner London East",
+        "rad": 4.0,
+        "prio": 13.544070702572133,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-bb93671fda6d14c26f0757f2d0a3f775": [
+      {
+        "itl2_code": "TLI6",
+        "realloc": 29.145011701777683,
+        "emp": 488885.8333333333,
+        "Entry and exit": 8.933919473360344,
+        "Site openings and closures": 6.814644864257675,
+        "Expansion and contraction": 13.396447364159663,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 6879.7286,
+        "area_density": 3696.3871,
+        "prod_rel": 110.80383732322085,
+        "log_pwd": 8.836334482474891,
+        "log_area_density": 8.215111162125748,
+        "group": "London",
+        "px": 231.75919937388852,
+        "py": 195.3897893680017,
+        "short": "Outer London South",
+        "rad": 4.0,
+        "prio": 11.475631694101956,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-3cc76dfca46fed5dfcd47762db41fbe5": [
+      {
+        "itl2_code": "TLD1",
+        "realloc": 21.910391299207944,
+        "emp": 246720.83333333334,
+        "Entry and exit": 4.991133703747488,
+        "Site openings and closures": 5.711921368618378,
+        "Expansion and contraction": 11.207336226842079,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 1868.2757,
+        "area_density": 73.9849,
+        "prod_rel": 84.32632596611026,
+        "log_pwd": 7.532771198904731,
+        "log_area_density": 4.303861018328255,
+        "group": "Rest of UK",
+        "px": 75.1087582687081,
+        "py": 325.612956614257,
+        "short": "Cumbria",
+        "rad": 4.0,
+        "prio": 2.1187493783881552,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-71cc8b8ccf7082f404f24ac828363117": [
+      {
+        "itl2_code": "TLM9",
+        "realloc": 22.50881467944103,
+        "emp": 361140.0,
+        "Entry and exit": 4.970602351811855,
+        "Site openings and closures": 5.178739546990087,
+        "Expansion and contraction": 12.359472780639088,
+        "itl2_name": "Southern Scotland",
+        "share_rural": 22.9586,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 2913.3093,
+        "area_density": 58.5701,
+        "prod_rel": 90.24175070446351,
+        "log_pwd": 7.9770449305195275,
+        "log_area_density": 4.070224327458949,
+        "group": "Rest of UK",
+        "px": 128.49755565666138,
+        "py": 314.84133577006145,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.543265700641726,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-f3f49ccc6e4351913034a118977b4071": [
+      {
+        "itl2_code": "TLK4",
+        "realloc": 23.72054104579488,
+        "emp": 518871.6666666667,
+        "Entry and exit": 5.722513273995175,
+        "Site openings and closures": 5.901266530259569,
+        "Expansion and contraction": 12.096761241540136,
+        "itl2_name": "Devon",
+        "share_rural": 33.4129,
+        "rural_definition": "E&W RUC 2021: rural OAs (settlements <10k), Census 2021",
+        "pop_weighted_density": 2981.8607,
+        "area_density": 181.7092,
+        "prod_rel": 82.8988924311399,
+        "log_pwd": 8.000302780618545,
+        "log_area_density": 5.202407607031716,
+        "group": "Rest of UK",
+        "px": 131.29247365035556,
+        "py": 293.03026117569215,
+        "short": "Devon",
+        "rad": 4.0,
+        "prio": 1.1437807575087617,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-1ca978856332fef9236dcde5d415fa03": [
+      {
+        "itl2_code": "TLM7",
+        "realloc": 24.648887929362473,
+        "emp": 949542.5,
+        "Entry and exit": 4.80257597737858,
+        "Site openings and closures": 6.743949498486552,
+        "Expansion and contraction": 13.102362453497342,
+        "itl2_name": "Eastern Scotland",
+        "share_rural": 13.5221,
+        "rural_definition": "Scotland URC 2022: accessible + remote rural (settlements <3k), Census 2022",
+        "pop_weighted_density": 4413.5999,
+        "area_density": 149.6954,
+        "prod_rel": 105.55821900256745,
+        "log_pwd": 8.392445939300979,
+        "log_area_density": 5.008602562830552,
+        "group": "Rest of UK",
+        "px": 178.41669044767204,
+        "py": 276.3200172714755,
+        "short": "Eastern Scotland",
+        "rad": 4.0,
+        "prio": 0.8805179853583587,
+        "align": "left",
+        "dx": 9.0
+      }
+    ]
+  },
+  "width": 360,
+  "height": 360
+}

@@ -1,0 +1,322 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-23d1de8f6fdef12c9f9bd74afd652fbe"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.6
+      },
+      "encoding": {
+        "x": {
+          "field": "v",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-5a3114cce34565ee7384d42b4be9ea1c"
+      },
+      "mark": {
+        "type": "line",
+        "color": "#B4B4B4",
+        "strokeWidth": 1.2
+      },
+      "encoding": {
+        "detail": {
+          "field": "measure",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "r",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "measure",
+          "sort": [
+            "Median age",
+            "Share 65+",
+            "Prime-age share (25\u201349)",
+            "Working-age growth",
+            "Ageing pace (\u0394 median age)"
+          ],
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-5a3114cce34565ee7384d42b4be9ea1c"
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 1,
+        "size": 110
+      },
+      "encoding": {
+        "color": {
+          "field": "step",
+          "legend": {
+            "labelLimit": 400,
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "No controls",
+              "Controlling for density",
+              "Controlling for density and net job growth"
+            ],
+            "range": [
+              "#122b39",
+              "#179fdb",
+              "#eb5c2e"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "measure",
+            "type": "nominal"
+          },
+          {
+            "field": "step",
+            "type": "nominal"
+          },
+          {
+            "field": "r",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "r",
+          "scale": {
+            "domain": [
+              -1,
+              1
+            ]
+          },
+          "title": "Correlation with reallocation rate, 2011\u201324 (excl. London)",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "measure",
+          "sort": [
+            "Median age",
+            "Share 65+",
+            "Prime-age share (25\u201349)",
+            "Working-age growth",
+            "Ageing pace (\u0394 median age)"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Much of the age\u2013churn link runs through density, and working-age growth's through job growth",
+    "subtitle": [
+      "Correlation between each age measure and the reallocation rate across 36 ITL2 regions (London excluded), pooled 2011\u201324.",
+      "Partial correlations remove the linear effect of log population-weighted density, then also net job growth.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA mid-year population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-23d1de8f6fdef12c9f9bd74afd652fbe": [
+      {
+        "v": 0.0
+      }
+    ],
+    "data-5a3114cce34565ee7384d42b4be9ea1c": [
+      {
+        "measure": "Median age",
+        "step": "No controls",
+        "r": -0.6372458327491328
+      },
+      {
+        "measure": "Share 65+",
+        "step": "No controls",
+        "r": -0.5976694540066254
+      },
+      {
+        "measure": "Prime-age share (25\u201349)",
+        "step": "No controls",
+        "r": 0.629053426178663
+      },
+      {
+        "measure": "Working-age growth",
+        "step": "No controls",
+        "r": 0.715778979639183
+      },
+      {
+        "measure": "Ageing pace (\u0394 median age)",
+        "step": "No controls",
+        "r": -0.7302018880404882
+      },
+      {
+        "measure": "Median age",
+        "step": "Controlling for density",
+        "r": -0.3403040117196732
+      },
+      {
+        "measure": "Share 65+",
+        "step": "Controlling for density",
+        "r": -0.26993852585735895
+      },
+      {
+        "measure": "Prime-age share (25\u201349)",
+        "step": "Controlling for density",
+        "r": 0.3381292942871359
+      },
+      {
+        "measure": "Working-age growth",
+        "step": "Controlling for density",
+        "r": 0.6078358844283106
+      },
+      {
+        "measure": "Ageing pace (\u0394 median age)",
+        "step": "Controlling for density",
+        "r": -0.5406736953754097
+      },
+      {
+        "measure": "Median age",
+        "step": "Controlling for density and net job growth",
+        "r": -0.12796657230459874
+      },
+      {
+        "measure": "Share 65+",
+        "step": "Controlling for density and net job growth",
+        "r": -0.16569459678023352
+      },
+      {
+        "measure": "Prime-age share (25\u201349)",
+        "step": "Controlling for density and net job growth",
+        "r": 0.20624281257602733
+      },
+      {
+        "measure": "Working-age growth",
+        "step": "Controlling for density and net job growth",
+        "r": 0.052762721050479196
+      },
+      {
+        "measure": "Ageing pace (\u0394 median age)",
+        "step": "Controlling for density and net job growth",
+        "r": -0.24136089707681563
+      }
+    ]
+  },
+  "width": 520,
+  "height": 230
+}

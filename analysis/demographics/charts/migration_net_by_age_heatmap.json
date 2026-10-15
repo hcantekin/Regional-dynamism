@@ -1,0 +1,5583 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "data": {
+    "name": "data-14202ecfff9e37d4539dfb0286cb376d"
+  },
+  "mark": {
+    "type": "rect",
+    "stroke": "white",
+    "strokeWidth": 0.5
+  },
+  "encoding": {
+    "color": {
+      "field": "rate",
+      "legend": {
+        "gradientLength": 220,
+        "labelExpr": "datum.value > 0 ? '+' + datum.label + '%' : datum.label + '%'",
+        "orient": "right",
+        "title": [
+          "Net migration,",
+          "% a year"
+        ]
+      },
+      "scale": {
+        "clamp": true,
+        "domain": [
+          -6,
+          -2,
+          0,
+          2,
+          6
+        ],
+        "interpolate": "rgb",
+        "range": [
+          "#8a1030",
+          "#e6224b",
+          "#ffffff",
+          "#179fdb",
+          "#122b39"
+        ]
+      },
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {
+        "field": "region",
+        "type": "nominal"
+      },
+      {
+        "field": "age_l",
+        "title": "Age",
+        "type": "nominal"
+      },
+      {
+        "field": "rate",
+        "format": "+.2f",
+        "title": "Net, % a year",
+        "type": "quantitative"
+      },
+      {
+        "field": "realloc",
+        "format": ".1f",
+        "title": "Reallocation 2018\u201324 (%)",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": 0,
+        "labelExpr": "indexof(['0\u20134','10\u201314','20\u201324','30\u201334','40\u201344','50\u201354','60\u201364','70\u201374','80\u201384','90+'], datum.label) >= 0 ? datum.label : ''",
+        "orient": "top"
+      },
+      "field": "age_l",
+      "sort": [
+        "0\u20134",
+        "5\u20139",
+        "10\u201314",
+        "15\u201319",
+        "20\u201324",
+        "25\u201329",
+        "30\u201334",
+        "35\u201339",
+        "40\u201344",
+        "45\u201349",
+        "50\u201354",
+        "55\u201359",
+        "60\u201364",
+        "65\u201369",
+        "70\u201374",
+        "75\u201379",
+        "80\u201384",
+        "85\u201389",
+        "90+"
+      ],
+      "title": "Age group",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {
+        "labelFontSize": 10,
+        "labelLimit": 260
+      },
+      "field": "region",
+      "sort": [
+        "Inner London West",
+        "Inner London East",
+        "Outer London West & North West",
+        "West Midlands",
+        "Outer London East & North East",
+        "Outer London South",
+        "Leicestershire, Rutland & Northamptonshire",
+        "Bedfordshire & Hertfordshire",
+        "Greater Manchester",
+        "Berkshire, Buckinghamshire & Oxfordshire",
+        "Herefordshire, Worcestershire & Warwickshire",
+        "Merseyside",
+        "Cheshire",
+        "Tees Valley & Durham",
+        "South Yorkshire",
+        "North Yorkshire",
+        "Essex",
+        "Derbyshire & Nottinghamshire",
+        "Cornwall & Isles of Scilly",
+        "Hampshire & Isle of Wight",
+        "West Yorkshire",
+        "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "Kent",
+        "Surrey, East & West Sussex",
+        "Shropshire & Staffordshire",
+        "East Wales",
+        "Lancashire",
+        "East Yorkshire & Northern Lincolnshire",
+        "East Anglia",
+        "Dorset & Somerset",
+        "Northumberland, & Tyne & Wear",
+        "West Wales & The Valleys",
+        "Lincolnshire",
+        "Devon",
+        "Cumbria"
+      ],
+      "title": null,
+      "type": "nominal"
+    }
+  },
+  "height": 640,
+  "title": {
+    "text": "Where each age group is moving: high-churn regions gain people in their twenties",
+    "subtitle": [
+      "Net internal migration as % of each age group's population a year, pooled 2018\u201324. Blue = gaining, red = losing (darkest shades = \u00b16% or more).",
+      "England and Wales ITL2 regions, sorted from highest to lowest job reallocation rate (2018\u201324). International migration excluded.",
+      "Sources: ONS internal migration estimates (England and Wales); ONS mid-year population estimates; ONS Longitudinal Business Database; authors' calculations."
+    ]
+  },
+  "width": 520,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-14202ecfff9e37d4539dfb0286cb376d": [
+      {
+        "itl2_code": "TLC1",
+        "age": "0-4",
+        "rate": 0.6640006208599823,
+        "region": "Tees Valley & Durham",
+        "age_l": "0\u20134",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "10-14",
+        "rate": 0.37773920034365005,
+        "region": "Tees Valley & Durham",
+        "age_l": "10\u201314",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "15-19",
+        "rate": 1.7192278208689489,
+        "region": "Tees Valley & Durham",
+        "age_l": "15\u201319",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "20-24",
+        "rate": -2.8281503125714345,
+        "region": "Tees Valley & Durham",
+        "age_l": "20\u201324",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "25-29",
+        "rate": -0.4176594420371156,
+        "region": "Tees Valley & Durham",
+        "age_l": "25\u201329",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "30-34",
+        "rate": 0.4185462668646481,
+        "region": "Tees Valley & Durham",
+        "age_l": "30\u201334",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "35-39",
+        "rate": 0.587006743316397,
+        "region": "Tees Valley & Durham",
+        "age_l": "35\u201339",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "40-44",
+        "rate": 0.5238321027794712,
+        "region": "Tees Valley & Durham",
+        "age_l": "40\u201344",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "45-49",
+        "rate": 0.48025180020098035,
+        "region": "Tees Valley & Durham",
+        "age_l": "45\u201349",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "5-9",
+        "rate": 0.44431291628998715,
+        "region": "Tees Valley & Durham",
+        "age_l": "5\u20139",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "50-54",
+        "rate": 0.4795661989919427,
+        "region": "Tees Valley & Durham",
+        "age_l": "50\u201354",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "55-59",
+        "rate": 0.5571239739551885,
+        "region": "Tees Valley & Durham",
+        "age_l": "55\u201359",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "60-64",
+        "rate": 0.5759210817052396,
+        "region": "Tees Valley & Durham",
+        "age_l": "60\u201364",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "65-69",
+        "rate": 0.405222689212524,
+        "region": "Tees Valley & Durham",
+        "age_l": "65\u201369",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "70-74",
+        "rate": 0.29177981288272736,
+        "region": "Tees Valley & Durham",
+        "age_l": "70\u201374",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "75-79",
+        "rate": 0.16363678416134703,
+        "region": "Tees Valley & Durham",
+        "age_l": "75\u201379",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "80-84",
+        "rate": 0.11295325703283773,
+        "region": "Tees Valley & Durham",
+        "age_l": "80\u201384",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "85-89",
+        "rate": 0.044838509047254005,
+        "region": "Tees Valley & Durham",
+        "age_l": "85\u201389",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC1",
+        "age": "90+",
+        "rate": 0.3571174503805933,
+        "region": "Tees Valley & Durham",
+        "age_l": "90+",
+        "realloc": 27.88968119314112
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "0-4",
+        "rate": 0.46314780803321887,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "0\u20134",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "10-14",
+        "rate": 0.029939910075217457,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "10\u201314",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "15-19",
+        "rate": 5.055675161817953,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "15\u201319",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "20-24",
+        "rate": -2.056942515245827,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "20\u201324",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "25-29",
+        "rate": -0.9159811718469201,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "25\u201329",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "30-34",
+        "rate": 0.13165233505292545,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "30\u201334",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "35-39",
+        "rate": 0.1660302940010997,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "35\u201339",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "40-44",
+        "rate": 0.10768627398844699,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "40\u201344",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "45-49",
+        "rate": 0.15715601799165446,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "45\u201349",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "5-9",
+        "rate": 0.20481328916346683,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "5\u20139",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "50-54",
+        "rate": 0.2835098106632323,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "50\u201354",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "55-59",
+        "rate": 0.35689371320143987,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "55\u201359",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "60-64",
+        "rate": 0.3702944227002963,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "60\u201364",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "65-69",
+        "rate": 0.34404909965933056,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "65\u201369",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "70-74",
+        "rate": 0.24184924182182127,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "70\u201374",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "75-79",
+        "rate": 0.16580396663469077,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "75\u201379",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "80-84",
+        "rate": 0.08865058087578195,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "80\u201384",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "85-89",
+        "rate": 0.10546699401777378,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "85\u201389",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLC2",
+        "age": "90+",
+        "rate": -0.060268688772491176,
+        "region": "Northumberland, & Tyne & Wear",
+        "age_l": "90+",
+        "realloc": 24.646432999880858
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "0-4",
+        "rate": 1.0076159235101907,
+        "region": "Cumbria",
+        "age_l": "0\u20134",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "10-14",
+        "rate": 0.9266651763378363,
+        "region": "Cumbria",
+        "age_l": "10\u201314",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "15-19",
+        "rate": -3.9062895879196673,
+        "region": "Cumbria",
+        "age_l": "15\u201319",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "20-24",
+        "rate": 1.7421409947360653,
+        "region": "Cumbria",
+        "age_l": "20\u201324",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "25-29",
+        "rate": 0.6715982593164255,
+        "region": "Cumbria",
+        "age_l": "25\u201329",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "30-34",
+        "rate": 0.8981037819871728,
+        "region": "Cumbria",
+        "age_l": "30\u201334",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "35-39",
+        "rate": 1.0991630738016738,
+        "region": "Cumbria",
+        "age_l": "35\u201339",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "40-44",
+        "rate": 1.0247209983378625,
+        "region": "Cumbria",
+        "age_l": "40\u201344",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "45-49",
+        "rate": 0.8542194686942646,
+        "region": "Cumbria",
+        "age_l": "45\u201349",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "5-9",
+        "rate": 0.8870777093582195,
+        "region": "Cumbria",
+        "age_l": "5\u20139",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "50-54",
+        "rate": 1.0394547374484016,
+        "region": "Cumbria",
+        "age_l": "50\u201354",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "55-59",
+        "rate": 1.190146592980652,
+        "region": "Cumbria",
+        "age_l": "55\u201359",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "60-64",
+        "rate": 1.0130821074885517,
+        "region": "Cumbria",
+        "age_l": "60\u201364",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "65-69",
+        "rate": 0.5188703822706984,
+        "region": "Cumbria",
+        "age_l": "65\u201369",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "70-74",
+        "rate": 0.04309731996872112,
+        "region": "Cumbria",
+        "age_l": "70\u201374",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "75-79",
+        "rate": -0.11194135863852032,
+        "region": "Cumbria",
+        "age_l": "75\u201379",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "80-84",
+        "rate": -0.10669399825257074,
+        "region": "Cumbria",
+        "age_l": "80\u201384",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "85-89",
+        "rate": -0.0182463823038163,
+        "region": "Cumbria",
+        "age_l": "85\u201389",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD1",
+        "age": "90+",
+        "rate": -0.180216767774196,
+        "region": "Cumbria",
+        "age_l": "90+",
+        "realloc": 21.97318570657154
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "0-4",
+        "rate": -0.46694815273749674,
+        "region": "Greater Manchester",
+        "age_l": "0\u20134",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "10-14",
+        "rate": -0.32610458076922494,
+        "region": "Greater Manchester",
+        "age_l": "10\u201314",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "15-19",
+        "rate": 0.9200826719791309,
+        "region": "Greater Manchester",
+        "age_l": "15\u201319",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "20-24",
+        "rate": 2.0462465615599585,
+        "region": "Greater Manchester",
+        "age_l": "20\u201324",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "25-29",
+        "rate": 0.5813587266114544,
+        "region": "Greater Manchester",
+        "age_l": "25\u201329",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "30-34",
+        "rate": -0.3801081382127028,
+        "region": "Greater Manchester",
+        "age_l": "30\u201334",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "35-39",
+        "rate": -0.5254805075744252,
+        "region": "Greater Manchester",
+        "age_l": "35\u201339",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "40-44",
+        "rate": -0.48979083818386326,
+        "region": "Greater Manchester",
+        "age_l": "40\u201344",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "45-49",
+        "rate": -0.4634075529847913,
+        "region": "Greater Manchester",
+        "age_l": "45\u201349",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "5-9",
+        "rate": -0.37705006281640396,
+        "region": "Greater Manchester",
+        "age_l": "5\u20139",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "50-54",
+        "rate": -0.5559707932848582,
+        "region": "Greater Manchester",
+        "age_l": "50\u201354",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "55-59",
+        "rate": -0.7619442008379708,
+        "region": "Greater Manchester",
+        "age_l": "55\u201359",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "60-64",
+        "rate": -0.8076345885477415,
+        "region": "Greater Manchester",
+        "age_l": "60\u201364",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "65-69",
+        "rate": -0.6879240177979952,
+        "region": "Greater Manchester",
+        "age_l": "65\u201369",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "70-74",
+        "rate": -0.4270580551039576,
+        "region": "Greater Manchester",
+        "age_l": "70\u201374",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "75-79",
+        "rate": -0.26274601780357204,
+        "region": "Greater Manchester",
+        "age_l": "75\u201379",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "80-84",
+        "rate": -0.24868139160545308,
+        "region": "Greater Manchester",
+        "age_l": "80\u201384",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "85-89",
+        "rate": -0.39619809108176013,
+        "region": "Greater Manchester",
+        "age_l": "85\u201389",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD3",
+        "age": "90+",
+        "rate": -0.8152480747950588,
+        "region": "Greater Manchester",
+        "age_l": "90+",
+        "realloc": 29.411132772226164
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "0-4",
+        "rate": 0.8682685263969292,
+        "region": "Lancashire",
+        "age_l": "0\u20134",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "10-14",
+        "rate": 0.687345545686422,
+        "region": "Lancashire",
+        "age_l": "10\u201314",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "15-19",
+        "rate": 1.3087531663383056,
+        "region": "Lancashire",
+        "age_l": "15\u201319",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "20-24",
+        "rate": -1.978822657809812,
+        "region": "Lancashire",
+        "age_l": "20\u201324",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "25-29",
+        "rate": -0.06716550555806355,
+        "region": "Lancashire",
+        "age_l": "25\u201329",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "30-34",
+        "rate": 0.8891178743605785,
+        "region": "Lancashire",
+        "age_l": "30\u201334",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "35-39",
+        "rate": 0.8984020990897319,
+        "region": "Lancashire",
+        "age_l": "35\u201339",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "40-44",
+        "rate": 0.7931407805100413,
+        "region": "Lancashire",
+        "age_l": "40\u201344",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "45-49",
+        "rate": 0.6816410144848716,
+        "region": "Lancashire",
+        "age_l": "45\u201349",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "5-9",
+        "rate": 0.7182912528192655,
+        "region": "Lancashire",
+        "age_l": "5\u20139",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "50-54",
+        "rate": 0.6927554577214834,
+        "region": "Lancashire",
+        "age_l": "50\u201354",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "55-59",
+        "rate": 0.7105609691861996,
+        "region": "Lancashire",
+        "age_l": "55\u201359",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "60-64",
+        "rate": 0.7120655802515758,
+        "region": "Lancashire",
+        "age_l": "60\u201364",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "65-69",
+        "rate": 0.6196639110990649,
+        "region": "Lancashire",
+        "age_l": "65\u201369",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "70-74",
+        "rate": 0.3974396959332119,
+        "region": "Lancashire",
+        "age_l": "70\u201374",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "75-79",
+        "rate": 0.18265816637931417,
+        "region": "Lancashire",
+        "age_l": "75\u201379",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "80-84",
+        "rate": 0.11898337919500203,
+        "region": "Lancashire",
+        "age_l": "80\u201384",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "85-89",
+        "rate": 0.050472971440237734,
+        "region": "Lancashire",
+        "age_l": "85\u201389",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD4",
+        "age": "90+",
+        "rate": 0.3281787120024094,
+        "region": "Lancashire",
+        "age_l": "90+",
+        "realloc": 25.366569073309496
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "0-4",
+        "rate": 1.862344853475986,
+        "region": "Cheshire",
+        "age_l": "0\u20134",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "10-14",
+        "rate": 0.6645308553873562,
+        "region": "Cheshire",
+        "age_l": "10\u201314",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "15-19",
+        "rate": -4.986476449402301,
+        "region": "Cheshire",
+        "age_l": "15\u201319",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "20-24",
+        "rate": 2.2169090386332337,
+        "region": "Cheshire",
+        "age_l": "20\u201324",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "25-29",
+        "rate": 1.2807297115480536,
+        "region": "Cheshire",
+        "age_l": "25\u201329",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "30-34",
+        "rate": 2.07222903559394,
+        "region": "Cheshire",
+        "age_l": "30\u201334",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "35-39",
+        "rate": 1.839106943308411,
+        "region": "Cheshire",
+        "age_l": "35\u201339",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "40-44",
+        "rate": 1.2267181703445902,
+        "region": "Cheshire",
+        "age_l": "40\u201344",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "45-49",
+        "rate": 0.7739061242655422,
+        "region": "Cheshire",
+        "age_l": "45\u201349",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "5-9",
+        "rate": 1.009502891560608,
+        "region": "Cheshire",
+        "age_l": "5\u20139",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "50-54",
+        "rate": 0.4771566946018295,
+        "region": "Cheshire",
+        "age_l": "50\u201354",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "55-59",
+        "rate": 0.3426148893312149,
+        "region": "Cheshire",
+        "age_l": "55\u201359",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "60-64",
+        "rate": 0.39983777355663147,
+        "region": "Cheshire",
+        "age_l": "60\u201364",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "65-69",
+        "rate": 0.3839379784371559,
+        "region": "Cheshire",
+        "age_l": "65\u201369",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "70-74",
+        "rate": 0.37962171404146183,
+        "region": "Cheshire",
+        "age_l": "70\u201374",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "75-79",
+        "rate": 0.343580231429835,
+        "region": "Cheshire",
+        "age_l": "75\u201379",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "80-84",
+        "rate": 0.4132836286985713,
+        "region": "Cheshire",
+        "age_l": "80\u201384",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "85-89",
+        "rate": 0.6239313428909641,
+        "region": "Cheshire",
+        "age_l": "85\u201389",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD6",
+        "age": "90+",
+        "rate": 0.8485060181344511,
+        "region": "Cheshire",
+        "age_l": "90+",
+        "realloc": 28.24661128115435
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "0-4",
+        "rate": 0.2730030161468596,
+        "region": "Merseyside",
+        "age_l": "0\u20134",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "10-14",
+        "rate": 0.059788068310703525,
+        "region": "Merseyside",
+        "age_l": "10\u201314",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "15-19",
+        "rate": 4.939803341594052,
+        "region": "Merseyside",
+        "age_l": "15\u201319",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "20-24",
+        "rate": -1.0699626310751542,
+        "region": "Merseyside",
+        "age_l": "20\u201324",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "25-29",
+        "rate": -0.13643097136343177,
+        "region": "Merseyside",
+        "age_l": "25\u201329",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "30-34",
+        "rate": 0.29453468593203,
+        "region": "Merseyside",
+        "age_l": "30\u201334",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "35-39",
+        "rate": 0.2911511745399149,
+        "region": "Merseyside",
+        "age_l": "35\u201339",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "40-44",
+        "rate": 0.2332747926924987,
+        "region": "Merseyside",
+        "age_l": "40\u201344",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "45-49",
+        "rate": 0.11745916785054365,
+        "region": "Merseyside",
+        "age_l": "45\u201349",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "5-9",
+        "rate": 0.11637944198950978,
+        "region": "Merseyside",
+        "age_l": "5\u20139",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "50-54",
+        "rate": 0.09930921877204493,
+        "region": "Merseyside",
+        "age_l": "50\u201354",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "55-59",
+        "rate": 0.11682319835079323,
+        "region": "Merseyside",
+        "age_l": "55\u201359",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "60-64",
+        "rate": 0.07616845421070977,
+        "region": "Merseyside",
+        "age_l": "60\u201364",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "65-69",
+        "rate": 0.04879341104508444,
+        "region": "Merseyside",
+        "age_l": "65\u201369",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "70-74",
+        "rate": 0.06158748188332307,
+        "region": "Merseyside",
+        "age_l": "70\u201374",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "75-79",
+        "rate": -0.024232143938934997,
+        "region": "Merseyside",
+        "age_l": "75\u201379",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "80-84",
+        "rate": -0.11578621622467394,
+        "region": "Merseyside",
+        "age_l": "80\u201384",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "85-89",
+        "rate": -0.3187455452601568,
+        "region": "Merseyside",
+        "age_l": "85\u201389",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLD7",
+        "age": "90+",
+        "rate": -0.690148596587782,
+        "region": "Merseyside",
+        "age_l": "90+",
+        "realloc": 28.641640192634878
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "0-4",
+        "rate": 0.7225707745768943,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "0\u20134",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "10-14",
+        "rate": 0.28846153846153844,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "10\u201314",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "15-19",
+        "rate": -2.4675073722768786,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "15\u201319",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "20-24",
+        "rate": -0.8715854443780563,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "20\u201324",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "25-29",
+        "rate": -0.13949088363670487,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "25\u201329",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "30-34",
+        "rate": 0.4486786803123012,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "30\u201334",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "35-39",
+        "rate": 0.5111830553929813,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "35\u201339",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "40-44",
+        "rate": 0.48288359667977376,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "40\u201344",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "45-49",
+        "rate": 0.39133818203585646,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "45\u201349",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "5-9",
+        "rate": 0.5101487316400699,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "5\u20139",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "50-54",
+        "rate": 0.5930084690779173,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "50\u201354",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "55-59",
+        "rate": 0.7203975356801653,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "55\u201359",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "60-64",
+        "rate": 0.8170731428126639,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "60\u201364",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "65-69",
+        "rate": 0.6480819510079985,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "65\u201369",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "70-74",
+        "rate": 0.30565379077729904,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "70\u201374",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "75-79",
+        "rate": 0.15087141246856844,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "75\u201379",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "80-84",
+        "rate": 0.03249281805569166,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "80\u201384",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "85-89",
+        "rate": 0.018668273269578352,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "85\u201389",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE1",
+        "age": "90+",
+        "rate": 0.34618560630121326,
+        "region": "East Yorkshire & Northern Lincolnshire",
+        "age_l": "90+",
+        "realloc": 25.218991418843892
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "0-4",
+        "rate": 1.3550485034667668,
+        "region": "North Yorkshire",
+        "age_l": "0\u20134",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "10-14",
+        "rate": 0.4419380378210703,
+        "region": "North Yorkshire",
+        "age_l": "10\u201314",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "15-19",
+        "rate": 3.485146365292067,
+        "region": "North Yorkshire",
+        "age_l": "15\u201319",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "20-24",
+        "rate": -4.285184454055477,
+        "region": "North Yorkshire",
+        "age_l": "20\u201324",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "25-29",
+        "rate": -0.8708761687863867,
+        "region": "North Yorkshire",
+        "age_l": "25\u201329",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "30-34",
+        "rate": 0.986955134498331,
+        "region": "North Yorkshire",
+        "age_l": "30\u201334",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "35-39",
+        "rate": 1.1208428885880326,
+        "region": "North Yorkshire",
+        "age_l": "35\u201339",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "40-44",
+        "rate": 1.011369336752339,
+        "region": "North Yorkshire",
+        "age_l": "40\u201344",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "45-49",
+        "rate": 0.6654336375698605,
+        "region": "North Yorkshire",
+        "age_l": "45\u201349",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "5-9",
+        "rate": 0.7560588275909688,
+        "region": "North Yorkshire",
+        "age_l": "5\u20139",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "50-54",
+        "rate": 0.7656276408238163,
+        "region": "North Yorkshire",
+        "age_l": "50\u201354",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "55-59",
+        "rate": 1.0107260251600394,
+        "region": "North Yorkshire",
+        "age_l": "55\u201359",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "60-64",
+        "rate": 1.0325506202561106,
+        "region": "North Yorkshire",
+        "age_l": "60\u201364",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "65-69",
+        "rate": 0.7731987664704233,
+        "region": "North Yorkshire",
+        "age_l": "65\u201369",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "70-74",
+        "rate": 0.3964116106948962,
+        "region": "North Yorkshire",
+        "age_l": "70\u201374",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "75-79",
+        "rate": 0.1947998760688174,
+        "region": "North Yorkshire",
+        "age_l": "75\u201379",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "80-84",
+        "rate": 0.1238804632602175,
+        "region": "North Yorkshire",
+        "age_l": "80\u201384",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "85-89",
+        "rate": 0.15107803137643183,
+        "region": "North Yorkshire",
+        "age_l": "85\u201389",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE2",
+        "age": "90+",
+        "rate": 0.08641863003729647,
+        "region": "North Yorkshire",
+        "age_l": "90+",
+        "realloc": 27.323762024450264
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "0-4",
+        "rate": 0.26362235816743196,
+        "region": "South Yorkshire",
+        "age_l": "0\u20134",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "10-14",
+        "rate": 0.015192844344943926,
+        "region": "South Yorkshire",
+        "age_l": "10\u201314",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "15-19",
+        "rate": 3.832408114520413,
+        "region": "South Yorkshire",
+        "age_l": "15\u201319",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "20-24",
+        "rate": -1.9002586677424713,
+        "region": "South Yorkshire",
+        "age_l": "20\u201324",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "25-29",
+        "rate": -0.864183554096381,
+        "region": "South Yorkshire",
+        "age_l": "25\u201329",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "30-34",
+        "rate": 0.12305799107829565,
+        "region": "South Yorkshire",
+        "age_l": "30\u201334",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "35-39",
+        "rate": 0.10916531850911365,
+        "region": "South Yorkshire",
+        "age_l": "35\u201339",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "40-44",
+        "rate": 0.06211484422296954,
+        "region": "South Yorkshire",
+        "age_l": "40\u201344",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "45-49",
+        "rate": 0.0070109199352943385,
+        "region": "South Yorkshire",
+        "age_l": "45\u201349",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "5-9",
+        "rate": 0.04271280821773337,
+        "region": "South Yorkshire",
+        "age_l": "5\u20139",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "50-54",
+        "rate": -0.033651589848990374,
+        "region": "South Yorkshire",
+        "age_l": "50\u201354",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "55-59",
+        "rate": -0.11763818252087539,
+        "region": "South Yorkshire",
+        "age_l": "55\u201359",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "60-64",
+        "rate": -0.1371349110544714,
+        "region": "South Yorkshire",
+        "age_l": "60\u201364",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "65-69",
+        "rate": -0.10598553297474894,
+        "region": "South Yorkshire",
+        "age_l": "65\u201369",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "70-74",
+        "rate": -0.08192008576751987,
+        "region": "South Yorkshire",
+        "age_l": "70\u201374",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "75-79",
+        "rate": -0.03852539963319478,
+        "region": "South Yorkshire",
+        "age_l": "75\u201379",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "80-84",
+        "rate": 0.02526538682109299,
+        "region": "South Yorkshire",
+        "age_l": "80\u201384",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "85-89",
+        "rate": -0.08313332171254642,
+        "region": "South Yorkshire",
+        "age_l": "85\u201389",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE3",
+        "age": "90+",
+        "rate": -0.1650692907138927,
+        "region": "South Yorkshire",
+        "age_l": "90+",
+        "realloc": 27.7214962654213
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "0-4",
+        "rate": -0.19146107974292997,
+        "region": "West Yorkshire",
+        "age_l": "0\u20134",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "10-14",
+        "rate": -0.22473200684646483,
+        "region": "West Yorkshire",
+        "age_l": "10\u201314",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "15-19",
+        "rate": 2.324831209273048,
+        "region": "West Yorkshire",
+        "age_l": "15\u201319",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "20-24",
+        "rate": -1.6015230673868768,
+        "region": "West Yorkshire",
+        "age_l": "20\u201324",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "25-29",
+        "rate": -0.8100488114400858,
+        "region": "West Yorkshire",
+        "age_l": "25\u201329",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "30-34",
+        "rate": -0.3082343718367857,
+        "region": "West Yorkshire",
+        "age_l": "30\u201334",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "35-39",
+        "rate": -0.28720750391048117,
+        "region": "West Yorkshire",
+        "age_l": "35\u201339",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "40-44",
+        "rate": -0.27127027155561895,
+        "region": "West Yorkshire",
+        "age_l": "40\u201344",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "45-49",
+        "rate": -0.2144413705701436,
+        "region": "West Yorkshire",
+        "age_l": "45\u201349",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "5-9",
+        "rate": -0.3023420168480089,
+        "region": "West Yorkshire",
+        "age_l": "5\u20139",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "50-54",
+        "rate": -0.27086895197709704,
+        "region": "West Yorkshire",
+        "age_l": "50\u201354",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "55-59",
+        "rate": -0.36389702205637947,
+        "region": "West Yorkshire",
+        "age_l": "55\u201359",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "60-64",
+        "rate": -0.41952244085783774,
+        "region": "West Yorkshire",
+        "age_l": "60\u201364",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "65-69",
+        "rate": -0.3616461294561354,
+        "region": "West Yorkshire",
+        "age_l": "65\u201369",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "70-74",
+        "rate": -0.21470738668259762,
+        "region": "West Yorkshire",
+        "age_l": "70\u201374",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "75-79",
+        "rate": -0.049562470498529465,
+        "region": "West Yorkshire",
+        "age_l": "75\u201379",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "80-84",
+        "rate": -0.023524128270655788,
+        "region": "West Yorkshire",
+        "age_l": "80\u201384",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "85-89",
+        "rate": -0.04226063922484403,
+        "region": "West Yorkshire",
+        "age_l": "85\u201389",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLE4",
+        "age": "90+",
+        "rate": -0.3219335425631734,
+        "region": "West Yorkshire",
+        "age_l": "90+",
+        "realloc": 26.592628899025655
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "0-4",
+        "rate": 0.6368040667916813,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "0\u20134",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "10-14",
+        "rate": 0.24933925098489004,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "10\u201314",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "15-19",
+        "rate": 5.279066364480208,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "15\u201319",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "20-24",
+        "rate": -3.5942225709143902,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "20\u201324",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "25-29",
+        "rate": -0.21986795576302,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "25\u201329",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "30-34",
+        "rate": 0.6669484112553687,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "30\u201334",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "35-39",
+        "rate": 0.6104490268461488,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "35\u201339",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "40-44",
+        "rate": 0.5032292526061631,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "40\u201344",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "45-49",
+        "rate": 0.2783535254846168,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "45\u201349",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "5-9",
+        "rate": 0.4461846658167911,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "5\u20139",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "50-54",
+        "rate": 0.2506480547412433,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "50\u201354",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "55-59",
+        "rate": 0.18654909985218082,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "55\u201359",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "60-64",
+        "rate": 0.17416775940104057,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "60\u201364",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "65-69",
+        "rate": 0.14632443752349245,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "65\u201369",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "70-74",
+        "rate": 0.12444672848696459,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "70\u201374",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "75-79",
+        "rate": 0.13790638497073443,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "75\u201379",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "80-84",
+        "rate": 0.1341873399037206,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "80\u201384",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "85-89",
+        "rate": 0.26803876989350245,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "85\u201389",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF1",
+        "age": "90+",
+        "rate": 0.4080808663427014,
+        "region": "Derbyshire & Nottinghamshire",
+        "age_l": "90+",
+        "realloc": 27.10210980519359
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "0-4",
+        "rate": 0.7936540122718295,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "0\u20134",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "10-14",
+        "rate": 0.4337793188235972,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "10\u201314",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "15-19",
+        "rate": 2.0902409321510094,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "15\u201319",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "20-24",
+        "rate": -4.109508239950314,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "20\u201324",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "25-29",
+        "rate": -0.8907027140778082,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "25\u201329",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "30-34",
+        "rate": 0.600226277084183,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "30\u201334",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "35-39",
+        "rate": 0.7061555362111648,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "35\u201339",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "40-44",
+        "rate": 0.36949335062498917,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "40\u201344",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "45-49",
+        "rate": 0.16157629998369202,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "45\u201349",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "5-9",
+        "rate": 0.4494914230949994,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "5\u20139",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "50-54",
+        "rate": 0.04095942315298939,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "50\u201354",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "55-59",
+        "rate": -0.11442720317549608,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "55\u201359",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "60-64",
+        "rate": -0.1923290499180119,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "60\u201364",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "65-69",
+        "rate": -0.17956352945610796,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "65\u201369",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "70-74",
+        "rate": -0.07301369559926543,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "70\u201374",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "75-79",
+        "rate": 0.006747748705659112,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "75\u201379",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "80-84",
+        "rate": 0.058852039050058855,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "80\u201384",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "85-89",
+        "rate": 0.08997997555457311,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "85\u201389",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF2",
+        "age": "90+",
+        "rate": 0.10749131800893005,
+        "region": "Leicestershire, Rutland & Northamptonshire",
+        "age_l": "90+",
+        "realloc": 29.524632398527036
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "0-4",
+        "rate": 1.275695188851756,
+        "region": "Lincolnshire",
+        "age_l": "0\u20134",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "10-14",
+        "rate": 0.887176150676476,
+        "region": "Lincolnshire",
+        "age_l": "10\u201314",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "15-19",
+        "rate": 2.0921118442238256,
+        "region": "Lincolnshire",
+        "age_l": "15\u201319",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "20-24",
+        "rate": -3.429965941698624,
+        "region": "Lincolnshire",
+        "age_l": "20\u201324",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "25-29",
+        "rate": -0.17032765574480851,
+        "region": "Lincolnshire",
+        "age_l": "25\u201329",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "30-34",
+        "rate": 0.8736995330606895,
+        "region": "Lincolnshire",
+        "age_l": "30\u201334",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "35-39",
+        "rate": 1.1422850835536618,
+        "region": "Lincolnshire",
+        "age_l": "35\u201339",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "40-44",
+        "rate": 1.2800671422576584,
+        "region": "Lincolnshire",
+        "age_l": "40\u201344",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "45-49",
+        "rate": 1.0307846188041787,
+        "region": "Lincolnshire",
+        "age_l": "45\u201349",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "5-9",
+        "rate": 1.0867313111221615,
+        "region": "Lincolnshire",
+        "age_l": "5\u20139",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "50-54",
+        "rate": 1.2487423492915235,
+        "region": "Lincolnshire",
+        "age_l": "50\u201354",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "55-59",
+        "rate": 1.6506691766032304,
+        "region": "Lincolnshire",
+        "age_l": "55\u201359",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "60-64",
+        "rate": 1.7702409038409959,
+        "region": "Lincolnshire",
+        "age_l": "60\u201364",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "65-69",
+        "rate": 1.3495147087502437,
+        "region": "Lincolnshire",
+        "age_l": "65\u201369",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "70-74",
+        "rate": 0.5133889330866206,
+        "region": "Lincolnshire",
+        "age_l": "70\u201374",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "75-79",
+        "rate": 0.06970311635626038,
+        "region": "Lincolnshire",
+        "age_l": "75\u201379",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "80-84",
+        "rate": -0.0981337568778717,
+        "region": "Lincolnshire",
+        "age_l": "80\u201384",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "85-89",
+        "rate": 0.04646480291179431,
+        "region": "Lincolnshire",
+        "age_l": "85\u201389",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLF3",
+        "age": "90+",
+        "rate": 0.43658897260756285,
+        "region": "Lincolnshire",
+        "age_l": "90+",
+        "realloc": 24.24709370593128
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "0-4",
+        "rate": 1.920062052662683,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "0\u20134",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "10-14",
+        "rate": 1.0048658925636702,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "10\u201314",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "15-19",
+        "rate": -4.15205963909554,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "15\u201319",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "20-24",
+        "rate": 2.9889750416587244,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "20\u201324",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "25-29",
+        "rate": 1.6784704340006285,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "25\u201329",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "30-34",
+        "rate": 2.2155179921488206,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "30\u201334",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "35-39",
+        "rate": 1.841401694082945,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "35\u201339",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "40-44",
+        "rate": 1.3954069708710934,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "40\u201344",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "45-49",
+        "rate": 0.9432493195303705,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "45\u201349",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "5-9",
+        "rate": 1.4021589851883574,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "5\u20139",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "50-54",
+        "rate": 0.6971994915956186,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "50\u201354",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "55-59",
+        "rate": 0.714463370783323,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "55\u201359",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "60-64",
+        "rate": 0.683317398853357,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "60\u201364",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "65-69",
+        "rate": 0.4998725537398397,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "65\u201369",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "70-74",
+        "rate": 0.30240933047320046,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "70\u201374",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "75-79",
+        "rate": 0.2836512545862387,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "75\u201379",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "80-84",
+        "rate": 0.4292154622332955,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "80\u201384",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "85-89",
+        "rate": 0.5943769029778229,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "85\u201389",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG1",
+        "age": "90+",
+        "rate": 1.1913591257733507,
+        "region": "Herefordshire, Worcestershire & Warwickshire",
+        "age_l": "90+",
+        "realloc": 28.786271371967313
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "0-4",
+        "rate": 1.413300060700074,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "0\u20134",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "10-14",
+        "rate": 0.7381766619401118,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "10\u201314",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "15-19",
+        "rate": -2.0244506840388814,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "15\u201319",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "20-24",
+        "rate": 0.648605976336359,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "20\u201324",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "25-29",
+        "rate": 0.9461378687230058,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "25\u201329",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "30-34",
+        "rate": 1.4679386712095401,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "30\u201334",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "35-39",
+        "rate": 1.2627040344933784,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "35\u201339",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "40-44",
+        "rate": 0.8559203274721561,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "40\u201344",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "45-49",
+        "rate": 0.641600331363776,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "45\u201349",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "5-9",
+        "rate": 0.9773902867532293,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "5\u20139",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "50-54",
+        "rate": 0.5737496644037894,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "50\u201354",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "55-59",
+        "rate": 0.6574633823573641,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "55\u201359",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "60-64",
+        "rate": 0.5855818182308711,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "60\u201364",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "65-69",
+        "rate": 0.4684575455613231,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "65\u201369",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "70-74",
+        "rate": 0.2957318203730485,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "70\u201374",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "75-79",
+        "rate": 0.1881517504561542,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "75\u201379",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "80-84",
+        "rate": 0.2545010034038436,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "80\u201384",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "85-89",
+        "rate": 0.2657358516612188,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "85\u201389",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG2",
+        "age": "90+",
+        "rate": 0.5141834255758306,
+        "region": "Shropshire & Staffordshire",
+        "age_l": "90+",
+        "realloc": 25.71733591561034
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "0-4",
+        "rate": -0.6601659499727455,
+        "region": "West Midlands",
+        "age_l": "0\u20134",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "10-14",
+        "rate": -0.48963739999043704,
+        "region": "West Midlands",
+        "age_l": "10\u201314",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "15-19",
+        "rate": 2.8076079391787725,
+        "region": "West Midlands",
+        "age_l": "15\u201319",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "20-24",
+        "rate": -3.5471872541837755,
+        "region": "West Midlands",
+        "age_l": "20\u201324",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "25-29",
+        "rate": -1.9535018261422692,
+        "region": "West Midlands",
+        "age_l": "25\u201329",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "30-34",
+        "rate": -1.3712114166469234,
+        "region": "West Midlands",
+        "age_l": "30\u201334",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "35-39",
+        "rate": -0.9982731327243792,
+        "region": "West Midlands",
+        "age_l": "35\u201339",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "40-44",
+        "rate": -0.6976657573728426,
+        "region": "West Midlands",
+        "age_l": "40\u201344",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "45-49",
+        "rate": -0.6242444989244116,
+        "region": "West Midlands",
+        "age_l": "45\u201349",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "5-9",
+        "rate": -0.6043365238603184,
+        "region": "West Midlands",
+        "age_l": "5\u20139",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "50-54",
+        "rate": -0.7715946238257847,
+        "region": "West Midlands",
+        "age_l": "50\u201354",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "55-59",
+        "rate": -0.9586490483107373,
+        "region": "West Midlands",
+        "age_l": "55\u201359",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "60-64",
+        "rate": -1.0245401907192795,
+        "region": "West Midlands",
+        "age_l": "60\u201364",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "65-69",
+        "rate": -0.9065472344906391,
+        "region": "West Midlands",
+        "age_l": "65\u201369",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "70-74",
+        "rate": -0.5679165325540596,
+        "region": "West Midlands",
+        "age_l": "70\u201374",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "75-79",
+        "rate": -0.40275415755043015,
+        "region": "West Midlands",
+        "age_l": "75\u201379",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "80-84",
+        "rate": -0.4460351588296557,
+        "region": "West Midlands",
+        "age_l": "80\u201384",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "85-89",
+        "rate": -0.6663334424929764,
+        "region": "West Midlands",
+        "age_l": "85\u201389",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLG3",
+        "age": "90+",
+        "rate": -1.2195423471090727,
+        "region": "West Midlands",
+        "age_l": "90+",
+        "realloc": 30.34366523100259
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "0-4",
+        "rate": 0.9504241752512962,
+        "region": "East Anglia",
+        "age_l": "0\u20134",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "10-14",
+        "rate": 0.4778952804564808,
+        "region": "East Anglia",
+        "age_l": "10\u201314",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "15-19",
+        "rate": -0.6093677822119752,
+        "region": "East Anglia",
+        "age_l": "15\u201319",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "20-24",
+        "rate": -0.28717209086373896,
+        "region": "East Anglia",
+        "age_l": "20\u201324",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "25-29",
+        "rate": -0.011400414215049814,
+        "region": "East Anglia",
+        "age_l": "25\u201329",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "30-34",
+        "rate": 0.7670643719665817,
+        "region": "East Anglia",
+        "age_l": "30\u201334",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "35-39",
+        "rate": 0.8741751438999258,
+        "region": "East Anglia",
+        "age_l": "35\u201339",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "40-44",
+        "rate": 0.7229800436945786,
+        "region": "East Anglia",
+        "age_l": "40\u201344",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "45-49",
+        "rate": 0.5933113740133003,
+        "region": "East Anglia",
+        "age_l": "45\u201349",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "5-9",
+        "rate": 0.7038084523884448,
+        "region": "East Anglia",
+        "age_l": "5\u20139",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "50-54",
+        "rate": 0.6219043312465671,
+        "region": "East Anglia",
+        "age_l": "50\u201354",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "55-59",
+        "rate": 0.8601073774961697,
+        "region": "East Anglia",
+        "age_l": "55\u201359",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "60-64",
+        "rate": 0.9666345323650517,
+        "region": "East Anglia",
+        "age_l": "60\u201364",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "65-69",
+        "rate": 0.7401848588511061,
+        "region": "East Anglia",
+        "age_l": "65\u201369",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "70-74",
+        "rate": 0.38350854582594657,
+        "region": "East Anglia",
+        "age_l": "70\u201374",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "75-79",
+        "rate": 0.21444190228541035,
+        "region": "East Anglia",
+        "age_l": "75\u201379",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "80-84",
+        "rate": 0.11916343291948603,
+        "region": "East Anglia",
+        "age_l": "80\u201384",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "85-89",
+        "rate": 0.27837434053877397,
+        "region": "East Anglia",
+        "age_l": "85\u201389",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH1",
+        "age": "90+",
+        "rate": 0.4981875086662837,
+        "region": "East Anglia",
+        "age_l": "90+",
+        "realloc": 24.901217850669916
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "0-4",
+        "rate": 0.704557282716498,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "0\u20134",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "10-14",
+        "rate": -0.021436743265767468,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "10\u201314",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "15-19",
+        "rate": -6.271180647756462,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "15\u201319",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "20-24",
+        "rate": 2.5098387802063096,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "20\u201324",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "25-29",
+        "rate": 0.3273748717084787,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "25\u201329",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "30-34",
+        "rate": 1.5901668534336153,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "30\u201334",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "35-39",
+        "rate": 1.030980598484647,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "35\u201339",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "40-44",
+        "rate": 0.27801407104500275,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "40\u201344",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "45-49",
+        "rate": -0.16112171298051137,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "45\u201349",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "5-9",
+        "rate": 0.03535471222067769,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "5\u20139",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "50-54",
+        "rate": -0.5952246626540851,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "50\u201354",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "55-59",
+        "rate": -1.0094373770968008,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "55\u201359",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "60-64",
+        "rate": -1.1266098790842662,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "60\u201364",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "65-69",
+        "rate": -0.8658318664097538,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "65\u201369",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "70-74",
+        "rate": -0.3774107856335534,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "70\u201374",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "75-79",
+        "rate": -0.05303363686627625,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "75\u201379",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "80-84",
+        "rate": 0.17218086083981698,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "80\u201384",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "85-89",
+        "rate": 0.24271486898801656,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "85\u201389",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH2",
+        "age": "90+",
+        "rate": 0.5007383769286915,
+        "region": "Bedfordshire & Hertfordshire",
+        "age_l": "90+",
+        "realloc": 29.511506291396543
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "0-4",
+        "rate": 1.2701142794278246,
+        "region": "Essex",
+        "age_l": "0\u20134",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "10-14",
+        "rate": 0.44523261991452034,
+        "region": "Essex",
+        "age_l": "10\u201314",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "15-19",
+        "rate": -4.044864484711275,
+        "region": "Essex",
+        "age_l": "15\u201319",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "20-24",
+        "rate": 1.581456842709804,
+        "region": "Essex",
+        "age_l": "20\u201324",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "25-29",
+        "rate": 0.9564281029687518,
+        "region": "Essex",
+        "age_l": "25\u201329",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "30-34",
+        "rate": 1.8667035237629546,
+        "region": "Essex",
+        "age_l": "30\u201334",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "35-39",
+        "rate": 1.390040442565109,
+        "region": "Essex",
+        "age_l": "35\u201339",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "40-44",
+        "rate": 0.7613707060949062,
+        "region": "Essex",
+        "age_l": "40\u201344",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "45-49",
+        "rate": 0.24293512806572928,
+        "region": "Essex",
+        "age_l": "45\u201349",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "5-9",
+        "rate": 0.7249408025726543,
+        "region": "Essex",
+        "age_l": "5\u20139",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "50-54",
+        "rate": -0.012773051263604118,
+        "region": "Essex",
+        "age_l": "50\u201354",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "55-59",
+        "rate": -0.17099441380872396,
+        "region": "Essex",
+        "age_l": "55\u201359",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "60-64",
+        "rate": -0.20726825879107774,
+        "region": "Essex",
+        "age_l": "60\u201364",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "65-69",
+        "rate": -0.10860306326277615,
+        "region": "Essex",
+        "age_l": "65\u201369",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "70-74",
+        "rate": -0.028764263516238463,
+        "region": "Essex",
+        "age_l": "70\u201374",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "75-79",
+        "rate": 0.04648402547986029,
+        "region": "Essex",
+        "age_l": "75\u201379",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "80-84",
+        "rate": 0.12339688041594454,
+        "region": "Essex",
+        "age_l": "80\u201384",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "85-89",
+        "rate": 0.18982686556646364,
+        "region": "Essex",
+        "age_l": "85\u201389",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLH3",
+        "age": "90+",
+        "rate": 0.5122989991053883,
+        "region": "Essex",
+        "age_l": "90+",
+        "realloc": 27.244227927925778
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "0-4",
+        "rate": -5.770093075214415,
+        "region": "Inner London West",
+        "age_l": "0\u20134",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "10-14",
+        "rate": -3.345039330413107,
+        "region": "Inner London West",
+        "age_l": "10\u201314",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "15-19",
+        "rate": 2.9424423197406773,
+        "region": "Inner London West",
+        "age_l": "15\u201319",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "20-24",
+        "rate": 9.307051267425678,
+        "region": "Inner London West",
+        "age_l": "20\u201324",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "25-29",
+        "rate": 1.2319188539727743,
+        "region": "Inner London West",
+        "age_l": "25\u201329",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "30-34",
+        "rate": -6.122181949804589,
+        "region": "Inner London West",
+        "age_l": "30\u201334",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "35-39",
+        "rate": -6.388116322274408,
+        "region": "Inner London West",
+        "age_l": "35\u201339",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "40-44",
+        "rate": -4.140234215172749,
+        "region": "Inner London West",
+        "age_l": "40\u201344",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "45-49",
+        "rate": -2.4658957053261594,
+        "region": "Inner London West",
+        "age_l": "45\u201349",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "5-9",
+        "rate": -3.1400350215059247,
+        "region": "Inner London West",
+        "age_l": "5\u20139",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "50-54",
+        "rate": -1.4846674859249522,
+        "region": "Inner London West",
+        "age_l": "50\u201354",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "55-59",
+        "rate": -1.2477886706224892,
+        "region": "Inner London West",
+        "age_l": "55\u201359",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "60-64",
+        "rate": -1.3968817265124698,
+        "region": "Inner London West",
+        "age_l": "60\u201364",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "65-69",
+        "rate": -1.4206799908642922,
+        "region": "Inner London West",
+        "age_l": "65\u201369",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "70-74",
+        "rate": -1.3876115769542872,
+        "region": "Inner London West",
+        "age_l": "70\u201374",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "75-79",
+        "rate": -1.193876587507672,
+        "region": "Inner London West",
+        "age_l": "75\u201379",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "80-84",
+        "rate": -1.501374680031372,
+        "region": "Inner London West",
+        "age_l": "80\u201384",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "85-89",
+        "rate": -1.8382515269703437,
+        "region": "Inner London West",
+        "age_l": "85\u201389",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI3",
+        "age": "90+",
+        "rate": -2.9646910160141915,
+        "region": "Inner London West",
+        "age_l": "90+",
+        "realloc": 37.21681316695165
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "0-4",
+        "rate": -5.727435074670101,
+        "region": "Inner London East",
+        "age_l": "0\u20134",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "10-14",
+        "rate": -2.610953819507606,
+        "region": "Inner London East",
+        "age_l": "10\u201314",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "15-19",
+        "rate": -1.1362003803171723,
+        "region": "Inner London East",
+        "age_l": "15\u201319",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "20-24",
+        "rate": 7.897880362879681,
+        "region": "Inner London East",
+        "age_l": "20\u201324",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "25-29",
+        "rate": 1.7132383900928791,
+        "region": "Inner London East",
+        "age_l": "25\u201329",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "30-34",
+        "rate": -4.849815509084908,
+        "region": "Inner London East",
+        "age_l": "30\u201334",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "35-39",
+        "rate": -5.860678438686579,
+        "region": "Inner London East",
+        "age_l": "35\u201339",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "40-44",
+        "rate": -4.161862003196424,
+        "region": "Inner London East",
+        "age_l": "40\u201344",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "45-49",
+        "rate": -2.5744331433723837,
+        "region": "Inner London East",
+        "age_l": "45\u201349",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "5-9",
+        "rate": -3.35892493301712,
+        "region": "Inner London East",
+        "age_l": "5\u20139",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "50-54",
+        "rate": -1.8277967464582014,
+        "region": "Inner London East",
+        "age_l": "50\u201354",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "55-59",
+        "rate": -1.616652405743849,
+        "region": "Inner London East",
+        "age_l": "55\u201359",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "60-64",
+        "rate": -1.7144195559256856,
+        "region": "Inner London East",
+        "age_l": "60\u201364",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "65-69",
+        "rate": -1.7848385290760505,
+        "region": "Inner London East",
+        "age_l": "65\u201369",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "70-74",
+        "rate": -1.585655573229283,
+        "region": "Inner London East",
+        "age_l": "70\u201374",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "75-79",
+        "rate": -1.4623213887719473,
+        "region": "Inner London East",
+        "age_l": "75\u201379",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "80-84",
+        "rate": -1.562300800853007,
+        "region": "Inner London East",
+        "age_l": "80\u201384",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "85-89",
+        "rate": -1.9682934652656954,
+        "region": "Inner London East",
+        "age_l": "85\u201389",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI4",
+        "age": "90+",
+        "rate": -3.0347310084288184,
+        "region": "Inner London East",
+        "age_l": "90+",
+        "realloc": 33.53687530778773
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "0-4",
+        "rate": -1.9023847160055438,
+        "region": "Outer London East & North East",
+        "age_l": "0\u20134",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "10-14",
+        "rate": -1.4774629255111982,
+        "region": "Outer London East & North East",
+        "age_l": "10\u201314",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "15-19",
+        "rate": -4.894601101465967,
+        "region": "Outer London East & North East",
+        "age_l": "15\u201319",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "20-24",
+        "rate": 2.579644597544572,
+        "region": "Outer London East & North East",
+        "age_l": "20\u201324",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "25-29",
+        "rate": -0.03157432596331765,
+        "region": "Outer London East & North East",
+        "age_l": "25\u201329",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "30-34",
+        "rate": -0.6230151014323676,
+        "region": "Outer London East & North East",
+        "age_l": "30\u201334",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "35-39",
+        "rate": -1.2125786700308412,
+        "region": "Outer London East & North East",
+        "age_l": "35\u201339",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "40-44",
+        "rate": -1.4017700760139307,
+        "region": "Outer London East & North East",
+        "age_l": "40\u201344",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "45-49",
+        "rate": -1.1495371887774364,
+        "region": "Outer London East & North East",
+        "age_l": "45\u201349",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "5-9",
+        "rate": -1.8435837914709317,
+        "region": "Outer London East & North East",
+        "age_l": "5\u20139",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "50-54",
+        "rate": -1.2541495526922861,
+        "region": "Outer London East & North East",
+        "age_l": "50\u201354",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "55-59",
+        "rate": -1.6489602268550647,
+        "region": "Outer London East & North East",
+        "age_l": "55\u201359",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "60-64",
+        "rate": -1.7905001726630136,
+        "region": "Outer London East & North East",
+        "age_l": "60\u201364",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "65-69",
+        "rate": -1.6697768024110644,
+        "region": "Outer London East & North East",
+        "age_l": "65\u201369",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "70-74",
+        "rate": -1.2113895595703938,
+        "region": "Outer London East & North East",
+        "age_l": "70\u201374",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "75-79",
+        "rate": -0.8468988995708566,
+        "region": "Outer London East & North East",
+        "age_l": "75\u201379",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "80-84",
+        "rate": -0.7333534971018035,
+        "region": "Outer London East & North East",
+        "age_l": "80\u201384",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "85-89",
+        "rate": -0.9705836494984668,
+        "region": "Outer London East & North East",
+        "age_l": "85\u201389",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI5",
+        "age": "90+",
+        "rate": -1.498511412504135,
+        "region": "Outer London East & North East",
+        "age_l": "90+",
+        "realloc": 30.290973048669162
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "0-4",
+        "rate": -1.6065913962825957,
+        "region": "Outer London South",
+        "age_l": "0\u20134",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "10-14",
+        "rate": -0.6964431470982672,
+        "region": "Outer London South",
+        "age_l": "10\u201314",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "15-19",
+        "rate": -6.714632547094579,
+        "region": "Outer London South",
+        "age_l": "15\u201319",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "20-24",
+        "rate": 4.475597607503214,
+        "region": "Outer London South",
+        "age_l": "20\u201324",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "25-29",
+        "rate": 0.5124686094726392,
+        "region": "Outer London South",
+        "age_l": "25\u201329",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "30-34",
+        "rate": 0.22804023903529128,
+        "region": "Outer London South",
+        "age_l": "30\u201334",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "35-39",
+        "rate": -0.2121952141942525,
+        "region": "Outer London South",
+        "age_l": "35\u201339",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "40-44",
+        "rate": -0.7179883537145645,
+        "region": "Outer London South",
+        "age_l": "40\u201344",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "45-49",
+        "rate": -0.7944165847485908,
+        "region": "Outer London South",
+        "age_l": "45\u201349",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "5-9",
+        "rate": -1.2330412363275394,
+        "region": "Outer London South",
+        "age_l": "5\u20139",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "50-54",
+        "rate": -1.080601337516641,
+        "region": "Outer London South",
+        "age_l": "50\u201354",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "55-59",
+        "rate": -1.4649382098093195,
+        "region": "Outer London South",
+        "age_l": "55\u201359",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "60-64",
+        "rate": -1.6075404234700483,
+        "region": "Outer London South",
+        "age_l": "60\u201364",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "65-69",
+        "rate": -1.5387651981683246,
+        "region": "Outer London South",
+        "age_l": "65\u201369",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "70-74",
+        "rate": -1.0148357943343667,
+        "region": "Outer London South",
+        "age_l": "70\u201374",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "75-79",
+        "rate": -0.6236081842502503,
+        "region": "Outer London South",
+        "age_l": "75\u201379",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "80-84",
+        "rate": -0.5762003731482122,
+        "region": "Outer London South",
+        "age_l": "80\u201384",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "85-89",
+        "rate": -0.7749975500604318,
+        "region": "Outer London South",
+        "age_l": "85\u201389",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI6",
+        "age": "90+",
+        "rate": -1.026007469226517,
+        "region": "Outer London South",
+        "age_l": "90+",
+        "realloc": 29.52815829528158
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "0-4",
+        "rate": -2.59072685370699,
+        "region": "Outer London West & North West",
+        "age_l": "0\u20134",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "10-14",
+        "rate": -1.4940234885458894,
+        "region": "Outer London West & North West",
+        "age_l": "10\u201314",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "15-19",
+        "rate": -4.6147757709933295,
+        "region": "Outer London West & North West",
+        "age_l": "15\u201319",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "20-24",
+        "rate": 2.175706878413687,
+        "region": "Outer London West & North West",
+        "age_l": "20\u201324",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "25-29",
+        "rate": -1.2904735884058374,
+        "region": "Outer London West & North West",
+        "age_l": "25\u201329",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "30-34",
+        "rate": -2.5145372453827934,
+        "region": "Outer London West & North West",
+        "age_l": "30\u201334",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "35-39",
+        "rate": -2.309313851699279,
+        "region": "Outer London West & North West",
+        "age_l": "35\u201339",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "40-44",
+        "rate": -1.8444598083609982,
+        "region": "Outer London West & North West",
+        "age_l": "40\u201344",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "45-49",
+        "rate": -1.2926855945203892,
+        "region": "Outer London West & North West",
+        "age_l": "45\u201349",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "5-9",
+        "rate": -2.0752712806948117,
+        "region": "Outer London West & North West",
+        "age_l": "5\u20139",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "50-54",
+        "rate": -1.1116298562257543,
+        "region": "Outer London West & North West",
+        "age_l": "50\u201354",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "55-59",
+        "rate": -1.2937041142974173,
+        "region": "Outer London West & North West",
+        "age_l": "55\u201359",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "60-64",
+        "rate": -1.3755287398277973,
+        "region": "Outer London West & North West",
+        "age_l": "60\u201364",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "65-69",
+        "rate": -1.3699113260781943,
+        "region": "Outer London West & North West",
+        "age_l": "65\u201369",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "70-74",
+        "rate": -0.9740060283343606,
+        "region": "Outer London West & North West",
+        "age_l": "70\u201374",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "75-79",
+        "rate": -0.7432187167856182,
+        "region": "Outer London West & North West",
+        "age_l": "75\u201379",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "80-84",
+        "rate": -0.6514991052843004,
+        "region": "Outer London West & North West",
+        "age_l": "80\u201384",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "85-89",
+        "rate": -0.9445120690843113,
+        "region": "Outer London West & North West",
+        "age_l": "85\u201389",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLI7",
+        "age": "90+",
+        "rate": -1.5402877906135093,
+        "region": "Outer London West & North West",
+        "age_l": "90+",
+        "realloc": 31.524251680269746
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "0-4",
+        "rate": 1.0253346626733453,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "0\u20134",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "10-14",
+        "rate": 0.5139508358732318,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "10\u201314",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "15-19",
+        "rate": -3.0450409333371367,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "15\u201319",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "20-24",
+        "rate": 0.548081663967095,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "20\u201324",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "25-29",
+        "rate": -0.05819407679639359,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "25\u201329",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "30-34",
+        "rate": 1.0427097232253246,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "30\u201334",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "35-39",
+        "rate": 1.0752913932364265,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "35\u201339",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "40-44",
+        "rate": 0.5695431777547979,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "40\u201344",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "45-49",
+        "rate": -0.029101676338533652,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "45\u201349",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "5-9",
+        "rate": 0.5126363658288872,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "5\u20139",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "50-54",
+        "rate": -0.43658531228417824,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "50\u201354",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "55-59",
+        "rate": -0.7155016675931073,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "55\u201359",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "60-64",
+        "rate": -0.8895225963347906,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "60\u201364",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "65-69",
+        "rate": -0.6115743432610409,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "65\u201369",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "70-74",
+        "rate": -0.1187527749099993,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "70\u201374",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "75-79",
+        "rate": 0.115449413691495,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "75\u201379",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "80-84",
+        "rate": 0.2715803728791186,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "80\u201384",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "85-89",
+        "rate": 0.42433639150860913,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "85\u201389",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ1",
+        "age": "90+",
+        "rate": 0.6369008966462675,
+        "region": "Berkshire, Buckinghamshire & Oxfordshire",
+        "age_l": "90+",
+        "realloc": 28.86335354118305
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "0-4",
+        "rate": 1.3362930034826654,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "0\u20134",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "10-14",
+        "rate": 0.35692253822960807,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "10\u201314",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "15-19",
+        "rate": -1.2639480942828485,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "15\u201319",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "20-24",
+        "rate": -0.7747015262613157,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "20\u201324",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "25-29",
+        "rate": -0.39078738012986824,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "25\u201329",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "30-34",
+        "rate": 1.7266526672201332,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "30\u201334",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "35-39",
+        "rate": 1.6903621034290313,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "35\u201339",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "40-44",
+        "rate": 1.0073479613303047,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "40\u201344",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "45-49",
+        "rate": 0.39586027151519004,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "45\u201349",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "5-9",
+        "rate": 0.5936821509178131,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "5\u20139",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "50-54",
+        "rate": 0.07555989475779533,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "50\u201354",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "55-59",
+        "rate": -0.10247161536254458,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "55\u201359",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "60-64",
+        "rate": -0.08982050386405233,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "60\u201364",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "65-69",
+        "rate": 0.13087817962706197,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "65\u201369",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "70-74",
+        "rate": 0.2075125086502145,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "70\u201374",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "75-79",
+        "rate": 0.24606836558149692,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "75\u201379",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "80-84",
+        "rate": 0.2847985692925237,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "80\u201384",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "85-89",
+        "rate": 0.3570205776836088,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "85\u201389",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ2",
+        "age": "90+",
+        "rate": 0.47196218082294034,
+        "region": "Surrey, East & West Sussex",
+        "age_l": "90+",
+        "realloc": 26.425181789414665
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "0-4",
+        "rate": 0.657695186734231,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "0\u20134",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "10-14",
+        "rate": -0.12807307114756947,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "10\u201314",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "15-19",
+        "rate": 1.929362554119455,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "15\u201319",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "20-24",
+        "rate": -3.124156953217299,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "20\u201324",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "25-29",
+        "rate": -0.561733658737393,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "25\u201329",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "30-34",
+        "rate": 0.7029728406338722,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "30\u201334",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "35-39",
+        "rate": 0.6256200410525176,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "35\u201339",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "40-44",
+        "rate": 0.4359101055464845,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "40\u201344",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "45-49",
+        "rate": 0.1888211534061433,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "45\u201349",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "5-9",
+        "rate": 0.22412163817542738,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "5\u20139",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "50-54",
+        "rate": 0.11642489819277979,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "50\u201354",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "55-59",
+        "rate": 0.0664931883021319,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "55\u201359",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "60-64",
+        "rate": 0.0745064529573241,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "60\u201364",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "65-69",
+        "rate": 0.1702570344978289,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "65\u201369",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "70-74",
+        "rate": 0.26253180205561993,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "70\u201374",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "75-79",
+        "rate": 0.19061265754086507,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "75\u201379",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "80-84",
+        "rate": 0.24804910731880345,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "80\u201384",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "85-89",
+        "rate": 0.21229015333369822,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "85\u201389",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ3",
+        "age": "90+",
+        "rate": 0.36681972501528415,
+        "region": "Hampshire & Isle of Wight",
+        "age_l": "90+",
+        "realloc": 26.65575012641734
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "0-4",
+        "rate": 1.5432035956982946,
+        "region": "Kent",
+        "age_l": "0\u20134",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "10-14",
+        "rate": 1.0533391730177302,
+        "region": "Kent",
+        "age_l": "10\u201314",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "15-19",
+        "rate": -3.055262816074946,
+        "region": "Kent",
+        "age_l": "15\u201319",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "20-24",
+        "rate": -0.8872512639227573,
+        "region": "Kent",
+        "age_l": "20\u201324",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "25-29",
+        "rate": 0.5582188076998753,
+        "region": "Kent",
+        "age_l": "25\u201329",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "30-34",
+        "rate": 1.881077483825825,
+        "region": "Kent",
+        "age_l": "30\u201334",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "35-39",
+        "rate": 1.9019754699145992,
+        "region": "Kent",
+        "age_l": "35\u201339",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "40-44",
+        "rate": 1.2820543809567548,
+        "region": "Kent",
+        "age_l": "40\u201344",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "45-49",
+        "rate": 0.632292363231378,
+        "region": "Kent",
+        "age_l": "45\u201349",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "5-9",
+        "rate": 1.1390722548060246,
+        "region": "Kent",
+        "age_l": "5\u20139",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "50-54",
+        "rate": 0.24573395321067487,
+        "region": "Kent",
+        "age_l": "50\u201354",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "55-59",
+        "rate": 0.09385265133740028,
+        "region": "Kent",
+        "age_l": "55\u201359",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "60-64",
+        "rate": 0.07150217932953454,
+        "region": "Kent",
+        "age_l": "60\u201364",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "65-69",
+        "rate": 0.10895648994299029,
+        "region": "Kent",
+        "age_l": "65\u201369",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "70-74",
+        "rate": 0.06681593842243115,
+        "region": "Kent",
+        "age_l": "70\u201374",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "75-79",
+        "rate": 0.0429703634144399,
+        "region": "Kent",
+        "age_l": "75\u201379",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "80-84",
+        "rate": 0.1368389636278656,
+        "region": "Kent",
+        "age_l": "80\u201384",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "85-89",
+        "rate": 0.17879004873992285,
+        "region": "Kent",
+        "age_l": "85\u201389",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLJ4",
+        "age": "90+",
+        "rate": 0.3390482602736432,
+        "region": "Kent",
+        "age_l": "90+",
+        "realloc": 26.500851460732957
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "0-4",
+        "rate": 0.32782963964368017,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "0\u20134",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "10-14",
+        "rate": 0.14552918567138684,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "10\u201314",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "15-19",
+        "rate": 2.6960810577802627,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "15\u201319",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "20-24",
+        "rate": 0.15223458933251643,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "20\u201324",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "25-29",
+        "rate": 0.6856427678061214,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "25\u201329",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "30-34",
+        "rate": 0.8435365788575707,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "30\u201334",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "35-39",
+        "rate": 0.509545998582335,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "35\u201339",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "40-44",
+        "rate": 0.30350419099390497,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "40\u201344",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "45-49",
+        "rate": 0.0615929748610397,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "45\u201349",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "5-9",
+        "rate": 0.17740206473864512,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "5\u20139",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "50-54",
+        "rate": -0.10839489042158103,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "50\u201354",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "55-59",
+        "rate": -0.14360068604629078,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "55\u201359",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "60-64",
+        "rate": -0.1268475623207589,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "60\u201364",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "65-69",
+        "rate": 0.013633385081558428,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "65\u201369",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "70-74",
+        "rate": 0.13009648163051243,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "70\u201374",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "75-79",
+        "rate": 0.19280429805702934,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "75\u201379",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "80-84",
+        "rate": 0.25170653736667997,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "80\u201384",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "85-89",
+        "rate": 0.4095103609076878,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "85\u201389",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK1",
+        "age": "90+",
+        "rate": 0.3940401428395518,
+        "region": "Gloucestershire, Wiltshire & Bath/Bristol area",
+        "age_l": "90+",
+        "realloc": 26.583184287687946
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "0-4",
+        "rate": 1.1093835357397992,
+        "region": "Dorset & Somerset",
+        "age_l": "0\u20134",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "10-14",
+        "rate": 1.0634826176261687,
+        "region": "Dorset & Somerset",
+        "age_l": "10\u201314",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "15-19",
+        "rate": -1.3121401505831405,
+        "region": "Dorset & Somerset",
+        "age_l": "15\u201319",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "20-24",
+        "rate": -1.828435080212116,
+        "region": "Dorset & Somerset",
+        "age_l": "20\u201324",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "25-29",
+        "rate": -0.4108924584196876,
+        "region": "Dorset & Somerset",
+        "age_l": "25\u201329",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "30-34",
+        "rate": 0.9847113536996296,
+        "region": "Dorset & Somerset",
+        "age_l": "30\u201334",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "35-39",
+        "rate": 1.3126456609105757,
+        "region": "Dorset & Somerset",
+        "age_l": "35\u201339",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "40-44",
+        "rate": 1.0779904800353008,
+        "region": "Dorset & Somerset",
+        "age_l": "40\u201344",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "45-49",
+        "rate": 0.9118187158332584,
+        "region": "Dorset & Somerset",
+        "age_l": "45\u201349",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "5-9",
+        "rate": 0.8734221377113932,
+        "region": "Dorset & Somerset",
+        "age_l": "5\u20139",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "50-54",
+        "rate": 0.8826909094220993,
+        "region": "Dorset & Somerset",
+        "age_l": "50\u201354",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "55-59",
+        "rate": 1.2670708244091915,
+        "region": "Dorset & Somerset",
+        "age_l": "55\u201359",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "60-64",
+        "rate": 1.4271880726743689,
+        "region": "Dorset & Somerset",
+        "age_l": "60\u201364",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "65-69",
+        "rate": 1.1282676148242845,
+        "region": "Dorset & Somerset",
+        "age_l": "65\u201369",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "70-74",
+        "rate": 0.56881229519666,
+        "region": "Dorset & Somerset",
+        "age_l": "70\u201374",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "75-79",
+        "rate": 0.30690139272210964,
+        "region": "Dorset & Somerset",
+        "age_l": "75\u201379",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "80-84",
+        "rate": 0.12563336441991838,
+        "region": "Dorset & Somerset",
+        "age_l": "80\u201384",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "85-89",
+        "rate": 0.09999907408264738,
+        "region": "Dorset & Somerset",
+        "age_l": "85\u201389",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK2",
+        "age": "90+",
+        "rate": 0.09016532773618512,
+        "region": "Dorset & Somerset",
+        "age_l": "90+",
+        "realloc": 24.83565223154808
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "0-4",
+        "rate": 1.8284673547105248,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "0\u20134",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "10-14",
+        "rate": 1.1512805431308448,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "10\u201314",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "15-19",
+        "rate": 0.16152849926643123,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "15\u201319",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "20-24",
+        "rate": -1.6032623597270066,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "20\u201324",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "25-29",
+        "rate": 0.20918292946613096,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "25\u201329",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "30-34",
+        "rate": 1.9669992466420447,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "30\u201334",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "35-39",
+        "rate": 2.14138845300579,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "35\u201339",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "40-44",
+        "rate": 1.711761706889006,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "40\u201344",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "45-49",
+        "rate": 1.5763648358898235,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "45\u201349",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "5-9",
+        "rate": 1.4612995450357606,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "5\u20139",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "50-54",
+        "rate": 1.8474833093681995,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "50\u201354",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "55-59",
+        "rate": 2.066722374067428,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "55\u201359",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "60-64",
+        "rate": 1.775187262314181,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "60\u201364",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "65-69",
+        "rate": 1.0723820547766183,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "65\u201369",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "70-74",
+        "rate": 0.24467806778024667,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "70\u201374",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "75-79",
+        "rate": -0.024578228327103758,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "75\u201379",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "80-84",
+        "rate": 0.019957866725801087,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "80\u201384",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "85-89",
+        "rate": 0.14230160580001716,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "85\u201389",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK3",
+        "age": "90+",
+        "rate": 0.08062462870236782,
+        "region": "Cornwall & Isles of Scilly",
+        "age_l": "90+",
+        "realloc": 26.800083084231154
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "0-4",
+        "rate": 1.165645609366823,
+        "region": "Devon",
+        "age_l": "0\u20134",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "10-14",
+        "rate": 0.7406221399068327,
+        "region": "Devon",
+        "age_l": "10\u201314",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "15-19",
+        "rate": 5.04415252419949,
+        "region": "Devon",
+        "age_l": "15\u201319",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "20-24",
+        "rate": -4.594974161792177,
+        "region": "Devon",
+        "age_l": "20\u201324",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "25-29",
+        "rate": -0.49800087603273685,
+        "region": "Devon",
+        "age_l": "25\u201329",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "30-34",
+        "rate": 1.2258069810476906,
+        "region": "Devon",
+        "age_l": "30\u201334",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "35-39",
+        "rate": 1.3951925039849387,
+        "region": "Devon",
+        "age_l": "35\u201339",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "40-44",
+        "rate": 1.3101841887108494,
+        "region": "Devon",
+        "age_l": "40\u201344",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "45-49",
+        "rate": 1.2189387781124978,
+        "region": "Devon",
+        "age_l": "45\u201349",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "5-9",
+        "rate": 1.0739778852456432,
+        "region": "Devon",
+        "age_l": "5\u20139",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "50-54",
+        "rate": 1.185043001201379,
+        "region": "Devon",
+        "age_l": "50\u201354",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "55-59",
+        "rate": 1.465179505957608,
+        "region": "Devon",
+        "age_l": "55\u201359",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "60-64",
+        "rate": 1.464488451705161,
+        "region": "Devon",
+        "age_l": "60\u201364",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "65-69",
+        "rate": 1.0223224597333773,
+        "region": "Devon",
+        "age_l": "65\u201369",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "70-74",
+        "rate": 0.4351629534498483,
+        "region": "Devon",
+        "age_l": "70\u201374",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "75-79",
+        "rate": 0.12004252935325659,
+        "region": "Devon",
+        "age_l": "75\u201379",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "80-84",
+        "rate": 0.07862838693516289,
+        "region": "Devon",
+        "age_l": "80\u201384",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "85-89",
+        "rate": 0.09919205576920946,
+        "region": "Devon",
+        "age_l": "85\u201389",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLK4",
+        "age": "90+",
+        "rate": 0.19039424423553966,
+        "region": "Devon",
+        "age_l": "90+",
+        "realloc": 24.009334236410652
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "0-4",
+        "rate": 0.5768778489991147,
+        "region": "West Wales & The Valleys",
+        "age_l": "0\u20134",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "10-14",
+        "rate": 0.39749795918885533,
+        "region": "West Wales & The Valleys",
+        "age_l": "10\u201314",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "15-19",
+        "rate": 0.22760113201265192,
+        "region": "West Wales & The Valleys",
+        "age_l": "15\u201319",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "20-24",
+        "rate": -1.2165814982716392,
+        "region": "West Wales & The Valleys",
+        "age_l": "20\u201324",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "25-29",
+        "rate": -0.15814463850486948,
+        "region": "West Wales & The Valleys",
+        "age_l": "25\u201329",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "30-34",
+        "rate": 0.5992288582651115,
+        "region": "West Wales & The Valleys",
+        "age_l": "30\u201334",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "35-39",
+        "rate": 0.6910515209452921,
+        "region": "West Wales & The Valleys",
+        "age_l": "35\u201339",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "40-44",
+        "rate": 0.6022620715813429,
+        "region": "West Wales & The Valleys",
+        "age_l": "40\u201344",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "45-49",
+        "rate": 0.6699066570268892,
+        "region": "West Wales & The Valleys",
+        "age_l": "45\u201349",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "5-9",
+        "rate": 0.44517591905796394,
+        "region": "West Wales & The Valleys",
+        "age_l": "5\u20139",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "50-54",
+        "rate": 0.8380089882965331,
+        "region": "West Wales & The Valleys",
+        "age_l": "50\u201354",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "55-59",
+        "rate": 1.0806048620097501,
+        "region": "West Wales & The Valleys",
+        "age_l": "55\u201359",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "60-64",
+        "rate": 0.9676055779874685,
+        "region": "West Wales & The Valleys",
+        "age_l": "60\u201364",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "65-69",
+        "rate": 0.6064984579518686,
+        "region": "West Wales & The Valleys",
+        "age_l": "65\u201369",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "70-74",
+        "rate": 0.18630064266209595,
+        "region": "West Wales & The Valleys",
+        "age_l": "70\u201374",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "75-79",
+        "rate": 0.037379609820498344,
+        "region": "West Wales & The Valleys",
+        "age_l": "75\u201379",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "80-84",
+        "rate": -0.02799727750611837,
+        "region": "West Wales & The Valleys",
+        "age_l": "80\u201384",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "85-89",
+        "rate": 0.03055923398186819,
+        "region": "West Wales & The Valleys",
+        "age_l": "85\u201389",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL1",
+        "age": "90+",
+        "rate": 0.14638133452221727,
+        "region": "West Wales & The Valleys",
+        "age_l": "90+",
+        "realloc": 24.25581643416733
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "0-4",
+        "rate": 0.3846289898477756,
+        "region": "East Wales",
+        "age_l": "0\u20134",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "10-14",
+        "rate": 0.18529486768177816,
+        "region": "East Wales",
+        "age_l": "10\u201314",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "15-19",
+        "rate": 2.633485121253839,
+        "region": "East Wales",
+        "age_l": "15\u201319",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "20-24",
+        "rate": -0.35131734875915954,
+        "region": "East Wales",
+        "age_l": "20\u201324",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "25-29",
+        "rate": -0.5929185389592229,
+        "region": "East Wales",
+        "age_l": "25\u201329",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "30-34",
+        "rate": 0.3091494978394561,
+        "region": "East Wales",
+        "age_l": "30\u201334",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "35-39",
+        "rate": 0.31222959194299965,
+        "region": "East Wales",
+        "age_l": "35\u201339",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "40-44",
+        "rate": 0.24470766282823475,
+        "region": "East Wales",
+        "age_l": "40\u201344",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "45-49",
+        "rate": 0.28855595515635635,
+        "region": "East Wales",
+        "age_l": "45\u201349",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "5-9",
+        "rate": 0.2187721282194908,
+        "region": "East Wales",
+        "age_l": "5\u20139",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "50-54",
+        "rate": 0.34011583394132644,
+        "region": "East Wales",
+        "age_l": "50\u201354",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "55-59",
+        "rate": 0.3438372814266917,
+        "region": "East Wales",
+        "age_l": "55\u201359",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "60-64",
+        "rate": 0.34780908214719725,
+        "region": "East Wales",
+        "age_l": "60\u201364",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "65-69",
+        "rate": 0.17657644655123422,
+        "region": "East Wales",
+        "age_l": "65\u201369",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "70-74",
+        "rate": 0.08708101137022445,
+        "region": "East Wales",
+        "age_l": "70\u201374",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "75-79",
+        "rate": 0.008165536596725318,
+        "region": "East Wales",
+        "age_l": "75\u201379",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "80-84",
+        "rate": -0.05896895057948334,
+        "region": "East Wales",
+        "age_l": "80\u201384",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "85-89",
+        "rate": -0.13767436231050864,
+        "region": "East Wales",
+        "age_l": "85\u201389",
+        "realloc": 25.71233271422994
+      },
+      {
+        "itl2_code": "TLL2",
+        "age": "90+",
+        "rate": -0.13203304747960679,
+        "region": "East Wales",
+        "age_l": "90+",
+        "realloc": 25.71233271422994
+      }
+    ]
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-52d5d61d02e63a6786f4f0b094f8e087"
+      },
+      "mark": {
+        "type": "rect",
+        "color": "#B4B4B4",
+        "opacity": 0.15
+      },
+      "encoding": {
+        "x": {
+          "field": "x0",
+          "scale": {
+            "domain": [
+              2004,
+              2023
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "x1"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-52d5d61d02e63a6786f4f0b094f8e087"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "color": "#122b39",
+        "dx": 3,
+        "dy": 4,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "x0",
+          "scale": {
+            "domain": [
+              2004,
+              2023
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "value": 0
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-967b250b00915ccf352077de60cc3767"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.4
+      },
+      "encoding": {
+        "y": {
+          "field": "v",
+          "scale": {
+            "domain": [
+              60,
+              125
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-8a7e86b85de50dee4fb5c4fd1712d711"
+      },
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "color": {
+          "field": "series",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Real GVA per hour",
+              "Job reallocation rate"
+            ],
+            "range": [
+              "#179fdb",
+              "#122b39"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "series",
+            "type": "nominal"
+          },
+          {
+            "field": "year",
+            "type": "quantitative"
+          },
+          {
+            "field": "level",
+            "format": ".1f",
+            "title": "Level (% or \u00a3)",
+            "type": "quantitative"
+          },
+          {
+            "field": "index",
+            "format": ".0f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "format": "d",
+            "values": [
+              2004,
+              2006,
+              2008,
+              2010,
+              2012,
+              2014,
+              2016,
+              2018,
+              2020,
+              2022
+            ]
+          },
+          "field": "year",
+          "scale": {
+            "domain": [
+              2004,
+              2023
+            ],
+            "nice": false
+          },
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "index",
+          "scale": {
+            "domain": [
+              60,
+              125
+            ],
+            "nice": false
+          },
+          "title": "Index (2004 = 100)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-3b69e0cd5b32fd8607df4a1a2326f521"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "color": {
+          "field": "series",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Real GVA per hour",
+              "Job reallocation rate"
+            ],
+            "range": [
+              "#179fdb",
+              "#122b39"
+            ]
+          },
+          "type": "nominal"
+        },
+        "text": {
+          "field": "series",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "year",
+          "scale": {
+            "domain": [
+              2004,
+              2023
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "index",
+          "scale": {
+            "domain": [
+              60,
+              125
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Since the financial crisis, job churn has run about a fifth below its 2004 level, while productivity growth slowed",
+    "subtitle": [
+      "UK, index (2004 = 100). In 2004 the reallocation rate was 35.9% and real GVA per hour \u00a336 (2022 prices).",
+      "Northern Ireland excluded (job flows from 2011). 2010 and 2023 are known spikes in the business register data.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS Subregional productivity (June 2025); authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-52d5d61d02e63a6786f4f0b094f8e087": [
+      {
+        "x0": 2008,
+        "x1": 2009.99,
+        "t": "Financial crisis"
+      },
+      {
+        "x0": 2020,
+        "x1": 2021.99,
+        "t": "COVID"
+      }
+    ],
+    "data-967b250b00915ccf352077de60cc3767": [
+      {
+        "v": 100.0
+      }
+    ],
+    "data-8a7e86b85de50dee4fb5c4fd1712d711": [
+      {
+        "year": 2004,
+        "series": "Job reallocation rate",
+        "index": 100.0,
+        "level": 35.90645043911013
+      },
+      {
+        "year": 2005,
+        "series": "Job reallocation rate",
+        "index": 93.42268608182705,
+        "level": 33.54477047685667
+      },
+      {
+        "year": 2006,
+        "series": "Job reallocation rate",
+        "index": 88.81439801459163,
+        "level": 31.890097805903356
+      },
+      {
+        "year": 2007,
+        "series": "Job reallocation rate",
+        "index": 85.9753956140351,
+        "level": 30.870712815982376
+      },
+      {
+        "year": 2008,
+        "series": "Job reallocation rate",
+        "index": 84.52842228779292,
+        "level": 30.351156055728087
+      },
+      {
+        "year": 2009,
+        "series": "Job reallocation rate",
+        "index": 80.88576877188633,
+        "level": 29.043208476370587
+      },
+      {
+        "year": 2010,
+        "series": "Job reallocation rate",
+        "index": 92.9622761187942,
+        "level": 33.37945360166355
+      },
+      {
+        "year": 2011,
+        "series": "Job reallocation rate",
+        "index": 74.5241281697498,
+        "level": 26.758969146450127
+      },
+      {
+        "year": 2012,
+        "series": "Job reallocation rate",
+        "index": 85.9332216738758,
+        "level": 30.85556965106086
+      },
+      {
+        "year": 2013,
+        "series": "Job reallocation rate",
+        "index": 85.31510403103171,
+        "level": 30.63362554597765
+      },
+      {
+        "year": 2014,
+        "series": "Job reallocation rate",
+        "index": 77.07542966970829,
+        "level": 27.675050955084988
+      },
+      {
+        "year": 2015,
+        "series": "Job reallocation rate",
+        "index": 79.70798232667741,
+        "level": 28.62030717014309
+      },
+      {
+        "year": 2016,
+        "series": "Job reallocation rate",
+        "index": 80.89326457611261,
+        "level": 29.045899953600106
+      },
+      {
+        "year": 2017,
+        "series": "Job reallocation rate",
+        "index": 76.92771520788226,
+        "level": 27.62201193505803
+      },
+      {
+        "year": 2018,
+        "series": "Job reallocation rate",
+        "index": 82.67203309512023,
+        "level": 29.684592590304067
+      },
+      {
+        "year": 2019,
+        "series": "Job reallocation rate",
+        "index": 77.78088588968146,
+        "level": 27.928355243079277
+      },
+      {
+        "year": 2020,
+        "series": "Job reallocation rate",
+        "index": 74.13996827062651,
+        "level": 26.621030962664484
+      },
+      {
+        "year": 2021,
+        "series": "Job reallocation rate",
+        "index": 70.66460849703618,
+        "level": 25.3731526279795
+      },
+      {
+        "year": 2022,
+        "series": "Job reallocation rate",
+        "index": 76.75702062525018,
+        "level": 27.560721569342995
+      },
+      {
+        "year": 2023,
+        "series": "Job reallocation rate",
+        "index": 85.93376744692044,
+        "level": 30.855765618788645
+      },
+      {
+        "year": 2004,
+        "series": "Real GVA per hour",
+        "index": 100.0,
+        "level": 35.728603426508975
+      },
+      {
+        "year": 2005,
+        "series": "Real GVA per hour",
+        "index": 101.00964236910076,
+        "level": 36.089334544591
+      },
+      {
+        "year": 2006,
+        "series": "Real GVA per hour",
+        "index": 103.2444091677407,
+        "level": 36.88778551158435
+      },
+      {
+        "year": 2007,
+        "series": "Real GVA per hour",
+        "index": 105.18878639217971,
+        "level": 37.582484339219526
+      },
+      {
+        "year": 2008,
+        "series": "Real GVA per hour",
+        "index": 105.77080328056884,
+        "level": 37.79043084514739
+      },
+      {
+        "year": 2009,
+        "series": "Real GVA per hour",
+        "index": 102.94045924486493,
+        "level": 36.779188449024886
+      },
+      {
+        "year": 2010,
+        "series": "Real GVA per hour",
+        "index": 106.12148227900096,
+        "level": 37.91572355379725
+      },
+      {
+        "year": 2011,
+        "series": "Real GVA per hour",
+        "index": 106.47563218275344,
+        "level": 38.04225636844434
+      },
+      {
+        "year": 2012,
+        "series": "Real GVA per hour",
+        "index": 106.57133839704557,
+        "level": 38.076450862203295
+      },
+      {
+        "year": 2013,
+        "series": "Real GVA per hour",
+        "index": 106.79327820460831,
+        "level": 38.15574685589295
+      },
+      {
+        "year": 2014,
+        "series": "Real GVA per hour",
+        "index": 107.30735328008714,
+        "level": 38.33941870092531
+      },
+      {
+        "year": 2015,
+        "series": "Real GVA per hour",
+        "index": 108.65576203114527,
+        "level": 38.821186316159206
+      },
+      {
+        "year": 2016,
+        "series": "Real GVA per hour",
+        "index": 108.24532882868998,
+        "level": 38.674544264923234
+      },
+      {
+        "year": 2017,
+        "series": "Real GVA per hour",
+        "index": 110.28144808668316,
+        "level": 39.402021239902396
+      },
+      {
+        "year": 2018,
+        "series": "Real GVA per hour",
+        "index": 110.74530703639974,
+        "level": 39.567751564505
+      },
+      {
+        "year": 2019,
+        "series": "Real GVA per hour",
+        "index": 110.96274746924387,
+        "level": 39.645439994444764
+      },
+      {
+        "year": 2020,
+        "series": "Real GVA per hour",
+        "index": 113.20950047766252,
+        "level": 40.44817346679582
+      },
+      {
+        "year": 2021,
+        "series": "Real GVA per hour",
+        "index": 113.68301296074719,
+        "level": 40.617352864052165
+      },
+      {
+        "year": 2022,
+        "series": "Real GVA per hour",
+        "index": 114.40587804195407,
+        "level": 40.87562246222528
+      },
+      {
+        "year": 2023,
+        "series": "Real GVA per hour",
+        "index": 114.20762700561895,
+        "level": 40.80479013566416
+      }
+    ],
+    "data-3b69e0cd5b32fd8607df4a1a2326f521": [
+      {
+        "year": 2023,
+        "series": "Job reallocation rate",
+        "index": 85.93376744692044,
+        "level": 30.855765618788645
+      },
+      {
+        "year": 2023,
+        "series": "Real GVA per hour",
+        "index": 114.20762700561895,
+        "level": 40.80479013566416
+      }
+    ]
+  },
+  "width": 560,
+  "height": 340
+}

@@ -1,0 +1,405 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "width": 42
+          },
+          "encoding": {
+            "color": {
+              "field": "kind",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelLimit": 120
+              },
+              "field": "group",
+              "sort": [
+                "Youngest",
+                "2nd",
+                "3rd",
+                "Oldest",
+                "London"
+              ],
+              "title": "Quarter of regions by median age",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": true,
+                "ticks": true
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ]
+              },
+              "title": "Reallocation rate (%)",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "color": "#122b39",
+            "dy": -8,
+            "fontSize": 12
+          },
+          "encoding": {
+            "text": {
+              "field": "rate",
+              "format": ".1f",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelLimit": 120
+              },
+              "field": "group",
+              "sort": [
+                "Youngest",
+                "2nd",
+                "3rd",
+                "Oldest",
+                "London"
+              ],
+              "title": "Quarter of regions by median age",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": true,
+                "ticks": true
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ]
+              },
+              "title": "Reallocation rate (%)",
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "data": {
+        "name": "data-b09850165fef82a751efacd7bd3b7860"
+      },
+      "height": 260,
+      "title": {
+        "text": "By median age",
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "width": 300
+    },
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "width": 42
+          },
+          "encoding": {
+            "color": {
+              "field": "kind",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "London",
+                  "Rest of UK"
+                ],
+                "range": [
+                  "#e6224b",
+                  "#122b39"
+                ]
+              },
+              "type": "nominal"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelLimit": 120
+              },
+              "field": "group",
+              "sort": [
+                "Slowest",
+                "2nd",
+                "3rd",
+                "Fastest",
+                "London"
+              ],
+              "title": "Quarter of regions by growth in 16\u201364 population",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ]
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "color": "#122b39",
+            "dy": -8,
+            "fontSize": 12
+          },
+          "encoding": {
+            "text": {
+              "field": "rate",
+              "format": ".1f",
+              "type": "quantitative"
+            },
+            "x": {
+              "axis": {
+                "labelAngle": 0,
+                "labelLimit": 120
+              },
+              "field": "group",
+              "sort": [
+                "Slowest",
+                "2nd",
+                "3rd",
+                "Fastest",
+                "London"
+              ],
+              "title": "Quarter of regions by growth in 16\u201364 population",
+              "type": "nominal"
+            },
+            "y": {
+              "axis": {
+                "labels": false,
+                "ticks": false
+              },
+              "field": "rate",
+              "scale": {
+                "domain": [
+                  0,
+                  36
+                ]
+              },
+              "title": null,
+              "type": "quantitative"
+            }
+          }
+        }
+      ],
+      "data": {
+        "name": "data-d8fab159250bbc05a3987733d6dcfb18"
+      },
+      "height": 260,
+      "title": {
+        "text": "By working-age population growth",
+        "anchor": "start",
+        "fontSize": 14
+      },
+      "width": 300
+    }
+  ],
+  "spacing": 30,
+  "title": {
+    "text": "Younger regions, and those with growing working-age populations, have more job churn",
+    "subtitle": [
+      "Job reallocation rate (jobs created + destroyed, % of employment), pooled 2011\u201324. ITL2 regions outside London grouped into quarters (9 each);",
+      "London's five regions shown separately.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-b09850165fef82a751efacd7bd3b7860": [
+      {
+        "group": "London",
+        "rate": 34.25991248094421,
+        "kind": "London"
+      },
+      {
+        "group": "Youngest",
+        "rate": 28.385115244457836,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "2nd",
+        "rate": 26.920429574634344,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "3rd",
+        "rate": 26.40234833943735,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "Oldest",
+        "rate": 25.23341200601789,
+        "kind": "Rest of UK"
+      }
+    ],
+    "data-d8fab159250bbc05a3987733d6dcfb18": [
+      {
+        "group": "London",
+        "rate": 34.25991248094421,
+        "kind": "London"
+      },
+      {
+        "group": "Slowest",
+        "rate": 25.236491640977658,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "2nd",
+        "rate": 26.138395927913056,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "3rd",
+        "rate": 26.93130886132195,
+        "kind": "Rest of UK"
+      },
+      {
+        "group": "Fastest",
+        "rate": 28.425245797925488,
+        "kind": "Rest of UK"
+      }
+    ]
+  },
+  "width": 300,
+  "height": 260
+}

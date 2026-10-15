@@ -1,0 +1,819 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-93d4680eb0254e484236eb8eab5e3a65"
+      },
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "color": {
+          "field": "dgroup",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "London",
+              "Densest quarter",
+              "Upper-middle quarter",
+              "Lower-middle quarter",
+              "Least dense quarter"
+            ],
+            "range": [
+              "#e6224b",
+              "#122b39",
+              "#179fdb",
+              "#36b7b4",
+              "#eb5c2e"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "dgroup",
+            "type": "nominal"
+          },
+          {
+            "field": "year",
+            "type": "ordinal"
+          },
+          {
+            "field": "realloc",
+            "format": ".1f",
+            "title": "Reallocation (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "labelAngle": 0,
+            "values": [
+              2004,
+              2008,
+              2012,
+              2016,
+              2020,
+              2024
+            ]
+          },
+          "field": "year",
+          "title": null,
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "zero": false
+          },
+          "title": "Reallocation rate (% of employment)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-b29190dea38843a8c1bf7fa22770e398"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 6,
+        "fontSize": 11
+      },
+      "encoding": {
+        "color": {
+          "field": "dgroup",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "London",
+              "Densest quarter",
+              "Upper-middle quarter",
+              "Lower-middle quarter",
+              "Least dense quarter"
+            ],
+            "range": [
+              "#e6224b",
+              "#122b39",
+              "#179fdb",
+              "#36b7b4",
+              "#eb5c2e"
+            ]
+          },
+          "type": "nominal"
+        },
+        "text": {
+          "field": "dgroup",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "realloc",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Reallocation fell in dense and rural regions alike, so the gap persisted",
+    "subtitle": [
+      "Reallocation rate by density group: London, then the other ITL2 regions in quarters by population-weighted density (2021).",
+      "Rates from summed counts each year. Northern Ireland excluded (series from 2011).",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-93d4680eb0254e484236eb8eab5e3a65": [
+      {
+        "dgroup": "Densest quarter",
+        "year": 2003,
+        "realloc": 36.61207114199351
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2004,
+        "realloc": 35.49644585426845
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2005,
+        "realloc": 32.830117925570086
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2006,
+        "realloc": 32.32215498176671
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2007,
+        "realloc": 30.952302929014515
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2008,
+        "realloc": 31.04820474897117
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2009,
+        "realloc": 29.45618683438094
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2010,
+        "realloc": 34.388536674979086
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2011,
+        "realloc": 27.41916662959675
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2012,
+        "realloc": 30.623417869772204
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2013,
+        "realloc": 30.315888130525014
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2014,
+        "realloc": 27.84549490402051
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2015,
+        "realloc": 29.50255124816284
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2016,
+        "realloc": 28.983553640975433
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2017,
+        "realloc": 27.107416968823163
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2018,
+        "realloc": 29.51109436659516
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2019,
+        "realloc": 27.856025402771138
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2020,
+        "realloc": 25.78915835806578
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2021,
+        "realloc": 24.128580311096503
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2022,
+        "realloc": 27.107986944503228
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2023,
+        "realloc": 30.69088971088272
+      },
+      {
+        "dgroup": "Densest quarter",
+        "year": 2024,
+        "realloc": 29.04803512954438
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2003,
+        "realloc": 36.726208851743074
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2004,
+        "realloc": 33.44835550468994
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2005,
+        "realloc": 31.985732231557353
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2006,
+        "realloc": 29.2644838834876
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2007,
+        "realloc": 29.895976177354385
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2008,
+        "realloc": 27.61582869363718
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2009,
+        "realloc": 26.880087402929853
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2010,
+        "realloc": 30.160375154272472
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2011,
+        "realloc": 23.363983593594657
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2012,
+        "realloc": 27.1779989055731
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2013,
+        "realloc": 27.647492167385213
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2014,
+        "realloc": 25.112899399809336
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2015,
+        "realloc": 25.677116067099135
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2016,
+        "realloc": 25.97240675170658
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2017,
+        "realloc": 24.92512391568735
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2018,
+        "realloc": 25.48349647626172
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2019,
+        "realloc": 25.085205175327808
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2020,
+        "realloc": 24.98107502259464
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2021,
+        "realloc": 24.34706490804829
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2022,
+        "realloc": 25.17517222068696
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2023,
+        "realloc": 27.065542257746706
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2024,
+        "realloc": 26.067350419977345
+      },
+      {
+        "dgroup": "London",
+        "year": 2003,
+        "realloc": 41.49981786270159
+      },
+      {
+        "dgroup": "London",
+        "year": 2004,
+        "realloc": 40.132339463207984
+      },
+      {
+        "dgroup": "London",
+        "year": 2005,
+        "realloc": 37.888501438459244
+      },
+      {
+        "dgroup": "London",
+        "year": 2006,
+        "realloc": 36.19046208480185
+      },
+      {
+        "dgroup": "London",
+        "year": 2007,
+        "realloc": 32.820150891889604
+      },
+      {
+        "dgroup": "London",
+        "year": 2008,
+        "realloc": 35.23641961488655
+      },
+      {
+        "dgroup": "London",
+        "year": 2009,
+        "realloc": 32.14267641487225
+      },
+      {
+        "dgroup": "London",
+        "year": 2010,
+        "realloc": 37.84145082157281
+      },
+      {
+        "dgroup": "London",
+        "year": 2011,
+        "realloc": 31.360742307308037
+      },
+      {
+        "dgroup": "London",
+        "year": 2012,
+        "realloc": 37.251716509395784
+      },
+      {
+        "dgroup": "London",
+        "year": 2013,
+        "realloc": 36.28911128074488
+      },
+      {
+        "dgroup": "London",
+        "year": 2014,
+        "realloc": 33.56213915059461
+      },
+      {
+        "dgroup": "London",
+        "year": 2015,
+        "realloc": 34.69029990365606
+      },
+      {
+        "dgroup": "London",
+        "year": 2016,
+        "realloc": 35.213532856213405
+      },
+      {
+        "dgroup": "London",
+        "year": 2017,
+        "realloc": 33.73681565672515
+      },
+      {
+        "dgroup": "London",
+        "year": 2018,
+        "realloc": 37.03668487304211
+      },
+      {
+        "dgroup": "London",
+        "year": 2019,
+        "realloc": 34.17876646906114
+      },
+      {
+        "dgroup": "London",
+        "year": 2020,
+        "realloc": 32.5378654806016
+      },
+      {
+        "dgroup": "London",
+        "year": 2021,
+        "realloc": 29.438471063106423
+      },
+      {
+        "dgroup": "London",
+        "year": 2022,
+        "realloc": 32.9730293794105
+      },
+      {
+        "dgroup": "London",
+        "year": 2023,
+        "realloc": 37.26634147420488
+      },
+      {
+        "dgroup": "London",
+        "year": 2024,
+        "realloc": 34.38904970639319
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2003,
+        "realloc": 34.35219198779873
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2004,
+        "realloc": 32.99597150570188
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2005,
+        "realloc": 32.01283388832516
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2006,
+        "realloc": 29.678053198988295
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2007,
+        "realloc": 31.000167059150822
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2008,
+        "realloc": 28.10706781907989
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2009,
+        "realloc": 27.387071772895837
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2010,
+        "realloc": 30.455038611270663
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2011,
+        "realloc": 24.50285578451274
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2012,
+        "realloc": 29.213219222027686
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2013,
+        "realloc": 27.940208232963588
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2014,
+        "realloc": 24.409922150958582
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2015,
+        "realloc": 25.313783748507046
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2016,
+        "realloc": 25.991238316136425
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2017,
+        "realloc": 25.388920814172447
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2018,
+        "realloc": 26.038374167104912
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2019,
+        "realloc": 24.504307416182645
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2020,
+        "realloc": 23.398376548201888
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2021,
+        "realloc": 24.560762851354347
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2022,
+        "realloc": 25.58994621147856
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2023,
+        "realloc": 28.541931014730224
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2024,
+        "realloc": 26.88455784436742
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2003,
+        "realloc": 38.26092477951938
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2004,
+        "realloc": 36.59773876216663
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2005,
+        "realloc": 33.3833174293028
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2006,
+        "realloc": 31.4967038793929
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2007,
+        "realloc": 30.194042527023733
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2008,
+        "realloc": 29.42799476761312
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2009,
+        "realloc": 28.81336520979772
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2010,
+        "realloc": 32.91415122453661
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2011,
+        "realloc": 26.335192521714866
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2012,
+        "realloc": 30.07509949147008
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2013,
+        "realloc": 30.38606454396427
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2014,
+        "realloc": 26.746100091406813
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2015,
+        "realloc": 27.008650813678702
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2016,
+        "realloc": 28.193780923779613
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2017,
+        "realloc": 26.61797936323612
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2018,
+        "realloc": 28.986054890868786
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2019,
+        "realloc": 26.993872942699234
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2020,
+        "realloc": 25.8685672352818
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2021,
+        "realloc": 24.83822534289043
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2022,
+        "realloc": 26.58104598059737
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2023,
+        "realloc": 29.79410421763168
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2024,
+        "realloc": 28.20515086273858
+      }
+    ],
+    "data-b29190dea38843a8c1bf7fa22770e398": [
+      {
+        "dgroup": "Densest quarter",
+        "year": 2024,
+        "realloc": 29.04803512954438
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "year": 2024,
+        "realloc": 26.067350419977345
+      },
+      {
+        "dgroup": "London",
+        "year": 2024,
+        "realloc": 34.38904970639319
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "year": 2024,
+        "realloc": 26.88455784436742
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "year": 2024,
+        "realloc": 28.20515086273858
+      }
+    ]
+  },
+  "width": 560,
+  "height": 360
+}

@@ -1,0 +1,365 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": 26
+      },
+      "encoding": {
+        "color": {
+          "field": "flow",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "Entry and exit",
+              "Site openings and closures",
+              "Expansion and contraction"
+            ],
+            "range": [
+              "#122b39",
+              "#36b7b4",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
+        "order": {
+          "field": "order",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "dgroup",
+            "type": "nominal"
+          },
+          {
+            "field": "flow",
+            "type": "nominal"
+          },
+          {
+            "field": "share",
+            "format": ".1f",
+            "title": "Share of reallocation (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "format": "%",
+            "values": [
+              0,
+              0.25,
+              0.5,
+              0.75,
+              1
+            ]
+          },
+          "field": "share",
+          "stack": "normalize",
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelLimit": 260
+          },
+          "field": "dgroup",
+          "sort": [
+            "London",
+            "Densest quarter",
+            "Upper-middle quarter",
+            "Lower-middle quarter",
+            "Least dense quarter"
+          ],
+          "title": null,
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "white",
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "txt",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "mid",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "dgroup",
+          "sort": [
+            "London",
+            "Densest quarter",
+            "Upper-middle quarter",
+            "Lower-middle quarter",
+            "Least dense quarter"
+          ],
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "groupby": [
+            "dgroup"
+          ],
+          "stack": "share",
+          "offset": "normalize",
+          "sort": [
+            {
+              "field": "order"
+            }
+          ],
+          "as": [
+            "x0",
+            "x1"
+          ]
+        },
+        {
+          "calculate": "(datum.x0 + datum.x1) / 2",
+          "as": "mid"
+        },
+        {
+          "calculate": "format(datum.lab, '.0f') + '%'",
+          "as": "txt"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "name": "data-ab5c3a2f56eee51524b8a7e0f8043010"
+  },
+  "title": {
+    "text": "The mix of job flows is similar in dense and rural regions; London stands out on entry and exit",
+    "subtitle": [
+      "Share of the job reallocation rate from each type of flow, by density group, pooled 2018\u201324.",
+      "Groups: London, then the other 36 ITL2 regions in quarters by population-weighted density (Northern Ireland included).",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-ab5c3a2f56eee51524b8a7e0f8043010": [
+      {
+        "dgroup": "London",
+        "flow": "Entry and exit",
+        "share": 27.343348397973426,
+        "lab": 27.0,
+        "order": 0
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Entry and exit",
+        "share": 23.794183310221186,
+        "lab": 24.0,
+        "order": 0
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Entry and exit",
+        "share": 24.990026863538084,
+        "lab": 25.0,
+        "order": 0
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Entry and exit",
+        "share": 23.19728611835413,
+        "lab": 23.0,
+        "order": 0
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Entry and exit",
+        "share": 24.46190534605278,
+        "lab": 24.0,
+        "order": 0
+      },
+      {
+        "dgroup": "London",
+        "flow": "Site openings and closures",
+        "share": 25.284102783719632,
+        "lab": 25.0,
+        "order": 1
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Site openings and closures",
+        "share": 26.16197311183528,
+        "lab": 26.0,
+        "order": 1
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Site openings and closures",
+        "share": 26.051686419017493,
+        "lab": 26.0,
+        "order": 1
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Site openings and closures",
+        "share": 25.723380915114873,
+        "lab": 26.0,
+        "order": 1
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Site openings and closures",
+        "share": 25.90766330367902,
+        "lab": 26.0,
+        "order": 1
+      },
+      {
+        "dgroup": "London",
+        "flow": "Expansion and contraction",
+        "share": 47.372548818306946,
+        "lab": 48.0,
+        "order": 2
+      },
+      {
+        "dgroup": "Densest quarter",
+        "flow": "Expansion and contraction",
+        "share": 50.04384357794353,
+        "lab": 50.0,
+        "order": 2
+      },
+      {
+        "dgroup": "Upper-middle quarter",
+        "flow": "Expansion and contraction",
+        "share": 48.95828671744442,
+        "lab": 49.0,
+        "order": 2
+      },
+      {
+        "dgroup": "Lower-middle quarter",
+        "flow": "Expansion and contraction",
+        "share": 51.079332966531,
+        "lab": 51.0,
+        "order": 2
+      },
+      {
+        "dgroup": "Least dense quarter",
+        "flow": "Expansion and contraction",
+        "share": 49.6304313502682,
+        "lab": 50.0,
+        "order": 2
+      }
+    ]
+  },
+  "width": 560,
+  "height": 270
+}

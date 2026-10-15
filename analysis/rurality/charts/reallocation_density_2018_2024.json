@@ -1,0 +1,1644 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-96a645b64350f0137c1e338abb87db43"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.5,
+        "strokeDash": [
+          2,
+          3
+        ]
+      },
+      "encoding": {
+        "y": {
+          "field": "v",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-191f740f9e61c09eb4088cd4ff0bbec4"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "bottom",
+        "color": "#122b39",
+        "dx": -3,
+        "dy": -3,
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "value": "UK 28.0%"
+        },
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-f07a164dd08ede9578f6d6a31c411c01"
+      },
+      "mark": {
+        "type": "line",
+        "color": "#B4B4B4",
+        "opacity": 0.7,
+        "strokeWidth": 1.8
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-bc0283df0e3f6ca251c8627c84e303f7"
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.9,
+        "size": 75,
+        "stroke": "white",
+        "strokeWidth": 0.6
+      },
+      "encoding": {
+        "color": {
+          "field": "group",
+          "legend": {
+            "orient": "bottom",
+            "title": null
+          },
+          "scale": {
+            "domain": [
+              "London",
+              "Rest of UK"
+            ],
+            "range": [
+              "#e6224b",
+              "#179fdb"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "itl2_name",
+            "title": "Region",
+            "type": "nominal"
+          },
+          {
+            "field": "pwd_pool",
+            "format": ",.0f",
+            "title": "Pop.-weighted density",
+            "type": "quantitative"
+          },
+          {
+            "field": "share_rural",
+            "format": ".0f",
+            "title": "Rural share (%)",
+            "type": "quantitative"
+          },
+          {
+            "field": "realloc",
+            "format": ".1f",
+            "title": "Reallocation (%)",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "format": ",",
+            "values": [
+              1000,
+              2000,
+              5000,
+              10000,
+              20000
+            ]
+          },
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "title": "Population-weighted density (residents per km\u00b2, log scale)",
+          "type": "quantitative"
+        },
+        "y": {
+          "axis": {
+            "labelExpr": "datum.label + '%'"
+          },
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "title": "Job reallocation rate",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-07d6bb7ae5c9355f7e8984a08e72220c"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "dx": -9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-fb3c74ae49d5fb95c9b3de433a08b608"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "dx": -9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-81146ed0be95c6c2c273c7cff565c8c1"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-6f6eb542ba86fb7205dcef44f373ba98"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-ec8d9d46f8a52da723975ec8f8bc1e1d"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-03ab1068d9bde1798fa0c3c61810c874"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-8cf436ce80b98aeda91b4fcd2e1b5a7f"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-5b67034c838815e5526964a8f0450278"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "dx": -9.0,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-9f6b70713fe44f4814da0032f6459f41"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "color": "#122b39",
+        "dx": 8,
+        "fontSize": 9
+      },
+      "encoding": {
+        "text": {
+          "field": "short",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "pwd_pool",
+          "scale": {
+            "domain": [
+              1000,
+              20000
+            ],
+            "nice": false,
+            "type": "log"
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "realloc",
+          "scale": {
+            "domain": [
+              20.0,
+              39.0
+            ],
+            "nice": false,
+            "zero": false
+          },
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Denser regions have more job churn, in and outside London",
+    "subtitle": [
+      "ITL2 regions, 2018\u201324: job reallocation rate and population-weighted density, both pooled over the period. Correlation 0.78; 0.50 excluding London.",
+      "Population-weighted density: density of the small area the average resident lives in. Grey line = fit across all regions.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-96a645b64350f0137c1e338abb87db43": [
+      {
+        "v": 28.002368583967172
+      }
+    ],
+    "data-191f740f9e61c09eb4088cd4ff0bbec4": [
+      {
+        "x": 20000,
+        "y": 28.002368583967172
+      }
+    ],
+    "data-f07a164dd08ede9578f6d6a31c411c01": [
+      {
+        "x": 1552.2704157354647,
+        "y": 23.020069176371152
+      },
+      {
+        "x": 1625.8958692085314,
+        "y": 23.238318999163596
+      },
+      {
+        "x": 1703.013438065725,
+        "y": 23.45656882195604
+      },
+      {
+        "x": 1783.7887561915365,
+        "y": 23.674818644748484
+      },
+      {
+        "x": 1868.3953136208581,
+        "y": 23.893068467540928
+      },
+      {
+        "x": 1957.0148291626215,
+        "y": 24.111318290333372
+      },
+      {
+        "x": 2049.8376406972643,
+        "y": 24.32956811312581
+      },
+      {
+        "x": 2147.063113986333,
+        "y": 24.54781793591826
+      },
+      {
+        "x": 2248.900070872251,
+        "y": 24.766067758710697
+      },
+      {
+        "x": 2355.567237787966,
+        "y": 24.98431758150314
+      },
+      {
+        "x": 2467.2937155397613,
+        "y": 25.202567404295586
+      },
+      {
+        "x": 2584.319471372258,
+        "y": 25.42081722708803
+      },
+      {
+        "x": 2706.8958543724502,
+        "y": 25.639067049880474
+      },
+      {
+        "x": 2835.2861353198005,
+        "y": 25.85731687267291
+      },
+      {
+        "x": 2969.766072141835,
+        "y": 26.075566695465355
+      },
+      {
+        "x": 3110.624502189782,
+        "y": 26.2938165182578
+      },
+      {
+        "x": 3258.163962606316,
+        "y": 26.512066341050243
+      },
+      {
+        "x": 3412.701340117845,
+        "y": 26.73031616384268
+      },
+      {
+        "x": 3574.5685516470144,
+        "y": 26.948565986635124
+      },
+      {
+        "x": 3744.1132572071506,
+        "y": 27.166815809427575
+      },
+      {
+        "x": 3921.6996066099277,
+        "y": 27.385065632220012
+      },
+      {
+        "x": 4107.709021589988,
+        "y": 27.603315455012456
+      },
+      {
+        "x": 4302.541015026307,
+        "y": 27.821565277804893
+      },
+      {
+        "x": 4506.61404902,
+        "y": 28.039815100597345
+      },
+      {
+        "x": 4720.366433671349,
+        "y": 28.25806492338979
+      },
+      {
+        "x": 4944.257268486638,
+        "y": 28.476314746182226
+      },
+      {
+        "x": 5178.76742843668,
+        "y": 28.69456456897467
+      },
+      {
+        "x": 5424.4005967848325,
+        "y": 28.91281439176712
+      },
+      {
+        "x": 5681.684346902963,
+        "y": 29.131064214559558
+      },
+      {
+        "x": 5951.171275398837,
+        "y": 29.349314037352002
+      },
+      {
+        "x": 6233.440188988561,
+        "y": 29.56756386014444
+      },
+      {
+        "x": 6529.097347663512,
+        "y": 29.785813682936883
+      },
+      {
+        "x": 6838.7777668215185,
+        "y": 30.004063505729334
+      },
+      {
+        "x": 7163.146581159315,
+        "y": 30.22231332852177
+      },
+      {
+        "x": 7502.900473255517,
+        "y": 30.440563151314215
+      },
+      {
+        "x": 7858.7691699123325,
+        "y": 30.658812974106652
+      },
+      {
+        "x": 8231.517009470184,
+        "y": 30.877062796899096
+      },
+      {
+        "x": 8621.94458346113,
+        "y": 31.095312619691548
+      },
+      {
+        "x": 9030.890456127396,
+        "y": 31.313562442483985
+      },
+      {
+        "x": 9459.232965498066,
+        "y": 31.53181226527643
+      },
+      {
+        "x": 9907.892109892195,
+        "y": 31.750062088068873
+      },
+      {
+        "x": 10377.831523900413,
+        "y": 31.96831191086131
+      },
+      {
+        "x": 10870.060548088994,
+        "y": 32.18656173365376
+      },
+      {
+        "x": 11385.636396871463,
+        "y": 32.4048115564462
+      },
+      {
+        "x": 11925.666429204432,
+        "y": 32.62306137923864
+      },
+      {
+        "x": 12491.310526984054,
+        "y": 32.84131120203108
+      },
+      {
+        "x": 13083.783586252124,
+        "y": 33.05956102482353
+      },
+      {
+        "x": 13704.35812656177,
+        "y": 33.277810847615974
+      },
+      {
+        "x": 14354.367024107718,
+        "y": 33.49606067040841
+      },
+      {
+        "x": 15035.206374491172,
+        "y": 33.714310493200855
+      }
+    ],
+    "data-bc0283df0e3f6ca251c8627c84e303f7": [
+      {
+        "itl2_code": "TLC1",
+        "realloc": 27.88968119314112,
+        "emp": 472151.0714285714,
+        "Entry and exit": 7.514543998099882,
+        "Site openings and closures": 7.549793006626965,
+        "Expansion and contraction": 12.825344188414272,
+        "itl2_name": "Tees Valley and Durham",
+        "share_rural": 24.6862,
+        "pwd_pool": 2980.8274252590745,
+        "log_pwd": 7.9999562004421,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLC2",
+        "realloc": 24.646432999880858,
+        "emp": 647482.8571428572,
+        "Entry and exit": 5.506488864570049,
+        "Site openings and closures": 6.5174367550823185,
+        "Expansion and contraction": 12.62250738022849,
+        "itl2_name": "Northumberland, and Tyne and Wear",
+        "share_rural": 12.0358,
+        "pwd_pool": 3869.366727710041,
+        "log_pwd": 8.26084613638332,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD1",
+        "realloc": 21.97318570657154,
+        "emp": 246696.7857142857,
+        "Entry and exit": 5.0339413189412685,
+        "Site openings and closures": 5.707700748895043,
+        "Expansion and contraction": 11.231543638735232,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "pwd_pool": 1881.7755826877076,
+        "log_pwd": 7.539971068979772,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD3",
+        "realloc": 29.411132772226164,
+        "emp": 1402923.5714285714,
+        "Entry and exit": 7.538085009212904,
+        "Site openings and closures": 7.306476831799716,
+        "Expansion and contraction": 14.566570931213542,
+        "itl2_name": "Greater Manchester",
+        "share_rural": 0.9253,
+        "pwd_pool": 4980.491038695998,
+        "log_pwd": 8.513283767305618,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD4",
+        "realloc": 25.366569073309496,
+        "emp": 661393.5714285715,
+        "Entry and exit": 6.611904949613964,
+        "Site openings and closures": 6.321824804984281,
+        "Expansion and contraction": 12.432839318711249,
+        "itl2_name": "Lancashire",
+        "share_rural": 17.4295,
+        "pwd_pool": 3521.696557342021,
+        "log_pwd": 8.166698128996389,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD6",
+        "realloc": 28.24661128115435,
+        "emp": 523559.64285714284,
+        "Entry and exit": 6.465902711316148,
+        "Site openings and closures": 7.865115654035868,
+        "Expansion and contraction": 13.915592915802334,
+        "itl2_name": "Cheshire",
+        "share_rural": 18.7562,
+        "pwd_pool": 2793.638886986098,
+        "log_pwd": 7.935100285574925,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLD7",
+        "realloc": 28.641640192634878,
+        "emp": 664172.8571428572,
+        "Entry and exit": 6.4099061991176995,
+        "Site openings and closures": 7.995551932478851,
+        "Expansion and contraction": 14.236182061038328,
+        "itl2_name": "Merseyside",
+        "share_rural": 1.0204,
+        "pwd_pool": 4849.875185992927,
+        "log_pwd": 8.486708248753564,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE1",
+        "realloc": 25.218991418843892,
+        "emp": 408161.78571428574,
+        "Entry and exit": 5.881946322055417,
+        "Site openings and closures": 6.9235500978691045,
+        "Expansion and contraction": 12.41349499891937,
+        "itl2_name": "East Yorkshire and Northern Lincolnshire",
+        "share_rural": 25.0636,
+        "pwd_pool": 3264.952429248224,
+        "log_pwd": 8.091000471695729,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE2",
+        "realloc": 27.323762024450264,
+        "emp": 407094.64285714284,
+        "Entry and exit": 6.502348962377123,
+        "Site openings and closures": 7.396840853960776,
+        "Expansion and contraction": 13.424572208112364,
+        "itl2_name": "North Yorkshire",
+        "share_rural": 42.3816,
+        "pwd_pool": 2170.7239792491187,
+        "log_pwd": 7.68281602188244,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE3",
+        "realloc": 27.7214962654213,
+        "emp": 586937.5,
+        "Entry and exit": 6.257906506229369,
+        "Site openings and closures": 8.379329753411321,
+        "Expansion and contraction": 13.08426000578061,
+        "itl2_name": "South Yorkshire",
+        "share_rural": 8.2851,
+        "pwd_pool": 3574.7152268310556,
+        "log_pwd": 8.18164079512486,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLE4",
+        "realloc": 26.592628899025655,
+        "emp": 1102461.7857142857,
+        "Entry and exit": 6.387522988325154,
+        "Site openings and closures": 6.895412312639278,
+        "Expansion and contraction": 13.309693598061221,
+        "itl2_name": "West Yorkshire",
+        "share_rural": 10.4144,
+        "pwd_pool": 4050.4008584593053,
+        "log_pwd": 8.306571132600006,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF1",
+        "realloc": 27.10210980519359,
+        "emp": 971128.9285714285,
+        "Entry and exit": 6.1318178658784825,
+        "Site openings and closures": 7.117857309662797,
+        "Expansion and contraction": 13.852434629652308,
+        "itl2_name": "Derbyshire and Nottinghamshire",
+        "share_rural": 20.374,
+        "pwd_pool": 3351.0623736432394,
+        "log_pwd": 8.117032701005813,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF2",
+        "realloc": 29.524632398527036,
+        "emp": 907305.3571428572,
+        "Entry and exit": 7.7405819036353725,
+        "Site openings and closures": 7.582499985238865,
+        "Expansion and contraction": 14.2015505096528,
+        "itl2_name": "Leicestershire, Rutland and Northamptonshire",
+        "share_rural": 24.8909,
+        "pwd_pool": 3835.359051938943,
+        "log_pwd": 8.252018334435482,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLF3",
+        "realloc": 24.24709370593128,
+        "emp": 308720.35714285716,
+        "Entry and exit": 6.108857183512124,
+        "Site openings and closures": 5.880495177674664,
+        "Expansion and contraction": 12.257741344744492,
+        "itl2_name": "Lincolnshire",
+        "share_rural": 47.4961,
+        "pwd_pool": 1821.0999708951185,
+        "log_pwd": 7.50719597711974,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG1",
+        "realloc": 28.786271371967313,
+        "emp": 677999.2857142857,
+        "Entry and exit": 8.803001267384394,
+        "Site openings and closures": 6.775712995904969,
+        "Expansion and contraction": 13.207557108677948,
+        "itl2_name": "Herefordshire, Worcestershire and Warwickshire",
+        "share_rural": 31.5615,
+        "pwd_pool": 2417.131645761218,
+        "log_pwd": 7.7903368458156885,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG2",
+        "realloc": 25.71733591561034,
+        "emp": 719925.7142857143,
+        "Entry and exit": 5.795141562224674,
+        "Site openings and closures": 7.068586441458246,
+        "Expansion and contraction": 12.853607911927421,
+        "itl2_name": "Shropshire and Staffordshire",
+        "share_rural": 24.5151,
+        "pwd_pool": 2597.9891274820134,
+        "log_pwd": 7.8624930122649035,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLG3",
+        "realloc": 30.34366523100259,
+        "emp": 1326082.857142857,
+        "Entry and exit": 7.813775911438415,
+        "Site openings and closures": 7.538313701578656,
+        "Expansion and contraction": 14.991575617985516,
+        "itl2_name": "West Midlands",
+        "share_rural": 0.937,
+        "pwd_pool": 5443.816798831668,
+        "log_pwd": 8.602235711263837,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH1",
+        "realloc": 24.901217850669916,
+        "emp": 1196897.857142857,
+        "Entry and exit": 5.5636684595952515,
+        "Site openings and closures": 6.668011412836876,
+        "Expansion and contraction": 12.66953797823779,
+        "itl2_name": "East Anglia",
+        "share_rural": 40.8994,
+        "pwd_pool": 2363.8575385337303,
+        "log_pwd": 7.7680501138225155,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH2",
+        "realloc": 29.511506291396543,
+        "emp": 955641.7857142857,
+        "Entry and exit": 7.515144086042402,
+        "Site openings and closures": 7.214672861954774,
+        "Expansion and contraction": 14.781689343399368,
+        "itl2_name": "Bedfordshire and Hertfordshire",
+        "share_rural": 15.9954,
+        "pwd_pool": 3941.1951287539882,
+        "log_pwd": 8.27923928846714,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLH3",
+        "realloc": 27.244227927925778,
+        "emp": 748137.5,
+        "Entry and exit": 7.451647782469323,
+        "Site openings and closures": 6.724031344505522,
+        "Expansion and contraction": 13.068548800950932,
+        "itl2_name": "Essex",
+        "share_rural": 20.6811,
+        "pwd_pool": 3463.6136468723384,
+        "log_pwd": 8.150067729649132,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLI3",
+        "realloc": 37.21681316695165,
+        "emp": 2264500.714285714,
+        "Entry and exit": 9.59549266773092,
+        "Site openings and closures": 10.09676999124058,
+        "Expansion and contraction": 17.524550507980155,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "pwd_pool": 14634.746105228829,
+        "log_pwd": 9.591153850511464,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI4",
+        "realloc": 33.53687530778773,
+        "emp": 1432312.5,
+        "Entry and exit": 8.72041341736328,
+        "Site openings and closures": 8.631994963190145,
+        "Expansion and contraction": 16.184466927234304,
+        "itl2_name": "Inner London - East",
+        "share_rural": 0.0,
+        "pwd_pool": 15035.206374491168,
+        "log_pwd": 9.61814982159987,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI5",
+        "realloc": 30.290973048669162,
+        "emp": 597797.1428571428,
+        "Entry and exit": 9.966591629267453,
+        "Site openings and closures": 6.516066128500351,
+        "Expansion and contraction": 13.808315290901357,
+        "itl2_name": "Outer London - East and North East",
+        "share_rural": 0.0,
+        "pwd_pool": 8335.317682728062,
+        "log_pwd": 9.028256908763069,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI6",
+        "realloc": 29.52815829528158,
+        "emp": 489230.35714285716,
+        "Entry and exit": 8.751939087999007,
+        "Site openings and closures": 7.047658676711599,
+        "Expansion and contraction": 13.728560530570977,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "pwd_pool": 6964.321384267638,
+        "log_pwd": 8.848555449201122,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLI7",
+        "realloc": 31.524251680269746,
+        "emp": 949890.0,
+        "Entry and exit": 9.273554983058188,
+        "Site openings and closures": 7.037882581892941,
+        "Expansion and contraction": 15.212814115318617,
+        "itl2_name": "Outer London - West and North West",
+        "share_rural": 0.0,
+        "pwd_pool": 7973.556389744643,
+        "log_pwd": 8.983885894307578,
+        "group": "London"
+      },
+      {
+        "itl2_code": "TLJ1",
+        "realloc": 28.86335354118305,
+        "emp": 1386189.2857142857,
+        "Entry and exit": 7.384839732772014,
+        "Site openings and closures": 7.368402068363165,
+        "Expansion and contraction": 14.11011174004787,
+        "itl2_name": "Berkshire, Buckinghamshire and Oxfordshire",
+        "share_rural": 21.6622,
+        "pwd_pool": 3375.1080384901798,
+        "log_pwd": 8.124182614198773,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ2",
+        "realloc": 26.425181789414665,
+        "emp": 1315985.0,
+        "Entry and exit": 6.920997254093756,
+        "Site openings and closures": 6.539262551299163,
+        "Expansion and contraction": 12.964921984021746,
+        "itl2_name": "Surrey, East and West Sussex",
+        "share_rural": 14.4761,
+        "pwd_pool": 3614.6167586860033,
+        "log_pwd": 8.19274111477822,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ3",
+        "realloc": 26.65575012641734,
+        "emp": 901210.0,
+        "Entry and exit": 6.275372633935011,
+        "Site openings and closures": 7.813859778995541,
+        "Expansion and contraction": 12.566517713486789,
+        "itl2_name": "Hampshire and Isle of Wight",
+        "share_rural": 16.6787,
+        "pwd_pool": 4018.2907030968063,
+        "log_pwd": 8.298611892956039,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLJ4",
+        "realloc": 26.500851460732957,
+        "emp": 749342.5,
+        "Entry and exit": 6.71703145471816,
+        "Site openings and closures": 6.777941995816333,
+        "Expansion and contraction": 13.005878010198465,
+        "itl2_name": "Kent",
+        "share_rural": 23.8495,
+        "pwd_pool": 3532.6008414165226,
+        "log_pwd": 8.169789660907501,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK1",
+        "realloc": 26.583184287687946,
+        "emp": 1274178.2142857143,
+        "Entry and exit": 5.960088000697368,
+        "Site openings and closures": 7.373323814593103,
+        "Expansion and contraction": 13.249772472397476,
+        "itl2_name": "Gloucestershire, Wiltshire and Bath/Bristol area",
+        "share_rural": 21.3416,
+        "pwd_pool": 3651.9524862872267,
+        "log_pwd": 8.203017231303615,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK2",
+        "realloc": 24.83565223154808,
+        "emp": 587332.5,
+        "Entry and exit": 5.945403279111187,
+        "Site openings and closures": 6.279601904737581,
+        "Expansion and contraction": 12.610647047699313,
+        "itl2_name": "Dorset and Somerset",
+        "share_rural": 33.7116,
+        "pwd_pool": 2842.0524222731865,
+        "log_pwd": 7.952281754043996,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK3",
+        "realloc": 26.800083084231154,
+        "emp": 237280.7142857143,
+        "Entry and exit": 6.7939420758414535,
+        "Site openings and closures": 7.092563660281824,
+        "Expansion and contraction": 12.913577348107877,
+        "itl2_name": "Cornwall and Isles of Scilly",
+        "share_rural": 55.56,
+        "pwd_pool": 1606.116989732338,
+        "log_pwd": 7.381574737266024,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLK4",
+        "realloc": 24.009334236410652,
+        "emp": 520970.0,
+        "Entry and exit": 5.719413511608839,
+        "Site openings and closures": 6.2117643187570435,
+        "Expansion and contraction": 12.078156406044767,
+        "itl2_name": "Devon",
+        "share_rural": 33.4129,
+        "pwd_pool": 3031.540795194078,
+        "log_pwd": 8.016826282519732,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL1",
+        "realloc": 24.25581643416733,
+        "emp": 753330.3571428572,
+        "Entry and exit": 5.9669325495122845,
+        "Site openings and closures": 5.988076754411956,
+        "Expansion and contraction": 12.300807130243086,
+        "itl2_name": "West Wales and The Valleys",
+        "share_rural": 32.8443,
+        "pwd_pool": 1740.7586398665037,
+        "log_pwd": 7.462076297111504,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLL2",
+        "realloc": 25.71233271422994,
+        "emp": 572640.7142857143,
+        "Entry and exit": 5.633175626202917,
+        "Site openings and closures": 6.830510779010025,
+        "Expansion and contraction": 13.248646309016998,
+        "itl2_name": "East Wales",
+        "share_rural": 25.9265,
+        "pwd_pool": 3362.537318191093,
+        "log_pwd": 8.120451122195302,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM5",
+        "realloc": 25.919459636924472,
+        "emp": 280657.85714285716,
+        "Entry and exit": 5.752810361370352,
+        "Site openings and closures": 6.97850203985025,
+        "Expansion and contraction": 13.18814723570387,
+        "itl2_name": "North Eastern Scotland",
+        "share_rural": 27.5837,
+        "pwd_pool": 3335.5088953100712,
+        "log_pwd": 8.112380539005576,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM6",
+        "realloc": 22.465143700246625,
+        "emp": 231409.2857142857,
+        "Entry and exit": 4.699465696215426,
+        "Site openings and closures": 6.20638139598053,
+        "Expansion and contraction": 11.559296608050671,
+        "itl2_name": "Highlands and Islands",
+        "share_rural": 50.4693,
+        "pwd_pool": 1552.270415735465,
+        "log_pwd": 7.347473922508625,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM7",
+        "realloc": 24.641692412515052,
+        "emp": 952418.9285714285,
+        "Entry and exit": 4.731261340954029,
+        "Site openings and closures": 6.716882164323698,
+        "Expansion and contraction": 13.193548907237323,
+        "itl2_name": "Eastern Scotland",
+        "share_rural": 13.5221,
+        "pwd_pool": 4499.85527179416,
+        "log_pwd": 8.411800513417688,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM8",
+        "realloc": 26.600814208044195,
+        "emp": 753054.2857142857,
+        "Entry and exit": 5.74147566671346,
+        "Site openings and closures": 7.269728230558222,
+        "Expansion and contraction": 13.58961031077251,
+        "itl2_name": "West Central Scotland",
+        "share_rural": 2.7691,
+        "pwd_pool": 5362.834838459321,
+        "log_pwd": 8.587248002025266,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLM9",
+        "realloc": 22.839151927240202,
+        "emp": 360952.85714285716,
+        "Entry and exit": 5.25335718554461,
+        "Site openings and closures": 5.305006193923227,
+        "Expansion and contraction": 12.280788547772364,
+        "itl2_name": "Southern Scotland",
+        "share_rural": 22.9586,
+        "pwd_pool": 2926.9351127318964,
+        "log_pwd": 7.981711117922722,
+        "group": "Rest of UK"
+      },
+      {
+        "itl2_code": "TLN0",
+        "realloc": 21.673552876578277,
+        "emp": 840880.0,
+        "Entry and exit": 4.542944806121478,
+        "Site openings and closures": 4.805255038938799,
+        "Expansion and contraction": 12.325353031518002,
+        "itl2_name": "Northern Ireland",
+        "share_rural": 37.4926,
+        "pwd_pool": 3069.270041548185,
+        "log_pwd": 8.029195040826446,
+        "group": "Rest of UK"
+      }
+    ],
+    "data-07d6bb7ae5c9355f7e8984a08e72220c": [
+      {
+        "itl2_code": "TLI3",
+        "realloc": 37.21681316695165,
+        "emp": 2264500.714285714,
+        "Entry and exit": 9.59549266773092,
+        "Site openings and closures": 10.09676999124058,
+        "Expansion and contraction": 17.524550507980155,
+        "itl2_name": "Inner London - West",
+        "share_rural": 0.0,
+        "pwd_pool": 14634.746105228829,
+        "log_pwd": 9.591153850511464,
+        "group": "London",
+        "px": 501.6146513899554,
+        "py": 37.54077543259678,
+        "short": "Inner London West",
+        "rad": 4.0,
+        "prio": 14.339593043519857,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-fb3c74ae49d5fb95c9b3de433a08b608": [
+      {
+        "itl2_code": "TLI4",
+        "realloc": 33.53687530778773,
+        "emp": 1432312.5,
+        "Entry and exit": 8.72041341736328,
+        "Site openings and closures": 8.631994963190145,
+        "Expansion and contraction": 16.184466927234304,
+        "itl2_name": "Inner London - East",
+        "share_rural": 0.0,
+        "pwd_pool": 15035.206374491168,
+        "log_pwd": 9.61814982159987,
+        "group": "London",
+        "px": 506.66107824958,
+        "py": 115.01315141499514,
+        "short": "Inner London East",
+        "rad": 4.0,
+        "prio": 13.54217925759273,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-81146ed0be95c6c2c273c7cff565c8c1": [
+      {
+        "itl2_code": "TLI6",
+        "realloc": 29.52815829528158,
+        "emp": 489230.35714285716,
+        "Entry and exit": 8.751939087999007,
+        "Site openings and closures": 7.047658676711599,
+        "Expansion and contraction": 13.728560530570977,
+        "itl2_name": "Outer London - South",
+        "share_rural": 0.0,
+        "pwd_pool": 6964.321384267638,
+        "log_pwd": 8.848555449201122,
+        "group": "London",
+        "px": 362.7988071287986,
+        "py": 199.40719378354567,
+        "short": "Outer London South",
+        "rad": 4.0,
+        "prio": 11.538514930056301,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-6f6eb542ba86fb7205dcef44f373ba98": [
+      {
+        "itl2_code": "TLD1",
+        "realloc": 21.97318570657154,
+        "emp": 246696.7857142857,
+        "Entry and exit": 5.0339413189412685,
+        "Site openings and closures": 5.707700748895043,
+        "Expansion and contraction": 11.231543638735232,
+        "itl2_name": "Cumbria",
+        "share_rural": 50.4013,
+        "pwd_pool": 1881.7755826877076,
+        "log_pwd": 7.539971068979772,
+        "group": "Rest of UK",
+        "px": 118.18173657376224,
+        "py": 358.4592482827044,
+        "short": "Cumbria",
+        "rad": 4.0,
+        "prio": 2.096139356636989,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-ec8d9d46f8a52da723975ec8f8bc1e1d": [
+      {
+        "itl2_code": "TLN0",
+        "realloc": 21.673552876578277,
+        "emp": 840880.0,
+        "Entry and exit": 4.542944806121478,
+        "Site openings and closures": 4.805255038938799,
+        "Expansion and contraction": 12.325353031518002,
+        "itl2_name": "Northern Ireland",
+        "share_rural": 37.4926,
+        "pwd_pool": 3069.270041548185,
+        "log_pwd": 8.029195040826446,
+        "group": "Rest of UK",
+        "px": 209.63364189009357,
+        "py": 364.76730786150995,
+        "short": "Northern Ireland",
+        "rad": 4.0,
+        "prio": 1.7742205185800537,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-03ab1068d9bde1798fa0c3c61810c874": [
+      {
+        "itl2_code": "TLF3",
+        "realloc": 24.24709370593128,
+        "emp": 308720.35714285716,
+        "Entry and exit": 6.108857183512124,
+        "Site openings and closures": 5.880495177674664,
+        "Expansion and contraction": 12.257741344744492,
+        "itl2_name": "Lincolnshire",
+        "share_rural": 47.4961,
+        "pwd_pool": 1821.0999708951185,
+        "log_pwd": 7.50719597711974,
+        "group": "Rest of UK",
+        "px": 112.05500368656624,
+        "py": 310.5875009277625,
+        "short": "Lincolnshire",
+        "rad": 4.0,
+        "prio": 1.6347499861812382,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-8cf436ce80b98aeda91b4fcd2e1b5a7f": [
+      {
+        "itl2_code": "TLM9",
+        "realloc": 22.839151927240202,
+        "emp": 360952.85714285716,
+        "Entry and exit": 5.25335718554461,
+        "Site openings and closures": 5.305006193923227,
+        "Expansion and contraction": 12.280788547772364,
+        "itl2_name": "Southern Scotland",
+        "share_rural": 22.9586,
+        "pwd_pool": 2926.9351127318964,
+        "log_pwd": 7.981711117922722,
+        "group": "Rest of UK",
+        "px": 200.7573490848827,
+        "py": 340.2283804791536,
+        "short": "Southern Scotland",
+        "rad": 4.0,
+        "prio": 1.426363981436191,
+        "align": "left",
+        "dx": 9.0
+      }
+    ],
+    "data-5b67034c838815e5526964a8f0450278": [
+      {
+        "itl2_code": "TLG3",
+        "realloc": 30.34366523100259,
+        "emp": 1326082.857142857,
+        "Entry and exit": 7.813775911438415,
+        "Site openings and closures": 7.538313701578656,
+        "Expansion and contraction": 14.991575617985516,
+        "itl2_name": "West Midlands",
+        "share_rural": 0.937,
+        "pwd_pool": 5443.816798831668,
+        "log_pwd": 8.602235711263837,
+        "group": "Rest of UK",
+        "px": 316.75361995950766,
+        "py": 182.23862671573497,
+        "short": "West Midlands",
+        "rad": 4.0,
+        "prio": 1.358870563242404,
+        "align": "right",
+        "dx": -9.0
+      }
+    ],
+    "data-9f6b70713fe44f4814da0032f6459f41": [
+      {
+        "itl2_code": "TLM8",
+        "realloc": 26.600814208044195,
+        "emp": 753054.2857142857,
+        "Entry and exit": 5.74147566671346,
+        "Site openings and closures": 7.269728230558222,
+        "Expansion and contraction": 13.58961031077251,
+        "itl2_name": "West Central Scotland",
+        "share_rural": 2.7691,
+        "pwd_pool": 5362.834838459321,
+        "log_pwd": 8.587248002025266,
+        "group": "Rest of UK",
+        "short": "West Central Scotland"
+      }
+    ]
+  },
+  "width": 560,
+  "height": 400
+}

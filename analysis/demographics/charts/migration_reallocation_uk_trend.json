@@ -1,0 +1,540 @@
+{
+  "config": {
+    "background": "#fff",
+    "font": "Circular Std",
+    "text": {
+      "color": "#122b39",
+      "font": "Circular Std",
+      "align": "left",
+      "dx": 7,
+      "dy": 0,
+      "fontSize": 11
+    },
+    "view": {
+      "stroke": null,
+      "continuousWidth": 350,
+      "continuousHeight": 280,
+      "discreteWidth": 400,
+      "discreteHeight": 300
+    },
+    "bar": {
+      "color": "#179fdb"
+    },
+    "line": {
+      "color": "#e6224b"
+    },
+    "rule": {
+      "color": "#122b39"
+    },
+    "point": {
+      "filled": true,
+      "size": 80,
+      "color": "#e6224b",
+      "opacity": 0.95
+    },
+    "geoshape": {
+      "stroke": "white",
+      "strokeWidth": 0.3
+    },
+    "axis": {
+      "labelColor": "#122b39",
+      "labelFontSize": 11,
+      "labelFont": "Circular Std",
+      "tickColor": "#122b39",
+      "tickOpacity": 0.5,
+      "domainColor": "#122b39",
+      "domainOpacity": 1,
+      "gridColor": "#122b39",
+      "gridDash": [
+        2,
+        2
+      ],
+      "gridOpacity": 0.5,
+      "title": null,
+      "titleColor": "#122b39",
+      "tickSize": 4,
+      "grid": false,
+      "domain": true
+    },
+    "axisXDiscrete": {
+      "grid": false,
+      "labelAngle": 0,
+      "tickCount": 10,
+      "tickOpacity": 0.5,
+      "title": null
+    },
+    "axisYDiscrete": {
+      "ticks": false,
+      "labelPadding": 5,
+      "grid": false
+    },
+    "axisXTemporal": {
+      "grid": false,
+      "ticks": true
+    },
+    "axisXQuantitative": {
+      "grid": false
+    },
+    "axisYQuantitative": {
+      "gridColor": "#122b39",
+      "gridDash": [
+        1,
+        5
+      ],
+      "gridOpacity": 0.5,
+      "ticks": false,
+      "labelPadding": 5,
+      "tickCount": 8,
+      "grid": false
+    },
+    "title": {
+      "color": "#122b39",
+      "subtitleColor": "#122b39E6",
+      "font": "Circular Std",
+      "subtitleFont": "Circular Std",
+      "anchor": "start",
+      "frame": "group",
+      "fontSize": 14,
+      "subtitleFontSize": 12,
+      "subtitlePadding": 4,
+      "offset": 0
+    },
+    "legend": {
+      "titleColor": "#122b39",
+      "labelColor": "#122b39"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "name": "data-c9a153e8e3220147b867a77a58ab23ef"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#B4B4B4",
+        "strokeDash": [
+          3,
+          3
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              2012,
+              2024
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-72cc8d152464125dce8d2a4f5b142e8b"
+      },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "color": "#122b39",
+        "fontSize": 10
+      },
+      "encoding": {
+        "text": {
+          "field": "t",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "x",
+          "scale": {
+            "domain": [
+              2012,
+              2024
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "scale": {
+            "domain": [
+              75,
+              130
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-967b250b00915ccf352077de60cc3767"
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#122b39",
+        "opacity": 0.4
+      },
+      "encoding": {
+        "y": {
+          "field": "v",
+          "scale": {
+            "domain": [
+              75,
+              130
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-e28b2a7531f36349e74dad6008d47318"
+      },
+      "mark": {
+        "type": "line",
+        "point": {
+          "size": 40
+        },
+        "strokeWidth": 2.8
+      },
+      "encoding": {
+        "color": {
+          "field": "series",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Longer-distance migration rate",
+              "Job reallocation rate"
+            ],
+            "range": [
+              "#eb5c2e",
+              "#122b39"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "series",
+            "type": "nominal"
+          },
+          {
+            "field": "year",
+            "type": "quantitative"
+          },
+          {
+            "field": "rate",
+            "format": ".1f",
+            "title": "Rate (%)",
+            "type": "quantitative"
+          },
+          {
+            "field": "index",
+            "format": ".0f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "axis": {
+            "format": "d",
+            "values": [
+              2012,
+              2014,
+              2016,
+              2018,
+              2020,
+              2022,
+              2024
+            ]
+          },
+          "field": "year",
+          "scale": {
+            "domain": [
+              2012,
+              2024
+            ],
+            "nice": false
+          },
+          "title": null,
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "index",
+          "scale": {
+            "domain": [
+              75,
+              130
+            ],
+            "nice": false
+          },
+          "title": "Index, 2012 = 100",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "data-d6b491dc5f23cb528575078cddeb22f4"
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "color": {
+          "field": "series",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Longer-distance migration rate",
+              "Job reallocation rate"
+            ],
+            "range": [
+              "#eb5c2e",
+              "#122b39"
+            ]
+          },
+          "type": "nominal"
+        },
+        "text": {
+          "field": "series",
+          "type": "nominal"
+        },
+        "x": {
+          "field": "year",
+          "scale": {
+            "domain": [
+              2012,
+              2024
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "index",
+          "scale": {
+            "domain": [
+              75,
+              130
+            ],
+            "nice": false
+          },
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Job churn fell while people kept moving between regions",
+    "subtitle": [
+      "UK, index 2012 = 100. Job reallocation rate (2012: 30.8%) and longer-distance migration rate, moves in + out between English regions and nations (2012: 4.7% of population).",
+      "Migration years end in June. ONS changed its migration method from 2023; 2020\u201321 affected by COVID.",
+      "Sources: ONS Longitudinal Business Database (Secure Access, SN 9501); ONS and National Records of Scotland internal migration; ONS, NRS and NISRA population estimates; authors' calculations."
+    ]
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "datasets": {
+    "data-c9a153e8e3220147b867a77a58ab23ef": [
+      {
+        "x": 2022.5
+      }
+    ],
+    "data-72cc8d152464125dce8d2a4f5b142e8b": [
+      {
+        "x": 2022.4,
+        "y": 128,
+        "t": "ONS method change \u2192"
+      }
+    ],
+    "data-967b250b00915ccf352077de60cc3767": [
+      {
+        "v": 100.0
+      }
+    ],
+    "data-e28b2a7531f36349e74dad6008d47318": [
+      {
+        "year": 2012,
+        "series": "Job reallocation rate",
+        "index": 99.99999999999999,
+        "rate": 30.83711191376102
+      },
+      {
+        "year": 2013,
+        "series": "Job reallocation rate",
+        "index": 98.82384697093337,
+        "rate": 30.474420287910657
+      },
+      {
+        "year": 2014,
+        "series": "Job reallocation rate",
+        "index": 89.41625944401353,
+        "rate": 27.57339199384936
+      },
+      {
+        "year": 2015,
+        "series": "Job reallocation rate",
+        "index": 92.35640585426475,
+        "rate": 28.480048232806958
+      },
+      {
+        "year": 2016,
+        "series": "Job reallocation rate",
+        "index": 93.75044686738019,
+        "rate": 28.909930220145093
+      },
+      {
+        "year": 2017,
+        "series": "Job reallocation rate",
+        "index": 88.65593088472149,
+        "rate": 27.33892862510819
+      },
+      {
+        "year": 2018,
+        "series": "Job reallocation rate",
+        "index": 95.73683703964146,
+        "rate": 29.52247558060925
+      },
+      {
+        "year": 2019,
+        "series": "Job reallocation rate",
+        "index": 90.02501992059626,
+        "rate": 27.761116143299922
+      },
+      {
+        "year": 2020,
+        "series": "Job reallocation rate",
+        "index": 85.6485006573685,
+        "rate": 26.411524000171067
+      },
+      {
+        "year": 2021,
+        "series": "Job reallocation rate",
+        "index": 81.75463190654914,
+        "rate": 25.21076733570593
+      },
+      {
+        "year": 2022,
+        "series": "Job reallocation rate",
+        "index": 89.21209714031481,
+        "rate": 27.51043423577207
+      },
+      {
+        "year": 2023,
+        "series": "Job reallocation rate",
+        "index": 99.49341756810722,
+        "rate": 30.680896522302792
+      },
+      {
+        "year": 2024,
+        "series": "Job reallocation rate",
+        "index": 93.60146407612017,
+        "rate": 28.863988230071996
+      },
+      {
+        "year": 2012,
+        "series": "Longer-distance migration rate",
+        "index": 100.0,
+        "rate": 4.6772431369796985
+      },
+      {
+        "year": 2013,
+        "series": "Longer-distance migration rate",
+        "index": 99.55706731851184,
+        "rate": 4.656526098533353
+      },
+      {
+        "year": 2014,
+        "series": "Longer-distance migration rate",
+        "index": 106.58276100280936,
+        "rate": 4.985134874207375
+      },
+      {
+        "year": 2015,
+        "series": "Longer-distance migration rate",
+        "index": 107.48321696342131,
+        "rate": 5.027251388826622
+      },
+      {
+        "year": 2016,
+        "series": "Longer-distance migration rate",
+        "index": 106.90064266201577,
+        "rate": 5.000002972296324
+      },
+      {
+        "year": 2017,
+        "series": "Longer-distance migration rate",
+        "index": 117.47414760853275,
+        "rate": 5.494551506745498
+      },
+      {
+        "year": 2018,
+        "series": "Longer-distance migration rate",
+        "index": 116.31692735323914,
+        "rate": 5.440425501775039
+      },
+      {
+        "year": 2019,
+        "series": "Longer-distance migration rate",
+        "index": 117.74816572787704,
+        "rate": 5.50736800042661
+      },
+      {
+        "year": 2020,
+        "series": "Longer-distance migration rate",
+        "index": 108.09656255980421,
+        "rate": 5.055939053639409
+      },
+      {
+        "year": 2021,
+        "series": "Longer-distance migration rate",
+        "index": 127.15530733963257,
+        "rate": 5.947362885848407
+      },
+      {
+        "year": 2022,
+        "series": "Longer-distance migration rate",
+        "index": 118.34255621237574,
+        "rate": 5.535169088569686
+      },
+      {
+        "year": 2023,
+        "series": "Longer-distance migration rate",
+        "index": 115.50413394268948,
+        "rate": 5.402409177762283
+      },
+      {
+        "year": 2024,
+        "series": "Longer-distance migration rate",
+        "index": 116.1999264389087,
+        "rate": 5.434953084539315
+      }
+    ],
+    "data-d6b491dc5f23cb528575078cddeb22f4": [
+      {
+        "year": 2024,
+        "series": "Job reallocation rate",
+        "index": 93.60146407612017,
+        "rate": 28.863988230071996
+      },
+      {
+        "year": 2024,
+        "series": "Longer-distance migration rate",
+        "index": 116.1999264389087,
+        "rate": 5.434953084539315
+      }
+    ]
+  },
+  "width": 520,
+  "height": 330
+}
